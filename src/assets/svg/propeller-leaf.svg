@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="57.064758"
+   height="138.48566"
+   viewBox="0 0 57.064758 138.48566"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><linearGradient
+       id="linearGradient160"><stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="0"
+         id="stop161" /><stop
+         style="stop-color:#000000;stop-opacity:0.2;"
+         offset="0.44897959"
+         id="stop162" /><stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="1"
+         id="stop160" /></linearGradient><linearGradient
+       xlink:href="#linearGradient160"
+       id="linearGradient161"
+       x1="1362.3685"
+       y1="511.21741"
+       x2="1331.0485"
+       y2="562.03021"
+       gradientUnits="userSpaceOnUse" /><linearGradient
+       xlink:href="#linearGradient160"
+       id="linearGradient162"
+       gradientUnits="userSpaceOnUse"
+       x1="1306.157"
+       y1="506.63895"
+       x2="1352.8477"
+       y2="430.91513"
+       gradientTransform="translate(-5.9999997e-6)" /></defs><g
+     id="layer2"
+     transform="translate(-438.71912,-308.81461)"><g
+       id="g172"
+       transform="translate(-866.58468,-114.80135)"><path
+         style="opacity:1;fill:url(#linearGradient161);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-dasharray:none;paint-order:stroke markers fill"
+         d="m 1306.586,555.10269 c 0,0 -6.8367,-95.932 18.1585,-122.3158 24.9951,-26.3838 36.1041,11.10896 37.4927,25.45805 1.3886,14.34908 -8.7946,94.8891 -4.1658,99.98071 4.6287,5.09161 -52.7676,3.70299 -52.7676,3.70299 z"
+         id="path160" /><path
+         style="opacity:1;fill:url(#linearGradient162);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-dasharray:none;paint-order:stroke markers fill"
+         d="m 1306.586,555.10269 c 0,0 -6.8367,-95.932 18.1585,-122.3158 24.9951,-26.3838 36.1041,11.10896 37.4927,25.45805 1.3886,14.34908 -8.7946,94.8891 -4.1658,99.98071 4.6287,5.09161 -52.7676,3.70299 -52.7676,3.70299 z"
+         id="path162" /></g></g></svg>
+

@@ -1,0 +1,259 @@
+.btn-gradient-defautl {
+  background-image: linear-gradient(hsl(var(--secondary)), hsl(var(--primary)));
+}
+
+.shadow-custom {
+  box-shadow:
+    1px 1px 0px 0px white inset,
+    2px 2px 1px 0px rgba(0, 0, 0, 0.5) inset;
+}
+
+.custom-btn-primary {
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow:
+    inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(0, 3, 255);
+  background: linear-gradient(
+    0deg,
+    rgb(0, 17, 255) 0%,
+    rgba(2, 126, 251, 1) 100%
+  );
+}
+
+.custom-btn-danger {
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow:
+    inset 2px 2px 2px 0px rgba(255, 255, 255, 0.8),
+    inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+    4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgb(255, 17, 17) 0%,
+    rgba(251, 2, 2, 1) 100%
+  );
+}
+
+.shadow-3d {
+  box-shadow:
+    inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    inset -2px -2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-3d-inverse {
+  box-shadow:
+    inset 2px 2px 2px 0px rgba(0, 0, 0, 0.5),
+    inset -2px -2px 2px 0px rgba(255, 255, 255, 0.5);
+}
+
+.custom-icon {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */
+  background: linear-gradient(
+    to bottom,
+    hsl(var(--accent)) 0%,
+    hsl(var(--muted)) 100%
+  );
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.custom-icon-inverse {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */
+  background: linear-gradient(
+    to bottom,
+    hsl(var(--muted)) 0%,
+    hsl(var(--accent)) 100%
+  );
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+.leaflet-container {
+  height: calc(100%);
+}
+
+.me-condition-overview {
+  display: grid;
+  grid-template-columns: max-content auto max-content;
+}
+
+.scene {
+  position: absolute;
+  right: -1.8%;
+  bottom: 8.1%;
+  z-index: -1;
+  perspective: 1800px;
+  transform-style: preserve-3d;
+  transform: rotateY(92deg) translateZ(7px);
+  animation: spin-anti-clock 3s linear infinite;
+}
+
+@keyframes spin-clock {
+  0% {
+    transform: rotateY(94deg) translateZ(7px) rotateZ(0deg);
+  }
+
+  100% {
+    transform: rotateY(94deg) translateZ(7px) rotateZ(360deg);
+  }
+}
+
+@keyframes spin-anti-clock {
+  0% {
+    transform: rotateY(94deg) translateZ(7px) rotateZ(360deg);
+  }
+
+  100% {
+    transform: rotateY(94deg) translateZ(7px) rotateZ(0deg);
+  }
+}
+
+.scene2 {
+  position: absolute;
+  right: -1.1%;
+  bottom: 15.7%;
+  perspective: 1800px;
+}
+
+.propeller2 {
+  transform-style: preserve-3d;
+  animation: spin-clock-2 3s linear infinite;
+}
+
+.base {
+  animation: spin-clock-anti-2 3s linear infinite;
+}
+
+@keyframes spin-clock-2 {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+@keyframes spin-clock-anti-2 {
+  0% {
+    transform: rotateX(360deg);
+  }
+
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+.leaf {
+  position: absolute;
+  left: 20%;
+}
+
+.leaf:nth-child(1) {
+  top: -48px;
+  transform: rotateY(20deg);
+}
+
+.leaf:nth-child(2) {
+  top: -70%;
+  transform: rotate(20deg) rotateX(80deg) translateY(-20px);
+}
+
+.leaf:nth-child(3) {
+  top: 90%;
+  transform: rotate(180deg) rotateY(20deg);
+}
+
+.leaf:nth-child(4) {
+  top: -70%;
+  transform: rotate(20deg) rotateX(80deg) translateY(20px) rotateX(180deg);
+}
+/* scroll bar styling */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground));
+  cursor: drag;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--accent));
+}
+
+.ge-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "table no1"
+    "table no2"
+    "table no3"
+    "table no4";
+}
+
+.ge-overview > div:first-child {
+  grid-area: no1;
+}
+
+.ge-overview > div:nth-child(2) {
+  grid-area: no2;
+}
+
+.ge-overview > div:nth-child(3) {
+  grid-area: no3;
+}
+
+.ge-overview > div:nth-child(4) {
+  grid-area: no4;
+}
+
+.ge-overview > div:nth-child(5) {
+  grid-area: table;
+}
+
+.diesel-generator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "table1 generator generator generator "
+    "table1 generator generator generator ";
+  /*    "table2 table2 table2 table2" */
+}
+
+/* @media(max-width: 1024px) { */
+/*   .diesel-generator { */
+/*     grid-template-areas: */
+/*       "table1 generator generator" */
+/*       "table1 generator generator" */
+/*       "table2 table2 table2 "; */
+/*     gap: 5px; */
+/*   } */
+/* } */
+
+.diesel-generator_table1 {
+  grid-area: table1;
+}
+
+.diesel-generator_picture {
+  grid-area: generator;
+}
+
+.diesel-generator_table2 {
+  grid-area: table2;
+}

@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Component">
+<g id="Compass">
+<path id="North" d="M32 8L34.5981 12.5H29.4019L32 8Z" fill="#707070"/>
+<g id="Compass watchface">
+<path id="Vector 264" d="M32 8L28 13H36L32 8Z" fill="#333333"/>
+<g id="Watchface circle">
+<circle id="Inner circle" cx="32" cy="32" r="19.5" transform="rotate(180 32 32)" fill="white" stroke="#D9D9D9"/>
+</g>
+<g id="Primary tickmarks">
+<path id="tick-marks" d="M31.9999 48.2V49.64M15.7999 32H14.3599M31.9999 15.8V14.36M48.1999 32H49.6399" stroke="#D9D9D9"/>
+</g>
+</g>
+</g>
+</g>
+</svg>
