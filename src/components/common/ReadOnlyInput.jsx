@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
 import { cva } from "class-variance-authority";
+import PropTypes from "prop-types";
 import { cn } from "@/lib/utils";
 
 ReadOnlyInput.propTypes = {};
@@ -12,13 +12,13 @@ const inputVariants = cva(
         default:
           "bg-gradient-to-b from-secondary to-input text-accent-foreground",
         danger:
-          "bg-gradient-to-b from-destructive/80 to-destructive text-destructive-foreground",
-      },
+          "bg-gradient-to-b from-destructive/80 to-destructive text-destructive-foreground"
+      }
     },
     defaultVariants: {
-      variant: "default",
-    },
-  },
+      variant: "default"
+    }
+  }
 );
 
 export function ReadOnlyInput({ value, className, variant }) {

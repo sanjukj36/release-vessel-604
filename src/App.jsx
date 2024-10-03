@@ -1,7 +1,7 @@
 import "./App.css";
+import { Route, Routes } from "react-router-dom";
 import { Header } from "@/components/partials/Header";
 import { Sidebar } from "@/components/partials/Sidebar";
-import { Routes, Route } from "react-router-dom";
 import { urls } from "@/url/url";
 
 function App() {

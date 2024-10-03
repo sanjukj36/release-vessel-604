@@ -1,23 +1,13 @@
-import PropTypes from "prop-types";
-import thruster from "@/assets/svg/thruster.svg";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableRow,
-} from "@/components/ui/table";
-import { Switch } from "@/components/ui/switch";
-import { IoSettings } from "react-icons/io5";
+import { useEffect, useState } from "react";
 import { BsFan } from "react-icons/bs";
 import { CgGhost } from "react-icons/cg";
-import { useState, useEffect } from "react";
+import { IoSettings } from "react-icons/io5";
+import PropTypes from "prop-types";
+import thruster from "@/assets/svg/thruster.svg";
 import { BoxCard } from "@/components/common/BoxCard";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Switch } from "@/components/ui/switch";
+import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 import { RESPONSE_BOW_THRUSTER_OVERVIEW } from "@/dummy/responseBowThruster";
 
 BowThrusterOverview.propTypes = {};
@@ -28,16 +18,16 @@ const b2PitchAlarms = [];
 
 export function BowThrusterOverview() {
   const [b1ControlSystemAlamrs, setB1ControlSystemAlamrs] = useState(
-    RESPONSE_BOW_THRUSTER_OVERVIEW?.b1ControlSystemAlamrs,
+    RESPONSE_BOW_THRUSTER_OVERVIEW?.b1ControlSystemAlamrs
   );
   const [b2ControlSystemAlamrs, setB2ControlSystemAlamrs] = useState(
-    RESPONSE_BOW_THRUSTER_OVERVIEW?.b2ControlSystemAlamrs,
+    RESPONSE_BOW_THRUSTER_OVERVIEW?.b2ControlSystemAlamrs
   );
   const [b2MotorAlamrs, setB2MotorAlamrs] = useState(
-    RESPONSE_BOW_THRUSTER_OVERVIEW?.b2MotorAlamrs,
+    RESPONSE_BOW_THRUSTER_OVERVIEW?.b2MotorAlamrs
   );
   const [b1MotorAlamrs, setB1MotorAlamrs] = useState(
-    RESPONSE_BOW_THRUSTER_OVERVIEW?.b1MotorAlamrs,
+    RESPONSE_BOW_THRUSTER_OVERVIEW?.b1MotorAlamrs
   );
 
   useEffect(() => {
@@ -67,7 +57,7 @@ function BowThrusterComponent({
   controlSystemAlarms,
   motorAlarms,
   pitchAlarms,
-  title,
+  title
 }) {
   return (
     <BoxCard variant="secondary" className="bg-transparent border-none">

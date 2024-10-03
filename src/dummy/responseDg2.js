@@ -1,104 +1,136 @@
 export const RESPONSE_DG_2 = {
   tableOneValues: [
-    { title: "LUBE OIL PRESSURE", value: 51, unit: "Bar", limit: 100 },
-    { title: "COOLANT PRESSURE", value: 52, unit: "Bar", limit: 100 },
-    { title: "DE BEARING TEMP", value: 53, unit: "°C", limit: 100 },
-    { title: "NDE BEARINGTEMP", value: 54, unit: "°C", limit: 100 },
-    { title: "COOLING AIR-COLD TEMP", value: 55, unit: "°C", limit: 100 },
-    { title: "COOLING AIR-WARM TEMP", value: 56, unit: "°C", limit: 100 },
     {
-      title: "NEXT GENERATOR START TIMER",
-      value: 1042,
-      unit: "H",
-      limit: 9999,
+      title: "2# D/G  fuel oil inlet volume flow rate",
+      value: 2,
+      unit: "__",
+      limit: 200
     },
     {
-      title: "NEXT GENERATOR STOP TIMER",
-      value: 1015,
-      unit: "H",
-      limit: 9999,
+      title: "2# D/G  fuel oil inlet  volume total",
+      value: 50,
+      unit: "__",
+      limit: 200
     },
-    { title: "VOLTAGE", value: 51, unit: "V", limit: 100 },
-    { title: "FREQUENCY", value: 52, unit: "Hz", limit: 100 },
-    { title: "CURRENT", value: 53, unit: "A", limit: 100 },
-    { title: "COS PHI (PF)", value: 54, unit: "PF", limit: 100 },
-    { title: "ACTIVE PWR", value: 55, unit: "KW", limit: 100 },
-    { title: "REACTIVE PWR", value: 56, unit: "KW", limit: 100 },
-    { title: "PWR AVAILABLE", value: 57, unit: "KW", limit: 100 },
-    { title: "CONSUMED PWR", value: 58, unit: "KW", limit: 100 },
-    { title: "SET ASYMMETRIC LOAD LEVEL", value: 59, unit: "%", limit: 100 },
+    {
+      title: "2# D/G  fuel oil inlet temperature",
+      value: 50,
+      unit: "__",
+      limit: 200
+    },
+    {
+      title: "2# D/G  fuel oil outlet volume flow rate",
+      value: 50,
+      unit: "__",
+      limit: 200
+    },
+    {
+      title: "2# D/G  fuel oil outlet volume total",
+      value: 50,
+      unit: "__",
+      limit: 200
+    },
+    {
+      title: "2# D/G  fuel oil outlet temperature",
+      value: 50,
+      unit: "__",
+      limit: 200
+    },
+    {
+      title: "No.2 Dg Speed",
+      value: 20,
+      unit: "__",
+      limit: 9999
+    },
+    {
+      title: "No.2 Dg Coolant Temperature",
+      value: 20,
+      unit: "__",
+      limit: 9999
+    },
+    { title: "No.2 Dg Lube Oil Pressure", value: 50, unit: "__", limit: 200 },
+    {
+      title: "No.2 Dg Lube Oil Temperature",
+      value: 50,
+      unit: "__",
+      limit: 200
+    },
+    { title: "No.2 Dg Fuel Rate", value: 50, unit: "__", limit: 200 },
+    { title: "No.2 Dg Engine Load Factor", value: 50, unit: "__", limit: 100 },
+    { title: "No.2 Dg Engine Hours", value: 50, unit: "__", limit: 100 },
+    {
+      title: "No.2 Dg L.O. Filter Diff. Pressure",
+      value: 50,
+      unit: "__",
+      limit: 100
+    },
+    { title: "No.2 Dg System Voltage", value: 50, unit: "__", limit: 100 },
+    { title: "No.2 Dg Fuel Oil Pressure", value: 50, unit: "__", limit: 100 },
+    { title: "No.2 Dg Crankcase Pressure", value: 50, unit: "__", limit: 100 }
   ],
   table21Values: [
-    { title: "COOLANT TEMP", status: true },
-    { title: "LUBE OIL TEMP", status: true },
-    { title: "OVERSPEED", status: true },
-    { title: "LEFT EXHAUST TEMP", status: true },
-    { title: "RIGHT EXHAUST TEMP", status: true },
-    { title: "ENGINE SPEED", status: true },
-    { title: "RUNNING HOURS", status: true },
+    { title: "No.2 Dg Start Failure", status: false },
+    { title: "No.2 Dg Ready To Start", status: false },
+    { title: "No.2 Dg Running", status: false },
+    { title: "No.2 Dg Em'cy Power Failure", status: false },
+    { title: "No.2 Dg Overspeed Shutdown", status: false },
+    { title: "No.2 Chp Power Source Failure", status: false }
   ],
   table22Values: [
-    { title: "RPU UNIT MAIN BATTERY A VOLT", status: true },
-    { title: "RPU UNIT BKUP BATTERY B VOLT", status: true },
-    { title: "COOLANT LEVEL LOW", status: true },
-    { title: "MAIN POWER FAIL", status: true },
-    { title: "AUX. POWER FAIL", status: true },
-    { title: "CHARGER FAIL ALARM", status: true },
-    { title: "ECR REMOTE EM.STOP", status: true },
+    { title: "No.2 Dg Emergency Stop", status: false },
+    { title: "No.2 Dg Common Alarm", status: false },
+    { title: "No.2 Engine Room Fan Overload", status: false },
+    { title: "No.2 Dg Emergency Stop", status: false },
+    { title: "No.2 Dg Common Alarm", status: false },
+    { title: "No.2 Chp Common Alarm", status: false }
   ],
   table23Values: [
-    { title: "FWD BRIDGE REMOTE EM.STOP", status: true },
-    { title: "SHD OVERRIDE", status: true },
-    { title: "LUBE OIL PRESSURE TOO LOW SHD", status: true },
-    { title: "COOLANT TEMP TOO HIGH SHD", status: true },
-    { title: "LOCAL EMERGENCY STOP", status: true },
-    { title: "REMOTE EMERGENCY STOP", status: true },
-    { title: " RPU EMERGENCY STOP", status: true },
+    { title: "No.2 Dg  Main Power Failure", status: false },
+    { title: "Dg2 Differential Protection Trip", status: false },
+    { title: "No.2 Dg Em'cy Power Failure", status: false },
+    { title: "No.2 Dg Em'cy Power Failure", status: false },
+    { title: "No.2 Dg Pms Mode", status: false },
+    { title: "No.2 Dg Is Synchronising", status: false }
   ],
   table24Values: [
-    { title: "LUBE OIL PRESSURE ALARM", status: true },
-    { title: "COOLANT PRESSURE ALARM", status: true },
-    { title: "COOLANT TEMP ALARM", status: true },
-    { title: "LUBE OIL TEMP ALARM", status: true },
-    { title: "LEFT EXHAUST TEMP ALARM", status: true },
-    { title: "RIGHT EXHAUST TEMP ALARM", status: true },
-    { title: "OVERSPEED ALARM", status: true },
+    { title: "No.2 Dg  Main Power Failure", status: false },
+    { title: "No.2 Dg Engine Coolant Level Low", status: false },
+    { title: "No.2 Dg Aftercooler Coolant Level Low", status: false },
+    { title: "No.2 Dg Is De-loading", status: false },
+    { title: "No.2 Dg Overload 2 Alarm", status: false },
+    { title: "No.2 Dg Under-frequency 2 Trip", status: false }
   ],
   exh_gas_temp_cyl: [
     { no: 1, value: 58, unit: "°c" },
     { no: 2, value: 60, unit: "°c" },
     { no: 3, value: 74, unit: "°c" },
-    { no: 4, value: 62, unit: "°c" },
-    { no: 5, value: 63, unit: "°c" },
-    { no: 6, value: 64, unit: "°c" },
-    { no: 7, value: 64, unit: "°c" },
-    { no: 8, value: 63, unit: "°c" },
+    { no: 4, value: 62, unit: "°c" }
   ],
   imageTable2: [
-    { title: "PPM-300 STATUS", value: 84, unit: "°C", limit: 100 },
+    { title: "Edg Lub. Oil Pressure", value: 10, unit: "°°", limit: 100 },
     {
-      title: "ENGINE COOLING DOWN TIME",
-      value: 1000,
-      unit: "H",
-      limit: 9999,
+      title: "Edg Coolant Press",
+      value: 10,
+      unit: "__",
+      limit: 9999
     },
-    { title: "ENGINE RUNNING HOURS", value: 2000, unit: "H", limit: 9999 },
+    { title: "Edg Lub. Oil Temperature", value: 10, unit: "__", limit: 9999 },
     {
-      title: "ALTERNATOR COOLING WATER INLET TEMP",
-      value: 83,
-      unit: "°C",
-      limit: 100,
+      title: "Edg Coolant Temperature",
+      value: 10,
+      unit: "°°",
+      limit: 100
     },
     {
-      title: "ALTERNATOR 1 COOLING WATER  OUTLET TEMP",
-      value: 68,
-      unit: "°C",
-      limit: 100,
-    },
+      title: "Edg Speed",
+      value: 10,
+      unit: "°°",
+      limit: 100
+    }
   ],
   windTemperature: [
-    { title: "WINDING U TEMP(RTD)", value: 84, unit: "°C", limit: 100 },
-    { title: "WINDING V TEMP(RTD)", value: 30, unit: "°C", limit: 100 },
-    { title: "WINDING W TEMP(RTD)", value: "45", unit: "°C", limit: 100 },
-  ],
+    { title: "WINDING U TEMP(Stator)", value: 10, unit: "°_", limit: 100 },
+    { title: "WINDING V TEMP(Stator)", value: 10, unit: "°_", limit: 100 },
+    { title: "WINDING W TEMP(Stator)", value: 10, unit: "°_", limit: 100 }
+  ]
 };

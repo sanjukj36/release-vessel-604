@@ -1,20 +1,18 @@
-import { Progress } from "@/components/ui/progress";
 import { useState } from "react";
-
+// assets
+import compassSmallBg from "@/assets/svg/compass-small/compass-bg-small-200x200.svg";
+import smallCompassBg from "@/assets/svg/compass-small/compass-bg-small.svg";
+import compassSmallNeedl from "@/assets/svg/compass-small/compass-needle-small-36x200.svg";
+import smallCompassNeedle from "@/assets/svg/compass-small/compass-needle-small.svg";
+import compassBg from "@/assets/svg/compass/compass-bg-600x600.svg";
+import compassBgGrid from "@/assets/svg/compass/compass-bg-grid-600x600.svg";
+import compassHeading from "@/assets/svg/compass/compass-heading-600x600.svg";
+import headingImage from "@/assets/svg/heading-circular-bg-200x200.svg";
+import shipArrowRight from "@/assets/svg/small-ship-arrow-right.svg";
 import { AreaChart } from "@/components/charts/AreaChart";
 import { BoxCard } from "@/components/common/BoxCard";
 import { MapComponent } from "@/components/common/MapComponent";
-
-// assets
-import compassSmallBg from "@/assets/svg/compass-small/compass-bg-small-200x200.svg";
-import compassSmallNeedl from "@/assets/svg/compass-small/compass-needle-small-36x200.svg";
-import headingImage from "@/assets/svg/heading-circular-bg-200x200.svg";
-import compassBg from "@/assets/svg/compass/compass-bg-600x600.svg";
-import compassHeading from "@/assets/svg/compass/compass-heading-600x600.svg";
-import compassBgGrid from "@/assets/svg/compass/compass-bg-grid-600x600.svg";
-import shipArrowRight from "@/assets/svg/small-ship-arrow-right.svg";
-import smallCompassBg from "@/assets/svg/compass-small/compass-bg-small.svg";
-import smallCompassNeedle from "@/assets/svg/compass-small/compass-needle-small.svg";
+import { Progress } from "@/components/ui/progress";
 
 Navigation.propTypes = {};
 
@@ -243,7 +241,7 @@ function CompassSectionComponent() {
               style={{
                 left: "50%",
                 right: "50%",
-                transform: `translate(-50%, -50%) rotate(${heading}deg) `,
+                transform: `translate(-50%, -50%) rotate(${heading}deg) `
               }}
               className="absolute h-[400px] 2xl:h-full top-1/2 left-1/2 transition-all -translate-x-1/2 -translate-y-1/2 rotate-[10deg]"
               src={compassHeading}

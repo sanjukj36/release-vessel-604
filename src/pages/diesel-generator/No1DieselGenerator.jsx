@@ -1,17 +1,16 @@
-import PropTypes from "prop-types";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { FaCircleDot } from "react-icons/fa6";
-import { BoxCard } from "@/components/common/BoxCard";
-import classNames from "classnames";
 import { useLocation } from "react-router-dom";
+import classNames from "classnames";
+import PropTypes from "prop-types";
+import shipImage from "@/assets/MicrosoftTeams-image.png";
+import { BoxCard } from "@/components/common/BoxCard";
+import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
+import { Button } from "@/components/ui/button";
 import { RESPONSE_DG_1 } from "@/dummy/responseDg1.js";
 import { RESPONSE_DG_2 } from "@/dummy/responseDg2.js";
 import { RESPONSE_DG_3 } from "@/dummy/responseDg3.js";
 import { RESPONSE_DG_4 } from "@/dummy/responseDg4.js";
-
-import shipImage from "@/assets/MicrosoftTeams-image.png";
-import { Button } from "@/components/ui/button";
-import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
 
 No1DieselGenerator.propTypes = {};
 
@@ -20,7 +19,7 @@ export function No1DieselGenerator() {
   const [allData, setAllData] = useState({});
 
   useEffect(() => {
-    const pathnameArray = pathname.split("/").filter((item) => item !== "");
+    const pathnameArray = pathname.split("/").filter(item => item !== "");
     const [_, dg] = pathnameArray;
 
     switch (dg) {
@@ -42,7 +41,7 @@ export function No1DieselGenerator() {
     }
   }, [pathname]);
 
-  const getDGData = (data) => {
+  const getDGData = data => {
     setAllData(data);
   };
 
@@ -70,7 +69,7 @@ export function No1DieselGenerator() {
 TableComponent.propTypes = {
   data: PropTypes?.array,
   className: PropTypes?.string,
-  variant: PropTypes?.string,
+  variant: PropTypes?.string
 };
 function TableComponent({ className, data, variant }) {
   return (
@@ -97,14 +96,14 @@ function TableComponent({ className, data, variant }) {
 
 ImageComponent.propTypes = {
   className: PropTypes?.string,
-  data: PropTypes?.object,
+  data: PropTypes?.object
 };
 function ImageComponent({ className, data }) {
   return (
     <div
       className={classNames(
         " relative isolate flex flex-col text-sm 2xl:text-md  overflow-hidden p-4",
-        className,
+        className
       )}
     >
       {/* exh gas temp cyl table*/}
@@ -171,7 +170,7 @@ function ImageComponent({ className, data }) {
   );
 }
 BottomSection.propTypes = {
-  data: PropTypes.object,
+  data: PropTypes.object
 };
 function BottomSection({ data }) {
   return (
@@ -184,7 +183,7 @@ function BottomSection({ data }) {
   );
 }
 GasTempComponent.propTypes = {
-  data: PropTypes.array,
+  data: PropTypes.array
 };
 function GasTempComponent({ data }) {
   return (
@@ -192,7 +191,7 @@ function GasTempComponent({ data }) {
       variant="secondary"
       className="flex flex-wrap items-center justify-between px-2 w-full"
     >
-      <p className="text-center font-semibold">DE BEARING TEMP</p>
+      <p className="text-center font-semibold">DG DRIVE END BEARING TEMP</p>
       {data?.length > 0 &&
         data?.map((item, key) => (
           <div key={key} className={`p-2 gap-1 flex flex-col items-center`}>
@@ -208,7 +207,7 @@ function GasTempComponent({ data }) {
 }
 
 BooleanTable.propTypes = {
-  data: PropTypes.array,
+  data: PropTypes.array
 };
 function BooleanTable({ data }) {
   return (

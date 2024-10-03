@@ -10,13 +10,13 @@ export const RESPONSE_DG_3 = {
       title: "NEXT GENERATOR START TIMER",
       value: 987,
       unit: "H",
-      limit: 9999,
+      limit: 9999
     },
     {
       title: "NEXT GENERATOR STOP TIMER",
       value: 969,
       unit: "H",
-      limit: 9999,
+      limit: 9999
     },
     { title: "VOLTAGE", value: 72, unit: "V", limit: 100 },
     { title: "FREQUENCY", value: 72, unit: "Hz", limit: 100 },
@@ -26,7 +26,7 @@ export const RESPONSE_DG_3 = {
     { title: "REACTIVE PWR", value: 72, unit: "KW", limit: 100 },
     { title: "PWR AVAILABLE", value: 72, unit: "KW", limit: 100 },
     { title: "CONSUMED PWR", value: 72, unit: "KW", limit: 100 },
-    { title: "SET ASYMMETRIC LOAD LEVEL", value: 50, unit: "%", limit: 100 },
+    { title: "SET ASYMMETRIC LOAD LEVEL", value: 50, unit: "%", limit: 100 }
   ],
   table21Values: [
     { title: "COOLANT TEMP", status: true },
@@ -35,7 +35,7 @@ export const RESPONSE_DG_3 = {
     { title: "LEFT EXHAUST TEMP", status: true },
     { title: "RIGHT EXHAUST TEMP", status: true },
     { title: "ENGINE SPEED", status: true },
-    { title: "RUNNING HOURS", status: true },
+    { title: "RUNNING HOURS", status: true }
   ],
   table22Values: [
     { title: "RPU UNIT MAIN BATTERY A VOLT", status: true },
@@ -44,7 +44,7 @@ export const RESPONSE_DG_3 = {
     { title: "MAIN POWER FAIL", status: true },
     { title: "AUX. POWER FAIL", status: true },
     { title: "CHARGER FAIL ALARM", status: true },
-    { title: "ECR REMOTE EM.STOP", status: true },
+    { title: "ECR REMOTE EM.STOP", status: true }
   ],
   table23Values: [
     { title: "FWD BRIDGE REMOTE EM.STOP", status: true },
@@ -53,7 +53,7 @@ export const RESPONSE_DG_3 = {
     { title: "COOLANT TEMP TOO HIGH SHD", status: true },
     { title: "LOCAL EMERGENCY STOP", status: true },
     { title: "REMOTE EMERGENCY STOP", status: true },
-    { title: " RPU EMERGENCY STOP", status: true },
+    { title: " RPU EMERGENCY STOP", status: true }
   ],
   table24Values: [
     { title: "LUBE OIL PRESSURE ALARM", status: true },
@@ -62,7 +62,7 @@ export const RESPONSE_DG_3 = {
     { title: "LUBE OIL TEMP ALARM", status: true },
     { title: "LEFT EXHAUST TEMP ALARM", status: true },
     { title: "RIGHT EXHAUST TEMP ALARM", status: true },
-    { title: "OVERSPEED ALARM", status: true },
+    { title: "OVERSPEED ALARM", status: true }
   ],
   exh_gas_temp_cyl: [
     { no: 1, value: 58, unit: "°c" },
@@ -72,7 +72,7 @@ export const RESPONSE_DG_3 = {
     { no: 5, value: 63, unit: "°c" },
     { no: 6, value: 64, unit: "°c" },
     { no: 7, value: 64, unit: "°c" },
-    { no: 8, value: 63, unit: "°c" },
+    { no: 8, value: 63, unit: "°c" }
   ],
   imageTable2: [
     { title: "PPM-300 STATUS", value: 78, unit: "°C", limit: 100 },
@@ -80,25 +80,25 @@ export const RESPONSE_DG_3 = {
       title: "ENGINE COOLING DOWN TIME",
       value: 1000,
       unit: "H",
-      limit: 9999,
+      limit: 9999
     },
     { title: "ENGINE RUNNING HOURS", value: 1000, unit: "H", limit: 9999 },
     {
       title: "ALTERNATOR COOLING WATER INLET TEMP",
       value: 79,
       unit: "°C",
-      limit: 100,
+      limit: 100
     },
     {
       title: "ALTERNATOR 1 COOLING WATER  OUTLET TEMP",
       value: 79,
       unit: "°C",
-      limit: 100,
-    },
+      limit: 100
+    }
   ],
   windTemperature: [
     { title: "WINDING U TEMP(RTD)", value: 79, unit: "°C", limit: 100 },
     { title: "WINDING V TEMP(RTD)", value: 20, unit: "°C", limit: 100 },
-    { title: "WINDING W TEMP(RTD)", value: "30", unit: "°C", limit: 100 },
-  ],
+    { title: "WINDING W TEMP(RTD)", value: "30", unit: "°C", limit: 100 }
+  ]
 };

@@ -1,18 +1,18 @@
-import PropTypes from "prop-types";
 import { FaCircleDot } from "react-icons/fa6";
-import { SVGMEConditionOverview } from "@/components/diagrams/SVGMEConditionOverview";
+import PropTypes from "prop-types";
 import propeller from "@/assets/propeller-with-bg_transparent_Craiyon.png";
 import propeller2 from "@/assets/svg/propeller-150x150.svg";
-import { BoxCard } from "@/components/common/BoxCard";
 import propellerBase from "@/assets/svg/propeller-base.svg";
 import propellerLeafe from "@/assets/svg/propeller-leaf.svg";
+import { BoxCard } from "@/components/common/BoxCard";
+import { SVGMEConditionOverview } from "@/components/diagrams/SVGMEConditionOverview";
 import { RESPONSE_ME_CONDITION_OVERVIEW } from "@/dummy/reponseMEConditionOverview";
 
 MEConditionOverview.propTypes = {};
 Table.propTypes = {
   table: PropTypes.array,
   title: PropTypes.string,
-  className: PropTypes.string,
+  className: PropTypes.string
 };
 export function MEConditionOverview() {
   return (

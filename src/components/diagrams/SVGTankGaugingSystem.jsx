@@ -1,20 +1,20 @@
-import PropTypes from 'prop-types'
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
+import PropTypes from "prop-types";
 
-SVGTankGaugingSystem.propTypes = {}
+SVGTankGaugingSystem.propTypes = {};
 
 export function SVGTankGaugingSystem() {
   return (
     <svg
-      width={'100%'}
-      height={'100%'}
+      width={"100%"}
+      height={"100%"}
       viewBox="0 0 1013.9532 225.67096"
       id="svg1"
     >
       <g
         id="layer2"
         style={{
-          display: "inline",
+          display: "inline"
         }}
         transform="translate(-406.37369,-409)"
       >
@@ -29,12 +29,10 @@ export function SVGTankGaugingSystem() {
             stroke: "#503a28",
             strokeWidth: 2.00001,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
         />
-        <g
-          className="fill-primary/50"
-          id="color-change">
+        <g className="fill-primary/50" id="color-change">
           <rect
             style={{
               display: "inline",
@@ -44,7 +42,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect253"
             width={79.814697}
@@ -61,7 +59,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect254"
             width={79.814697}
@@ -78,7 +76,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 413.12714,488.83548 h 42.16124 v -22 l 33.21162,-20.5 V 414.0625 l -62.77829,0.0363 a 12.823832,12.823832 134.88076 0 0 -12.81634,12.8698 z"
             id="path247"
@@ -93,7 +91,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect248"
             width={79.814697}
@@ -111,7 +109,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect252"
             width={79.814697}
@@ -129,7 +127,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect255"
             width={79.814697}
@@ -146,7 +144,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect262"
             width={79.814697}
@@ -163,7 +161,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect263"
             width={79.814697}
@@ -180,7 +178,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect264"
             width={79.814697}
@@ -197,7 +195,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect265"
             width={79.814697}
@@ -214,7 +212,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect266"
             width={79.814697}
@@ -231,7 +229,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect267"
             width={79.814697}
@@ -248,7 +246,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect268"
             width={79.814697}
@@ -265,7 +263,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect256"
             width={79.814697}
@@ -283,7 +281,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect257"
             width={79.814697}
@@ -301,7 +299,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 413.12714,488.83548 h 42.16124 v -22 l 33.21162,-20.5 V 414.0625 l -62.77829,0.0363 a 12.823832,12.823832 134.88076 0 0 -12.81634,12.8698 z"
             id="path257"
@@ -316,7 +314,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect258"
             width={79.814697}
@@ -334,7 +332,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect259"
             width={79.814697}
@@ -352,7 +350,7 @@ export function SVGTankGaugingSystem() {
               strokeLinejoin: "round",
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect260"
             width={79.814697}
@@ -370,7 +368,7 @@ export function SVGTankGaugingSystem() {
               strokeWidth: 2,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1327.0664,440 v 163.67096 c 0,4.28316 3.1934,6.3881 7.0536,4.53287 51.1994,-24.60653 72.598,-62.15388 79.753,-78.41815 2.2548,-5.12593 2.2548,-10.77838 0,-15.9043 -7.155,-16.26437 -28.5537,-53.80859 -79.753,-78.41432 -3.8602,-1.85518 -7.0536,0.24978 -7.0536,4.53294 z"
             transform="translate(1.365e-5)"
@@ -397,7 +395,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={415.87109}
           y={442.82339}
@@ -428,7 +426,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={585.17664}
           y={442.81949}
@@ -459,7 +457,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={685.52228}
           y={442.81949}
@@ -490,7 +488,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={785.52228}
           y={442.82339}
@@ -521,7 +519,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={885.52228}
           y={442.82339}
@@ -552,7 +550,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={985.52228}
           y={442.82339}
@@ -583,7 +581,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={485.47263}
           y={524.83765}
@@ -614,7 +612,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={585.26453}
           y={524.83765}
@@ -645,7 +643,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={685.56531}
           y={524.83765}
@@ -676,7 +674,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={785.47266}
           y={524.83765}
@@ -707,7 +705,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={885.56531}
           y={524.83765}
@@ -738,7 +736,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={985.56531}
           y={524.83765}
@@ -769,7 +767,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={1085.4727}
           y={524.83765}
@@ -800,7 +798,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={415.87109}
           y={606.85962}
@@ -831,7 +829,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={585.12701}
           y={607.02289}
@@ -862,7 +860,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={685.56445}
           y={607.02289}
@@ -893,7 +891,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={785.56445}
           y={607.02289}
@@ -924,7 +922,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={885.56445}
           y={607.02289}
@@ -955,7 +953,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={985.56445}
           y={607.02289}
@@ -986,7 +984,7 @@ export function SVGTankGaugingSystem() {
             strokeLinejoin: "round",
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           x={1343.2318}
           y={524.74756}
@@ -1000,7 +998,7 @@ export function SVGTankGaugingSystem() {
       <g
         id="layer1"
         style={{
-          display: "none",
+          display: "none"
         }}
         transform="translate(-406.37369,-409)"
       >
@@ -1013,7 +1011,7 @@ export function SVGTankGaugingSystem() {
             strokeWidth: 1,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect3"
           width={1090}
@@ -1030,7 +1028,7 @@ export function SVGTankGaugingSystem() {
             strokeWidth: 1,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect9"
           width={80}
@@ -1047,7 +1045,7 @@ export function SVGTankGaugingSystem() {
             strokeWidth: 1,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect10"
           width={80}
@@ -1064,7 +1062,7 @@ export function SVGTankGaugingSystem() {
             strokeWidth: 1,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect11"
           width={80}
@@ -1081,7 +1079,7 @@ export function SVGTankGaugingSystem() {
             strokeWidth: 1,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect12"
           width={80}
@@ -1098,7 +1096,7 @@ export function SVGTankGaugingSystem() {
             strokeWidth: 1,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect13"
           width={80}
@@ -1115,7 +1113,7 @@ export function SVGTankGaugingSystem() {
             strokeWidth: 1,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect14"
           width={80}
@@ -1133,7 +1131,7 @@ export function SVGTankGaugingSystem() {
             strokeWidth: 1,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect15"
           width={1080}
@@ -1150,7 +1148,7 @@ export function SVGTankGaugingSystem() {
             strokeWidth: 1,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect247"
           width={1210}
@@ -1160,5 +1158,5 @@ export function SVGTankGaugingSystem() {
         />
       </g>
     </svg>
-  )
+  );
 }

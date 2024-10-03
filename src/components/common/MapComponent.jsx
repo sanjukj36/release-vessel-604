@@ -1,14 +1,12 @@
-import { PropTypes, useState, useEffect, useRef } from "react";
-import { MapContainer, TileLayer, Popup, Marker, Tooltip } from "react-leaflet";
+import { PropTypes, useEffect, useRef, useState } from "react";
+import { MdMyLocation } from "react-icons/md";
+import { MapContainer, Marker, Popup, TileLayer, Tooltip } from "react-leaflet";
+import Control from "react-leaflet-custom-control";
 import { Icon } from "leaflet";
 import { BoxCard } from "@/components/common/BoxCard";
-import Control from "react-leaflet-custom-control";
-import { MdMyLocation } from "react-icons/md";
-
 // css files
 import "leaflet-rotatedmarker";
 import "leaflet/dist/leaflet.css";
-
 // assets
 import navigation from "@/assets/icons/navigation.svg";
 
@@ -20,7 +18,7 @@ MapComponent.propTypes = {};
 export function MapComponent() {
   const customIcon = new Icon({
     iconUrl: navigation,
-    iconSize: [30, 30],
+    iconSize: [30, 30]
   });
 
   const [angle, setAngle] = useState(100);

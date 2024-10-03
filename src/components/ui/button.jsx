@@ -2,7 +2,6 @@ import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { cva } from "class-variance-authority";
 import { motion } from "framer-motion";
-
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
@@ -22,7 +21,7 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         customPrimary: "custom-btn-primary",
         customDanger: "custom-btn-danger",
-        customSuccess: "custom-btn-danger",
+        customSuccess: "custom-btn-danger"
       },
       size: {
         default: "h-9 px-4 py-2",
@@ -30,14 +29,14 @@ const buttonVariants = cva(
         lg: "h-10 rounded-md px-8",
         icon: "h-9 w-9",
         custom: "py-2 px-6 rounded",
-        fluid: "h-full w-full px-2 py-1",
-      },
+        fluid: "h-full w-full px-2 py-1"
+      }
     },
     defaultVariants: {
       variant: "default",
-      size: "default",
-    },
-  },
+      size: "default"
+    }
+  }
 );
 
 const Button = React.forwardRef(
@@ -51,7 +50,7 @@ const Button = React.forwardRef(
         {...props}
       />
     );
-  },
+  }
 );
 Button.displayName = "Button";
 

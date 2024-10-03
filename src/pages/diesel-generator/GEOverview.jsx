@@ -1,23 +1,23 @@
-import PropTypes from "prop-types";
 import { useState } from "react";
+import { FaCircleDot } from "react-icons/fa6";
+import PropTypes from "prop-types";
 import { BoxCard } from "@/components/common/BoxCard";
 import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
 import { Switch } from "@/components/ui/switch";
-import { FaCircleDot } from "react-icons/fa6";
 import { RESPONSE_DG_OVERVIEW } from "@/dummy/responseDgOverview";
 
 GEOverview.propTypes = {};
 GETable.propTypes = {
   title: PropTypes.string,
-  data: PropTypes.object,
+  data: PropTypes.object
 };
 
 export function GEOverview() {
   const [tableValueData, setTableValueData] = useState(
-    RESPONSE_DG_OVERVIEW?.tableValueData,
+    RESPONSE_DG_OVERVIEW?.tableValueData
   );
   const [tableBooleanData, setTableBooleanData] = useState(
-    RESPONSE_DG_OVERVIEW?.tableBooleanData,
+    RESPONSE_DG_OVERVIEW?.tableBooleanData
   );
 
   return (

@@ -1,9 +1,8 @@
-import PropTypes from "prop-types";
+import { useEffect, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import PropTypes from "prop-types";
 import { urls } from "@/url/url";
-import { useNavigate } from "react-router-dom";
 
 Sidebar.propTypes = {};
 
@@ -18,7 +17,7 @@ export function Sidebar() {
 
   useEffect(() => {
     const url = pathname.split("/")[1];
-    const currentUrlObj = urls?.find((item) => item?.url === url);
+    const currentUrlObj = urls?.find(item => item?.url === url);
     if (currentUrlObj) {
       setSubUrl(currentUrlObj?.sub);
       setTitle(currentUrlObj?.title);
@@ -34,14 +33,14 @@ export function Sidebar() {
     }
   }, [subUrl]);
 
-  const handleNavigate = (url) => {
+  const handleNavigate = url => {
     setSelection(url);
     const parentPath = getParentUrl(pathname);
     navigate(parentPath + url);
   };
 
-  const getParentUrl = (url) => {
-    const segments = url.split("/").filter((segment) => segment !== "");
+  const getParentUrl = url => {
+    const segments = url.split("/").filter(segment => segment !== "");
     if (segments?.length > 1) {
       const newSegment = segments.splice(0, 1);
       return `/${newSegment.join("/")}/`;

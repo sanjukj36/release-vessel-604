@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
-import { SVGTankGaugingSystem } from "@/components/diagrams/SVGTankGaugingSystem";
 import { BoxCard } from "@/components/common/BoxCard";
+import { SVGTankGaugingSystem } from "@/components/diagrams/SVGTankGaugingSystem";
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
-  CardTitle,
+  CardTitle
 } from "@/components/ui/card";
 import { Progress, ProgressVertical } from "@/components/ui/progress";
 
@@ -30,7 +30,7 @@ const tankGaugingCardDummy = [
   { title: "No.5 DW WB S", mtrs: 0.0, m3: 0.0 },
   { title: "No.4 DW WB C", mtrs: 0.0, m3: 0.0 },
   { title: "No.4 DW WB S", mtrs: 0.0, m3: 0.0 },
-  { title: "No.3 DW WB S", mtrs: 0.0, m3: 0.0 },
+  { title: "No.3 DW WB S", mtrs: 0.0, m3: 0.0 }
 ];
 
 export function TankGaugingSystem() {

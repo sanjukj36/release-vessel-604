@@ -1,24 +1,22 @@
-import PropTypes from "prop-types";
-import { motion } from "framer-motion";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-
-import { Button } from "@/components/ui/button";
 import { IoIosWarning } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
+import PropTypes from "prop-types";
+import iconChevronDoubleDown from "@/assets/icons/chevrone-single-down.svg";
+import iconMenu from "@/assets/icons/menu.svg";
+import { Button } from "@/components/ui/button";
 import {
   Popover,
   PopoverContent,
-  PopoverTrigger,
+  PopoverTrigger
 } from "@/components/ui/popover";
 import { urls } from "@/url/url";
-
-import iconMenu from "@/assets/icons/menu.svg";
-import iconChevronDoubleDown from "@/assets/icons/chevrone-single-down.svg";
 
 Header.propTypes = {};
 NavigationMenu.propTypes = {
   selection: PropTypes.string,
-  setSelection: PropTypes.func,
+  setSelection: PropTypes.func
 };
 
 export function Header() {
@@ -87,7 +85,7 @@ function NavigationMenu() {
   const [selection, setSelection] = useState("");
   const navigate = useNavigate();
 
-  const handleNavigation = (item) => {
+  const handleNavigation = item => {
     setSelection(item?.url);
     navigate(item?.url);
   };

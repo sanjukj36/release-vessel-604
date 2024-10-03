@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 SVGPowerManagementSystem.propTypes = {
   engineStatus: PropTypes.object,
-  midBoxValues: PropTypes.object,
+  midBoxValues: PropTypes.object
 };
 
 export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
@@ -25,7 +25,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 382.65865,651.35849 v 77.22128"
             id="path82"
@@ -40,7 +40,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect39"
                 width={91.40078}
@@ -70,7 +70,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                         strokeWidth: 4,
                         strokeDasharray: "none",
                         strokeOpacity: 1,
-                        paintOrder: "stroke markers fill",
+                        paintOrder: "stroke markers fill"
                       }}
                       x={650.83893}
                       y={312.00742}
@@ -95,7 +95,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                         strokeWidth: 4,
                         strokeDasharray: "none",
                         strokeOpacity: 1,
-                        paintOrder: "stroke markers fill",
+                        paintOrder: "stroke markers fill"
                       }}
                       x={682.48981}
                       y={312.00742}
@@ -126,7 +126,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                         strokeWidth: 4,
                         strokeDasharray: "none",
                         strokeOpacity: 1,
-                        paintOrder: "stroke markers fill",
+                        paintOrder: "stroke markers fill"
                       }}
                       x={650.83893}
                       y={312.00742}
@@ -151,7 +151,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                         strokeWidth: 4,
                         strokeDasharray: "none",
                         strokeOpacity: 1,
-                        paintOrder: "stroke markers fill",
+                        paintOrder: "stroke markers fill"
                       }}
                       x={682.48981}
                       y={312.00742}
@@ -186,7 +186,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                         strokeWidth: 4,
                         strokeDasharray: "none",
                         strokeOpacity: 1,
-                        paintOrder: "stroke markers fill",
+                        paintOrder: "stroke markers fill"
                       }}
                       x={650.83893}
                       y={312.00742}
@@ -211,7 +211,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                         strokeWidth: 4,
                         strokeDasharray: "none",
                         strokeOpacity: 1,
-                        paintOrder: "stroke markers fill",
+                        paintOrder: "stroke markers fill"
                       }}
                       x={682.48981}
                       y={312.00742}
@@ -246,7 +246,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                         strokeWidth: 4,
                         strokeDasharray: "none",
                         strokeOpacity: 1,
-                        paintOrder: "stroke markers fill",
+                        paintOrder: "stroke markers fill"
                       }}
                       x={650.83893}
                       y={312.00742}
@@ -271,7 +271,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                         strokeWidth: 4,
                         strokeDasharray: "none",
                         strokeOpacity: 1,
-                        paintOrder: "stroke markers fill",
+                        paintOrder: "stroke markers fill"
                       }}
                       x={682.48981}
                       y={312.00742}
@@ -306,7 +306,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                         strokeWidth: 4,
                         strokeDasharray: "none",
                         strokeOpacity: 1,
-                        paintOrder: "stroke markers fill",
+                        paintOrder: "stroke markers fill"
                       }}
                       x={650.83893}
                       y={312.00742}
@@ -331,7 +331,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                         strokeWidth: 4,
                         strokeDasharray: "none",
                         strokeOpacity: 1,
-                        paintOrder: "stroke markers fill",
+                        paintOrder: "stroke markers fill"
                       }}
                       x={682.48981}
                       y={312.00742}
@@ -353,7 +353,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeWidth: 6,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle40"
                 cx={382.93774}
@@ -377,7 +377,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeWidth: 8,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 x={383.94946}
                 y={487.77951}
@@ -397,7 +397,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle48"
             cx={1028.4047}
@@ -413,7 +413,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1064.4807,181.09598 h 752.3286 V 506.1951"
             id="path48"
@@ -425,7 +425,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle49"
             cx={1816.8093}
@@ -439,7 +439,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle50"
             cx={240}
@@ -453,7 +453,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle51"
             cx={1028.4047}
@@ -469,7 +469,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 240,506.54224 V 180.70039 h 751.95715"
             id="path51"
@@ -482,7 +482,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 240,578.10706 V 905.31679 H 993.10242"
             id="path52"
@@ -495,7 +495,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1668.8294,651.35849 v 77.34237"
             id="path88"
@@ -508,7 +508,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1063.3787,905.31677 753.4306,2e-5 V 578.51028"
             id="path53"
@@ -522,7 +522,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect53"
             width={15.758752}
@@ -539,7 +539,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect54"
             width={15.758752}
@@ -556,7 +556,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect55"
             width={15.758752}
@@ -572,7 +572,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect56"
             width={15.758752}
@@ -589,7 +589,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect57"
             width={15.758752}
@@ -605,7 +605,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect58"
             width={15.758752}
@@ -621,7 +621,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect59"
             width={15.758752}
@@ -637,7 +637,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect60"
             width={15.758752}
@@ -654,7 +654,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect61"
               width={91.40078}
@@ -684,7 +684,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -709,7 +709,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -740,7 +740,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -765,7 +765,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -800,7 +800,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -825,7 +825,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -860,7 +860,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -885,7 +885,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -920,7 +920,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -945,7 +945,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -967,7 +967,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 6,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="circle73"
               cx={382.93774}
@@ -991,7 +991,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 8,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={383.94946}
               y={487.77951}
@@ -1011,7 +1011,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1007.7159,181.09598 h 41.006"
             id="path161"
@@ -1024,7 +1024,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 1008.8611,905.31674 H 1047.62"
             id="path162"
@@ -1038,7 +1038,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1816.8093,521.95386 v 40.79767"
             id="path163"
@@ -1052,7 +1052,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 240,522.30096 v 40.04737"
             id="path164"
@@ -1074,7 +1074,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             x={577.01257}
             y={167}
@@ -1101,7 +1101,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             x={1447.1588}
             y={167}
@@ -1118,7 +1118,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle75"
             cx={562.58752}
@@ -1133,7 +1133,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 562.24771,627.02917 v 101.5506"
             id="path76"
@@ -1146,7 +1146,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 562.58752,800.54476 V 905.31679"
             id="path77"
@@ -1159,7 +1159,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect77"
             width={15.758752}
@@ -1175,7 +1175,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect78"
             width={15.758752}
@@ -1187,14 +1187,14 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
             id="g82"
             transform="matrix(0.4081738,0,0,0.4081738,222.55741,679.71995)"
             style={{
-              strokeWidth: 2.44994,
+              strokeWidth: 2.44994
             }}
           >
             <g
               id="g81"
               transform="matrix(3.7795276,0,0,3.7795276,90.86101,-562.17528)"
               style={{
-                strokeWidth: 2.44994,
+                strokeWidth: 2.44994
               }}
             >
               <circle
@@ -1207,7 +1207,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle78"
                 cx={79.739304}
@@ -1224,7 +1224,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 95.873694,102.27035 -12.859592,5.32861 12.861038,5.32523 a 13.919714,13.919714 0 0 0 -0.0014,-10.65384 z"
                 id="path78"
@@ -1239,7 +1239,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 85.066224,123.73166 -5.328615,-12.85959 -5.325225,12.86103 a 13.919714,13.919714 0 0 0 10.65384,-10e-4 z"
                 id="path79"
@@ -1254,7 +1254,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 63.604914,112.92419 12.859592,-5.32861 -12.861038,-5.32523 a 13.919714,13.919714 0 0 0 0.0014,10.65384 z"
                 id="path80"
@@ -1269,7 +1269,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle80"
                 cx={79.739304}
@@ -1286,7 +1286,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 74.412384,91.462878 5.328615,12.859592 5.325225,-12.861038 a 13.919714,13.919714 0 0 0 -10.65384,0.0014 z"
                 id="path81"
@@ -1301,7 +1301,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle81"
                 cx={79.739304}
@@ -1317,7 +1317,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle82"
             cx={382.65866}
@@ -1332,7 +1332,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 382.65866,801.50778 V 903.33181"
             id="path83"
@@ -1345,7 +1345,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect83"
             width={15.758752}
@@ -1361,7 +1361,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect84"
             width={15.758752}
@@ -1373,14 +1373,14 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
             id="g88"
             transform="matrix(0.4081738,0,0,0.4081738,1508.7282,679.71995)"
             style={{
-              strokeWidth: 2.44994,
+              strokeWidth: 2.44994
             }}
           >
             <g
               id="g87"
               transform="matrix(3.7795276,0,0,3.7795276,90.86101,-562.17528)"
               style={{
-                strokeWidth: 2.44994,
+                strokeWidth: 2.44994
               }}
             >
               <circle
@@ -1393,7 +1393,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle84"
                 cx={79.739304}
@@ -1410,7 +1410,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 95.873694,102.27035 -12.859592,5.32861 12.861038,5.32523 a 13.919714,13.919714 0 0 0 -0.0014,-10.65384 z"
                 id="path84"
@@ -1425,7 +1425,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 85.066224,123.73166 -5.328615,-12.85959 -5.325225,12.86103 a 13.919714,13.919714 0 0 0 10.65384,-10e-4 z"
                 id="path85"
@@ -1440,7 +1440,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 63.604914,112.92419 12.859592,-5.32861 -12.861038,-5.32523 a 13.919714,13.919714 0 0 0 0.0014,10.65384 z"
                 id="path86"
@@ -1455,7 +1455,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle86"
                 cx={79.739304}
@@ -1472,7 +1472,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 74.412384,91.462878 5.328615,12.859592 5.325225,-12.861038 a 13.919714,13.919714 0 0 0 -10.65384,0.0014 z"
                 id="path87"
@@ -1487,7 +1487,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle87"
                 cx={79.739304}
@@ -1503,7 +1503,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle88"
             cx={1668.8295}
@@ -1518,7 +1518,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 1668.8295,801.08852 V 905.31679"
             id="path89"
@@ -1531,7 +1531,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect89"
             width={15.758752}
@@ -1547,7 +1547,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect90"
             width={15.758752}
@@ -1563,7 +1563,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect91"
             width={15.758752}
@@ -1578,7 +1578,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle91"
             cx={1516.1776}
@@ -1593,7 +1593,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1516.1776,627.02917 v 101.5506"
             id="path91"
@@ -1606,7 +1606,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 1516.1776,801.08852 V 905.31679"
             id="path92"
@@ -1619,7 +1619,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect92"
             width={15.758752}
@@ -1635,7 +1635,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect93"
             width={15.758752}
@@ -1664,7 +1664,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -1689,7 +1689,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -1720,7 +1720,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -1745,7 +1745,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -1780,7 +1780,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -1805,7 +1805,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -1840,7 +1840,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -1865,7 +1865,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -1900,7 +1900,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -1925,7 +1925,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -1949,7 +1949,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect94"
               width={91.40078}
@@ -1972,7 +1972,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 6,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="circle106"
               cx={735.24768}
@@ -1997,7 +1997,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 8,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={736.2594}
               y={612.88928}
@@ -2018,7 +2018,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle111"
             cx={728.32001}
@@ -2035,7 +2035,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle112"
             cx={882.46924}
@@ -2052,7 +2052,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle113"
             cx={1166.7262}
@@ -2066,7 +2066,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle114"
             cx={1353.4023}
@@ -2081,7 +2081,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 1353.4024,180.70039 V 282.16254"
             id="path114"
@@ -2097,7 +2097,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 1166.7262,180.70039 V 282.16254"
             id="path115"
@@ -2113,7 +2113,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 882.46926,180.70039 V 282.16254"
             id="path116"
@@ -2129,7 +2129,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 728.31998,180.70039 3e-5,101.46215"
             id="path117"
@@ -2145,7 +2145,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect117"
             width={15.758752}
@@ -2164,7 +2164,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect118"
             width={15.758752}
@@ -2183,7 +2183,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect119"
             width={15.758752}
@@ -2199,7 +2199,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect120"
             width={15.758752}
@@ -2218,7 +2218,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 728.32001,354.23769 V 476.45714"
             id="path121"
@@ -2244,7 +2244,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -2269,7 +2269,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -2300,7 +2300,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -2325,7 +2325,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -2360,7 +2360,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -2385,7 +2385,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -2420,7 +2420,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -2445,7 +2445,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -2480,7 +2480,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -2505,7 +2505,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -2531,7 +2531,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect132"
               width={91.40078}
@@ -2554,7 +2554,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 6,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="circle132"
               cx={735.24768}
@@ -2579,7 +2579,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 8,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={736.2594}
               y={612.88928}
@@ -2611,7 +2611,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -2636,7 +2636,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -2667,7 +2667,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -2692,7 +2692,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -2727,7 +2727,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -2752,7 +2752,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -2787,7 +2787,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -2812,7 +2812,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -2847,7 +2847,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -2872,7 +2872,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -2898,7 +2898,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect144"
               width={91.40078}
@@ -2921,7 +2921,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 6,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="circle144"
               cx={735.24768}
@@ -2946,7 +2946,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 8,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={736.2594}
               y={612.88928}
@@ -2978,7 +2978,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -3003,7 +3003,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -3034,7 +3034,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -3059,7 +3059,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -3090,7 +3090,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -3115,7 +3115,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -3146,7 +3146,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -3171,7 +3171,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -3202,7 +3202,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={650.83893}
                     y={312.00742}
@@ -3227,7 +3227,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     x={682.48981}
                     y={312.00742}
@@ -3248,7 +3248,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect156"
               width={91.40078}
@@ -3266,7 +3266,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 6,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="circle156"
               cx={735.24768}
@@ -3291,7 +3291,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 8,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={736.2594}
               y={612.88928}
@@ -3313,7 +3313,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect157"
             width={15.758752}
@@ -3332,7 +3332,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 882.46924,354.23769 V 476.45714"
             id="path157"
@@ -3348,7 +3348,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 1166.7262,354.23769 V 476.45714"
             id="path158"
@@ -3361,7 +3361,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 1353.4023,354.23769 V 476.45714"
             id="path159"
@@ -3377,7 +3377,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect159"
             width={15.758752}
@@ -3396,7 +3396,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect160"
             width={15.758752}
@@ -3412,7 +3412,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect161"
             width={15.758752}
@@ -3438,7 +3438,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={217.54625}
@@ -3456,7 +3456,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect167"
               width={15.758752}
@@ -3483,7 +3483,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={245.47444}
@@ -3501,7 +3501,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect168"
               width={15.758752}
@@ -3528,7 +3528,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={273.87186}
@@ -3546,7 +3546,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect169"
               width={15.758752}
@@ -3573,7 +3573,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={300.73849}
@@ -3591,7 +3591,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect170"
               width={15.758752}
@@ -3618,7 +3618,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={328.19748}
@@ -3636,7 +3636,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect171"
               width={15.758752}
@@ -3663,7 +3663,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={354.76633}
@@ -3681,7 +3681,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect172"
               width={15.758752}
@@ -3708,7 +3708,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={380.52194}
@@ -3726,7 +3726,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect173"
               width={15.758752}
@@ -3755,7 +3755,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={627.10315}
               y={693.086}
@@ -3773,7 +3773,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect174"
               width={15.758752}
@@ -3800,7 +3800,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={627.10315}
               y={721.01416}
@@ -3818,7 +3818,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect175"
               width={15.758752}
@@ -3845,7 +3845,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={627.10315}
               y={749.41156}
@@ -3863,7 +3863,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect176"
               width={15.758752}
@@ -3890,7 +3890,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={627.10315}
               y={776.2782}
@@ -3908,7 +3908,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect177"
               width={15.758752}
@@ -3935,7 +3935,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={627.10315}
               y={803.73718}
@@ -3953,7 +3953,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect178"
               width={15.758752}
@@ -3980,7 +3980,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={627.10315}
               y={830.30603}
@@ -3998,7 +3998,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect179"
               width={15.758752}
@@ -4025,7 +4025,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={627.10315}
               y={856.06165}
@@ -4043,7 +4043,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect180"
               width={15.758752}
@@ -4077,7 +4077,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={217.54625}
@@ -4095,7 +4095,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect181"
               width={15.758752}
@@ -4122,7 +4122,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={245.47444}
@@ -4140,7 +4140,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect182"
               width={15.758752}
@@ -4167,7 +4167,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={273.87186}
@@ -4185,7 +4185,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect183"
               width={15.758752}
@@ -4212,7 +4212,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={300.73849}
@@ -4230,7 +4230,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect184"
               width={15.758752}
@@ -4257,7 +4257,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={328.19748}
@@ -4275,7 +4275,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect185"
               width={15.758752}
@@ -4302,7 +4302,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={354.76633}
@@ -4320,7 +4320,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect186"
               width={15.758752}
@@ -4347,7 +4347,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={380.52194}
@@ -4365,7 +4365,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect187"
               width={15.758752}
@@ -4394,7 +4394,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={217.54625}
@@ -4412,7 +4412,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect194"
               width={15.758752}
@@ -4439,7 +4439,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={245.47444}
@@ -4457,7 +4457,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect195"
               width={15.758752}
@@ -4484,7 +4484,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={273.87186}
@@ -4502,7 +4502,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect196"
               width={15.758752}
@@ -4529,7 +4529,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={300.73849}
@@ -4547,7 +4547,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect197"
               width={15.758752}
@@ -4574,7 +4574,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={328.19748}
@@ -4592,7 +4592,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect198"
               width={15.758752}
@@ -4619,7 +4619,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={354.76633}
@@ -4637,7 +4637,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect199"
               width={15.758752}
@@ -4664,7 +4664,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               x={297.5914}
               y={380.52194}
@@ -4682,7 +4682,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect200"
               width={15.758752}
@@ -4710,7 +4710,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             x={1198.2034}
             y={936.33215}
@@ -4737,7 +4737,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             x={690.45355}
             y={936.33215}
@@ -4755,7 +4755,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 382.65868,744.3385 v 41.41052"
             id="path202"
@@ -4769,7 +4769,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 562.58749,744.3385 v 40.44751"
             id="path203"
@@ -4783,7 +4783,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1516.1776,744.3385 v 40.99127"
             id="path204"
@@ -4796,7 +4796,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1668.8295,744.3385 v 40.99127"
             id="path205"
@@ -4809,7 +4809,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 728.31998,297.9213 v 40.55764"
             id="path206"
@@ -4824,7 +4824,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 882.46927,297.9213 v 40.55764"
             id="path207"
@@ -4838,7 +4838,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1166.7262,297.9213 v 40.55764"
             id="path208"
@@ -4852,7 +4852,7 @@ export function SVGPowerManagementSystem({ engineStatus, midBoxValues }) {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1353.4025,297.9213 v 40.55764"
             id="path209"

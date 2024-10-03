@@ -112,4 +112,3 @@ Add the following scripts in `package.json` to run the prettier.
 ```
 
 And run the command `npm format`.
-
