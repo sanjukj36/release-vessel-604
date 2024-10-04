@@ -102,69 +102,63 @@ function ImageComponent({ className, data }) {
   return (
     <div
       className={classNames(
-        " relative isolate flex flex-col text-sm 2xl:text-md  overflow-hidden p-4",
+        " relative isolate flex flex-col text-sm 2xl:text-md  overflow-hidden",
         className
       )}
     >
       {/* exh gas temp cyl table*/}
-      <GasTempComponent data={data?.exh_gas_temp_cyl} />
-      {/* exh gas temp cyl table end*/}
+      {/* <GasTempComponent data={data?.exh_gas_temp_cyl} /> */}
 
-      <div className="grid grid-cols-[.9fr,1fr,1fr,1fr] mt-10 text-xs flex-grow items-start">
-        <TableComponent data={data?.imageTable2} variant="secondary" />
+      <div className="grid grid-cols-[1fr,1fr,1fr] grid-rows-[1fr,1fr,1fr] text-xs gap-2 flex-grow items-start">
+        <div className="col-start-1 row-start-1 row-span-3 grid grid-rows-subgrid gap-2">
+          <TableComponent data={data?.imageTable2} variant="secondary" />
+          <TableComponent data={data?.imageTable22} variant="secondary" />
+          <TableComponent data={data?.imageTable2} variant="secondary" />
+        </div>
 
-        <div></div>
-        <div></div>
-        <div className="relative h-full ">
-          <div className="absolute bottom-0 right-0 p-2 space-y-2 rounded-lg shadow-md bg-primary text-secondary">
-            <h3 className="font-semibold text-lg">Running Hour</h3>
-            <div className="flex gap-2 items-center">
-              <button className="bg-gradient-to-t from-success/50 to-success rounded-sm px-4 py-1">
-                Reset
-              </button>
-              <input
-                className={`bg-gradient-to-t from-muted to-secondary text-secondary-foreground ml-auto max-w-[6em] px-2 py-[2px] focus:outline-none font-semibold rounded-xl text-center`}
-                readOnly
-                value={162350.23}
-                type="text"
-              />
-              <p className="min-w-[2em]">H</p>
-            </div>
-            <div className="flex gap-2">
-              <p>TOTAL HOURS</p>
-              <input
-                className={`bg-gradient-to-t from-muted to-secondary text-secondary-foreground ml-auto max-w-[6em] px-2 py-[2px] focus:outline-none font-semibold rounded-xl text-center`}
-                readOnly
-                value={162350.23}
-                type="text"
-              />
-              <p className="min-w-[2em]">H</p>
-            </div>
+        <div className="col-start-2 col-end-4 row-start-1 row-end-2 grid grid-cols-subgrid gap-2">
+          <TableComponent data={data?.imageTable2} variant="secondary" />
+          <TableComponent data={data?.imageTable22} variant="secondary" />
+        </div>
+
+        <div className="grid col-start-2 row-start-2 col-end-4 row-end-4 w-full h-full place-items-center">
+          <div className="w-full relative">
+            <img className="w-full" src={shipImage} alt="" />
+            <TableComponent
+              data={data?.windTemperature}
+              variant="secondary"
+              className="absolute text-xs top-[27%] left-[10%]"
+            />
           </div>
         </div>
-      </div>
 
-      {/* Image */}
-      <img
-        className="absolute w-8/12 z-[-1] top-2/4 left-2/4 translate-x-[-40%] translate-y-[-40%]"
-        src={shipImage}
-        alt=""
-      />
-      {/* overriding tags */}
-      <TableComponent
-        data={data?.windTemperature}
-        variant="secondary"
-        className="absolute text-xs top-[47%] left-[30%]"
-      />
-      <div className="flex w-[17.3%] justify-between absolute top-[48.6%] left-[61.7%] font-bold text-slate-700">
-        {[1, 2, 3, 4, 5, 6, 7, 8].map((item, key) => (
-          <p
-            className={`${item === 7 ? "danger relative after:content-[''] after:absolute after:w-[20px] after:h-[20px] after:bg-gradient-to-b after:from-destructive after:to-destructive/50 after:rounded-full after:left-[50%] after:top-[50%] after:translate-x-[-50%] after:translate-y-[-50%] after:z-[-1]" : "relative after:content-[''] after:absolute after:w-[20px] after:h-[20px] after:bg-gradient-to-b after:from-success after:to-success/50 after:rounded-full after:left-[50%] after:top-[50%] after:translate-x-[-50%] after:translate-y-[-50%] after:z-[-1]"} `}
-            key={key}
-          >
-            {item}
-          </p>
-        ))}
+        {/* <div className="relative h-full "> */}
+        {/*   <div className="absolute bottom-0 right-0 p-2 space-y-2 rounded-lg shadow-md bg-primary text-secondary"> */}
+        {/*     <h3 className="font-semibold text-lg">Running Hour</h3> */}
+        {/*     <div className="flex gap-2 items-center"> */}
+        {/*       <button className="bg-gradient-to-t from-success/50 to-success rounded-sm px-4 py-1"> */}
+        {/*         Reset */}
+        {/*       </button> */}
+        {/*       <input */}
+        {/*         className={`bg-gradient-to-t from-muted to-secondary text-secondary-foreground ml-auto max-w-[6em] px-2 py-[2px] focus:outline-none font-semibold rounded-xl text-center`} */}
+        {/*         readOnly */}
+        {/*         value={162350.23} */}
+        {/*         type="text" */}
+        {/*       /> */}
+        {/*       <p className="min-w-[2em]">H</p> */}
+        {/*     </div> */}
+        {/*     <div className="flex gap-2"> */}
+        {/*       <p>TOTAL HOURS</p> */}
+        {/*       <input */}
+        {/*         className={`bg-gradient-to-t from-muted to-secondary text-secondary-foreground ml-auto max-w-[6em] px-2 py-[2px] focus:outline-none font-semibold rounded-xl text-center`} */}
+        {/*         readOnly */}
+        {/*         value={162350.23} */}
+        {/*         type="text" */}
+        {/*       /> */}
+        {/*       <p className="min-w-[2em]">H</p> */}
+        {/*     </div> */}
+        {/*   </div> */}
+        {/* </div> */}
       </div>
     </div>
   );

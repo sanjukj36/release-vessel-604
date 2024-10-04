@@ -128,6 +128,33 @@ export const RESPONSE_DG_1 = {
       limit: 100
     }
   ],
+  imageTable22: [
+    {
+      title: "No.1 Dg Non-driving End Bearing Temp.",
+      value: 10,
+      unit: "°°",
+      limit: 100
+    },
+    {
+      title: "Edg Coolant Press",
+      value: 10,
+      unit: "__",
+      limit: 9999
+    },
+    { title: "Edg Lub. Oil Temperature", value: 10, unit: "__", limit: 9999 },
+    {
+      title: "Edg Coolant Temperature",
+      value: 10,
+      unit: "°°",
+      limit: 100
+    },
+    {
+      title: "Edg Speed",
+      value: 10,
+      unit: "°°",
+      limit: 100
+    }
+  ],
   windTemperature: [
     { title: "WINDING U TEMP(Stator)", value: 10, unit: "°_", limit: 100 },
     { title: "WINDING V TEMP(Stator)", value: 10, unit: "°_", limit: 100 },

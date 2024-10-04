@@ -32,7 +32,7 @@ export function PowerManagementSystemOverview() {
   );
 
   return (
-    <div className="p-2 relative w-full flex items-start">
+    <div className="p-2 pt-4 relative w-full flex items-start">
       <SVGPmsComponent />
       {/* <div className="absolute top-[18%] left-[10%]"> */}
       {/*   <PTable data={dg1Alarms} /> */}

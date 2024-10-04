@@ -10,12 +10,12 @@ import { PowerManagementSystemOverview } from "@/pages/pms";
 import { TankGaugingSystem } from "@/pages/tank-guaging-system";
 
 export const urls = [
-  // {
-  //   title: "Navigation",
-  //   url: "",
-  //   element: createElement(Navigation),
-  //   sub: [{ title: "Sub title", url: "sub-url" }],
-  // },
+  {
+    title: "Navigation",
+    url: "",
+    element: createElement(Navigation),
+    sub: [{ title: "Sub title", url: "sub-url" }]
+  },
   // {
   //   title: "ME Condition",
   //   url: "me-condition-overview",
