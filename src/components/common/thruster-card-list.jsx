@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { BsFan } from "react-icons/bs";
-import { CgGhost } from "react-icons/cg";
 import { IoSettings } from "react-icons/io5";
 import PropTypes from "prop-types";
 import { BoxCard } from "@/components/common/BoxCard";
+import { ThrusterCard } from "@/components/common/thruster-card";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { ThrusterCard } from "./thruster-card";
 
 export function ThursterCardList({ title, data, image }) {
   return (

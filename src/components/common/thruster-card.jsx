@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from "react";
 import { BoxCard } from "@/components/common/BoxCard";
 import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
-import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 
 export function ThrusterCard({ title, data, icon }) {
   return (
@@ -34,33 +32,6 @@ export function ThrusterCard({ title, data, icon }) {
               )}
             </div>
           ))}
-
-        {/* <Table> */}
-        {/*   <TableBody> */}
-        {/*     {data?.length > 0 && */}
-        {/*       data?.map((item, key) => ( */}
-        {/**/}
-        {/**/}
-        {/*         <TableRow key={key}> */}
-        {/*           <TableCell>{item.title}</TableCell> */}
-        {/*           {item.unit === undefined ? ( */}
-        {/*             <TableCell className="text-end"> */}
-        {/*               <Switch checked={item.value} /> */}
-        {/*             </TableCell> */}
-        {/*           ) : ( */}
-        {/*             <> */}
-        {/*               <TableCell className="text-end"> */}
-        {/*                 <ReadOnlyInput value={item.value} /> */}
-        {/*               </TableCell> */}
-        {/*               <TableCell className="text-end"> */}
-        {/*                 <p>{item.unit}</p> */}
-        {/*               </TableCell> */}
-        {/*             </> */}
-        {/*           )} */}
-        {/*         </TableRow> */}
-        {/*       ))} */}
-        {/*   </TableBody> */}
-        {/* </Table> */}
       </CardContent>
     </BoxCard>
   );

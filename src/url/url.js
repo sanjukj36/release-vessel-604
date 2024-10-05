@@ -1,4 +1,7 @@
 import { createElement } from "react";
+import PortPropulsion from "@/pages/azimuth-thruster";
+import AzimuthThruster from "@/pages/azimuth-thruster";
+import PortAzhimuthThruster from "@/pages/azimuth-thruster/port-azimuth-thruster";
 import { BowThrusterOverview } from "@/pages/bow-thruster";
 import { Colors } from "@/pages/Colors";
 import { DG } from "@/pages/diesel-generator";
@@ -7,7 +10,6 @@ import { No1DieselGenerator } from "@/pages/diesel-generator/No1DieselGenerator"
 import { MEConditionOverview } from "@/pages/me-condition";
 import { Navigation } from "@/pages/navigation";
 import { PowerManagementSystemOverview } from "@/pages/pms";
-import PortPropulsion from "@/pages/port-propulsion";
 import { TankGaugingSystem } from "@/pages/tank-guaging-system";
 
 export const urls = [
@@ -80,10 +82,16 @@ export const urls = [
     sub: [{ title: "Sub title", url: "bow-thruster-overview" }]
   },
   {
-    title: "PORT Propulsion",
-    url: "port-propulsion",
-    element: createElement(PortPropulsion),
-    sub: [{ title: "Sub title", url: "port-propulsion-sub" }]
+    title: "Azhimuth Thruster",
+    url: "azhimuth-thruster",
+    element: createElement(AzimuthThruster),
+    sub: [
+      {
+        title: "PORT",
+        url: "",
+        element: createElement(PortAzhimuthThruster)
+      }
+    ]
   },
   {
     title: "Color",
