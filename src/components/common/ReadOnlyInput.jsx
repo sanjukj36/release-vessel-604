@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 ReadOnlyInput.propTypes = {};
 
 const inputVariants = cva(
-  "ml-auto max-w-[4em] px-2 focus:outline-none font-semibold rounded-xl text-center",
+  "ml-auto min-w-[5em] max-w-min px-2 focus:outline-none font-semibold rounded-xl text-center",
   {
     variants: {
       variant: {
@@ -22,12 +22,5 @@ const inputVariants = cva(
 );
 
 export function ReadOnlyInput({ value, className, variant }) {
-  return (
-    <input
-      type="text"
-      value={value}
-      readOnly
-      className={cn(inputVariants({ variant, className }))}
-    />
-  );
+  return <p className={cn(inputVariants({ variant, className }))}>{value}</p>;
 }

@@ -7,6 +7,7 @@ import { No1DieselGenerator } from "@/pages/diesel-generator/No1DieselGenerator"
 import { MEConditionOverview } from "@/pages/me-condition";
 import { Navigation } from "@/pages/navigation";
 import { PowerManagementSystemOverview } from "@/pages/pms";
+import PortPropulsion from "@/pages/port-propulsion";
 import { TankGaugingSystem } from "@/pages/tank-guaging-system";
 
 export const urls = [
@@ -70,13 +71,19 @@ export const urls = [
     title: "PM System",
     url: "pm-system",
     element: createElement(PowerManagementSystemOverview),
-    sub: [{ title: "Sub title", url: "sub-url" }]
+    sub: [{ title: "Sub title", url: "pm-system-sub-url" }]
   },
   {
     title: "Bow Thruster",
     url: "bow-thruster",
     element: createElement(BowThrusterOverview),
-    sub: [{ title: "Sub title", url: "overview" }]
+    sub: [{ title: "Sub title", url: "bow-thruster-overview" }]
+  },
+  {
+    title: "PORT Propulsion",
+    url: "port-propulsion",
+    element: createElement(PortPropulsion),
+    sub: [{ title: "Sub title", url: "port-propulsion-sub" }]
   },
   {
     title: "Color",

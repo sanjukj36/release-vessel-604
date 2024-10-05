@@ -5,6 +5,7 @@ import { IoSettings } from "react-icons/io5";
 import PropTypes from "prop-types";
 import thruster from "@/assets/svg/thruster.svg";
 import { BoxCard } from "@/components/common/BoxCard";
+import { PageWrapper } from "@/components/layout/page-wrapper";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
 import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
@@ -30,12 +31,8 @@ export function BowThrusterOverview() {
     RESPONSE_BOW_THRUSTER_OVERVIEW?.b1MotorAlamrs
   );
 
-  useEffect(() => {
-    console.log("b1ControlSystemAlamrs", b1ControlSystemAlamrs);
-  }, []);
-
   return (
-    <div className="w-full flex-1 p-4 grid grid-cols-[3fr_1fr_3fr] bg-radial">
+    <PageWrapper className="grid grid-cols-[3fr_1fr_3fr]">
       <BowThrusterComponent
         title={"Bow Thruster-1"}
         controlSystemAlarms={b1ControlSystemAlamrs}
@@ -49,7 +46,7 @@ export function BowThrusterOverview() {
         motorAlarms={b2MotorAlamrs}
         pitchAlarms={b2PitchAlarms}
       />
-    </div>
+    </PageWrapper>
   );
 }
 
