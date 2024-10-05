@@ -10,7 +10,7 @@ export function ThursterCardList({ title, data, image }) {
     <BoxCard variant="secondary" className="bg-transparent border-none p-0">
       <CardHeader className="items-center gap-2">
         {title && <CardTitle className="text-xl">{title}</CardTitle>}
-        <div className="w-[120px]">
+        <div className="w-[150px]">
           <img src={image} alt="thruster" />
         </div>
       </CardHeader>

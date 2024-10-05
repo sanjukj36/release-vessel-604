@@ -2,6 +2,7 @@ import { createElement } from "react";
 import PortPropulsion from "@/pages/azimuth-thruster";
 import AzimuthThruster from "@/pages/azimuth-thruster";
 import PortAzhimuthThruster from "@/pages/azimuth-thruster/port-azimuth-thruster";
+import StbdAzhimuthThruster from "@/pages/azimuth-thruster/stbd-azimuth-thruster";
 import { BowThrusterOverview } from "@/pages/bow-thruster";
 import { Colors } from "@/pages/Colors";
 import { DG } from "@/pages/diesel-generator";
@@ -90,6 +91,11 @@ export const urls = [
         title: "PORT",
         url: "",
         element: createElement(PortAzhimuthThruster)
+      },
+      {
+        title: "STBD",
+        url: "stbd",
+        element: createElement(StbdAzhimuthThruster)
       }
     ]
   },
