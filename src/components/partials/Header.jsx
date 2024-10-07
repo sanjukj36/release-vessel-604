@@ -61,11 +61,11 @@ function AlertNotificationMenu() {
         </div>
       </div>
       <Popover>
-        <PopoverTrigger>
+        <PopoverTrigger asChild>
           <Button
             variant="customDanger"
             size="fluid"
-            className="flex flex-col gap-0.5 w-min items-center justify-evenly rounded-none"
+            className="h-auto flex flex-col gap-0.5 w-min items-center justify-evenly rounded-none"
           >
             <p className="font-semibold leading-none">6</p>
             <div className="w-[calc(100%_+_1px)] pb-0.5">
