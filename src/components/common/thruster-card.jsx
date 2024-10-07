@@ -1,8 +1,24 @@
+import PropTypes from "prop-types";
 import { BoxCard } from "@/components/common/BoxCard";
 import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
 
+ThrusterCard.propTypes = {
+  title: PropTypes.string,
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      unit: PropTypes.string,
+      value: PropTypes.oneOfType([
+        PropTypes.bool,
+        PropTypes.string,
+        PropTypes.number
+      ])
+    })
+  ),
+  icon: PropTypes.oneOfType([PropTypes.element, PropTypes.string])
+};
 export function ThrusterCard({ title, data, icon }) {
   return (
     <BoxCard>

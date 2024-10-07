@@ -5,7 +5,22 @@ import { BoxCard } from "@/components/common/BoxCard";
 import { ThrusterCard } from "@/components/common/thruster-card";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
-export function ThursterCardList({ title, data, image }) {
+ThrusterCardList.propTypes = {
+  title: PropTypes.string,
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      unit: PropTypes.string,
+      value: PropTypes.oneOfType([
+        PropTypes.bool,
+        PropTypes.string,
+        PropTypes.number
+      ])
+    })
+  ),
+  image: PropTypes.string
+};
+export function ThrusterCardList({ title, data, image }) {
   return (
     <BoxCard variant="secondary" className="bg-transparent border-none p-0">
       <CardHeader className="items-center gap-2">

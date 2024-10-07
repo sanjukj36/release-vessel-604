@@ -1,6 +1,6 @@
 import { useState } from "react";
 import thrusterImage from "@/assets/images/azimuth.png";
-import { ThursterCardList } from "@/components/common/thruster-card-list";
+import { ThrusterCardList } from "@/components/common/thruster-card-list";
 import { PageWrapper } from "@/components/layout/page-wrapper";
 import { RESPONSE_PORT_PROPULSION } from "@/dummy/responsePortPropulsion";
 
@@ -12,18 +12,18 @@ function PortAzhimuthThruster() {
       <div className="col-span-3 flex justify-center">
         <h1 className="text-2xl font-bold">PORT AZIMUTH THRUSTER</h1>
       </div>
-      <ThursterCardList
+      <ThrusterCardList
         title={"AZIMUTH THRUSTER"}
         data={RESPONSE_PORT_PROPULSION.col1}
         image={thrusterImage}
       />
 
-      <ThursterCardList
+      <ThrusterCardList
         title={"AZIMUTH THRUSTER"}
         data={RESPONSE_PORT_PROPULSION.col2}
         image={thrusterImage}
       />
-      <ThursterCardList
+      <ThrusterCardList
         title={"AZIMUTH THRUSTER"}
         data={RESPONSE_PORT_PROPULSION.col3}
         image={thrusterImage}
