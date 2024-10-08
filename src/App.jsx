@@ -1,6 +1,6 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import { Header } from "@/components/partials/Header";
+import { Header } from "@/components/partials/header";
 import { Sidebar } from "@/components/partials/Sidebar";
 import { urls } from "@/url/url";
 
