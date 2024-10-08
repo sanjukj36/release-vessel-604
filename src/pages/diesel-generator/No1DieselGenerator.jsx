@@ -3,7 +3,7 @@ import { FaCircleDot } from "react-icons/fa6";
 import { useLocation } from "react-router-dom";
 import classNames from "classnames";
 import PropTypes from "prop-types";
-import shipImage from "@/assets/MicrosoftTeams-image.png";
+import shipImage from "@/assets/images/diesel-generator.png";
 import { BoxCard } from "@/components/common/BoxCard";
 import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
 import { Button } from "@/components/ui/button";

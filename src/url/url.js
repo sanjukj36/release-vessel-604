@@ -105,11 +105,11 @@ export const urls = [
       }
     ]
   },
-  // {
-  //   title: "EDG",
-  //   url: "edg",
-  //   element: createElement(Edg)
-  // },
+  {
+    title: "EDG",
+    url: "edg",
+    element: createElement(Edg)
+  },
   {
     title: "INF Module",
     url: "inf-module",

@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 ReadOnlyInput.propTypes = {};
 
 const inputVariants = cva(
-  "ml-auto min-w-[5em] max-w-min px-2 focus:outline-none font-semibold rounded-xl text-center",
+  "ml-auto min-w-[5em] max-w-min px-2 focus:outline-none font-semibold rounded-xl text-center text-nowrap",
   {
     variants: {
       variant: {

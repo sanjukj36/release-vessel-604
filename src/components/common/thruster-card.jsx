@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { twMerge } from "tailwind-merge";
 import { BoxCard } from "@/components/common/BoxCard";
 import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -17,11 +18,12 @@ ThrusterCard.propTypes = {
       ])
     })
   ),
-  icon: PropTypes.oneOfType([PropTypes.element, PropTypes.string])
+  icon: PropTypes.oneOfType([PropTypes.element, PropTypes.string]),
+  className: PropTypes.string
 };
-export function ThrusterCard({ title, data, icon }) {
+export function ThrusterCard({ title, data, icon, className }) {
   return (
-    <BoxCard>
+    <BoxCard className={twMerge("", className)}>
       {title && (
         <CardHeader className="p-2">
           <CardTitle className="flex gap-2 items-center">
