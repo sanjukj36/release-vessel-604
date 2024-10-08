@@ -10,6 +10,7 @@ import { GEOverview } from "@/pages/diesel-generator/GEOverview";
 import { No1DieselGenerator } from "@/pages/diesel-generator/No1DieselGenerator";
 import { Edg } from "@/pages/edg";
 import InfModule from "@/pages/inf-module";
+import DataBase from "@/pages/inf-module/database";
 import TelemetryEquipmentStatus from "@/pages/inf-module/telemetry-equipment-status";
 import { MEConditionOverview } from "@/pages/me-condition";
 import { Navigation } from "@/pages/navigation";
@@ -118,6 +119,11 @@ export const urls = [
         title: "Telemetry Equipment Status",
         url: "",
         element: createElement(TelemetryEquipmentStatus)
+      },
+      {
+        title: "Database",
+        url: "database",
+        element: createElement(DataBase)
       }
     ]
   },
