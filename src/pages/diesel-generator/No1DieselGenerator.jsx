@@ -23,16 +23,16 @@ export function No1DieselGenerator() {
     const [_, dg] = pathnameArray;
 
     switch (dg) {
-      case "dg-1":
+      case "dg1":
         getDGData(RESPONSE_DG_1);
         break;
-      case "dg-2":
+      case "dg2":
         getDGData(RESPONSE_DG_2);
         break;
-      case "dg-3":
+      case "dg3":
         getDGData(RESPONSE_DG_3);
         break;
-      case "dg-4":
+      case "dg4":
         getDGData(RESPONSE_DG_4);
         break;
       default:

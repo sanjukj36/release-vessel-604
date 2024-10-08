@@ -8,6 +8,9 @@ import { Colors } from "@/pages/Colors";
 import { DG } from "@/pages/diesel-generator";
 import { GEOverview } from "@/pages/diesel-generator/GEOverview";
 import { No1DieselGenerator } from "@/pages/diesel-generator/No1DieselGenerator";
+import { Edg } from "@/pages/edg";
+import InfModule from "@/pages/inf-module";
+import TelemetryEquipmentStatus from "@/pages/inf-module/telemetry-equipment-status";
 import { MEConditionOverview } from "@/pages/me-condition";
 import { Navigation } from "@/pages/navigation";
 import { PowerManagementSystemOverview } from "@/pages/pms";
@@ -51,25 +54,25 @@ export const urls = [
       },
       {
         title: "NO1. DG",
-        url: "dg-1",
+        url: "dg1",
         // url: "",
         element: createElement(No1DieselGenerator)
       },
       {
         title: "NO2. DG",
-        url: "dg-2",
+        url: "dg2",
+        element: createElement(No1DieselGenerator)
+      },
+      {
+        title: "NO3. DG",
+        url: "dg3",
+        element: createElement(No1DieselGenerator)
+      },
+      {
+        title: "NO4. DG",
+        url: "dg4",
         element: createElement(No1DieselGenerator)
       }
-      // {
-      //   title: "NO3. DG",
-      //   url: "dg-3",
-      //   element: createElement(No1DieselGenerator)
-      // },
-      // {
-      //   title: "NO4. DG",
-      //   url: "dg-4",
-      //   element: createElement(No1DieselGenerator)
-      // }
     ]
   },
   {
@@ -98,6 +101,23 @@ export const urls = [
         title: "STBD",
         url: "stbd",
         element: createElement(StbdAzhimuthThruster)
+      }
+    ]
+  },
+  // {
+  //   title: "EDG",
+  //   url: "edg",
+  //   element: createElement(Edg)
+  // },
+  {
+    title: "INF Module",
+    url: "inf-module",
+    element: createElement(InfModule),
+    sub: [
+      {
+        title: "Telemetry Equipment Status",
+        url: "",
+        element: createElement(TelemetryEquipmentStatus)
       }
     ]
   },
