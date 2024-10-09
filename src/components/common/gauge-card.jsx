@@ -26,7 +26,8 @@ export function GaugeCard({
   title = "",
   unit = "",
   variant = "",
-  titleSide = "top"
+  titleSide = "top",
+  height
 }) {
   return (
     <BoxCard variant={variant} className={twMerge(className)}>
@@ -36,7 +37,7 @@ export function GaugeCard({
         </CardHeader>
       )}
       <CardContent className="p-2 pt-0">
-        <GaugeChart2 unit={unit} data={data} />
+        <GaugeChart2 unit={unit} data={data} height={height} />
       </CardContent>
       <CardFooter className="p-2 pt-0 flex flex-col gap-2 justify-center items-center">
         {title && titleSide === "bottom" && (

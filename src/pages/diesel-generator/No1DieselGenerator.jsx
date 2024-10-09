@@ -5,6 +5,7 @@ import classNames from "classnames";
 import PropTypes from "prop-types";
 import shipImage from "@/assets/images/diesel-generator.png";
 import { BoxCard } from "@/components/common/BoxCard";
+import { GaugeCard } from "@/components/common/gauge-card";
 import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
 import { Button } from "@/components/ui/button";
 import { RESPONSE_DG_1 } from "@/dummy/responseDg1.js";
@@ -53,15 +54,15 @@ export function No1DieselGenerator() {
           className="diesel-generator_table1 text-xs"
           data={allData?.tableOneValues}
         />
-        {/* table one section end */}
 
         {/* image section */}
         <ImageComponent className="diesel-generator_picture" data={allData} />
+
         {/* image section end */}
       </div>
+
       {/* table two section */}
       <BottomSection data={allData} />
-      {/* table two section end */}
     </div>
   );
 }
@@ -80,14 +81,14 @@ function TableComponent({ className, data, variant }) {
             key={key}
             className="flex w-full border-b border-b-primary/10 py-2 items-center"
           >
-            <p>{item.title}</p>
+            <p className="mr-2">{item.title}</p>
             <input
               className={`${item.value > item?.limit ? "bg-gradient-to-b from-destructive/70 to-destructive text-destructive-foreground" : "bg-gradient-to-b from-secondary to-input text-input-foreground"} ml-auto max-w-[4em] px-2 focus:outline-none font-semibold rounded-xl text-center`}
               readOnly
               value={item.value}
               type="text"
             />
-            <p className="min-w-[3em] text-end">{item.unit}</p>
+            <p className="min-w-[2em] text-end">{item.unit}</p>
           </div>
         ))}
     </BoxCard>
@@ -99,6 +100,9 @@ ImageComponent.propTypes = {
   data: PropTypes?.object
 };
 function ImageComponent({ className, data }) {
+  if (Object.entries(data).length === 0) {
+    return null;
+  }
   return (
     <div
       className={classNames(
@@ -109,16 +113,79 @@ function ImageComponent({ className, data }) {
       {/* exh gas temp cyl table*/}
       {/* <GasTempComponent data={data?.exh_gas_temp_cyl} /> */}
 
-      <div className="grid grid-cols-[1fr,1fr,1fr] grid-rows-[1fr,1fr,1fr] text-xs gap-2 flex-grow items-start">
+      <div className="grid grid-cols-[1fr,1fr,1fr] grid-rows-[1fr,1fr,auto] text-xs gap-2 flex-grow items-start">
         <div className="col-start-1 row-start-1 row-span-3 grid grid-rows-subgrid gap-2">
-          <TableComponent data={data?.imageTable2} variant="secondary" />
-          <TableComponent data={data?.imageTable22} variant="secondary" />
-          <TableComponent data={data?.imageTable2} variant="secondary" />
+          {/* <TableComponent data={data?.imageTable2} variant="secondary" /> */}
+          {/* <TableComponent data={data?.imageTable22} variant="secondary" /> */}
+          {/* <TableComponent data={data?.imageTable2} variant="secondary" /> */}
+
+          <GaugeCard
+            height={130}
+            data={[
+              data?.row1_col2_row1 ? data?.row1_col2_row1[0]?.value : 0,
+              data?.row1_col2_row1 ? data?.row1_col2_row1[0]?.limit : 100
+            ]}
+            className=""
+            title={data?.row1_col2_row1[0]?.title}
+            unit={data?.row1_col2_row1[0]?.unit}
+            variant="secondary"
+          />
+          <GaugeCard
+            height={130}
+            data={[
+              data?.row1_col2_row2[0]?.value,
+              data?.row1_col2_row2[0]?.limit
+            ]}
+            className=""
+            title={data?.row1_col2_row2[0]?.title}
+            unit={data?.row1_col2_row2[0]?.unit}
+            variant="secondary"
+          />
+
+          {/* <GaugeCard */}
+          {/*   height={130} */}
+          {/*   data={[60, 100]} */}
+          {/*   className="" */}
+          {/*   title="L.O. PRESSURE" */}
+          {/*   unit={"Kpa"} */}
+          {/*   variant="secondary" */}
+          {/* /> */}
+          {/* <GaugeCard */}
+          {/*   height={130} */}
+          {/*   data={[60, 100]} */}
+          {/*   className="" */}
+          {/*   title="L.O. TEMPERATURE" */}
+          {/*   unit={"°C"} */}
+          {/*   variant="secondary" */}
+          {/* /> */}
+          <TableComponent data={data?.row1_col2_row3} variant="secondary" />
         </div>
 
         <div className="col-start-2 col-end-4 row-start-1 row-end-2 grid grid-cols-subgrid gap-2">
-          <TableComponent data={data?.imageTable2} variant="secondary" />
-          <TableComponent data={data?.imageTable22} variant="secondary" />
+          {/* <TableComponent data={data?.imageTable2} variant="secondary" /> */}
+          {/* <TableComponent data={data?.imageTable22} variant="secondary" /> */}
+          <GaugeCard
+            height={130}
+            data={[
+              data?.row1_col3_row1[0]?.value,
+              data?.row1_col3_row1[0]?.limit
+            ]}
+            className=""
+            title={data?.row1_col3_row1[0]?.title}
+            unit={data?.row1_col3_row1[0]?.unit}
+            variant="secondary"
+          />
+          <GaugeCard
+            height={130}
+            data={[
+              data?.row1_col3_row1[0]?.value,
+              data?.row1_col3_row1[0]?.limit
+            ]}
+            className=""
+            title={data?.row1_col3_row1[0]?.title}
+            unit={data?.row1_col3_row1[0]?.unit}
+            variant="secondary"
+          />
         </div>
 
         <div className="grid col-start-2 row-start-2 col-end-4 row-end-4 w-full h-full place-items-center">
@@ -127,7 +194,17 @@ function ImageComponent({ className, data }) {
             <TableComponent
               data={data?.windTemperature}
               variant="secondary"
-              className="absolute text-xs top-[27%] left-[10%]"
+              className="absolute text-xs top-[27%] left-[15%]"
+            />
+            <TableComponent
+              data={data?.nde_bearing_temp}
+              variant="secondary"
+              className="absolute text-xs top-[70%] left-0"
+            />
+            <TableComponent
+              data={data?.de_bearing_temp}
+              variant="secondary"
+              className="absolute text-xs top-[60%] left-[35%]"
             />
           </div>
         </div>
@@ -176,6 +253,7 @@ function BottomSection({ data }) {
     </div>
   );
 }
+
 GasTempComponent.propTypes = {
   data: PropTypes.array
 };

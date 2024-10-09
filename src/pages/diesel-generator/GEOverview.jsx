@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaCircleDot } from "react-icons/fa6";
 import PropTypes from "prop-types";
+import { twMerge } from "tailwind-merge";
 import { BoxCard } from "@/components/common/BoxCard";
 import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
 import { Switch } from "@/components/ui/switch";
@@ -21,19 +22,44 @@ export function GEOverview() {
   );
 
   return (
-    <div className="ge-overview w-full p-2 gap-2">
-      <GETable title={"NO.1 G/E"} data={RESPONSE_DG_OVERVIEW?.dg1} />
-      <GETable title={"NO.2 G/E"} data={RESPONSE_DG_OVERVIEW?.dg1} />
-      <GETable title={"NO.3 G/E"} data={RESPONSE_DG_OVERVIEW?.dg1} />
-      <GETable title={"NO.4 G/E"} data={RESPONSE_DG_OVERVIEW?.dg1} />
-      <DetailsTable valueData={tableValueData} booleanData={tableBooleanData} />
+    <div className="w-full p-2 gap-2 grid grid-cols-2 grid-rows-4">
+      <DetailsTable
+        valueData={tableValueData}
+        booleanData={tableBooleanData}
+        className="col-start-1 row-start-1 row-end-[-1]"
+      />
+      <GETable
+        title={"NO.1 G/E"}
+        data={RESPONSE_DG_OVERVIEW?.dg1}
+        className="col-start-2"
+      />
+      <GETable
+        title={"NO.2 G/E"}
+        data={RESPONSE_DG_OVERVIEW?.dg1}
+        className="col-start-2 row-start-2"
+      />
+      <GETable
+        title={"NO.3 G/E"}
+        data={RESPONSE_DG_OVERVIEW?.dg1}
+        className="col-start-2 row-start-3"
+      />
+      <GETable
+        title={"NO.4 G/E"}
+        data={RESPONSE_DG_OVERVIEW?.dg1}
+        className="col-start-2 row-start-4"
+      />
     </div>
   );
 }
 
-function GETable({ title, data }) {
+function GETable({ title, data, className }) {
   return (
-    <BoxCard className="p-2 flex flex-col gap-3 text-xs text-primary">
+    <BoxCard
+      className={twMerge(
+        "p-2 flex flex-col gap-3 text-xs text-primary",
+        className
+      )}
+    >
       <div className="grid grid-cols-3 divide-x">
         <div className="flex flex-col gap-2 px-2 pl-0">
           <div className="max-w-max flex items-center gap-2">
@@ -184,9 +210,9 @@ function GETable({ title, data }) {
   );
 }
 
-function DetailsTable({ valueData, booleanData }) {
+function DetailsTable({ valueData, booleanData, className }) {
   return (
-    <BoxCard className="text-xs flex flex-col gap-2 p-0">
+    <BoxCard className={twMerge("text-xs flex flex-col gap-2 p-0", className)}>
       <table className="w-full h-full border-separate border-spacing-y-1 py-2 px-2">
         <thead>
           <tr className="font-medium">

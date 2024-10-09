@@ -195,37 +195,6 @@
   background: hsl(var(--accent));
 }
 
-.ge-overview {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-areas:
-    "table no1"
-    "table no2"
-    "table no3"
-    "table no4";
-}
-
-.ge-overview > div:first-child {
-  grid-area: no1;
-}
-
-.ge-overview > div:nth-child(2) {
-  grid-area: no2;
-}
-
-.ge-overview > div:nth-child(3) {
-  grid-area: no3;
-}
-
-.ge-overview > div:nth-child(4) {
-  grid-area: no4;
-}
-
-.ge-overview > div:nth-child(5) {
-  grid-area: table;
-}
-
 .diesel-generator {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

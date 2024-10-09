@@ -156,8 +156,86 @@ export const RESPONSE_DG_1 = {
     }
   ],
   windTemperature: [
-    { title: "WINDING U TEMP(Stator)", value: 10, unit: "°_", limit: 100 },
-    { title: "WINDING V TEMP(Stator)", value: 10, unit: "°_", limit: 100 },
-    { title: "WINDING W TEMP(Stator)", value: 10, unit: "°_", limit: 100 }
+    { title: "U", value: 10, unit: "°C", limit: 100 },
+    { title: "V", value: 10, unit: "°C", limit: 100 },
+    { title: "W", value: 10, unit: "°C", limit: 100 }
+  ],
+  row1_col2_row3: [
+    {
+      title: "Frequency",
+      value: 10,
+      unit: "__",
+      limit: 100
+    },
+    {
+      title: "Frequency",
+      value: 10,
+      unit: "__",
+      limit: 100
+    },
+    {
+      title: "Frequency",
+      value: 10,
+      unit: "__",
+      limit: 100
+    },
+    {
+      title: "Frequency",
+      value: 10,
+      unit: "__",
+      limit: 100
+    },
+    {
+      title: "L1 Current",
+      value: 10,
+      unit: "__",
+      limit: 9999
+    },
+    { title: "L2 Current", value: 10, unit: "__", limit: 9999 },
+    {
+      title: "L3 Current",
+      value: 10,
+      unit: "__",
+      limit: 100
+    },
+    {
+      title: "L.O. PRESSURE",
+      value: 10,
+      unit: "__",
+      limit: 100
+    }
+  ],
+  row1_col2_row1: [
+    {
+      title: "Right Exhaust Temp.(Before T/c)",
+      value: 10,
+      unit: "°C",
+      limit: 100
+    }
+  ],
+  row1_col2_row2: [
+    { title: "Engine Load Factor", value: 10, unit: "°C", limit: 100 }
+  ],
+  row1_col3_row1: [
+    {
+      title: "Left Exhaust Temp.(Before T/c)",
+      value: 10,
+      unit: "°C",
+      limit: 100
+    }
+  ],
+  row1_col4_row1: [
+    {
+      title: "Right Exhaust Temp.(Before T/c)",
+      value: 10,
+      unit: "°C",
+      limit: 100
+    }
+  ],
+  de_bearing_temp: [
+    { title: "DN Bearing Temp.", value: 10, unit: "°C", limit: 100 }
+  ],
+  nde_bearing_temp: [
+    { title: "NDN Bearing Temp.", value: 10, unit: "°C", limit: 100 }
   ]
 };
