@@ -17,7 +17,8 @@ GaugeCard.propTypes = {
   title: PropTypes.string,
   unit: PropTypes.string,
   variant: PropTypes.string,
-  titleSide: PropTypes.oneOf(["bottom", "top"])
+  titleSide: PropTypes.oneOf(["bottom", "top"]),
+  height: PropTypes.number
 };
 
 export function GaugeCard({
@@ -33,7 +34,9 @@ export function GaugeCard({
     <BoxCard variant={variant} className={twMerge(className)}>
       {title && titleSide === "top" && (
         <CardHeader className="p-2">
-          <CardTitle className="text-center">{title}</CardTitle>
+          <CardTitle className="text-center text-lg uppercase">
+            {title}
+          </CardTitle>
         </CardHeader>
       )}
       <CardContent className="p-2 pt-0">
@@ -43,7 +46,7 @@ export function GaugeCard({
         {title && titleSide === "bottom" && (
           <CardTitle className="text-center">{title}</CardTitle>
         )}
-        <ReadOnlyInput value={`${data[0]} ${unit}`} className="ml-0" />
+        <ReadOnlyInput value={`${data[0]} ${unit}`} className="ml-0 text-lg" />
       </CardFooter>
     </BoxCard>
   );

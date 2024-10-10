@@ -20,15 +20,33 @@ ThrusterCardList.propTypes = {
   ),
   image: PropTypes.string
 };
-export function ThrusterCardList({ title, data, image }) {
+export function ThrusterCardList({ title, data, image, imageAlign = "top" }) {
   return (
     <BoxCard variant="secondary" className="bg-transparent border-none p-0">
-      <CardHeader className="items-center gap-2">
-        {title && <CardTitle className="text-xl">{title}</CardTitle>}
-        <div className="w-[150px]">
-          <img src={image} alt="thruster" />
-        </div>
-      </CardHeader>
+      {imageAlign === "center" && (
+        <CardContent className="space-y-2">
+          {data?.length > 0 &&
+            data?.map((item, index) => (
+              <ThrusterCard
+                key={index}
+                title={item.title ?? ""}
+                data={item.data ?? []}
+                icon={item.title ? <IoSettings /> : ""}
+              />
+            ))}
+        </CardContent>
+      )}
+      {title ||
+        (image && (
+          <CardHeader className="items-center gap-2">
+            {title && <CardTitle className="text-xl">{title}</CardTitle>}
+            {image && (
+              <div className="w-[250px]">
+                <img src={image} alt="thruster" />
+              </div>
+            )}
+          </CardHeader>
+        ))}
       <CardContent className="space-y-2">
         {data?.length > 0 &&
           data?.map((item, index) => (

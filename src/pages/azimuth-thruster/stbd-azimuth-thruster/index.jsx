@@ -11,22 +11,14 @@ function StbdAzhimuthThruster() {
   return (
     <PageWrapper className="grid grid-cols-[1fr_1fr_1fr] gap-2 gap-y-0">
       <Title className="col-span-3 " title="STBD AZIMUTH THRUSTER" />
-      <ThrusterCardList
-        title={"AZIMUTH THRUSTER"}
-        data={RESPONSE_PORT_PROPULSION.col1}
-        image={thrusterImage}
-      />
+      <ThrusterCardList data={RESPONSE_PORT_PROPULSION.col1} />
 
       <ThrusterCardList
-        title={"AZIMUTH THRUSTER"}
         data={RESPONSE_PORT_PROPULSION.col2}
         image={thrusterImage}
+        imageAlign="center"
       />
-      <ThrusterCardList
-        title={"AZIMUTH THRUSTER"}
-        data={RESPONSE_PORT_PROPULSION.col3}
-        image={thrusterImage}
-      />
+      <ThrusterCardList data={RESPONSE_PORT_PROPULSION.col3} />
     </PageWrapper>
   );
 }

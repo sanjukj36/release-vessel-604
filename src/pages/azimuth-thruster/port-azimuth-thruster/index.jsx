@@ -9,26 +9,16 @@ PortAzhimuthThruster.propTypes = {};
 
 function PortAzhimuthThruster() {
   return (
-    <PageWrapper className="flex flex-col">
-      <Title title="PORT AZIMUTH THRUSTER" />
-      <div className="flex-1 grid grid-cols-[1fr_1fr_1fr] gap-2 gap-y-0">
-        <ThrusterCardList
-          title={"AZIMUTH THRUSTER"}
-          data={RESPONSE_PORT_PROPULSION.col1}
-          image={thrusterImage}
-        />
+    <PageWrapper className="grid grid-cols-[1fr_1fr_1fr] gap-2 gap-y-0">
+      <Title className="col-span-3 " title="PORT AZIMUTH THRUSTER" />
+      <ThrusterCardList data={RESPONSE_PORT_PROPULSION.col1} />
 
-        <ThrusterCardList
-          title={"AZIMUTH THRUSTER"}
-          data={RESPONSE_PORT_PROPULSION.col2}
-          image={thrusterImage}
-        />
-        <ThrusterCardList
-          title={"AZIMUTH THRUSTER"}
-          data={RESPONSE_PORT_PROPULSION.col3}
-          image={thrusterImage}
-        />
-      </div>
+      <ThrusterCardList
+        data={RESPONSE_PORT_PROPULSION.col2}
+        image={thrusterImage}
+        imageAlign="center"
+      />
+      <ThrusterCardList data={RESPONSE_PORT_PROPULSION.col3} />
     </PageWrapper>
   );
 }
