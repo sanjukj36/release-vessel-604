@@ -12,52 +12,57 @@ import { RESPONSE_DG_1 } from "@/dummy/responseDg1.js";
 import { RESPONSE_DG_2 } from "@/dummy/responseDg2.js";
 import { RESPONSE_DG_3 } from "@/dummy/responseDg3.js";
 import { RESPONSE_DG_4 } from "@/dummy/responseDg4.js";
-import { DgData, getRow1Col1Data } from "@/infrastructure/dg/api";
+import { DgData } from "@/infrastructure/dg/api";
+import { REFRESH_TIME } from "@/lib/constants";
 
 DieselGenerator.propTypes = {};
 
 export default function DieselGenerator() {
   const { pathname } = useLocation();
-  const [data, setData] = useState({});
-  const [allData, setAllData] = useState({});
   const [mainTableData, setMainTableData] = useState(null);
   const [imageTableData, setImageTableData] = useState(null);
   const [bottomSectionData, setBottomSectionData] = useState(null);
 
   useEffect(() => {
-    const pathnameArray = pathname.split("/").filter(item => item !== "");
-    const [_, dg] = pathnameArray;
+    const fetchData = () => {
+      const pathnameArray = pathname.split("/").filter(item => item !== "");
+      const [_, dg] = pathnameArray;
 
-    switch (dg) {
-      case "dg1":
-        getDGData(RESPONSE_DG_1, "dg_dg1");
-        break;
-      case "dg2":
-        getDGData(RESPONSE_DG_2, "dg_dg2");
-        break;
-      case "dg3":
-        getDGData(RESPONSE_DG_3, "dg_dg3");
-        break;
-      case "dg4":
-        getDGData(RESPONSE_DG_4, "dg_dg4");
-        break;
-      default:
-        getDGData([]);
-        break;
-    }
+      switch (dg) {
+        case "dg1":
+          getDGData("dg_dg1");
+          break;
+        case "dg2":
+          getDGData("dg_dg2");
+          break;
+        case "dg3":
+          getDGData("dg_dg3");
+          break;
+        case "dg4":
+          getDGData("dg_dg4");
+          break;
+        default:
+          getDGData([]);
+          break;
+      }
+    };
+
+    fetchData();
+    const id = setInterval(fetchData, REFRESH_TIME);
+
+    return () => clearInterval(id);
   }, [pathname]);
 
-  const getDGData = async (data2, url) => {
-    setData(data2);
-
+  const getDGData = async url => {
     const dgDataObj = new DgData(url);
     const { error, data } = await dgDataObj.getAllData();
 
     if (error) {
-      setAllData({});
+      setMainTableData(null);
+      setImageTableData(null);
+      setBottomSectionData(null);
       return;
     }
-    setAllData(data);
     setMainTableData(data?.row1_col1);
     const imageTableData = {
       row1_col2_row3: data?.row1_col2_row3,
