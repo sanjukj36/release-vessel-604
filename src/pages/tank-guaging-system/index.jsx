@@ -1,13 +1,9 @@
 import PropTypes from "prop-types";
 import { BoxCard } from "@/components/common/BoxCard";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle
-} from "@/components/ui/card";
-import { Progress, ProgressVertical } from "@/components/ui/progress";
+import { PageWrapper } from "@/components/layout/page-wrapper";
+import { Title } from "@/components/layout/title";
+import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { ProgressVertical } from "@/components/ui/progress";
 import SVGTankGauging from "./tank-gauging-svg";
 
 TankGaugingSystem.propTypes = {};
@@ -43,22 +39,24 @@ const bottomSection = [
 
 export function TankGaugingSystem() {
   return (
-    <div className="w-full h-full p-1 grid bg-radial">
-      <div className="w-full flex flex-col gap-1 relative">
-        <div className="h-full flex-col">
-          <TopComponents data={topSection} />
-        </div>
-        <div className="w-full h-full px-2 flex items-center justify-center">
-          <SVGTankGauging />
-        </div>
-        <div className="h-full flex-col">
-          <TopComponents data={bottomSection} />
-        </div>
-      </div>
-    </div>
+    <PageWrapper className="grid place-items-center">
+      <Title title="TANK GAUGING" />
+      <TopComponents data={topSection} />
+      <SVGTankGauging />
+      <TopComponents data={bottomSection} />
+    </PageWrapper>
   );
 }
 
+TopComponents.propTypes = {
+  data: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      m: PropTypes.number,
+      m3: PropTypes.number
+    })
+  )
+};
 function TopComponents({ data }) {
   return (
     <div className="w-full h-full min-h-8 items-center justify-evenly gap-2 flex flex-wrap">
