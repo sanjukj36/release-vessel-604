@@ -12,12 +12,17 @@ import { RESPONSE_DG_1 } from "@/dummy/responseDg1.js";
 import { RESPONSE_DG_2 } from "@/dummy/responseDg2.js";
 import { RESPONSE_DG_3 } from "@/dummy/responseDg3.js";
 import { RESPONSE_DG_4 } from "@/dummy/responseDg4.js";
+import { DgData, getRow1Col1Data } from "@/infrastructure/dg/api";
 
-No1DieselGenerator.propTypes = {};
+DieselGenerator.propTypes = {};
 
-export function No1DieselGenerator() {
+export default function DieselGenerator() {
   const { pathname } = useLocation();
+  const [data, setData] = useState({});
   const [allData, setAllData] = useState({});
+  const [mainTableData, setMainTableData] = useState(null);
+  const [imageTableData, setImageTableData] = useState(null);
+  const [bottomSectionData, setBottomSectionData] = useState(null);
 
   useEffect(() => {
     const pathnameArray = pathname.split("/").filter(item => item !== "");
@@ -25,16 +30,16 @@ export function No1DieselGenerator() {
 
     switch (dg) {
       case "dg1":
-        getDGData(RESPONSE_DG_1);
+        getDGData(RESPONSE_DG_1, "dg_dg1");
         break;
       case "dg2":
-        getDGData(RESPONSE_DG_2);
+        getDGData(RESPONSE_DG_2, "dg_dg2");
         break;
       case "dg3":
-        getDGData(RESPONSE_DG_3);
+        getDGData(RESPONSE_DG_3, "dg_dg3");
         break;
       case "dg4":
-        getDGData(RESPONSE_DG_4);
+        getDGData(RESPONSE_DG_4, "dg_dg4");
         break;
       default:
         getDGData([]);
@@ -42,8 +47,37 @@ export function No1DieselGenerator() {
     }
   }, [pathname]);
 
-  const getDGData = data => {
+  const getDGData = async (data2, url) => {
+    setData(data2);
+
+    const dgDataObj = new DgData(url);
+    const { error, data } = await dgDataObj.getAllData();
+
+    if (error) {
+      setAllData({});
+      return;
+    }
     setAllData(data);
+    setMainTableData(data?.row1_col1);
+    const imageTableData = {
+      row1_col2_row3: data?.row1_col2_row3,
+      row1_col2_row2: data?.row1_col2_row2,
+      row1_col2_row1: data?.row1_col2_row1,
+      row1_col3_row1: data?.row1_col3_row1,
+      row1_col4_row1: data?.row1_col4_row1,
+      winding: data?.winding,
+      nde_bearing_temp: data?.nde_bearing_temp,
+      de_bearing_temp: data?.de_bearing_temp
+      // pending...
+    };
+    setImageTableData(imageTableData);
+    const bottomSectionData = {
+      row2_col1: data?.row2_col1,
+      row2_col2: data?.row2_col2,
+      row2_col3: data?.row2_col3,
+      row2_col4: data?.row2_col4
+    };
+    setBottomSectionData(bottomSectionData);
   };
 
   return (
@@ -52,17 +86,18 @@ export function No1DieselGenerator() {
         {/* table one section */}
         <TableComponent
           className="diesel-generator_table1 text-xs"
-          data={allData?.tableOneValues}
+          data={mainTableData}
         />
 
         {/* image section */}
-        <ImageComponent className="diesel-generator_picture" data={allData} />
-
-        {/* image section end */}
+        <ImageComponent
+          className="diesel-generator_picture"
+          data={imageTableData}
+        />
       </div>
 
       {/* table two section */}
-      <BottomSection data={allData} />
+      <BottomSection data={bottomSectionData} />
     </div>
   );
 }
@@ -73,6 +108,15 @@ TableComponent.propTypes = {
   variant: PropTypes?.string
 };
 function TableComponent({ className, data, variant }) {
+  if (!data)
+    return (
+      <BoxCard
+        variant={variant}
+        className={classNames("flex justify-center items-center", className)}
+      >
+        No data found.
+      </BoxCard>
+    );
   return (
     <BoxCard variant={variant} className={classNames("", className)}>
       {data?.length > 0 &&
@@ -85,7 +129,7 @@ function TableComponent({ className, data, variant }) {
             <input
               className={`${item.value > item?.limit ? "bg-gradient-to-b from-destructive/70 to-destructive text-destructive-foreground" : "bg-gradient-to-b from-secondary to-input text-input-foreground"} ml-auto max-w-[4em] px-2 focus:outline-none font-semibold rounded-xl text-center`}
               readOnly
-              value={item.value}
+              value={item.value ?? "__"}
               type="text"
             />
             <p className="min-w-[2em] text-end">{item.unit}</p>
@@ -100,9 +144,17 @@ ImageComponent.propTypes = {
   data: PropTypes?.object
 };
 function ImageComponent({ className, data }) {
-  if (Object.entries(data).length === 0) {
+  console.log({ imageData: data });
+  if (!data) {
     return null;
   }
+
+  const { row1_col2_row3, winding, nde_bearing_temp, de_bearing_temp } = data;
+  const [row1_col2_row1] = data?.row1_col2_row1 ?? [null];
+  const [row1_col2_row2] = data?.row1_col2_row2 ?? [null];
+  const [row1_col3_row1] = data?.row1_col3_row1 ?? [null];
+  const [row1_col4_row1] = data?.row1_col4_row1 ?? [null];
+
   return (
     <div
       className={classNames(
@@ -110,37 +162,112 @@ function ImageComponent({ className, data }) {
         className
       )}
     >
-      {/* exh gas temp cyl table*/}
-      {/* <GasTempComponent data={data?.exh_gas_temp_cyl} /> */}
-
       <div className="grid grid-cols-[1fr,1fr,1fr] grid-rows-[1fr,1fr,auto] text-xs gap-2 flex-grow items-start">
         <div className="col-start-1 row-start-1 row-span-3 grid grid-rows-subgrid gap-2">
           {/* <TableComponent data={data?.imageTable2} variant="secondary" /> */}
           {/* <TableComponent data={data?.imageTable22} variant="secondary" /> */}
           {/* <TableComponent data={data?.imageTable2} variant="secondary" /> */}
 
-          <GaugeCard
-            height={130}
-            data={[
-              data?.row1_col2_row1 ? data?.row1_col2_row1[0]?.value : 0,
-              data?.row1_col2_row1 ? data?.row1_col2_row1[0]?.limit : 100
-            ]}
-            className=""
-            title={data?.row1_col2_row1[0]?.title}
-            unit={data?.row1_col2_row1[0]?.unit}
-            variant="secondary"
-          />
-          <GaugeCard
-            height={130}
-            data={[
-              data?.row1_col2_row2[0]?.value,
-              data?.row1_col2_row2[0]?.limit
-            ]}
-            className=""
-            title={data?.row1_col2_row2[0]?.title}
-            unit={data?.row1_col2_row2[0]?.unit}
-            variant="secondary"
-          />
+          {/* <GaugeCard */}
+          {/*   height={130} */}
+          {/*   data={[ */}
+          {/*     data?.row1_col2_row1 ? data?.row1_col2_row1[0]?.value : 0, */}
+          {/*     data?.row1_col2_row1 ? data?.row1_col2_row1[0]?.limit : 100 */}
+          {/*   ]} */}
+          {/*   className="" */}
+          {/*   title={data?.row1_col2_row1[0]?.title} */}
+          {/*   unit={data?.row1_col2_row1[0]?.unit} */}
+          {/*   variant="secondary" */}
+          {/* /> */}
+          {/* <GaugeCard */}
+          {/*   height={130} */}
+          {/*   data={[ */}
+          {/*     data?.row1_col2_row2[0]?.value, */}
+          {/*     data?.row1_col2_row2[0]?.limit */}
+          {/*   ]} */}
+          {/*   className="" */}
+          {/*   title={data?.row1_col2_row2[0]?.title} */}
+          {/*   unit={data?.row1_col2_row2[0]?.unit} */}
+          {/*   variant="secondary" */}
+          {/* /> */}
+          {!!row1_col2_row1 && (
+            <GaugeCard
+              height={130}
+              data={[+row1_col2_row1.value, +row1_col2_row1.max]}
+              className=""
+              title={row1_col2_row1.title}
+              unit={row1_col2_row1.unit}
+              variant="secondary"
+            />
+          )}
+          {!!row1_col2_row2 && (
+            <GaugeCard
+              height={130}
+              data={[+row1_col2_row2.value, +row1_col2_row2.max]}
+              className=""
+              title={row1_col2_row2.title}
+              unit={row1_col2_row2.unit}
+              variant="secondary"
+            />
+          )}
+          {/* <GaugeCard */}
+          {/*   height={130} */}
+          {/*   data={[60, 100]} */}
+          {/*   className="" */}
+          {/*   title="L.O. TEMPERATURE" */}
+          {/*   unit={"°C"} */}
+          {/*   variant="secondary" */}
+          {/* /> */}
+          <TableComponent data={row1_col2_row3} variant="secondary" />
+        </div>
+
+        <div className="col-start-2 col-end-4 row-start-1 row-end-2 grid grid-cols-subgrid gap-2">
+          {/* <TableComponent data={data?.imageTable2} variant="secondary" /> */}
+          {/* <TableComponent data={data?.imageTable22} variant="secondary" /> */}
+          {/* <GaugeCard */}
+          {/*   height={130} */}
+          {/*   data={[ */}
+          {/*     data?.row1_col3_row1[0]?.value, */}
+          {/*     data?.row1_col3_row1[0]?.limit */}
+          {/*   ]} */}
+          {/*   className="" */}
+          {/*   title={data?.row1_col3_row1[0]?.title} */}
+          {/*   unit={data?.row1_col3_row1[0]?.unit} */}
+          {/*   variant="secondary" */}
+          {/* /> */}
+          {/* <GaugeCard */}
+          {/*   height={130} */}
+          {/*   data={[ */}
+          {/*     data?.row1_col3_row1[0]?.value, */}
+          {/*     data?.row1_col3_row1[0]?.limit */}
+          {/*   ]} */}
+          {/*   className="" */}
+          {/*   title={data?.row1_col3_row1[0]?.title} */}
+          {/*   unit={data?.row1_col3_row1[0]?.unit} */}
+          {/*   variant="secondary" */}
+          {/* /> */}
+
+          {!!row1_col3_row1 && (
+            <GaugeCard
+              height={130}
+              data={[+row1_col3_row1.value, +row1_col3_row1.max]}
+              className=""
+              title={row1_col3_row1.title}
+              unit={row1_col3_row1.unit}
+              variant="secondary"
+            />
+          )}
+
+          {!!row1_col4_row1 && (
+            <GaugeCard
+              height={130}
+              data={[+row1_col4_row1.value, +row1_col4_row1.max]}
+              className=""
+              title={row1_col4_row1.title}
+              unit={row1_col4_row1.unit}
+              variant="secondary"
+            />
+          )}
 
           {/* <GaugeCard */}
           {/*   height={130} */}
@@ -158,44 +285,37 @@ function ImageComponent({ className, data }) {
           {/*   unit={"°C"} */}
           {/*   variant="secondary" */}
           {/* /> */}
-          <TableComponent data={data?.row1_col2_row3} variant="secondary" />
-        </div>
-
-        <div className="col-start-2 col-end-4 row-start-1 row-end-2 grid grid-cols-subgrid gap-2">
-          {/* <TableComponent data={data?.imageTable2} variant="secondary" /> */}
-          {/* <TableComponent data={data?.imageTable22} variant="secondary" /> */}
-          <GaugeCard
-            height={130}
-            data={[
-              data?.row1_col3_row1[0]?.value,
-              data?.row1_col3_row1[0]?.limit
-            ]}
-            className=""
-            title={data?.row1_col3_row1[0]?.title}
-            unit={data?.row1_col3_row1[0]?.unit}
-            variant="secondary"
-          />
-          <GaugeCard
-            height={130}
-            data={[
-              data?.row1_col3_row1[0]?.value,
-              data?.row1_col3_row1[0]?.limit
-            ]}
-            className=""
-            title={data?.row1_col3_row1[0]?.title}
-            unit={data?.row1_col3_row1[0]?.unit}
-            variant="secondary"
-          />
         </div>
 
         <div className="grid col-start-2 row-start-2 col-end-4 row-end-4 w-full h-full place-items-center">
           <div className="w-full relative">
             <img className="w-full" src={shipImage} alt="" />
-            <TableComponent
-              data={data?.windTemperature}
-              variant="secondary"
-              className="absolute text-xs top-[27%] left-[15%]"
-            />
+
+            {!!winding && (
+              <TableComponent
+                data={winding}
+                variant="secondary"
+                className="absolute text-xs top-[27%] left-[15%]"
+              />
+            )}
+
+            {!!nde_bearing_temp && (
+              <TableComponent
+                data={nde_bearing_temp}
+                variant="secondary"
+                className="absolute text-xs top-[70%] left-0"
+              />
+            )}
+
+            {!!de_bearing_temp && (
+              <TableComponent
+                data={de_bearing_temp}
+                variant="secondary"
+                className="absolute text-xs top-[60%] left-[35%]"
+              />
+            )}
+
+            {/*
             <TableComponent
               data={data?.nde_bearing_temp}
               variant="secondary"
@@ -206,6 +326,7 @@ function ImageComponent({ className, data }) {
               variant="secondary"
               className="absolute text-xs top-[60%] left-[35%]"
             />
+            */}
           </div>
         </div>
 
@@ -240,16 +361,19 @@ function ImageComponent({ className, data }) {
     </div>
   );
 }
+
 BottomSection.propTypes = {
   data: PropTypes.object
 };
 function BottomSection({ data }) {
+  if (!data) return null;
+  const { row2_col1, row2_col2, row2_col3, row2_col4 } = data;
   return (
     <div className="diesel-generator_table2 grid grid-cols-4 gap-2 text-sm 2xl:text-md">
-      <BooleanTable data={data?.table21Values} />
-      <BooleanTable data={data?.table22Values} />
-      <BooleanTable data={data?.table23Values} />
-      <BooleanTable data={data?.table24Values} />
+      <BooleanTable data={row2_col1} />
+      <BooleanTable data={row2_col2} />
+      <BooleanTable data={row2_col3} />
+      <BooleanTable data={row2_col4} />
     </div>
   );
 }
@@ -283,19 +407,22 @@ BooleanTable.propTypes = {
 };
 function BooleanTable({ data }) {
   return (
-    <BoxCard>
-      {data?.length > 0 &&
+    <BoxCard className="min-h-8">
+      {data?.length > 0 ? (
         data.map((item, key) => (
           <div
             key={key}
             className="flex gap-2 items-center w-full border-b border-b-slate-300 py-1"
           >
             <FaCircleDot
-              className={`${item.status === true ? "text-success" : "text-destructive"}`}
+              className={`${item.value === true ? "text-success" : "text-destructive"}`}
             />
             <p className="">{item.title}</p>
           </div>
-        ))}
+        ))
+      ) : (
+        <p>No Data found.</p>
+      )}
     </BoxCard>
   );
 }

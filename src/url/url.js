@@ -6,8 +6,8 @@ import StbdAzhimuthThruster from "@/pages/azimuth-thruster/stbd-azimuth-thruster
 import { BowThrusterOverview } from "@/pages/bow-thruster";
 import { Colors } from "@/pages/Colors";
 import { DG } from "@/pages/diesel-generator";
+import DieselGenerator from "@/pages/diesel-generator/diesel-generator";
 import { GEOverview } from "@/pages/diesel-generator/GEOverview";
-import { No1DieselGenerator } from "@/pages/diesel-generator/No1DieselGenerator";
 import { Edg } from "@/pages/edg";
 import InfModule from "@/pages/inf-module";
 import DataBase from "@/pages/inf-module/database";
@@ -57,22 +57,22 @@ export const urls = [
         title: "NO1. DG",
         url: "dg1",
         // url: "",
-        element: createElement(No1DieselGenerator)
+        element: createElement(DieselGenerator)
       },
       {
         title: "NO2. DG",
         url: "dg2",
-        element: createElement(No1DieselGenerator)
+        element: createElement(DieselGenerator)
       },
       {
         title: "NO3. DG",
         url: "dg3",
-        element: createElement(No1DieselGenerator)
+        element: createElement(DieselGenerator)
       },
       {
         title: "NO4. DG",
         url: "dg4",
-        element: createElement(No1DieselGenerator)
+        element: createElement(DieselGenerator)
       }
     ]
   },
