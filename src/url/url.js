@@ -22,28 +22,21 @@ import { PowerManagementSystemOverview } from "@/pages/pms";
 import { TankGaugingSystem } from "@/pages/tank-guaging-system";
 
 export const urls = [
-  // {
-  //   title: "Navigation",
-  //   url: "",
-  //   element: createElement(Navigation),
-  //   sub: [{ title: "Sub title", url: "sub-url" }]
-  // },
-  // {
-  //   title: "ME Condition",
-  //   url: "me-condition-overview",
-  //   element: createElement(MEConditionOverview),
-  //   sub: [{ title: "Sub title", url: "sub-url" }],
-  // },
   {
-    title: "Tank Guaging",
-    url: "tank-gauging",
-    element: createElement(TankGaugingSystem),
+    title: "Azhimuth Thruster",
+    url: "azhimuth-thruster",
+    element: createElement(AzimuthThruster),
     sub: [
-      { title: "Drill Water", url: "drill-water" },
-      { title: "Fresh Water", url: "fresh-water" },
-      { title: "Fuel Oil", url: "fuel-oil" },
-      { title: "Mud", url: "mud" },
-      { title: "Cement", url: "cement" }
+      {
+        title: "PORT",
+        url: "",
+        element: createElement(PortAzhimuthThruster)
+      },
+      {
+        title: "STBD",
+        url: "stbd",
+        element: createElement(StbdAzhimuthThruster)
+      }
     ]
   },
   {
@@ -86,49 +79,16 @@ export const urls = [
     element: createElement(PowerManagementSystemOverview),
     sub: [{ title: "Sub title", url: "pm-system-sub-url" }]
   },
-  // {
-  //   title: "Bow Thruster",
-  //   url: "bow-thruster",
-  //   element: createElement(BowThrusterOverview),
-  //   sub: [{ title: "Sub title", url: "bow-thruster-overview" }]
-  // },
   {
-    title: "Azhimuth Thruster",
-    url: "azhimuth-thruster",
-    element: createElement(AzimuthThruster),
+    title: "Tank Guaging",
+    url: "tank-gauging",
+    element: createElement(TankGaugingSystem),
     sub: [
-      {
-        title: "PORT",
-        url: "",
-        element: createElement(PortAzhimuthThruster)
-      },
-      {
-        title: "STBD",
-        url: "stbd",
-        element: createElement(StbdAzhimuthThruster)
-      }
-    ]
-  },
-  // {
-  //   title: "EDG",
-  //   url: "edg",
-  //   element: createElement(Edg)
-  // },
-  {
-    title: "INF Module",
-    url: "inf-module",
-    element: createElement(InfModule),
-    sub: [
-      {
-        title: "Telemetry Equipment Status",
-        url: "",
-        element: createElement(TelemetryEquipmentStatus)
-      },
-      {
-        title: "Database",
-        url: "database",
-        element: createElement(DataBase)
-      }
+      { title: "Drill Water", url: "drill-water" },
+      { title: "Fresh Water", url: "fresh-water" },
+      { title: "Fuel Oil", url: "fuel-oil" },
+      { title: "Mud", url: "mud" },
+      { title: "Cement", url: "cement" }
     ]
   },
   {
@@ -154,7 +114,47 @@ export const urls = [
     url: "jacking-system",
     element: createElement(JackingSystem),
     sub: []
+  },
+  {
+    title: "INF Module",
+    url: "inf-module",
+    element: createElement(InfModule),
+    sub: [
+      {
+        title: "Telemetry Equipment Status",
+        url: "",
+        element: createElement(TelemetryEquipmentStatus)
+      },
+      {
+        title: "Database",
+        url: "database",
+        element: createElement(DataBase)
+      }
+    ]
   }
+  // {
+  //   title: "Navigation",
+  //   url: "",
+  //   element: createElement(Navigation),
+  //   sub: [{ title: "Sub title", url: "sub-url" }]
+  // },
+  // {
+  //   title: "ME Condition",
+  //   url: "me-condition-overview",
+  //   element: createElement(MEConditionOverview),
+  //   sub: [{ title: "Sub title", url: "sub-url" }],
+  // },
+  // {
+  //   title: "Bow Thruster",
+  //   url: "bow-thruster",
+  //   element: createElement(BowThrusterOverview),
+  //   sub: [{ title: "Sub title", url: "bow-thruster-overview" }]
+  // },
+  // {
+  //   title: "EDG",
+  //   url: "edg",
+  //   element: createElement(Edg)
+  // },
   // {
   //   title: "Color",
   //   url: "color",
