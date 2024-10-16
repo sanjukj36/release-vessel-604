@@ -1,4 +1,5 @@
 import { createElement } from "react";
+import AirCompressorSystem from "@/pages/air-compressor";
 import PortPropulsion from "@/pages/azimuth-thruster";
 import AzimuthThruster from "@/pages/azimuth-thruster";
 import PortAzhimuthThruster from "@/pages/azimuth-thruster/port-azimuth-thruster";
@@ -132,6 +133,12 @@ export const urls = [
     title: "Bilge",
     url: "bilge-system",
     element: createElement(BilgeSystem),
+    sub: []
+  },
+  {
+    title: "Air Compressor",
+    url: "air-compressor-system",
+    element: createElement(AirCompressorSystem),
     sub: []
   }
   // {
