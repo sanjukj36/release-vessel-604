@@ -14,7 +14,7 @@ const SVGPmsComponent = props => (
         <stop
           style={{
             stopColor: "#333333",
-            stopOpacity: 0.98431402,
+            stopOpacity: 0.98431402
           }}
           offset={0}
           id="stop128"
@@ -22,7 +22,7 @@ const SVGPmsComponent = props => (
         <stop
           style={{
             stopColor: "#9d9d9d",
-            stopOpacity: 1,
+            stopOpacity: 1
           }}
           offset={1}
           id="stop129"
@@ -32,7 +32,7 @@ const SVGPmsComponent = props => (
         <stop
           style={{
             stopColor: "#464646",
-            stopOpacity: 0.98431402,
+            stopOpacity: 0.98431402
           }}
           offset={0}
           id="stop125"
@@ -40,7 +40,7 @@ const SVGPmsComponent = props => (
         <stop
           style={{
             stopColor: "#c9c9c9",
-            stopOpacity: 0.99607843,
+            stopOpacity: 0.99607843
           }}
           offset={0.84453779}
           id="stop127"
@@ -48,7 +48,7 @@ const SVGPmsComponent = props => (
         <stop
           style={{
             stopColor: "#717171",
-            stopOpacity: 1,
+            stopOpacity: 1
           }}
           offset={1}
           id="stop126"
@@ -58,7 +58,7 @@ const SVGPmsComponent = props => (
         <stop
           style={{
             stopColor: "#696969",
-            stopOpacity: 0.98431402,
+            stopOpacity: 0.98431402
           }}
           offset={0}
           id="stop123"
@@ -66,7 +66,7 @@ const SVGPmsComponent = props => (
         <stop
           style={{
             stopColor: "#b1b1b1",
-            stopOpacity: 1,
+            stopOpacity: 1
           }}
           offset={1}
           id="stop124"
@@ -76,7 +76,7 @@ const SVGPmsComponent = props => (
         <stop
           style={{
             stopColor: "#d4d4d4",
-            stopOpacity: 1,
+            stopOpacity: 1
           }}
           offset={0}
           id="stop120"
@@ -84,7 +84,7 @@ const SVGPmsComponent = props => (
         <stop
           style={{
             stopColor: "#4a4a4a",
-            stopOpacity: 1,
+            stopOpacity: 1
           }}
           offset={1}
           id="stop119"
@@ -94,7 +94,7 @@ const SVGPmsComponent = props => (
         <stop
           style={{
             stopColor: "#404040",
-            stopOpacity: 1,
+            stopOpacity: 1
           }}
           offset={0.11764705}
           id="stop106"
@@ -102,7 +102,7 @@ const SVGPmsComponent = props => (
         <stop
           style={{
             stopColor: "#e3e3e3",
-            stopOpacity: 1,
+            stopOpacity: 1
           }}
           offset={1}
           id="stop107"
@@ -110,7 +110,7 @@ const SVGPmsComponent = props => (
       </linearGradient>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter103"
         x={-0.065011287}
@@ -137,7 +137,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter356"
         x={-0.25458216}
@@ -206,7 +206,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter610"
         x={-0.051235954}
@@ -251,7 +251,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter612"
         x={-0.053613988}
@@ -296,7 +296,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter614"
         x={-0.051235955}
@@ -341,7 +341,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter382-8"
         x={-0.061711135}
@@ -372,7 +372,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter610-8"
         x={-0.051235954}
@@ -417,7 +417,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter612-2"
         x={-0.053613988}
@@ -462,7 +462,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter614-2"
         x={-0.051235955}
@@ -507,7 +507,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter382-8-3"
         x={-0.061711135}
@@ -538,7 +538,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter382-8-2"
         x={-0.061711135}
@@ -569,7 +569,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter382-8-7"
         x={-0.061711135}
@@ -600,7 +600,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter610-8-5"
         x={-0.051235954}
@@ -645,7 +645,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter612-2-6"
         x={-0.053613988}
@@ -690,7 +690,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter614-2-7"
         x={-0.051235955}
@@ -735,7 +735,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter610-8-5-6"
         x={-0.051235954}
@@ -780,7 +780,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter612-2-6-9"
         x={-0.053613988}
@@ -825,7 +825,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter614-2-7-8"
         x={-0.051235955}
@@ -872,7 +872,7 @@ const SVGPmsComponent = props => (
         y={-0.086857178}
         height={1.1737144}
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter130-3"
         x={-0.077707081}
@@ -974,7 +974,7 @@ const SVGPmsComponent = props => (
         y={-0.086857178}
         height={1.1737144}
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter130-3-7"
         x={-0.077707081}
@@ -1079,7 +1079,7 @@ const SVGPmsComponent = props => (
       />
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter610-6"
         x={-0.051235954}
@@ -1124,7 +1124,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter612-3"
         x={-0.053613988}
@@ -1169,7 +1169,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter614-3"
         x={-0.051235955}
@@ -1214,7 +1214,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter610-6-9"
         x={-0.051235954}
@@ -1259,7 +1259,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter612-3-8"
         x={-0.053613988}
@@ -1304,7 +1304,7 @@ const SVGPmsComponent = props => (
       </filter>
       <filter
         style={{
-          colorInterpolationFilters: "sRGB",
+          colorInterpolationFilters: "sRGB"
         }}
         id="filter614-3-5"
         x={-0.051235955}
@@ -1351,7 +1351,7 @@ const SVGPmsComponent = props => (
     <g
       id="layer1"
       style={{
-        display: "inline",
+        display: "inline"
       }}
     >
       <g id="g362" transform="translate(96.166525,4.242641)">
@@ -1364,7 +1364,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 3,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle9"
             cx={423.98032}
@@ -1385,7 +1385,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={405.63263}
             y={-21.011009}
@@ -1405,7 +1405,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 180.00001,241.6777 180,342"
         />
@@ -1417,7 +1417,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle14"
             cx={573.90277}
@@ -1432,7 +1432,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect15"
             width={9.0867147}
@@ -1448,7 +1448,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90274,-119.28348 3e-5,13.18209"
             id="path15"
@@ -1461,7 +1461,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect16"
             width={9.0866575}
@@ -1479,7 +1479,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4.09415,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 179.96687,107.49913 0.0331,103.57404"
         />
@@ -1493,7 +1493,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
-              filter: "url(#filter356)",
+              filter: "url(#filter356)"
             }}
             id="rect357"
             width={104.72061}
@@ -1515,7 +1515,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={627.89093}
             y={-305.53879}
@@ -1528,7 +1528,7 @@ const SVGPmsComponent = props => (
               style={{
                 textAlign: "center",
                 textAnchor: "middle",
-                fill: "#ffffff",
+                fill: "#ffffff"
               }}
             >
               {"0.00"}
@@ -1541,7 +1541,7 @@ const SVGPmsComponent = props => (
               id="g10-9"
               transform="translate(1135.5429,-196.44163)"
               style={{
-                display: "inline",
+                display: "inline"
               }}
             >
               <circle
@@ -1552,7 +1552,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 3,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle9-2"
                 cx={423.98032}
@@ -1573,7 +1573,7 @@ const SVGPmsComponent = props => (
                   fillOpacity: 1,
                   stroke: "none",
                   strokeWidth: 2,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 x={405.63263}
                 y={-21.011009}
@@ -1599,7 +1599,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 3,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle22"
                 cx={423.98032}
@@ -1620,7 +1620,7 @@ const SVGPmsComponent = props => (
                   fillOpacity: 1,
                   stroke: "none",
                   strokeWidth: 2,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 x={405.63263}
                 y={-21.011009}
@@ -1640,7 +1640,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="M 640.00001,241.6777 640,342"
             />
@@ -1652,7 +1652,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle23"
                 cx={573.90277}
@@ -1667,7 +1667,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect23"
                 width={9.0867147}
@@ -1683,7 +1683,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 573.90274,-119.28348 3e-5,13.18209"
                 id="path24"
@@ -1696,7 +1696,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect24"
                 width={9.0866575}
@@ -1714,7 +1714,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4.08925,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 639.96687,107.49918 0.0331,103.32394"
             />
@@ -1728,7 +1728,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  filter: "url(#filter356)",
+                  filter: "url(#filter356)"
                 }}
                 id="rect358"
                 width={104.72061}
@@ -1750,7 +1750,7 @@ const SVGPmsComponent = props => (
                   fillOpacity: 1,
                   stroke: "none",
                   strokeWidth: 2,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 x={627.89093}
                 y={-305.53879}
@@ -1763,7 +1763,7 @@ const SVGPmsComponent = props => (
                   style={{
                     textAlign: "center",
                     textAnchor: "middle",
-                    fill: "#ffffff",
+                    fill: "#ffffff"
                   }}
                 >
                   {"0.00"}
@@ -1783,7 +1783,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 3,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle25"
             cx={423.98032}
@@ -1804,7 +1804,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={405.63263}
             y={-21.011009}
@@ -1824,7 +1824,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 1120,241.6777 V 342"
         />
@@ -1836,7 +1836,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle26"
             cx={573.90277}
@@ -1851,7 +1851,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect26"
             width={9.0867147}
@@ -1867,7 +1867,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90274,-119.28348 3e-5,13.18209"
             id="path27"
@@ -1880,7 +1880,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect27"
             width={9.0866575}
@@ -1898,7 +1898,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4.12563,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 1119.9669,107.49883 1120,212.68743"
         />
@@ -1912,7 +1912,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
-              filter: "url(#filter356)",
+              filter: "url(#filter356)"
             }}
             id="rect359"
             width={104.72061}
@@ -1934,7 +1934,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={627.89093}
             y={-305.53879}
@@ -1947,7 +1947,7 @@ const SVGPmsComponent = props => (
               style={{
                 textAlign: "center",
                 textAnchor: "middle",
-                fill: "#ffffff",
+                fill: "#ffffff"
               }}
             >
               {"0.00"}
@@ -1966,7 +1966,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
-              filter: "url(#filter356)",
+              filter: "url(#filter356)"
             }}
             id="rect360"
             width={104.72061}
@@ -1988,7 +1988,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={627.89093}
             y={-305.53879}
@@ -2001,7 +2001,7 @@ const SVGPmsComponent = props => (
               style={{
                 textAlign: "center",
                 textAnchor: "middle",
-                fill: "#ffffff",
+                fill: "#ffffff"
               }}
             >
               {"0.00"}
@@ -2027,7 +2027,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610)",
+                        filter: "url(#filter610)"
                       }}
                       id="rect758"
                       width={89}
@@ -2044,7 +2044,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612)",
+                        filter: "url(#filter612)"
                       }}
                       id="rect759"
                       width={85.052429}
@@ -2060,7 +2060,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614)",
+                        filter: "url(#filter614)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path759"
@@ -2080,7 +2080,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -2105,7 +2105,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -2130,7 +2130,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610)",
+                        filter: "url(#filter610)"
                       }}
                       id="rect761"
                       width={89}
@@ -2147,7 +2147,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612)",
+                        filter: "url(#filter612)"
                       }}
                       id="rect762"
                       width={85.052429}
@@ -2163,7 +2163,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614)",
+                        filter: "url(#filter614)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path762"
@@ -2183,7 +2183,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -2208,7 +2208,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -2233,7 +2233,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610)",
+                        filter: "url(#filter610)"
                       }}
                       id="rect764"
                       width={89}
@@ -2250,7 +2250,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612)",
+                        filter: "url(#filter612)"
                       }}
                       id="rect765"
                       width={85.052429}
@@ -2266,7 +2266,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614)",
+                        filter: "url(#filter614)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path765"
@@ -2286,7 +2286,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -2311,7 +2311,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -2336,7 +2336,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610)",
+                        filter: "url(#filter610)"
                       }}
                       id="rect767"
                       width={89}
@@ -2353,7 +2353,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612)",
+                        filter: "url(#filter612)"
                       }}
                       id="rect768"
                       width={85.052429}
@@ -2369,7 +2369,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614)",
+                        filter: "url(#filter614)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path768"
@@ -2389,7 +2389,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -2414,7 +2414,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -2439,7 +2439,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610)",
+                        filter: "url(#filter610)"
                       }}
                       id="rect770"
                       width={89}
@@ -2456,7 +2456,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612)",
+                        filter: "url(#filter612)"
                       }}
                       id="rect771"
                       width={85.052429}
@@ -2472,7 +2472,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614)",
+                        filter: "url(#filter614)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path771"
@@ -2492,7 +2492,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -2517,7 +2517,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -2542,7 +2542,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610)",
+                        filter: "url(#filter610)"
                       }}
                       id="rect773"
                       width={89}
@@ -2559,7 +2559,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612)",
+                        filter: "url(#filter612)"
                       }}
                       id="rect774"
                       width={85.052429}
@@ -2575,7 +2575,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614)",
+                        filter: "url(#filter614)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path774"
@@ -2595,7 +2595,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -2620,7 +2620,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -2645,7 +2645,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610)",
+                        filter: "url(#filter610)"
                       }}
                       id="rect776"
                       width={89}
@@ -2662,7 +2662,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612)",
+                        filter: "url(#filter612)"
                       }}
                       id="rect777"
                       width={85.052429}
@@ -2678,7 +2678,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614)",
+                        filter: "url(#filter614)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path777"
@@ -2698,7 +2698,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -2723,7 +2723,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -2738,7 +2738,7 @@ const SVGPmsComponent = props => (
             <g
               id="g7-1"
               style={{
-                display: "inline",
+                display: "inline"
               }}
               transform="translate(582.04867,-244.55154)"
             >
@@ -2756,7 +2756,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610-8)",
+                        filter: "url(#filter610-8)"
                       }}
                       id="rect758-7"
                       width={89}
@@ -2773,7 +2773,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612-2)",
+                        filter: "url(#filter612-2)"
                       }}
                       id="rect759-9"
                       width={85.052429}
@@ -2789,7 +2789,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614-2)",
+                        filter: "url(#filter614-2)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path759-5"
@@ -2809,7 +2809,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -2834,7 +2834,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -2859,7 +2859,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610-8)",
+                        filter: "url(#filter610-8)"
                       }}
                       id="rect761-5"
                       width={89}
@@ -2876,7 +2876,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612-2)",
+                        filter: "url(#filter612-2)"
                       }}
                       id="rect762-1"
                       width={85.052429}
@@ -2892,7 +2892,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614-2)",
+                        filter: "url(#filter614-2)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path762-5"
@@ -2912,7 +2912,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -2937,7 +2937,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -2962,7 +2962,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610-8)",
+                        filter: "url(#filter610-8)"
                       }}
                       id="rect764-1"
                       width={89}
@@ -2979,7 +2979,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612-2)",
+                        filter: "url(#filter612-2)"
                       }}
                       id="rect765-9"
                       width={85.052429}
@@ -2995,7 +2995,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614-2)",
+                        filter: "url(#filter614-2)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path765-9"
@@ -3015,7 +3015,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -3040,7 +3040,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -3065,7 +3065,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610-8)",
+                        filter: "url(#filter610-8)"
                       }}
                       id="rect767-2"
                       width={89}
@@ -3082,7 +3082,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612-2)",
+                        filter: "url(#filter612-2)"
                       }}
                       id="rect768-6"
                       width={85.052429}
@@ -3098,7 +3098,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614-2)",
+                        filter: "url(#filter614-2)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path768-2"
@@ -3118,7 +3118,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -3143,7 +3143,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -3168,7 +3168,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610-8)",
+                        filter: "url(#filter610-8)"
                       }}
                       id="rect770-3"
                       width={89}
@@ -3185,7 +3185,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612-2)",
+                        filter: "url(#filter612-2)"
                       }}
                       id="rect771-4"
                       width={85.052429}
@@ -3201,7 +3201,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614-2)",
+                        filter: "url(#filter614-2)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path771-5"
@@ -3221,7 +3221,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -3246,7 +3246,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -3271,7 +3271,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610-8)",
+                        filter: "url(#filter610-8)"
                       }}
                       id="rect773-6"
                       width={89}
@@ -3288,7 +3288,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612-2)",
+                        filter: "url(#filter612-2)"
                       }}
                       id="rect774-0"
                       width={85.052429}
@@ -3304,7 +3304,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614-2)",
+                        filter: "url(#filter614-2)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path774-6"
@@ -3324,7 +3324,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -3349,7 +3349,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -3374,7 +3374,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610-8)",
+                        filter: "url(#filter610-8)"
                       }}
                       id="rect776-0"
                       width={89}
@@ -3391,7 +3391,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612-2)",
+                        filter: "url(#filter612-2)"
                       }}
                       id="rect777-6"
                       width={85.052429}
@@ -3407,7 +3407,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614-2)",
+                        filter: "url(#filter614-2)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path777-1"
@@ -3427,7 +3427,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -3452,7 +3452,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -3467,7 +3467,7 @@ const SVGPmsComponent = props => (
             <g
               id="g7-1-7"
               style={{
-                display: "inline",
+                display: "inline"
               }}
               transform="translate(1106.6689,-244.37997)"
             >
@@ -3487,7 +3487,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter610-8-5)",
+                          filter: "url(#filter610-8-5)"
                         }}
                         id="rect758-7-1"
                         width={89}
@@ -3504,7 +3504,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter612-2-6)",
+                          filter: "url(#filter612-2-6)"
                         }}
                         id="rect759-9-4"
                         width={85.052429}
@@ -3520,7 +3520,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter614-2-7)",
+                          filter: "url(#filter614-2-7)"
                         }}
                         d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                         id="path759-5-9"
@@ -3540,7 +3540,7 @@ const SVGPmsComponent = props => (
                         fillOpacity: 1,
                         stroke: "none",
                         strokeWidth: 2,
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       x={35.851833}
                       y={-89.46019}
@@ -3565,7 +3565,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={323.33392}
                     y={34.43737}
@@ -3580,7 +3580,7 @@ const SVGPmsComponent = props => (
                   id="g763-4-7"
                   transform="translate(210.03618,145.3634)"
                   style={{
-                    display: "inline",
+                    display: "inline"
                   }}
                 >
                   <g
@@ -3595,7 +3595,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter610-8-5)",
+                        filter: "url(#filter610-8-5)"
                       }}
                       id="rect761-5-4"
                       width={89}
@@ -3612,7 +3612,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter612-2-6)",
+                        filter: "url(#filter612-2-6)"
                       }}
                       id="rect762-1-9"
                       width={85.052429}
@@ -3628,7 +3628,7 @@ const SVGPmsComponent = props => (
                         strokeWidth: 0,
                         strokeDasharray: "none",
                         strokeOpacity: 0.984314,
-                        filter: "url(#filter614-2-7)",
+                        filter: "url(#filter614-2-7)"
                       }}
                       d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                       id="path762-5-4"
@@ -3648,7 +3648,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={35.851833}
                     y={-89.46019}
@@ -3674,7 +3674,7 @@ const SVGPmsComponent = props => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={323.33392}
                   y={34.43737}
@@ -3699,7 +3699,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter610-8-5)",
+                          filter: "url(#filter610-8-5)"
                         }}
                         id="rect764-1-5"
                         width={89}
@@ -3716,7 +3716,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter612-2-6)",
+                          filter: "url(#filter612-2-6)"
                         }}
                         id="rect765-9-7"
                         width={85.052429}
@@ -3732,7 +3732,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter614-2-7)",
+                          filter: "url(#filter614-2-7)"
                         }}
                         d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                         id="path765-9-9"
@@ -3752,7 +3752,7 @@ const SVGPmsComponent = props => (
                         fillOpacity: 1,
                         stroke: "none",
                         strokeWidth: 2,
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       x={35.851833}
                       y={-89.46019}
@@ -3777,7 +3777,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={323.33392}
                     y={34.43737}
@@ -3802,7 +3802,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter610-8-5)",
+                          filter: "url(#filter610-8-5)"
                         }}
                         id="rect767-2-6"
                         width={89}
@@ -3819,7 +3819,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter612-2-6)",
+                          filter: "url(#filter612-2-6)"
                         }}
                         id="rect768-6-3"
                         width={85.052429}
@@ -3835,7 +3835,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter614-2-7)",
+                          filter: "url(#filter614-2-7)"
                         }}
                         d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                         id="path768-2-7"
@@ -3855,7 +3855,7 @@ const SVGPmsComponent = props => (
                         fillOpacity: 1,
                         stroke: "none",
                         strokeWidth: 2,
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       x={35.851833}
                       y={-89.46019}
@@ -3880,7 +3880,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={323.33392}
                     y={34.43737}
@@ -3905,7 +3905,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter610-8-5)",
+                          filter: "url(#filter610-8-5)"
                         }}
                         id="rect770-3-4"
                         width={89}
@@ -3922,7 +3922,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter612-2-6)",
+                          filter: "url(#filter612-2-6)"
                         }}
                         id="rect771-4-0"
                         width={85.052429}
@@ -3938,7 +3938,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter614-2-7)",
+                          filter: "url(#filter614-2-7)"
                         }}
                         d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                         id="path771-5-4"
@@ -3958,7 +3958,7 @@ const SVGPmsComponent = props => (
                         fillOpacity: 1,
                         stroke: "none",
                         strokeWidth: 2,
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       x={35.851833}
                       y={-89.46019}
@@ -3983,7 +3983,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={323.33392}
                     y={34.43737}
@@ -4008,7 +4008,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter610-8-5)",
+                          filter: "url(#filter610-8-5)"
                         }}
                         id="rect773-6-6"
                         width={89}
@@ -4025,7 +4025,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter612-2-6)",
+                          filter: "url(#filter612-2-6)"
                         }}
                         id="rect774-0-0"
                         width={85.052429}
@@ -4041,7 +4041,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter614-2-7)",
+                          filter: "url(#filter614-2-7)"
                         }}
                         d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                         id="path774-6-7"
@@ -4061,7 +4061,7 @@ const SVGPmsComponent = props => (
                         fillOpacity: 1,
                         stroke: "none",
                         strokeWidth: 2,
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       x={35.851833}
                       y={-89.46019}
@@ -4086,7 +4086,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={323.33392}
                     y={34.43737}
@@ -4111,7 +4111,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter610-8-5)",
+                          filter: "url(#filter610-8-5)"
                         }}
                         id="rect776-0-9"
                         width={89}
@@ -4128,7 +4128,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter612-2-6)",
+                          filter: "url(#filter612-2-6)"
                         }}
                         id="rect777-6-1"
                         width={85.052429}
@@ -4144,7 +4144,7 @@ const SVGPmsComponent = props => (
                           strokeWidth: 0,
                           strokeDasharray: "none",
                           strokeOpacity: 0.984314,
-                          filter: "url(#filter614-2-7)",
+                          filter: "url(#filter614-2-7)"
                         }}
                         d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                         id="path777-1-0"
@@ -4164,7 +4164,7 @@ const SVGPmsComponent = props => (
                         fillOpacity: 1,
                         stroke: "none",
                         strokeWidth: 2,
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       x={35.851833}
                       y={-89.46019}
@@ -4189,7 +4189,7 @@ const SVGPmsComponent = props => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={323.33392}
                     y={34.43737}
@@ -4208,7 +4208,7 @@ const SVGPmsComponent = props => (
           id="g11-4"
           transform="translate(1053.8565,104.03898)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <g id="g761-8-8-9" transform="translate(-0.16304576,-0.11402058)">
@@ -4225,7 +4225,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter610-8-5-6)",
+                    filter: "url(#filter610-8-5-6)"
                   }}
                   id="rect758-7-1-3"
                   width={89}
@@ -4242,7 +4242,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter612-2-6-9)",
+                    filter: "url(#filter612-2-6-9)"
                   }}
                   id="rect759-9-4-4"
                   width={85.052429}
@@ -4258,7 +4258,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter614-2-7-8)",
+                    filter: "url(#filter614-2-7-8)"
                   }}
                   d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                   id="path759-5-9-1"
@@ -4278,7 +4278,7 @@ const SVGPmsComponent = props => (
                   fillOpacity: 1,
                   stroke: "none",
                   strokeWidth: 2,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 x={35.851833}
                 y={-89.46019}
@@ -4303,7 +4303,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={323.33392}
               y={34.43737}
@@ -4318,7 +4318,7 @@ const SVGPmsComponent = props => (
             id="g763-4-7-5"
             transform="translate(210.03618,145.3634)"
             style={{
-              display: "inline",
+              display: "inline"
             }}
           >
             <g
@@ -4333,7 +4333,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 0,
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  filter: "url(#filter610-8-5-6)",
+                  filter: "url(#filter610-8-5-6)"
                 }}
                 id="rect761-5-4-1"
                 width={89}
@@ -4350,7 +4350,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 0,
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  filter: "url(#filter612-2-6-9)",
+                  filter: "url(#filter612-2-6-9)"
                 }}
                 id="rect762-1-9-2"
                 width={85.052429}
@@ -4366,7 +4366,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 0,
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  filter: "url(#filter614-2-7-8)",
+                  filter: "url(#filter614-2-7-8)"
                 }}
                 d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                 id="path762-5-4-7"
@@ -4386,7 +4386,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={35.851833}
               y={-89.46019}
@@ -4412,7 +4412,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={323.33392}
             y={34.43737}
@@ -4437,7 +4437,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter610-8-5-6)",
+                    filter: "url(#filter610-8-5-6)"
                   }}
                   id="rect764-1-5-3"
                   width={89}
@@ -4454,7 +4454,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter612-2-6-9)",
+                    filter: "url(#filter612-2-6-9)"
                   }}
                   id="rect765-9-7-8"
                   width={85.052429}
@@ -4470,7 +4470,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter614-2-7-8)",
+                    filter: "url(#filter614-2-7-8)"
                   }}
                   d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                   id="path765-9-9-2"
@@ -4490,7 +4490,7 @@ const SVGPmsComponent = props => (
                   fillOpacity: 1,
                   stroke: "none",
                   strokeWidth: 2,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 x={35.851833}
                 y={-89.46019}
@@ -4515,7 +4515,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={323.33392}
               y={34.43737}
@@ -4540,7 +4540,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter610-8-5-6)",
+                    filter: "url(#filter610-8-5-6)"
                   }}
                   id="rect767-2-6-5"
                   width={89}
@@ -4557,7 +4557,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter612-2-6-9)",
+                    filter: "url(#filter612-2-6-9)"
                   }}
                   id="rect768-6-3-8"
                   width={85.052429}
@@ -4573,7 +4573,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter614-2-7-8)",
+                    filter: "url(#filter614-2-7-8)"
                   }}
                   d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                   id="path768-2-7-1"
@@ -4593,7 +4593,7 @@ const SVGPmsComponent = props => (
                   fillOpacity: 1,
                   stroke: "none",
                   strokeWidth: 2,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 x={35.851833}
                 y={-89.46019}
@@ -4618,7 +4618,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={323.33392}
               y={34.43737}
@@ -4643,7 +4643,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter610-8-5-6)",
+                    filter: "url(#filter610-8-5-6)"
                   }}
                   id="rect770-3-4-0"
                   width={89}
@@ -4660,7 +4660,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter612-2-6-9)",
+                    filter: "url(#filter612-2-6-9)"
                   }}
                   id="rect771-4-0-5"
                   width={85.052429}
@@ -4676,7 +4676,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter614-2-7-8)",
+                    filter: "url(#filter614-2-7-8)"
                   }}
                   d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                   id="path771-5-4-9"
@@ -4696,7 +4696,7 @@ const SVGPmsComponent = props => (
                   fillOpacity: 1,
                   stroke: "none",
                   strokeWidth: 2,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 x={35.851833}
                 y={-89.46019}
@@ -4721,7 +4721,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={323.33392}
               y={34.43737}
@@ -4746,7 +4746,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter610-8-5-6)",
+                    filter: "url(#filter610-8-5-6)"
                   }}
                   id="rect773-6-6-8"
                   width={89}
@@ -4763,7 +4763,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter612-2-6-9)",
+                    filter: "url(#filter612-2-6-9)"
                   }}
                   id="rect774-0-0-3"
                   width={85.052429}
@@ -4779,7 +4779,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter614-2-7-8)",
+                    filter: "url(#filter614-2-7-8)"
                   }}
                   d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                   id="path774-6-7-4"
@@ -4799,7 +4799,7 @@ const SVGPmsComponent = props => (
                   fillOpacity: 1,
                   stroke: "none",
                   strokeWidth: 2,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 x={35.851833}
                 y={-89.46019}
@@ -4824,7 +4824,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={323.33392}
               y={34.43737}
@@ -4849,7 +4849,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter610-8-5-6)",
+                    filter: "url(#filter610-8-5-6)"
                   }}
                   id="rect776-0-9-4"
                   width={89}
@@ -4866,7 +4866,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter612-2-6-9)",
+                    filter: "url(#filter612-2-6-9)"
                   }}
                   id="rect777-6-1-1"
                   width={85.052429}
@@ -4882,7 +4882,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 0,
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
-                    filter: "url(#filter614-2-7-8)",
+                    filter: "url(#filter614-2-7-8)"
                   }}
                   d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
                   id="path777-1-0-5"
@@ -4902,7 +4902,7 @@ const SVGPmsComponent = props => (
                   fillOpacity: 1,
                   stroke: "none",
                   strokeWidth: 2,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 x={35.851833}
                 y={-89.46019}
@@ -4927,7 +4927,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={323.33392}
               y={34.43737}
@@ -4950,7 +4950,7 @@ const SVGPmsComponent = props => (
           strokeWidth: 4.61986,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 359,654.375 v 83.88479"
       />
@@ -4963,7 +4963,7 @@ const SVGPmsComponent = props => (
           strokeWidth: 4.74176,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="M 889.37094,344 1837.71,343.9893"
       />
@@ -4976,7 +4976,7 @@ const SVGPmsComponent = props => (
           strokeWidth: 3.12371,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 484,344.01562 380.90614,10e-6"
       />
@@ -4988,7 +4988,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle36"
           cx={573.90277}
@@ -5004,7 +5004,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect36"
           width={9.0867147}
@@ -5021,7 +5021,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 573.90276,-105.85057 3e-5,-14.05709"
           id="path36"
@@ -5034,7 +5034,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect37"
           width={9.0866575}
@@ -5060,7 +5060,7 @@ const SVGPmsComponent = props => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={878.38281}
         y={316.20953}
@@ -5079,7 +5079,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle142"
             cx={573.90277}
@@ -5095,7 +5095,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect142"
             width={9.0867147}
@@ -5112,7 +5112,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90276,-105.85057 3e-5,-14.05709"
             id="path142"
@@ -5125,7 +5125,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect143"
             width={9.0866575}
@@ -5144,7 +5144,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 339.43468,376.11614 -0.0234,112.09861"
         />
@@ -5157,14 +5157,14 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 339.41125,300.00001 V 343.8848"
         />
         <g
           id="g157"
           style={{
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           transform="matrix(0.55300681,0,0,0.55300681,122.52928,708.43886)"
         >
@@ -5172,14 +5172,14 @@ const SVGPmsComponent = props => (
             id="g156"
             transform="matrix(0.45364522,0,0,0.45364522,212.77148,-246.17232)"
             style={{
-              strokeWidth: 2.20438,
+              strokeWidth: 2.20438
             }}
           >
             <g
               id="g155"
               transform="matrix(3.7795276,0,0,3.7795276,90.86101,-562.17528)"
               style={{
-                strokeWidth: 2.20438,
+                strokeWidth: 2.20438
               }}
             >
               <circle
@@ -5192,7 +5192,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle152"
                 cx={79.739304}
@@ -5209,7 +5209,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 95.873694,102.27035 -12.859592,5.32861 12.861038,5.32523 a 13.919714,13.919714 0 0 0 -0.0014,-10.65384 z"
                 id="path152"
@@ -5224,7 +5224,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 85.066224,123.73166 -5.328615,-12.85959 -5.325225,12.86103 a 13.919714,13.919714 0 0 0 10.65384,-10e-4 z"
                 id="path153"
@@ -5239,7 +5239,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 63.604914,112.92419 12.859592,-5.32861 -12.861038,-5.32523 a 13.919714,13.919714 0 0 0 0.0014,10.65384 z"
                 id="path154"
@@ -5254,7 +5254,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle154"
                 cx={79.739304}
@@ -5271,7 +5271,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 74.412384,91.462878 5.328615,12.859592 5.325225,-12.861038 a 13.919714,13.919714 0 0 0 -10.65384,0.0014 z"
                 id="path155"
@@ -5286,7 +5286,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle155"
                 cx={79.739304}
@@ -5304,7 +5304,7 @@ const SVGPmsComponent = props => (
               stroke: "#000000",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             d="m 357.26595,-372.86523 v 24.9707 a 45.809418,45.809418 0 0 1 33.44336,-14.63281 45.809418,45.809418 0 0 1 33.44141,14.51953 v -24.85742 z"
           />
@@ -5318,7 +5318,7 @@ const SVGPmsComponent = props => (
               stroke: "#000000",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
           />
         </g>
@@ -5332,7 +5332,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle191"
             cx={573.90277}
@@ -5348,7 +5348,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect191"
             width={9.0867147}
@@ -5365,7 +5365,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90276,-105.85057 3e-5,-14.05709"
             id="path191"
@@ -5378,7 +5378,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect192"
             width={9.0866575}
@@ -5397,7 +5397,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 339.43468,376.12961 -0.0234,59.07167"
         />
@@ -5410,14 +5410,14 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 339.41125,300.00001 V 343.8848"
         />
         <g
           id="g199"
           style={{
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           transform="matrix(0.55300681,0,0,0.55300681,120.52928,655.43886)"
         >
@@ -5425,14 +5425,14 @@ const SVGPmsComponent = props => (
             id="g198"
             transform="matrix(0.45364522,0,0,0.45364522,212.77148,-246.17232)"
             style={{
-              strokeWidth: 2.20438,
+              strokeWidth: 2.20438
             }}
           >
             <g
               id="g197"
               transform="matrix(3.7795276,0,0,3.7795276,90.86101,-562.17528)"
               style={{
-                strokeWidth: 2.20438,
+                strokeWidth: 2.20438
               }}
             >
               <circle
@@ -5445,7 +5445,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle193"
                 cx={79.739304}
@@ -5462,7 +5462,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 95.873694,102.27035 -12.859592,5.32861 12.861038,5.32523 a 13.919714,13.919714 0 0 0 -0.0014,-10.65384 z"
                 id="path194"
@@ -5477,7 +5477,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 85.066224,123.73166 -5.328615,-12.85959 -5.325225,12.86103 a 13.919714,13.919714 0 0 0 10.65384,-10e-4 z"
                 id="path195"
@@ -5492,7 +5492,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 63.604914,112.92419 12.859592,-5.32861 -12.861038,-5.32523 a 13.919714,13.919714 0 0 0 0.0014,10.65384 z"
                 id="path196"
@@ -5507,7 +5507,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle196"
                 cx={79.739304}
@@ -5524,7 +5524,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 74.412384,91.462878 5.328615,12.859592 5.325225,-12.861038 a 13.919714,13.919714 0 0 0 -10.65384,0.0014 z"
                 id="path197"
@@ -5539,7 +5539,7 @@ const SVGPmsComponent = props => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle197"
                 cx={79.739304}
@@ -5557,7 +5557,7 @@ const SVGPmsComponent = props => (
               stroke: "#000000",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             d="m 357.26595,-372.86523 v 24.9707 a 45.809418,45.809418 0 0 1 33.44336,-14.63281 45.809418,45.809418 0 0 1 33.44141,14.51953 v -24.85742 z"
           />
@@ -5571,7 +5571,7 @@ const SVGPmsComponent = props => (
               stroke: "#000000",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
           />
         </g>
@@ -5580,7 +5580,7 @@ const SVGPmsComponent = props => (
         id="g37-1"
         transform="rotate(-90,1262.8693,-344.95262)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <circle
@@ -5590,7 +5590,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle36-4"
           cx={573.90277}
@@ -5606,7 +5606,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect36-8"
           width={9.0867147}
@@ -5623,7 +5623,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 573.90276,-105.85057 3e-5,-14.05709"
           id="path36-5"
@@ -5636,7 +5636,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect37-1"
           width={9.0866575}
@@ -5650,7 +5650,7 @@ const SVGPmsComponent = props => (
         id="g30"
         transform="translate(1324.3111,106.49722)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <circle
@@ -5661,7 +5661,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 3,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle29"
           cx={423.98032}
@@ -5682,7 +5682,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={405.63263}
           y={-21.011009}
@@ -5703,7 +5703,7 @@ const SVGPmsComponent = props => (
           strokeWidth: 4,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 1748.2914,243.09191 v 100.3223"
       />
@@ -5711,7 +5711,7 @@ const SVGPmsComponent = props => (
         id="g31"
         transform="translate(1174.3886,340.10664)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <circle
@@ -5721,7 +5721,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle30"
           cx={573.90277}
@@ -5736,7 +5736,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect30"
           width={9.0867147}
@@ -5752,7 +5752,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 573.90274,-119.28348 3e-5,13.18209"
           id="path31"
@@ -5765,7 +5765,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect31"
           width={9.0866575}
@@ -5784,7 +5784,7 @@ const SVGPmsComponent = props => (
           strokeWidth: 4.11876,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 1748.2583,108.91311 0.033,104.83491"
       />
@@ -5792,7 +5792,7 @@ const SVGPmsComponent = props => (
         id="g37-5"
         transform="rotate(-90,750.35926,168.15201)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <circle
@@ -5802,7 +5802,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle36-3"
           cx={573.90277}
@@ -5818,7 +5818,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect36-7"
           width={9.0867147}
@@ -5835,7 +5835,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 573.90276,-105.85057 3e-5,-14.05709"
           id="path36-8"
@@ -5848,7 +5848,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect37-9"
           width={9.0866575}
@@ -5868,7 +5868,7 @@ const SVGPmsComponent = props => (
           strokeWidth: 3.00784,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 60.734017,345.06185 401.172083,2e-5"
       />
@@ -5889,7 +5889,7 @@ const SVGPmsComponent = props => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={468.62131}
         y={315.93503}
@@ -5903,14 +5903,14 @@ const SVGPmsComponent = props => (
         id="g19"
         transform="matrix(1,0,0,0.9849583,-12.603553,-28.904848)"
         style={{
-          strokeWidth: 1.00761,
+          strokeWidth: 1.00761
         }}
       >
         <g
           id="g18"
           transform="translate(15.25,32.25)"
           style={{
-            strokeWidth: 1.00761,
+            strokeWidth: 1.00761
           }}
         >
           <path
@@ -5923,7 +5923,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4.03043,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 151.5,420.25 v 43.88479"
           />
@@ -5932,7 +5932,7 @@ const SVGPmsComponent = props => (
           id="g6"
           transform="translate(-0.05634895,34.914214)"
           style={{
-            strokeWidth: 1.00761,
+            strokeWidth: 1.00761
           }}
         >
           <g
@@ -5940,14 +5940,14 @@ const SVGPmsComponent = props => (
             transform="translate(-172.41043,43.946166)"
             style={{
               display: "inline",
-              strokeWidth: 1.00761,
+              strokeWidth: 1.00761
             }}
           >
             <g
               id="g143-1"
               transform="translate(-234.49152,472.87912)"
               style={{
-                strokeWidth: 1.00761,
+                strokeWidth: 1.00761
               }}
             >
               <circle
@@ -5957,7 +5957,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4.03043,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle142-6"
                 cx={573.90277}
@@ -5973,7 +5973,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4.03043,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect142-6"
                 width={9.0867147}
@@ -5990,7 +5990,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4.03043,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 573.90276,-105.85057 3e-5,-14.05709"
                 id="path142-6"
@@ -6003,7 +6003,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4.03043,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect143-8"
                 width={9.0866575}
@@ -6022,7 +6022,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4.03043,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="M 339.41125,300.00001 V 343.8848"
             />
@@ -6033,7 +6033,7 @@ const SVGPmsComponent = props => (
         id="g383"
         transform="translate(462.1676,-34.836031)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <rect
@@ -6045,7 +6045,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
-            filter: "url(#filter382-8)",
+            filter: "url(#filter382-8)"
           }}
           id="rect382"
           width={116.67262}
@@ -6063,7 +6063,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect365"
               width={89}
@@ -6079,7 +6079,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect366"
               width={85.052429}
@@ -6095,7 +6095,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path366"
@@ -6116,7 +6116,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -6136,7 +6136,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect371"
               width={89}
@@ -6152,7 +6152,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect372"
               width={85.052429}
@@ -6168,7 +6168,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path372"
@@ -6189,7 +6189,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -6216,7 +6216,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={-169.80078}
             y={89.226562}
@@ -6235,7 +6235,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect374"
               width={89}
@@ -6251,7 +6251,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect375"
               width={85.052429}
@@ -6267,7 +6267,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path375"
@@ -6288,7 +6288,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -6308,7 +6308,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect376"
               width={89}
@@ -6324,7 +6324,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect377"
               width={85.052429}
@@ -6340,7 +6340,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path377"
@@ -6361,7 +6361,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -6388,7 +6388,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={-169.80078}
             y={158.34625}
@@ -6407,7 +6407,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect378"
               width={89}
@@ -6423,7 +6423,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect379"
               width={85.052429}
@@ -6439,7 +6439,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path379"
@@ -6460,7 +6460,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -6480,7 +6480,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect380"
               width={89}
@@ -6496,7 +6496,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect381"
               width={85.052429}
@@ -6512,7 +6512,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path381"
@@ -6533,7 +6533,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -6560,7 +6560,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={-169.80078}
             y={226.58206}
@@ -6576,7 +6576,7 @@ const SVGPmsComponent = props => (
         id="g383-6"
         transform="translate(977.03766,-32.439061)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <rect
@@ -6588,7 +6588,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
-            filter: "url(#filter382-8-3)",
+            filter: "url(#filter382-8-3)"
           }}
           id="rect382-8"
           width={116.67262}
@@ -6606,7 +6606,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect365-4"
               width={89}
@@ -6622,7 +6622,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect366-6"
               width={85.052429}
@@ -6638,7 +6638,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path366-1"
@@ -6659,7 +6659,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -6679,7 +6679,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect371-3"
               width={89}
@@ -6695,7 +6695,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect372-1"
               width={85.052429}
@@ -6711,7 +6711,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path372-1"
@@ -6732,7 +6732,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -6759,7 +6759,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={-169.80078}
             y={89.226562}
@@ -6778,7 +6778,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect374-4"
               width={89}
@@ -6794,7 +6794,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect375-3"
               width={85.052429}
@@ -6810,7 +6810,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path375-1"
@@ -6831,7 +6831,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -6851,7 +6851,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect376-8"
               width={89}
@@ -6867,7 +6867,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect377-6"
               width={85.052429}
@@ -6883,7 +6883,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path377-1"
@@ -6904,7 +6904,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -6931,7 +6931,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={-169.80078}
             y={158.34625}
@@ -6950,7 +6950,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect378-7"
               width={89}
@@ -6966,7 +6966,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect379-5"
               width={85.052429}
@@ -6982,7 +6982,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path379-2"
@@ -7003,7 +7003,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -7023,7 +7023,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect380-0"
               width={89}
@@ -7039,7 +7039,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect381-6"
               width={85.052429}
@@ -7055,7 +7055,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path381-4"
@@ -7076,7 +7076,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -7103,7 +7103,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={-169.80078}
             y={226.58206}
@@ -7119,7 +7119,7 @@ const SVGPmsComponent = props => (
         id="g383-1"
         transform="translate(1956.3749,-42.367994)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <rect
@@ -7131,7 +7131,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
-            filter: "url(#filter382-8-2)",
+            filter: "url(#filter382-8-2)"
           }}
           id="rect382-9"
           width={116.67262}
@@ -7149,7 +7149,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect365-3"
               width={89}
@@ -7165,7 +7165,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect366-9"
               width={85.052429}
@@ -7181,7 +7181,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path366-11"
@@ -7202,7 +7202,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -7222,7 +7222,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect371-0"
               width={89}
@@ -7238,7 +7238,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect372-7"
               width={85.052429}
@@ -7254,7 +7254,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path372-3"
@@ -7275,7 +7275,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -7302,7 +7302,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={-169.80078}
             y={89.226562}
@@ -7321,7 +7321,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect374-1"
               width={89}
@@ -7337,7 +7337,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect375-39"
               width={85.052429}
@@ -7353,7 +7353,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path375-4"
@@ -7374,7 +7374,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -7394,7 +7394,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect376-88"
               width={89}
@@ -7410,7 +7410,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect377-7"
               width={85.052429}
@@ -7426,7 +7426,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path377-3"
@@ -7447,7 +7447,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -7474,7 +7474,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={-169.80078}
             y={158.34625}
@@ -7493,7 +7493,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect378-3"
               width={89}
@@ -7509,7 +7509,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect379-4"
               width={85.052429}
@@ -7525,7 +7525,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path379-4"
@@ -7546,7 +7546,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -7566,7 +7566,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect380-4"
               width={89}
@@ -7582,7 +7582,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect381-1"
               width={85.052429}
@@ -7598,7 +7598,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path381-0"
@@ -7619,7 +7619,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -7646,7 +7646,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={-169.80078}
             y={226.58206}
@@ -7662,7 +7662,7 @@ const SVGPmsComponent = props => (
         id="g383-8"
         transform="translate(1476.3787,-26.095915)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <rect
@@ -7674,7 +7674,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
-            filter: "url(#filter382-8-7)",
+            filter: "url(#filter382-8-7)"
           }}
           id="rect382-4"
           width={116.67262}
@@ -7692,7 +7692,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect365-7"
               width={89}
@@ -7708,7 +7708,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect366-2"
               width={85.052429}
@@ -7724,7 +7724,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path366-4"
@@ -7745,7 +7745,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -7765,7 +7765,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect371-09"
               width={89}
@@ -7781,7 +7781,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect372-0"
               width={85.052429}
@@ -7797,7 +7797,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path372-5"
@@ -7818,7 +7818,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -7845,7 +7845,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={-169.80078}
             y={89.226562}
@@ -7864,7 +7864,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect374-7"
               width={89}
@@ -7880,7 +7880,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect375-4"
               width={85.052429}
@@ -7896,7 +7896,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path375-47"
@@ -7917,7 +7917,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -7937,7 +7937,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect376-84"
               width={89}
@@ -7953,7 +7953,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect377-5"
               width={85.052429}
@@ -7969,7 +7969,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path377-0"
@@ -7990,7 +7990,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -8017,7 +8017,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={-169.80078}
             y={158.34625}
@@ -8036,7 +8036,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect378-0"
               width={89}
@@ -8052,7 +8052,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect379-1"
               width={85.052429}
@@ -8068,7 +8068,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path379-8"
@@ -8089,7 +8089,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -8109,7 +8109,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect380-41"
               width={89}
@@ -8125,7 +8125,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="rect381-4"
               width={85.052429}
@@ -8141,7 +8141,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -258.52621,63.160355 -260.5,65 h 89 V 40 l -1.97379,1.839645 v 21.32071 z"
               id="path381-9"
@@ -8162,7 +8162,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={-217.17188}
               y={58.226562}
@@ -8189,7 +8189,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={-169.80078}
             y={226.58206}
@@ -8218,7 +8218,7 @@ const SVGPmsComponent = props => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={1495.8605}
         y={315.52945}
@@ -8233,7 +8233,7 @@ const SVGPmsComponent = props => (
           id="g158-6"
           transform="translate(-95.448484,86.845661)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <g id="g143-6" transform="translate(-234.49152,472.87912)">
@@ -8244,7 +8244,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="circle142-3"
               cx={573.90277}
@@ -8260,7 +8260,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect142-3"
               width={9.0867147}
@@ -8277,7 +8277,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 573.90276,-105.85057 3e-5,-14.05709"
               id="path142-0"
@@ -8290,7 +8290,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect143-6"
               width={9.0866575}
@@ -8309,7 +8309,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 339.43468,376.11614 -0.0234,112.09861"
           />
@@ -8322,7 +8322,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 339.41125,300.00001 V 343.8848"
           />
@@ -8338,7 +8338,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 157.96699,595.04171 V 638.9265"
             transform="translate(1.4785534,44.375)"
@@ -8356,7 +8356,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   d="m 236.39645,578.79289 v 43.88479"
                 />
@@ -8369,7 +8369,7 @@ const SVGPmsComponent = props => (
                       stroke: "#000000",
                       strokeWidth: 3,
                       strokeDasharray: "none",
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     id="circle59-1-2"
                     cx={1265.1111}
@@ -8385,7 +8385,7 @@ const SVGPmsComponent = props => (
                       stroke: "#000000",
                       strokeWidth: 3,
                       strokeDasharray: "none",
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     id="circle59-1-2-1"
                     cx={1274.031}
@@ -8401,7 +8401,7 @@ const SVGPmsComponent = props => (
                       stroke: "#000000",
                       strokeWidth: 3,
                       strokeDasharray: "none",
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     id="circle59-1-2-3"
                     cx={1255.363}
@@ -8430,7 +8430,7 @@ const SVGPmsComponent = props => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={86.110611}
         y={404.03061}
@@ -8459,7 +8459,7 @@ const SVGPmsComponent = props => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={180.82811}
         y={407.95776}
@@ -8484,7 +8484,7 @@ const SVGPmsComponent = props => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={275.85568}
         y={411.24854}
@@ -8503,7 +8503,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle158"
             cx={573.90277}
@@ -8519,7 +8519,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect158"
             width={9.0867147}
@@ -8536,7 +8536,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90276,-105.85057 3e-5,-14.05709"
             id="path158"
@@ -8549,7 +8549,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect159"
             width={9.0866575}
@@ -8568,7 +8568,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 5.15643,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 514.73029,375.7519 -0.0233,187.07331"
         />
@@ -8581,7 +8581,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 515.59079,300.00001 V 343.8848"
         />
@@ -8596,7 +8596,7 @@ const SVGPmsComponent = props => (
           strokeWidth: 4,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 748.17711,737.47667 -391.51576,0.12949"
       />
@@ -8615,7 +8615,7 @@ const SVGPmsComponent = props => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={390.0481}
         y={409.38205}
@@ -8641,7 +8641,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={198.50578}
           y={409.37198}
@@ -8656,7 +8656,7 @@ const SVGPmsComponent = props => (
         id="g1-6-0"
         transform="translate(518.9864,-172.72354)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <text
@@ -8674,7 +8674,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={198.50578}
           y={409.37198}
@@ -8690,7 +8690,7 @@ const SVGPmsComponent = props => (
           id="g1-6-6"
           transform="translate(22.90627,-174.50464)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <text
@@ -8708,7 +8708,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={148.30121}
             y={369.06689}
@@ -8725,7 +8725,7 @@ const SVGPmsComponent = props => (
           id="g1-6-4"
           transform="translate(22.90627,-174.50464)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <text
@@ -8743,7 +8743,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={198.50578}
             y={409.37198}
@@ -8759,7 +8759,7 @@ const SVGPmsComponent = props => (
         id="g44-6-7"
         style={{
           display: "inline",
-          strokeWidth: 2.33713,
+          strokeWidth: 2.33713
         }}
         transform="matrix(0.50129264,0,0,0.36521129,620.04539,-183.48141)"
       >
@@ -8767,14 +8767,14 @@ const SVGPmsComponent = props => (
           id="g45"
           transform="translate(-1754.241,2519.9097)"
           style={{
-            strokeWidth: 2.33713,
+            strokeWidth: 2.33713
           }}
         >
           <g
             id="g40-2-2"
             transform="matrix(0.77988674,0,0,0.72911585,261.97584,-85.68785)"
             style={{
-              strokeWidth: 3.09936,
+              strokeWidth: 3.09936
             }}
           >
             <path
@@ -8786,7 +8786,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 7.83299,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
               id="path10-3-8-5-9-72-4"
@@ -8800,7 +8800,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 7.83299,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
               id="path10-3-8-5-2-9"
@@ -8810,7 +8810,7 @@ const SVGPmsComponent = props => (
             id="g12-4-0"
             transform="translate(48.797083,2.4086162)"
             style={{
-              strokeWidth: 2.33713,
+              strokeWidth: 2.33713
             }}
           >
             <g
@@ -8818,7 +8818,7 @@ const SVGPmsComponent = props => (
               transform="matrix(0.66253619,0,0,0.67075643,674.64638,-183.35648)"
               style={{
                 display: "inline",
-                strokeWidth: 3.50588,
+                strokeWidth: 3.50588
               }}
             >
               <ellipse
@@ -8828,7 +8828,7 @@ const SVGPmsComponent = props => (
                   stroke: "#000000",
                   strokeWidth: 10.5177,
                   strokeDasharray: "none",
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 id="circle58-5-0-9"
                 cx={477.8139}
@@ -8843,7 +8843,7 @@ const SVGPmsComponent = props => (
                   whiteSpace: "pre",
                   inlineSize: 22.1886,
                   fill: "#000000",
-                  strokeWidth: 5.25904,
+                  strokeWidth: 5.25904
                 }}
                 x={463.63797}
                 y={-179.83815}
@@ -8861,7 +8861,7 @@ const SVGPmsComponent = props => (
           id="g45-2"
           style={{
             display: "inline",
-            strokeWidth: 2.33713,
+            strokeWidth: 2.33713
           }}
           transform="translate(-1804.3004,2518.5213)"
         >
@@ -8869,7 +8869,7 @@ const SVGPmsComponent = props => (
             id="g40-2-2-3"
             transform="matrix(0.77988674,0,0,0.72911585,261.97584,-85.68785)"
             style={{
-              strokeWidth: 3.09936,
+              strokeWidth: 3.09936
             }}
           >
             <path
@@ -8881,7 +8881,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 7.83299,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
               id="path10-3-8-5-9-72-4-5"
@@ -8895,7 +8895,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 7.83299,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
               id="path10-3-8-5-2-9-3"
@@ -8905,7 +8905,7 @@ const SVGPmsComponent = props => (
             id="g12-4-0-2"
             transform="translate(48.797083,2.4086162)"
             style={{
-              strokeWidth: 2.33713,
+              strokeWidth: 2.33713
             }}
           >
             <g
@@ -8913,7 +8913,7 @@ const SVGPmsComponent = props => (
               transform="matrix(0.66253619,0,0,0.67075643,674.64638,-183.35648)"
               style={{
                 display: "inline",
-                strokeWidth: 3.50588,
+                strokeWidth: 3.50588
               }}
             >
               <ellipse
@@ -8923,7 +8923,7 @@ const SVGPmsComponent = props => (
                   stroke: "#000000",
                   strokeWidth: 10.5177,
                   strokeDasharray: "none",
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 id="circle58-5-0-9-4"
                 cx={477.8139}
@@ -8938,7 +8938,7 @@ const SVGPmsComponent = props => (
                   whiteSpace: "pre",
                   inlineSize: 22.1886,
                   fill: "#000000",
-                  strokeWidth: 5.25904,
+                  strokeWidth: 5.25904
                 }}
                 x={463.63797}
                 y={-179.83815}
@@ -8960,7 +8960,7 @@ const SVGPmsComponent = props => (
             fill: "#ffffff",
             stroke: "#666666",
             strokeWidth: 1,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="rect53"
           width={144}
@@ -8985,7 +8985,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={-335.17188}
           y={802.64844}
@@ -9009,7 +9009,7 @@ const SVGPmsComponent = props => (
           id="g19-4"
           transform="translate(417.31566,752.54107)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <g id="g18-8" transform="translate(15.25,32.25)">
@@ -9023,7 +9023,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 151.5,420.25 v 43.88479"
             />
@@ -9033,7 +9033,7 @@ const SVGPmsComponent = props => (
               id="g158-5-6"
               transform="translate(-172.41043,43.946166)"
               style={{
-                display: "inline",
+                display: "inline"
               }}
             >
               <g id="g143-1-7" transform="translate(-234.49152,472.87912)">
@@ -9044,7 +9044,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   id="circle142-6-0"
                   cx={573.90277}
@@ -9060,7 +9060,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   id="rect142-6-9"
                   width={9.0867147}
@@ -9077,7 +9077,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   d="m 573.90276,-105.85057 3e-5,-14.05709"
                   id="path142-6-7"
@@ -9090,7 +9090,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   id="rect143-8-1"
                   width={9.0866575}
@@ -9109,7 +9109,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="M 339.41125,300.00001 V 343.8848"
               />
@@ -9131,7 +9131,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={611.12775}
           y={1205.4127}
@@ -9145,13 +9145,13 @@ const SVGPmsComponent = props => (
           id="g64-8"
           transform="matrix(1.288381,0,0,1.3507754,868.74006,271.83621)"
           style={{
-            strokeWidth: 0.950268,
+            strokeWidth: 0.950268
           }}
         >
           <g
             id="g60-5"
             style={{
-              strokeWidth: 0.950268,
+              strokeWidth: 0.950268
             }}
           >
             <rect
@@ -9160,7 +9160,7 @@ const SVGPmsComponent = props => (
                 fill: "#ffffff",
                 stroke: "#666666",
                 strokeWidth: 0.950268,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="rect65-6"
               width={136.44951}
@@ -9176,7 +9176,7 @@ const SVGPmsComponent = props => (
           id="g805-4-5"
           transform="translate(884.83013,719.84521)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <circle
@@ -9187,7 +9187,7 @@ const SVGPmsComponent = props => (
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             id="circle804-5-2"
             cx={-252.91734}
@@ -9203,7 +9203,7 @@ const SVGPmsComponent = props => (
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="M -252.91809,571.37009 A 12.629166,12.629166 0 0 0 -265.5458,584 12.629166,12.629166 0 0 0 -252.91809,596.62991 12.629166,12.629166 0 0 0 -240.28818,584 12.629166,12.629166 0 0 0 -252.91809,571.37009 Z m 0,1.53794 A 11.092436,11.092436 0 0 1 -241.82392,584 11.092436,11.092436 0 0 1 -252.91809,595.09197 11.092436,11.092436 0 0 1 -264.01006,584 a 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
           />
@@ -9212,7 +9212,7 @@ const SVGPmsComponent = props => (
           id="g805-7-8"
           transform="translate(835.24191,720.36439)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <circle
@@ -9223,7 +9223,7 @@ const SVGPmsComponent = props => (
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             id="circle804-63-8"
             cx={-252.91734}
@@ -9239,7 +9239,7 @@ const SVGPmsComponent = props => (
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="M -252.91809,571.37009 A 12.629166,12.629166 0 0 0 -265.5458,584 12.629166,12.629166 0 0 0 -252.91809,596.62991 12.629166,12.629166 0 0 0 -240.28818,584 12.629166,12.629166 0 0 0 -252.91809,571.37009 Z m 0,1.53794 A 11.092436,11.092436 0 0 1 -241.82392,584 11.092436,11.092436 0 0 1 -252.91809,595.09197 11.092436,11.092436 0 0 1 -264.01006,584 a 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
           />
@@ -9248,7 +9248,7 @@ const SVGPmsComponent = props => (
           id="g805-9-1"
           transform="translate(789.00149,720.12907)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <circle
@@ -9259,7 +9259,7 @@ const SVGPmsComponent = props => (
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             id="circle804-6-6"
             cx={-252.91734}
@@ -9275,7 +9275,7 @@ const SVGPmsComponent = props => (
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="M -252.91809,571.37009 A 12.629166,12.629166 0 0 0 -265.5458,584 12.629166,12.629166 0 0 0 -252.91809,596.62991 12.629166,12.629166 0 0 0 -240.28818,584 12.629166,12.629166 0 0 0 -252.91809,571.37009 Z m 0,1.53794 A 11.092436,11.092436 0 0 1 -241.82392,584 11.092436,11.092436 0 0 1 -252.91809,595.09197 11.092436,11.092436 0 0 1 -264.01006,584 a 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
           />
@@ -9297,7 +9297,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={632.31671}
           y={1287.9008}
@@ -9324,7 +9324,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={585.21667}
           y={1288.1067}
@@ -9351,7 +9351,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={537.55945}
           y={1288.0018}
@@ -9378,7 +9378,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={583.07349}
           y={1256.0018}
@@ -9394,14 +9394,14 @@ const SVGPmsComponent = props => (
           id="g34-4"
           transform="translate(533.50821,8.7817424)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <g
             id="g158-6-3"
             transform="translate(-95.448484,86.845661)"
             style={{
-              display: "inline",
+              display: "inline"
             }}
           >
             <g id="g143-6-4" transform="translate(-234.49152,472.87912)">
@@ -9412,7 +9412,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle142-3-7"
                 cx={573.90277}
@@ -9428,7 +9428,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect142-3-6"
                 width={9.0867147}
@@ -9445,7 +9445,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 573.90276,-105.85057 3e-5,-14.05709"
                 id="path142-0-6"
@@ -9458,7 +9458,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect143-6-1"
                 width={9.0866575}
@@ -9477,7 +9477,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 339.43468,376.13356 -0.0234,43.56282"
             />
@@ -9490,7 +9490,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="M 339.41125,300.00001 V 343.8848"
             />
@@ -9506,7 +9506,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="M 157.96699,595.04171 V 638.9265"
               transform="translate(1.4785534,44.375)"
@@ -9524,7 +9524,7 @@ const SVGPmsComponent = props => (
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     d="m 236.39645,578.79289 v 43.88479"
                   />
@@ -9537,7 +9537,7 @@ const SVGPmsComponent = props => (
                         stroke: "#000000",
                         strokeWidth: 3,
                         strokeDasharray: "none",
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       id="circle59-1-2-7"
                       cx={1265.1111}
@@ -9553,7 +9553,7 @@ const SVGPmsComponent = props => (
                         stroke: "#000000",
                         strokeWidth: 3,
                         strokeDasharray: "none",
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       id="circle59-1-2-1-8"
                       cx={1274.031}
@@ -9569,7 +9569,7 @@ const SVGPmsComponent = props => (
                         stroke: "#000000",
                         strokeWidth: 3,
                         strokeDasharray: "none",
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       id="circle59-1-2-3-0"
                       cx={1255.363}
@@ -9594,7 +9594,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 609.34651,542.44827 0.86304,53.21775"
             />
@@ -9604,7 +9604,7 @@ const SVGPmsComponent = props => (
             transform="matrix(0.45152656,0,0,0.45152656,-150.98175,565.4273)"
             style={{
               display: "inline",
-              filter: "url(#filter130-3)",
+              filter: "url(#filter130-3)"
             }}
           >
             <g
@@ -9619,7 +9619,7 @@ const SVGPmsComponent = props => (
                   stroke: "#000000",
                   strokeWidth: 0,
                   strokeDasharray: "none",
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 id="ellipse120-5"
                 cx={1841}
@@ -9636,7 +9636,7 @@ const SVGPmsComponent = props => (
                   stroke: "#000000",
                   strokeWidth: 0,
                   strokeDasharray: "none",
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 id="ellipse118-7"
                 cx={1841}
@@ -9652,7 +9652,7 @@ const SVGPmsComponent = props => (
                   stroke: "none",
                   strokeWidth: 0,
                   strokeDasharray: "none",
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 id="path103-4"
                 cx={1781.75}
@@ -9667,7 +9667,7 @@ const SVGPmsComponent = props => (
                   fill: "url(#linearGradient70)",
                   fillOpacity: 0.984314,
                   stroke: "#000000",
-                  strokeWidth: 0,
+                  strokeWidth: 0
                 }}
                 d="m 1757.1551,-66.743381 c 12.8911,1.519929 26.0316,1.90881 38.8341,1.003747 l -8.9758,21.590139 -24.7114,-0.265165 z"
               />
@@ -9678,7 +9678,7 @@ const SVGPmsComponent = props => (
                   fill: "url(#linearGradient71)",
                   fillOpacity: 0.984314,
                   stroke: "#000000",
-                  strokeWidth: 0,
+                  strokeWidth: 0
                 }}
                 d="m 1751.8571,-151.32085 h 66.468 v 34.82502 l 5.7454,9.51449 c -23.1277,-5.93345 -55.0068,-6.25403 -79.8286,-1.12082 l 7.6152,-8.39367 z"
               />
@@ -9690,7 +9690,7 @@ const SVGPmsComponent = props => (
                   stroke: "#000000",
                   strokeWidth: 0,
                   strokeDasharray: "none",
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 id="rect106-8"
                 width={36.875}
@@ -9706,7 +9706,7 @@ const SVGPmsComponent = props => (
                   stroke: "#000000",
                   strokeWidth: 0,
                   strokeDasharray: "none",
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 id="ellipse121-5"
                 cx={-88.5}
@@ -9724,7 +9724,7 @@ const SVGPmsComponent = props => (
               opacity: 1,
               fill: "#ffffff",
               stroke: "#666666",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             id="rect67"
             width={88.28125}
@@ -9737,7 +9737,7 @@ const SVGPmsComponent = props => (
               d="M 5.6560249,18.214298 C 5.1945153,17.721046 4.6069282,17.478489 5.1161883,17.031487 L 13.837557,10.351951 12.117866,9.4996971 c 0.979087,-0.1867672 1.673886,0.3285982 0.02265,0.012786 L 17.705747,7.610005 c -0.296417,0.6976161 -0.630147,0.5668224 0.0051,-0.0051 l -1.104266,5.470823 c -0.971154,-1.093215 -1.045855,-1.604577 0.0038,-0.01681 l -1.411564,-1.440959 -8.4113606,7.199785 c -0.5092597,0.447003 -0.5937383,-0.03417 -1.055247,-0.527418 z"
               style={{
                 fill: "#d45500",
-                strokeWidth: 1,
+                strokeWidth: 1
               }}
               id="path1-2"
             />
@@ -9745,7 +9745,7 @@ const SVGPmsComponent = props => (
               id="g468-8"
               style={{
                 display: "inline",
-                strokeWidth: 2.1094,
+                strokeWidth: 2.1094
               }}
               transform="matrix(0.46218087,0,0,0.4862615,-357.82331,167.10524)"
             >
@@ -9754,7 +9754,7 @@ const SVGPmsComponent = props => (
                 transform="matrix(0.97231195,0,0,0.87829778,-172.77018,-17.163403)"
                 style={{
                   display: "inline",
-                  strokeWidth: 2.28265,
+                  strokeWidth: 2.28265
                 }}
               >
                 <path
@@ -9766,7 +9766,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 5.76892,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
                   id="path10-3-8-5-9-72-4-4-8-0"
@@ -9780,7 +9780,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 5.76892,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
                   id="path10-3-8-5-2-9-4-1-3"
@@ -9793,7 +9793,7 @@ const SVGPmsComponent = props => (
             transform="matrix(0.38105737,0,0,0.30028225,210.99049,642.07675)"
             style={{
               display: "inline",
-              strokeWidth: 2.95627,
+              strokeWidth: 2.95627
             }}
           >
             <path
@@ -9805,7 +9805,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 7.47135,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
               id="path10-3-8-5-9-72-4-4-6"
@@ -9819,7 +9819,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 7.47135,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
               id="path10-3-8-5-2-9-4-2"
@@ -9830,7 +9830,7 @@ const SVGPmsComponent = props => (
               opacity: 1,
               fill: "#ffffff",
               stroke: "#666666",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             d="m 568.75,574.80469 87.89063,-53.90625"
             id="path73"
@@ -9841,7 +9841,7 @@ const SVGPmsComponent = props => (
         id="g1-68-4"
         transform="translate(18.00719,146.3666)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <text
@@ -9861,7 +9861,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={897.14966}
           y={381.97449}
@@ -9873,7 +9873,7 @@ const SVGPmsComponent = props => (
             x={897.14966}
             y={381.97449}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
           >
             {"VFD2"}
@@ -9884,21 +9884,21 @@ const SVGPmsComponent = props => (
         id="g474-2"
         transform="translate(497.21655,-50.861433)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <g
           id="g34-4-8"
           transform="translate(533.50821,8.7817424)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <g
             id="g158-6-3-6"
             transform="translate(-95.448484,86.845661)"
             style={{
-              display: "inline",
+              display: "inline"
             }}
           >
             <g id="g143-6-4-4" transform="translate(-234.49152,472.87912)">
@@ -9909,7 +9909,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle142-3-7-8"
                 cx={573.90277}
@@ -9925,7 +9925,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect142-3-6-3"
                 width={9.0867147}
@@ -9942,7 +9942,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 573.90276,-105.85057 3e-5,-14.05709"
                 id="path142-0-6-2"
@@ -9955,7 +9955,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect143-6-1-7"
                 width={9.0866575}
@@ -9974,7 +9974,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 339.43468,376.13356 -0.0234,43.56282"
             />
@@ -9987,7 +9987,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="M 339.41125,300.00001 V 343.8848"
             />
@@ -10003,7 +10003,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="M 157.96699,595.04171 V 638.9265"
               transform="translate(1.4785534,44.375)"
@@ -10021,7 +10021,7 @@ const SVGPmsComponent = props => (
                       strokeWidth: 4,
                       strokeDasharray: "none",
                       strokeOpacity: 1,
-                      paintOrder: "stroke markers fill",
+                      paintOrder: "stroke markers fill"
                     }}
                     d="m 236.39645,578.79289 v 43.88479"
                   />
@@ -10034,7 +10034,7 @@ const SVGPmsComponent = props => (
                         stroke: "#000000",
                         strokeWidth: 3,
                         strokeDasharray: "none",
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       id="circle59-1-2-7-1"
                       cx={1265.1111}
@@ -10050,7 +10050,7 @@ const SVGPmsComponent = props => (
                         stroke: "#000000",
                         strokeWidth: 3,
                         strokeDasharray: "none",
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       id="circle59-1-2-1-8-4"
                       cx={1274.031}
@@ -10066,7 +10066,7 @@ const SVGPmsComponent = props => (
                         stroke: "#000000",
                         strokeWidth: 3,
                         strokeDasharray: "none",
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       id="circle59-1-2-3-0-8"
                       cx={1255.363}
@@ -10091,7 +10091,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 609.34651,542.44827 0.86304,53.21775"
             />
@@ -10101,7 +10101,7 @@ const SVGPmsComponent = props => (
             transform="matrix(0.45152656,0,0,0.45152656,-150.98175,565.4273)"
             style={{
               display: "inline",
-              filter: "url(#filter130-3-7)",
+              filter: "url(#filter130-3-7)"
             }}
           >
             <g
@@ -10116,7 +10116,7 @@ const SVGPmsComponent = props => (
                   stroke: "#000000",
                   strokeWidth: 0,
                   strokeDasharray: "none",
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 id="ellipse120-5-4"
                 cx={1841}
@@ -10133,7 +10133,7 @@ const SVGPmsComponent = props => (
                   stroke: "#000000",
                   strokeWidth: 0,
                   strokeDasharray: "none",
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 id="ellipse118-7-1"
                 cx={1841}
@@ -10149,7 +10149,7 @@ const SVGPmsComponent = props => (
                   stroke: "none",
                   strokeWidth: 0,
                   strokeDasharray: "none",
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 id="path103-4-3"
                 cx={1781.75}
@@ -10164,7 +10164,7 @@ const SVGPmsComponent = props => (
                   fill: "url(#linearGradient477)",
                   fillOpacity: 0.984314,
                   stroke: "#000000",
-                  strokeWidth: 0,
+                  strokeWidth: 0
                 }}
                 d="m 1757.1551,-66.743381 c 12.8911,1.519929 26.0316,1.90881 38.8341,1.003747 l -8.9758,21.590139 -24.7114,-0.265165 z"
               />
@@ -10175,7 +10175,7 @@ const SVGPmsComponent = props => (
                   fill: "url(#linearGradient478)",
                   fillOpacity: 0.984314,
                   stroke: "#000000",
-                  strokeWidth: 0,
+                  strokeWidth: 0
                 }}
                 d="m 1751.8571,-151.32085 h 66.468 v 34.82502 l 5.7454,9.51449 c -23.1277,-5.93345 -55.0068,-6.25403 -79.8286,-1.12082 l 7.6152,-8.39367 z"
               />
@@ -10187,7 +10187,7 @@ const SVGPmsComponent = props => (
                   stroke: "#000000",
                   strokeWidth: 0,
                   strokeDasharray: "none",
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 id="rect106-8-3"
                 width={36.875}
@@ -10203,7 +10203,7 @@ const SVGPmsComponent = props => (
                   stroke: "#000000",
                   strokeWidth: 0,
                   strokeDasharray: "none",
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 id="ellipse121-5-4"
                 cx={-88.5}
@@ -10221,7 +10221,7 @@ const SVGPmsComponent = props => (
               opacity: 1,
               fill: "#ffffff",
               stroke: "#666666",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             id="rect67-4"
             width={88.28125}
@@ -10234,7 +10234,7 @@ const SVGPmsComponent = props => (
               d="M 5.6560249,18.214298 C 5.1945153,17.721046 4.6069282,17.478489 5.1161883,17.031487 L 13.837557,10.351951 12.117866,9.4996971 c 0.979087,-0.1867672 1.673886,0.3285982 0.02265,0.012786 L 17.705747,7.610005 c -0.296417,0.6976161 -0.630147,0.5668224 0.0051,-0.0051 l -1.104266,5.470823 c -0.971154,-1.093215 -1.045855,-1.604577 0.0038,-0.01681 l -1.411564,-1.440959 -8.4113606,7.199785 c -0.5092597,0.447003 -0.5937383,-0.03417 -1.055247,-0.527418 z"
               style={{
                 fill: "#d45500",
-                strokeWidth: 1,
+                strokeWidth: 1
               }}
               id="path1-2-2"
             />
@@ -10242,7 +10242,7 @@ const SVGPmsComponent = props => (
               id="g468-8-3"
               style={{
                 display: "inline",
-                strokeWidth: 2.1094,
+                strokeWidth: 2.1094
               }}
               transform="matrix(0.46218087,0,0,0.4862615,-357.82331,167.10524)"
             >
@@ -10251,7 +10251,7 @@ const SVGPmsComponent = props => (
                 transform="matrix(0.97231195,0,0,0.87829778,-172.77018,-17.163403)"
                 style={{
                   display: "inline",
-                  strokeWidth: 2.28265,
+                  strokeWidth: 2.28265
                 }}
               >
                 <path
@@ -10263,7 +10263,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 5.76892,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
                   id="path10-3-8-5-9-72-4-4-8-0-6"
@@ -10277,7 +10277,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 5.76892,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
                   id="path10-3-8-5-2-9-4-1-3-5"
@@ -10290,7 +10290,7 @@ const SVGPmsComponent = props => (
             transform="matrix(0.38105737,0,0,0.30028225,210.99049,642.07675)"
             style={{
               display: "inline",
-              strokeWidth: 2.95627,
+              strokeWidth: 2.95627
             }}
           >
             <path
@@ -10302,7 +10302,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 7.47135,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
               id="path10-3-8-5-9-72-4-4-6-2"
@@ -10316,7 +10316,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 7.47135,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
               id="path10-3-8-5-2-9-4-2-3"
@@ -10327,7 +10327,7 @@ const SVGPmsComponent = props => (
               opacity: 1,
               fill: "#ffffff",
               stroke: "#666666",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             d="m 568.75,574.80469 87.89063,-53.90625"
             id="path73-4"
@@ -10339,7 +10339,7 @@ const SVGPmsComponent = props => (
           id="g19-4-8"
           transform="translate(1232.7919,475.5128)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <g id="g18-8-9" transform="translate(15.25,32.25)">
@@ -10353,7 +10353,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 151.5,420.25 v 43.88479"
             />
@@ -10363,7 +10363,7 @@ const SVGPmsComponent = props => (
               id="g158-5-6-6"
               transform="translate(-172.41043,43.946166)"
               style={{
-                display: "inline",
+                display: "inline"
               }}
             >
               <g id="g143-1-7-3" transform="translate(-234.49152,472.87912)">
@@ -10374,7 +10374,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   id="circle142-6-0-1"
                   cx={573.90277}
@@ -10390,7 +10390,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   id="rect142-6-9-5"
                   width={9.0867147}
@@ -10407,7 +10407,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   d="m 573.90276,-105.85057 3e-5,-14.05709"
                   id="path142-6-7-7"
@@ -10420,7 +10420,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   id="rect143-8-1-9"
                   width={9.0866575}
@@ -10439,7 +10439,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="M 339.41125,300.00001 V 343.8848"
               />
@@ -10461,7 +10461,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1434.0894}
           y={920.51447}
@@ -10476,13 +10476,13 @@ const SVGPmsComponent = props => (
             id="g64-8-9"
             transform="matrix(1.1455498,0,0,1.2664116,1664.3433,314.38224)"
             style={{
-              strokeWidth: 0.950268,
+              strokeWidth: 0.950268
             }}
           >
             <g
               id="g60-5-5"
               style={{
-                strokeWidth: 0.950268,
+                strokeWidth: 0.950268
               }}
             >
               <rect
@@ -10491,7 +10491,7 @@ const SVGPmsComponent = props => (
                   fill: "#ffffff",
                   stroke: "#666666",
                   strokeWidth: 0.950268,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 id="rect65-6-3"
                 width={136.44951}
@@ -10507,7 +10507,7 @@ const SVGPmsComponent = props => (
             id="g805-4-5-7"
             transform="translate(1713.6201,703.21478)"
             style={{
-              display: "inline",
+              display: "inline"
             }}
           >
             <circle
@@ -10518,7 +10518,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="circle804-5-2-8"
               cx={-252.91734}
@@ -10534,7 +10534,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -252.91809,571.37009 A 12.629166,12.629166 0 0 0 -265.5458,584 12.629166,12.629166 0 0 0 -252.91809,596.62991 12.629166,12.629166 0 0 0 -240.28818,584 12.629166,12.629166 0 0 0 -252.91809,571.37009 Z m 0,1.53794 A 11.092436,11.092436 0 0 1 -241.82392,584 11.092436,11.092436 0 0 1 -252.91809,595.09197 11.092436,11.092436 0 0 1 -264.01006,584 a 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
             />
@@ -10543,7 +10543,7 @@ const SVGPmsComponent = props => (
             id="g805-7-8-7"
             transform="translate(1664.0319,703.73396)"
             style={{
-              display: "inline",
+              display: "inline"
             }}
           >
             <circle
@@ -10554,7 +10554,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="circle804-63-8-9"
               cx={-252.91734}
@@ -10570,7 +10570,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -252.91809,571.37009 A 12.629166,12.629166 0 0 0 -265.5458,584 12.629166,12.629166 0 0 0 -252.91809,596.62991 12.629166,12.629166 0 0 0 -240.28818,584 12.629166,12.629166 0 0 0 -252.91809,571.37009 Z m 0,1.53794 A 11.092436,11.092436 0 0 1 -241.82392,584 11.092436,11.092436 0 0 1 -252.91809,595.09197 11.092436,11.092436 0 0 1 -264.01006,584 a 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
             />
@@ -10579,7 +10579,7 @@ const SVGPmsComponent = props => (
             id="g805-9-1-2"
             transform="translate(1617.7915,703.49864)"
             style={{
-              display: "inline",
+              display: "inline"
             }}
           >
             <circle
@@ -10590,7 +10590,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               id="circle804-6-6-7"
               cx={-252.91734}
@@ -10606,7 +10606,7 @@ const SVGPmsComponent = props => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="M -252.91809,571.37009 A 12.629166,12.629166 0 0 0 -265.5458,584 12.629166,12.629166 0 0 0 -252.91809,596.62991 12.629166,12.629166 0 0 0 -240.28818,584 12.629166,12.629166 0 0 0 -252.91809,571.37009 Z m 0,1.53794 A 11.092436,11.092436 0 0 1 -241.82392,584 11.092436,11.092436 0 0 1 -252.91809,595.09197 11.092436,11.092436 0 0 1 -264.01006,584 a 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
             />
@@ -10628,7 +10628,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={1461.1067}
             y={1271.2704}
@@ -10655,7 +10655,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={1414.0067}
             y={1271.4763}
@@ -10682,7 +10682,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={1366.3494}
             y={1271.3715}
@@ -10709,7 +10709,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={1411.8634}
             y={1239.3715}
@@ -10727,7 +10727,7 @@ const SVGPmsComponent = props => (
             id="g480-3"
             transform="translate(1224.4622,-34.76956)"
             style={{
-              display: "inline",
+              display: "inline"
             }}
           >
             <g id="g178-0" transform="translate(-176.32843,80.769552)">
@@ -10739,7 +10739,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   id="circle158-9"
                   cx={573.90277}
@@ -10755,7 +10755,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   id="rect158-0"
                   width={9.0867147}
@@ -10772,7 +10772,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   d="m 573.90276,-105.85057 3e-5,-14.05709"
                   id="path158-8"
@@ -10785,7 +10785,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   id="rect159-2"
                   width={9.0866575}
@@ -10804,7 +10804,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 514.73034,375.76259 -0.0234,112.09861"
               />
@@ -10817,7 +10817,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="M 515.59079,300.00001 V 343.8848"
               />
@@ -10833,7 +10833,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="M 335.24999,584.12499 V 722.00977"
               />
@@ -10841,7 +10841,7 @@ const SVGPmsComponent = props => (
                 id="g12-2-4"
                 transform="translate(-655.45063,859.94796)"
                 style={{
-                  display: "inline",
+                  display: "inline"
                 }}
               >
                 <g
@@ -10849,7 +10849,7 @@ const SVGPmsComponent = props => (
                   transform="matrix(0.66253619,0,0,0.67075643,674.64638,-183.35648)"
                   style={{
                     display: "inline",
-                    strokeWidth: 1.50007,
+                    strokeWidth: 1.50007
                   }}
                 >
                   <ellipse
@@ -10859,7 +10859,7 @@ const SVGPmsComponent = props => (
                       stroke: "#000000",
                       strokeWidth: 4.50022,
                       strokeDasharray: "none",
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     id="circle58-5-3-2"
                     cx={477.8139}
@@ -10874,7 +10874,7 @@ const SVGPmsComponent = props => (
                       stroke: "#000000",
                       strokeWidth: 4.50022,
                       strokeDasharray: "none",
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     id="circle59-1-1-1"
                     cx={477.8139}
@@ -10899,7 +10899,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={368.0481}
               y={445.38205}
@@ -10917,7 +10917,7 @@ const SVGPmsComponent = props => (
           id="g158-6-7"
           transform="translate(1417.7791,46.448692)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <g id="g143-6-5" transform="translate(-234.49152,472.87912)">
@@ -10928,7 +10928,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="circle142-3-5"
               cx={573.90277}
@@ -10944,7 +10944,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect142-3-2"
               width={9.0867147}
@@ -10961,7 +10961,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 573.90276,-105.85057 3e-5,-14.05709"
               id="path142-0-7"
@@ -10974,7 +10974,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect143-6-5"
               width={9.0866575}
@@ -10993,7 +10993,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4.06809,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 339.43468,376.09321 -0.0234,206.01947"
           />
@@ -11006,7 +11006,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 339.41125,300.00001 V 343.8848"
           />
@@ -11018,7 +11018,7 @@ const SVGPmsComponent = props => (
           id="g805-4-1-3-6"
           transform="translate(1802.3223,223.32368)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <circle
@@ -11029,7 +11029,7 @@ const SVGPmsComponent = props => (
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             id="circle804-5-9-1-33"
             cx={-252.91734}
@@ -11045,7 +11045,7 @@ const SVGPmsComponent = props => (
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="M -252.91809,571.37009 A 12.629166,12.629166 0 0 0 -265.5458,584 12.629166,12.629166 0 0 0 -252.91809,596.62991 12.629166,12.629166 0 0 0 -240.28818,584 12.629166,12.629166 0 0 0 -252.91809,571.37009 Z m 0,1.53794 A 11.092436,11.092436 0 0 1 -241.82392,584 11.092436,11.092436 0 0 1 -252.91809,595.09197 11.092436,11.092436 0 0 1 -264.01006,584 a 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
           />
@@ -11067,7 +11067,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1549.809}
           y={791.37921}
@@ -11081,7 +11081,7 @@ const SVGPmsComponent = props => (
           id="g805-7-4-9-7"
           transform="translate(1746.6336,222.01444)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <circle
@@ -11092,7 +11092,7 @@ const SVGPmsComponent = props => (
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             id="circle804-63-6-7-4"
             cx={-252.91734}
@@ -11108,7 +11108,7 @@ const SVGPmsComponent = props => (
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="M -252.91809,571.37009 A 12.629166,12.629166 0 0 0 -265.5458,584 12.629166,12.629166 0 0 0 -252.91809,596.62991 12.629166,12.629166 0 0 0 -240.28818,584 12.629166,12.629166 0 0 0 -252.91809,571.37009 Z m 0,1.53794 A 11.092436,11.092436 0 0 1 -241.82392,584 11.092436,11.092436 0 0 1 -252.91809,595.09197 11.092436,11.092436 0 0 1 -264.01006,584 a 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
           />
@@ -11130,7 +11130,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1496.6083}
           y={789.75671}
@@ -11144,7 +11144,7 @@ const SVGPmsComponent = props => (
           id="g805-9-4-6-3"
           transform="translate(1688.3932,222.77912)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <circle
@@ -11155,7 +11155,7 @@ const SVGPmsComponent = props => (
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             id="circle804-6-8-9-4"
             cx={-252.91734}
@@ -11171,7 +11171,7 @@ const SVGPmsComponent = props => (
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="M -252.91809,571.37009 A 12.629166,12.629166 0 0 0 -265.5458,584 12.629166,12.629166 0 0 0 -252.91809,596.62991 12.629166,12.629166 0 0 0 -240.28818,584 12.629166,12.629166 0 0 0 -252.91809,571.37009 Z m 0,1.53794 A 11.092436,11.092436 0 0 1 -241.82392,584 11.092436,11.092436 0 0 1 -252.91809,595.09197 11.092436,11.092436 0 0 1 -264.01006,584 a 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
           />
@@ -11193,7 +11193,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1436.951}
           y={790.65186}
@@ -11208,7 +11208,7 @@ const SVGPmsComponent = props => (
         id="g488-7"
         transform="translate(1357.4437,51.333551)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <g id="g493" transform="translate(14.355339,1.4142136)">
@@ -11222,7 +11222,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 369.44554,618.41671 v 8.02434 35.86045"
           />
@@ -11239,7 +11239,7 @@ const SVGPmsComponent = props => (
                     strokeWidth: 4,
                     strokeDasharray: "none",
                     strokeOpacity: 1,
-                    paintOrder: "stroke markers fill",
+                    paintOrder: "stroke markers fill"
                   }}
                   d="m 236.39645,578.79289 v 43.88479"
                 />
@@ -11252,7 +11252,7 @@ const SVGPmsComponent = props => (
                       stroke: "#000000",
                       strokeWidth: 3,
                       strokeDasharray: "none",
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     id="circle59-1-2-6-8"
                     cx={1265.1111}
@@ -11268,7 +11268,7 @@ const SVGPmsComponent = props => (
                       stroke: "#000000",
                       strokeWidth: 3,
                       strokeDasharray: "none",
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     id="circle59-1-2-1-1-0"
                     cx={1274.031}
@@ -11284,7 +11284,7 @@ const SVGPmsComponent = props => (
                       stroke: "#000000",
                       strokeWidth: 3,
                       strokeDasharray: "none",
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     id="circle59-1-2-3-5-6"
                     cx={1255.363}
@@ -11306,7 +11306,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 447.90804,626.52611 v 4.98592 22.28186"
           />
@@ -11320,7 +11320,7 @@ const SVGPmsComponent = props => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 481.15068,626.15174 v 4.98592 22.28186"
           />
@@ -11330,7 +11330,7 @@ const SVGPmsComponent = props => (
         id="g670-7"
         transform="translate(707.34841,795.62268)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <g id="g495" transform="translate(2.8284271,-20.506097)">
@@ -11346,7 +11346,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 0,
                 strokeDasharray: "none",
                 strokeOpacity: 0.984314,
-                filter: "url(#filter610-6)",
+                filter: "url(#filter610-6)"
               }}
               id="rect664-1"
               width={89}
@@ -11363,7 +11363,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 0,
                 strokeDasharray: "none",
                 strokeOpacity: 0.984314,
-                filter: "url(#filter612-3)",
+                filter: "url(#filter612-3)"
               }}
               id="rect665-4"
               width={85.052429}
@@ -11379,7 +11379,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 0,
                 strokeDasharray: "none",
                 strokeOpacity: 0.984314,
-                filter: "url(#filter614-3)",
+                filter: "url(#filter614-3)"
               }}
               d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
               id="path665-0"
@@ -11399,7 +11399,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={35.851833}
             y={-89.46019}
@@ -11414,7 +11414,7 @@ const SVGPmsComponent = props => (
           id="g495-1"
           transform="translate(496.97056,-19.707104)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <g
@@ -11429,7 +11429,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 0,
                 strokeDasharray: "none",
                 strokeOpacity: 0.984314,
-                filter: "url(#filter610-6-9)",
+                filter: "url(#filter610-6-9)"
               }}
               id="rect664-1-7"
               width={89}
@@ -11446,7 +11446,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 0,
                 strokeDasharray: "none",
                 strokeOpacity: 0.984314,
-                filter: "url(#filter612-3-8)",
+                filter: "url(#filter612-3-8)"
               }}
               id="rect665-4-1"
               width={85.052429}
@@ -11462,7 +11462,7 @@ const SVGPmsComponent = props => (
                 strokeWidth: 0,
                 strokeDasharray: "none",
                 strokeOpacity: 0.984314,
-                filter: "url(#filter614-3-5)",
+                filter: "url(#filter614-3-5)"
               }}
               d="m 3.3523656,-18.789474 -1.9737899,1.839645 H 90.378575 v -25 l -1.97379,1.839645 v 21.32071 z"
               id="path665-0-3"
@@ -11482,7 +11482,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={35.851833}
             y={-89.46019}
@@ -11512,7 +11512,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={889.77869}
           y={322.6102}
@@ -11532,7 +11532,7 @@ const SVGPmsComponent = props => (
           strokeWidth: 2.52732,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 1182.5251,718.55655 h 381.8164"
         id="path10-3-1"
@@ -11547,7 +11547,7 @@ const SVGPmsComponent = props => (
           strokeWidth: 4,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 1183.9479,790.93396 v 62.88479"
       />
@@ -11559,7 +11559,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-6-0-6"
           cx={573.90277}
@@ -11575,7 +11575,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-6-9-8"
           width={9.0867147}
@@ -11592,7 +11592,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 573.90276,-105.85057 3e-5,-14.05709"
           id="path142-6-7-1"
@@ -11605,7 +11605,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-8-1-1"
           width={9.0866575}
@@ -11624,7 +11624,7 @@ const SVGPmsComponent = props => (
           strokeWidth: 4,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 1184.1424,717.29437 v 43.88479"
       />
@@ -11643,7 +11643,7 @@ const SVGPmsComponent = props => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={1212.4242}
         y={784.23456}
@@ -11663,7 +11663,7 @@ const SVGPmsComponent = props => (
           strokeWidth: 4,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="M 923.91874,851.25321 744.85109,850.74256"
       />
@@ -11675,7 +11675,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-6-0-6-3"
           cx={573.90277}
@@ -11691,7 +11691,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-6-9-8-4"
           width={9.0867147}
@@ -11708,7 +11708,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 573.90276,-105.85057 3e-5,-14.05709"
           id="path142-6-7-1-4"
@@ -11721,7 +11721,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-8-1-1-3"
           width={9.0866575}
@@ -11740,7 +11740,7 @@ const SVGPmsComponent = props => (
           strokeWidth: 4,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="M 1183.7811,852.30457 952.25335,851.79393"
       />
@@ -11755,7 +11755,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 643.53022,927.63961 V 971.5244"
         />
@@ -11766,7 +11766,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-6-0-6-5"
           cx={643.72461}
@@ -11782,7 +11782,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-6-9-8-3"
           width={9.0867147}
@@ -11799,7 +11799,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 643.72461,921.02863 3e-5,-14.05709"
           id="path142-6-7-1-1"
@@ -11812,7 +11812,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-8-1-1-1"
           width={9.0866575}
@@ -11830,7 +11830,7 @@ const SVGPmsComponent = props => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 643.72472,854 v 43.88479"
         />
@@ -11851,7 +11851,7 @@ const SVGPmsComponent = props => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 1.85364,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={897.14966}
         y={381.97449}
@@ -11863,7 +11863,7 @@ const SVGPmsComponent = props => (
           x={897.14966}
           y={381.97449}
           style={{
-            strokeWidth: 1.85364,
+            strokeWidth: 1.85364
           }}
         >
           {"THTR2"}
@@ -11886,7 +11886,7 @@ const SVGPmsComponent = props => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 1.85364,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={1430.5013}
         y={381.38742}
@@ -11898,7 +11898,7 @@ const SVGPmsComponent = props => (
           x={1430.5013}
           y={381.38742}
           style={{
-            strokeWidth: 1.85364,
+            strokeWidth: 1.85364
           }}
         >
           {"THTR1"}
@@ -11922,7 +11922,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={897.14966}
           y={381.97449}
@@ -11934,7 +11934,7 @@ const SVGPmsComponent = props => (
             x={897.14966}
             y={381.97449}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
           >
             {"JT1"}
@@ -11959,7 +11959,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={880.96533}
           y={403.29141}
@@ -11971,7 +11971,7 @@ const SVGPmsComponent = props => (
             x={880.96533}
             y={403.29141}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
           >
             {"1MSB -"}
@@ -11980,7 +11980,7 @@ const SVGPmsComponent = props => (
             x={880.96533}
             y={421.82791}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
             id="tspan14"
           >
@@ -12006,7 +12006,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={898.22864}
           y={343.97476}
@@ -12018,7 +12018,7 @@ const SVGPmsComponent = props => (
             x={898.22864}
             y={343.97476}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
           >
             {"690V/450V #1"}
@@ -12042,7 +12042,7 @@ const SVGPmsComponent = props => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 1.85364,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={1311.8163}
         y={457.38687}
@@ -12054,7 +12054,7 @@ const SVGPmsComponent = props => (
           x={1311.8163}
           y={457.38687}
           style={{
-            strokeWidth: 1.85364,
+            strokeWidth: 1.85364
           }}
         >
           {"TRANS#1"}
@@ -12078,7 +12078,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={897.14966}
           y={381.97449}
@@ -12090,7 +12090,7 @@ const SVGPmsComponent = props => (
             x={897.14966}
             y={381.97449}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
           >
             {"VFD1"}
@@ -12115,7 +12115,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={897.14966}
           y={381.97449}
@@ -12127,7 +12127,7 @@ const SVGPmsComponent = props => (
             x={897.14966}
             y={381.97449}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
           >
             {"AZI. THR. P,"}
@@ -12151,7 +12151,7 @@ const SVGPmsComponent = props => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 1.85364,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={910.21967}
         y={461.23172}
@@ -12163,7 +12163,7 @@ const SVGPmsComponent = props => (
           x={910.21967}
           y={461.23172}
           style={{
-            strokeWidth: 1.85364,
+            strokeWidth: 1.85364
           }}
         >
           {"TRANS#2"}
@@ -12173,7 +12173,7 @@ const SVGPmsComponent = props => (
         id="g1-0-1"
         transform="translate(24.45539,233.31972)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <text
@@ -12193,7 +12193,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={897.14966}
           y={381.97449}
@@ -12205,7 +12205,7 @@ const SVGPmsComponent = props => (
             x={897.14966}
             y={381.97449}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
           >
             {"AZI. THR. S,"}
@@ -12216,7 +12216,7 @@ const SVGPmsComponent = props => (
         id="g1-0-4"
         transform="translate(-407.8375,227.98015)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <text
@@ -12236,7 +12236,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={898.22864}
           y={380.12085}
@@ -12248,7 +12248,7 @@ const SVGPmsComponent = props => (
             x={898.22864}
             y={380.12085}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
           >
             {"690V/450V #2"}
@@ -12260,7 +12260,7 @@ const SVGPmsComponent = props => (
           id="g1-0-5"
           transform="translate(501.32229,231.3666)"
           style={{
-            display: "inline",
+            display: "inline"
           }}
         >
           <text
@@ -12280,7 +12280,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 1.85364,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={912.255}
             y={388.46225}
@@ -12292,7 +12292,7 @@ const SVGPmsComponent = props => (
               x={912.255}
               y={388.46225}
               style={{
-                strokeWidth: 1.85364,
+                strokeWidth: 1.85364
               }}
             >
               {"JT #2,"}
@@ -12304,7 +12304,7 @@ const SVGPmsComponent = props => (
         id="g12-2"
         transform="translate(-632.03641,931.47487)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <g
@@ -12312,7 +12312,7 @@ const SVGPmsComponent = props => (
           transform="matrix(0.66253619,0,0,0.67075643,674.64638,-183.35648)"
           style={{
             display: "inline",
-            strokeWidth: 1.50007,
+            strokeWidth: 1.50007
           }}
         >
           <ellipse
@@ -12322,7 +12322,7 @@ const SVGPmsComponent = props => (
               stroke: "#000000",
               strokeWidth: 4.50022,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             id="circle58-5-3"
             cx={477.8139}
@@ -12337,7 +12337,7 @@ const SVGPmsComponent = props => (
               stroke: "#000000",
               strokeWidth: 4.50022,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             id="circle59-1-1"
             cx={477.8139}
@@ -12350,7 +12350,7 @@ const SVGPmsComponent = props => (
         id="g1-0-4-7"
         transform="translate(-586.79748,241.10082)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <text
@@ -12370,7 +12370,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={898.22864}
           y={380.12085}
@@ -12382,7 +12382,7 @@ const SVGPmsComponent = props => (
             x={898.22864}
             y={380.12085}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
           >
             {"TO JACKING VFD"}
@@ -12397,7 +12397,7 @@ const SVGPmsComponent = props => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="circle804-5-5"
           cx={-440.08588}
@@ -12412,7 +12412,7 @@ const SVGPmsComponent = props => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m -440.08661,-149.33732 a 12.629166,12.629166 0 0 0 -12.62771,12.62991 12.629166,12.629166 0 0 0 12.62771,12.62991 12.629166,12.629166 0 0 0 12.62991,-12.62991 12.629166,12.629166 0 0 0 -12.62991,-12.62991 z m 0,1.53794 a 11.092436,11.092436 0 0 1 11.09417,11.09197 11.092436,11.092436 0 0 1 -11.09417,11.09197 11.092436,11.092436 0 0 1 -11.09197,-11.09197 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
         />
@@ -12423,7 +12423,7 @@ const SVGPmsComponent = props => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="circle804-63-0"
           cx={-489.67407}
@@ -12438,7 +12438,7 @@ const SVGPmsComponent = props => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m -489.67483,-148.81814 a 12.629166,12.629166 0 0 0 -12.62771,12.62991 12.629166,12.629166 0 0 0 12.62771,12.62991 12.629166,12.629166 0 0 0 12.62991,-12.62991 12.629166,12.629166 0 0 0 -12.62991,-12.62991 z m 0,1.53794 a 11.092436,11.092436 0 0 1 11.09417,11.09197 11.092436,11.092436 0 0 1 -11.09417,11.09197 11.092436,11.092436 0 0 1 -11.09197,-11.09197 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
         />
@@ -12449,7 +12449,7 @@ const SVGPmsComponent = props => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="circle804-6-0"
           cx={-535.91449}
@@ -12464,7 +12464,7 @@ const SVGPmsComponent = props => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m -535.91525,-149.05346 a 12.629166,12.629166 0 0 0 -12.62771,12.62991 12.629166,12.629166 0 0 0 12.62771,12.62991 12.629166,12.629166 0 0 0 12.62991,-12.62991 12.629166,12.629166 0 0 0 -12.62991,-12.62991 z m 0,1.53794 a 11.092436,11.092436 0 0 1 11.09417,11.09197 11.092436,11.092436 0 0 1 -11.09417,11.09197 11.092436,11.092436 0 0 1 -11.09197,-11.09197 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
         />
@@ -12485,7 +12485,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={-439.68195}
           y={-152.65187}
@@ -12512,7 +12512,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={-486.78198}
           y={-152.44594}
@@ -12539,7 +12539,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={-534.43921}
           y={-152.5508}
@@ -12566,7 +12566,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={-488.92517}
           y={-184.5508}
@@ -12581,7 +12581,7 @@ const SVGPmsComponent = props => (
         id="g1-0-1-6"
         transform="translate(-149.65873,390.51503)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <text
@@ -12601,7 +12601,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={897.14966}
           y={381.97449}
@@ -12613,7 +12613,7 @@ const SVGPmsComponent = props => (
             x={897.14966}
             y={381.97449}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
           >
             {"T2-2MSB"}
@@ -12624,7 +12624,7 @@ const SVGPmsComponent = props => (
         id="g1-0-1-6-2"
         transform="translate(295.20102,368.51503)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <text
@@ -12644,7 +12644,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={897.14966}
           y={381.97449}
@@ -12656,7 +12656,7 @@ const SVGPmsComponent = props => (
             x={897.14966}
             y={381.97449}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
           >
             {"T1-2MSB"}
@@ -12667,7 +12667,7 @@ const SVGPmsComponent = props => (
         id="g1-0-1-6-3"
         transform="translate(106.20102,489.51503)"
         style={{
-          display: "inline",
+          display: "inline"
         }}
       >
         <text
@@ -12687,7 +12687,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={897.14966}
           y={381.97449}
@@ -12699,7 +12699,7 @@ const SVGPmsComponent = props => (
             x={897.14966}
             y={381.97449}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
           >
             {"2MSB=BT"}
@@ -12723,7 +12723,7 @@ const SVGPmsComponent = props => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={1381.3975}
             y={701.37}
@@ -12739,7 +12739,7 @@ const SVGPmsComponent = props => (
               id="g40-2-2-3-0-3"
               transform="matrix(0.31946835,0,0,0.26628134,-316.85512,97.52252)"
               style={{
-                strokeWidth: 3.42862,
+                strokeWidth: 3.42862
               }}
             >
               <path
@@ -12751,7 +12751,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 8.66513,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
                 id="path10-3-8-5-9-72-4-5-9-9"
@@ -12765,7 +12765,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 8.66513,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
                 id="path10-3-8-5-2-9-3-8-4"
@@ -12778,7 +12778,7 @@ const SVGPmsComponent = props => (
                 stroke: "#000000",
                 strokeWidth: 3.00002,
                 strokeDasharray: "none",
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="circle58-5-0-9-4-1-1"
               cx={1.8553581}
@@ -12793,7 +12793,7 @@ const SVGPmsComponent = props => (
                 whiteSpace: "pre",
                 inlineSize: 22.1886,
                 fill: "#000000",
-                strokeWidth: 5.81774,
+                strokeWidth: 5.81774
               }}
               x={463.63797}
               y={-179.83815}
@@ -12810,7 +12810,7 @@ const SVGPmsComponent = props => (
               id="g40-2-2-0-7"
               transform="matrix(0.31946835,0,0,0.26628134,-296.34908,98.02958)"
               style={{
-                strokeWidth: 3.42862,
+                strokeWidth: 3.42862
               }}
             >
               <path
@@ -12822,7 +12822,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 8.66513,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
                 id="path10-3-8-5-9-72-4-54-0"
@@ -12836,7 +12836,7 @@ const SVGPmsComponent = props => (
                   strokeWidth: 8.66513,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
                 id="path10-3-8-5-2-9-34-9"
@@ -12846,7 +12846,7 @@ const SVGPmsComponent = props => (
               id="g12-4-0-8-9"
               transform="matrix(-0.40942536,0.01308157,-0.01166293,-0.36502502,424.57946,-108.83231)"
               style={{
-                strokeWidth: 2.58542,
+                strokeWidth: 2.58542
               }}
             >
               <g
@@ -12854,7 +12854,7 @@ const SVGPmsComponent = props => (
                 transform="matrix(0.66253619,0,0,0.67075643,674.64638,-183.35648)"
                 style={{
                   display: "inline",
-                  strokeWidth: 3.87833,
+                  strokeWidth: 3.87833
                 }}
               >
                 <ellipse
@@ -12864,7 +12864,7 @@ const SVGPmsComponent = props => (
                     stroke: "#000000",
                     strokeWidth: 11.635,
                     strokeDasharray: "none",
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   id="circle58-5-0-9-5-6"
                   cx={477.8139}
@@ -12879,7 +12879,7 @@ const SVGPmsComponent = props => (
                     whiteSpace: "pre",
                     inlineSize: 22.1886,
                     fill: "#000000",
-                    strokeWidth: 5.81774,
+                    strokeWidth: 5.81774
                   }}
                   x={463.63797}
                   y={-179.83815}
@@ -12911,7 +12911,7 @@ const SVGPmsComponent = props => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1839.4254}
           y={610.31256}
@@ -12923,7 +12923,7 @@ const SVGPmsComponent = props => (
             x={1839.4254}
             y={610.31256}
             style={{
-              strokeWidth: 1.85364,
+              strokeWidth: 1.85364
             }}
           >
             {"JT#1"}
@@ -12934,7 +12934,7 @@ const SVGPmsComponent = props => (
           transform="translate(1428.6645,181.52004)"
           style={{
             display: "inline",
-            opacity: 1,
+            opacity: 1
           }}
         >
           <g id="g487">
@@ -12942,13 +12942,13 @@ const SVGPmsComponent = props => (
               id="g64-4"
               transform="matrix(1.4984192,0,0,1.2282923,711.50841,-362.28809)"
               style={{
-                strokeWidth: 0.73711,
+                strokeWidth: 0.73711
               }}
             >
               <g
                 id="g60-9"
                 style={{
-                  strokeWidth: 0.73711,
+                  strokeWidth: 0.73711
                 }}
               >
                 <rect
@@ -12957,7 +12957,7 @@ const SVGPmsComponent = props => (
                     fill: "#ffffff",
                     stroke: "#666666",
                     strokeWidth: 0.73711,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   id="rect65-2"
                   width={136.44951}
@@ -12974,7 +12974,7 @@ const SVGPmsComponent = props => (
                 id="g805-4-1"
                 transform="translate(519.71393,177.52124)"
                 style={{
-                  display: "inline",
+                  display: "inline"
                 }}
               >
                 <circle
@@ -12985,7 +12985,7 @@ const SVGPmsComponent = props => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="circle804-5-9"
                   cx={-252.91734}
@@ -13001,7 +13001,7 @@ const SVGPmsComponent = props => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   d="M -252.91809,571.37009 A 12.629166,12.629166 0 0 0 -265.5458,584 12.629166,12.629166 0 0 0 -252.91809,596.62991 12.629166,12.629166 0 0 0 -240.28818,584 12.629166,12.629166 0 0 0 -252.91809,571.37009 Z m 0,1.53794 A 11.092436,11.092436 0 0 1 -241.82392,584 11.092436,11.092436 0 0 1 -252.91809,595.09197 11.092436,11.092436 0 0 1 -264.01006,584 a 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
                 />
@@ -13023,7 +13023,7 @@ const SVGPmsComponent = props => (
                   fillOpacity: 1,
                   stroke: "none",
                   strokeWidth: 2,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 x={267.2005}
                 y={745.57678}
@@ -13039,7 +13039,7 @@ const SVGPmsComponent = props => (
                 id="g805-7-4"
                 transform="translate(470.1257,178.04042)"
                 style={{
-                  display: "inline",
+                  display: "inline"
                 }}
               >
                 <circle
@@ -13050,7 +13050,7 @@ const SVGPmsComponent = props => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="circle804-63-6"
                   cx={-252.91734}
@@ -13066,7 +13066,7 @@ const SVGPmsComponent = props => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   d="M -252.91809,571.37009 A 12.629166,12.629166 0 0 0 -265.5458,584 12.629166,12.629166 0 0 0 -252.91809,596.62991 12.629166,12.629166 0 0 0 -240.28818,584 12.629166,12.629166 0 0 0 -252.91809,571.37009 Z m 0,1.53794 A 11.092436,11.092436 0 0 1 -241.82392,584 11.092436,11.092436 0 0 1 -252.91809,595.09197 11.092436,11.092436 0 0 1 -264.01006,584 a 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
                 />
@@ -13088,7 +13088,7 @@ const SVGPmsComponent = props => (
                   fillOpacity: 1,
                   stroke: "none",
                   strokeWidth: 2,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 x={220.10049}
                 y={745.78271}
@@ -13104,7 +13104,7 @@ const SVGPmsComponent = props => (
                 id="g805-9-4"
                 transform="translate(423.88528,177.8051)"
                 style={{
-                  display: "inline",
+                  display: "inline"
                 }}
               >
                 <circle
@@ -13115,7 +13115,7 @@ const SVGPmsComponent = props => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="circle804-6-8"
                   cx={-252.91734}
@@ -13131,7 +13131,7 @@ const SVGPmsComponent = props => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   d="M -252.91809,571.37009 A 12.629166,12.629166 0 0 0 -265.5458,584 12.629166,12.629166 0 0 0 -252.91809,596.62991 12.629166,12.629166 0 0 0 -240.28818,584 12.629166,12.629166 0 0 0 -252.91809,571.37009 Z m 0,1.53794 A 11.092436,11.092436 0 0 1 -241.82392,584 11.092436,11.092436 0 0 1 -252.91809,595.09197 11.092436,11.092436 0 0 1 -264.01006,584 a 11.092436,11.092436 0 0 1 11.09197,-11.09197 z"
                 />
@@ -13153,7 +13153,7 @@ const SVGPmsComponent = props => (
                   fillOpacity: 1,
                   stroke: "none",
                   strokeWidth: 2,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 x={172.44322}
                 y={745.67786}
@@ -13181,7 +13181,7 @@ const SVGPmsComponent = props => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={377.95728}
               y={535.67786}
