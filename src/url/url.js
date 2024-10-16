@@ -15,6 +15,7 @@ import { Edg } from "@/pages/edg";
 import InfModule from "@/pages/inf-module";
 import DataBase from "@/pages/inf-module/database";
 import TelemetryEquipmentStatus from "@/pages/inf-module/telemetry-equipment-status";
+import JackingSystem from "@/pages/jacking-system";
 import { MEConditionOverview } from "@/pages/me-condition";
 import { Navigation } from "@/pages/navigation";
 import { PowerManagementSystemOverview } from "@/pages/pms";
@@ -146,6 +147,12 @@ export const urls = [
     title: "Cooling System",
     url: "cooling-system",
     element: createElement(CoolingSystem),
+    sub: []
+  },
+  {
+    title: "Jacking System",
+    url: "jacking-system",
+    element: createElement(JackingSystem),
     sub: []
   }
   // {
