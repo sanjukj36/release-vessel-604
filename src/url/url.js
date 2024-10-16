@@ -3,6 +3,7 @@ import PortPropulsion from "@/pages/azimuth-thruster";
 import AzimuthThruster from "@/pages/azimuth-thruster";
 import PortAzhimuthThruster from "@/pages/azimuth-thruster/port-azimuth-thruster";
 import StbdAzhimuthThruster from "@/pages/azimuth-thruster/stbd-azimuth-thruster";
+import BilgeSystem from "@/pages/bilge-system";
 import { BowThrusterOverview } from "@/pages/bow-thruster";
 import { Colors } from "@/pages/Colors";
 import { DG } from "@/pages/diesel-generator";
@@ -105,11 +106,11 @@ export const urls = [
       }
     ]
   },
-  {
-    title: "EDG",
-    url: "edg",
-    element: createElement(Edg)
-  },
+  // {
+  //   title: "EDG",
+  //   url: "edg",
+  //   element: createElement(Edg)
+  // },
   {
     title: "INF Module",
     url: "inf-module",
@@ -128,9 +129,15 @@ export const urls = [
     ]
   },
   {
-    title: "Color",
-    url: "color",
-    element: createElement(Colors),
-    sub: [{ title: "Sub title", url: "sub-url" }]
+    title: "Bilge",
+    url: "bilge-system",
+    element: createElement(BilgeSystem),
+    sub: []
   }
+  // {
+  //   title: "Color",
+  //   url: "color",
+  //   element: createElement(Colors),
+  //   sub: [{ title: "Sub title", url: "sub-url" }]
+  // }
 ];
