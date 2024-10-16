@@ -19,11 +19,18 @@ ThrusterCard.propTypes = {
     })
   ),
   icon: PropTypes.oneOfType([PropTypes.element, PropTypes.string]),
-  className: PropTypes.string
+  className: PropTypes.string,
+  variant: PropTypes.string
 };
-export function ThrusterCard({ title, data, icon, className }) {
+export function ThrusterCard({
+  title,
+  data,
+  icon,
+  className,
+  variant = "default"
+}) {
   return (
-    <BoxCard className={twMerge("", className)}>
+    <BoxCard className={twMerge("", className)} variant={variant}>
       {title && (
         <CardHeader className="p-2">
           <CardTitle className="flex gap-2 items-center">
