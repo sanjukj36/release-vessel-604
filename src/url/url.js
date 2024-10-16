@@ -7,6 +7,7 @@ import StbdAzhimuthThruster from "@/pages/azimuth-thruster/stbd-azimuth-thruster
 import BilgeSystem from "@/pages/bilge-system";
 import { BowThrusterOverview } from "@/pages/bow-thruster";
 import { Colors } from "@/pages/Colors";
+import CoolingSystem from "@/pages/cooling-system";
 import { DG } from "@/pages/diesel-generator";
 import DieselGenerator from "@/pages/diesel-generator/diesel-generator";
 import { GEOverview } from "@/pages/diesel-generator/GEOverview";
@@ -139,6 +140,12 @@ export const urls = [
     title: "Air Compressor",
     url: "air-compressor-system",
     element: createElement(AirCompressorSystem),
+    sub: []
+  },
+  {
+    title: "Cooling System",
+    url: "cooling-system",
+    element: createElement(CoolingSystem),
     sub: []
   }
   // {
