@@ -14,6 +14,9 @@ export const getRow1Col1Data = async () => {
   }
 };
 
+/**
+ * All API fetch class.
+ */
 export class DgData {
   constructor(baseTag) {
     if (!baseTag) throw new Error("Base Tag is required");

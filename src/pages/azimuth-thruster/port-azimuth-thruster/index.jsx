@@ -12,7 +12,6 @@ function PortAzhimuthThruster() {
     <PageWrapper className="grid grid-cols-[1fr_1fr_1fr] gap-2 gap-y-0">
       <Title className="col-span-3 " title="PORT AZIMUTH THRUSTER" />
       <ThrusterCardList data={RESPONSE_PORT_PROPULSION.col1} />
-
       <ThrusterCardList
         data={RESPONSE_PORT_PROPULSION.col2}
         image={thrusterImage}

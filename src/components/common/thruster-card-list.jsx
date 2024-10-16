@@ -18,7 +18,8 @@ ThrusterCardList.propTypes = {
       ])
     })
   ),
-  image: PropTypes.string
+  image: PropTypes.string,
+  imageAlign: PropTypes.oneOf(["top", "center"])
 };
 export function ThrusterCardList({ title, data, image, imageAlign = "top" }) {
   return (
