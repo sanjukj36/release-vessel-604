@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { BoxCard } from "@/components/common/BoxCard";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { DataTable } from "@/components/ui/data-table";
 import { RESPONSE_DATABASE } from "@/dummy/responseInfModuleDatabase";
+import { getDatabaseFileStatusAPI } from "@/infrastructure/inf-module/data-base";
 
 TableComponent.propTypes = {};
 
@@ -44,10 +45,20 @@ const columns = [
 ];
 
 export function TableComponent(props) {
+  const [dataBaseFile, setDataBaseFile] = useState(null);
+  useEffect(() => {
+    fetchDataBaseFileData();
+  }, []);
+
+  const fetchDataBaseFileData = async () => {
+    const [data, err] = await getDatabaseFileStatusAPI();
+    setDataBaseFile(data);
+  };
+
   return (
     <BoxCard>
       <CardContent>
-        <DataTable columns={columns} data={RESPONSE_DATABASE} />
+        {dataBaseFile && <DataTable columns={columns} data={dataBaseFile} />}
       </CardContent>
     </BoxCard>
   );
