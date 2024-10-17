@@ -13,6 +13,7 @@ import DieselGenerator from "@/pages/diesel-generator/diesel-generator";
 import { GEOverview } from "@/pages/diesel-generator/GEOverview";
 import { Edg } from "@/pages/edg";
 import InfModule from "@/pages/inf-module";
+import AlarmList from "@/pages/inf-module/alarm-list";
 import DataBase from "@/pages/inf-module/database";
 import TelemetryEquipmentStatus from "@/pages/inf-module/telemetry-equipment-status";
 import JackingSystem from "@/pages/jacking-system";
@@ -129,6 +130,11 @@ export const urls = [
         title: "Database",
         url: "database",
         element: createElement(DataBase)
+      },
+      {
+        title: "Alarm List",
+        url: "alarm-list",
+        element: createElement(AlarmList)
       }
     ]
   }
