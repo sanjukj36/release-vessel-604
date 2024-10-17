@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "host_name": "MDC",
+      "host": "172.168.0.80",
+      "status": "True"
+    },
+    {
+      "host_name": "AMS",
+      "host": "172.168.0.2",
+      "status": "True"
+    },
+    {
+      "host_name": "Transbox",
+      "host": "172.168.0.81",
+      "status": "True"
+    }
+  ]
+}
