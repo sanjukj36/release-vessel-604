@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import { PageWrapper } from "@/components/layout/page-wrapper";
 import { Title } from "@/components/layout/title";
 import { RESPONSE_TES } from "@/dummy/responseTelemetryEquipmenmtStatus";
-import { getBandWidthStatusAPI } from "@/infrastructure/inf-module/bandwidth-status-api";
-import { getPingStatusAPI } from "@/infrastructure/inf-module/network-pingins-status-api";
-import { getTransboxStorageAPI } from "@/infrastructure/inf-module/transbox-storage-api";
+import {
+  getBandWidthStatusAPI,
+  getPingStatusAPI,
+  getTransboxStorageAPI
+} from "@/infrastructure/inf-module/telemtry-equipment-status";
 import { BandwidthComponent } from "./bandwidth-component";
 import { DiskUsageComponent } from "./disk-usage-component";
 import { NetworkPingStatus } from "./network-status";
@@ -32,7 +34,6 @@ function TelemetryEquipmentStatus(props) {
 
   const fetchPingStatusData = async () => {
     const [data, err] = await getPingStatusAPI();
-    console.log({ data });
     if (err) {
       setPingStatus(null);
     } else {
