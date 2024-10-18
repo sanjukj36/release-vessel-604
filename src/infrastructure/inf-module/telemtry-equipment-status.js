@@ -11,7 +11,7 @@ import { API_INF } from "@/lib/constants";
  * @returns {Promise<Array<undefined | Bandwidth, undefined | AxiosError | Error>>}
  */
 export const getBandWidthStatusAPI = async () => {
-  return apiClient("GET", `${API_INF}/api/bandwidth_status`)
+  return apiClient("GET", `${API_INF}/api/bandwidth-status`)
     .then(res => {
       if (res.status === 200) {
         const { data } = res;
@@ -39,7 +39,7 @@ export const getBandWidthStatusAPI = async () => {
  * @returns {Promise<Array<undefined | PingStatus[], undefined | AxiosError | Error>>}
  */
 export const getPingStatusAPI = async () => {
-  return apiClient("GET", `${API_INF}/api/ping_status`)
+  return apiClient("GET", `${API_INF}/api/ping-status`)
     .then(res => {
       if (res.status === 200) {
         const { data } = res;
@@ -67,7 +67,7 @@ export const getPingStatusAPI = async () => {
  * @returns {Promise<Array<undefined | Storage, undefined | AxiosError | Error>>}
  */
 export const getTransboxStorageAPI = async () => {
-  return apiClient("GET", `${API_INF}/api/transbox_storage`)
+  return apiClient("GET", `${API_INF}/api/transbox-storage`)
     .then(res => {
       if (res.status === 200) {
         const { data } = res;

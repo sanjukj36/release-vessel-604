@@ -21,7 +21,7 @@ export function AlertNotificationMenu() {
         {/*   <p>No Alerts</p> */}
         {/* </div> */}
       </div>
-      <Popover>
+      <Popover side="top">
         <PopoverTrigger asChild>
           <Button
             variant="customDanger"
