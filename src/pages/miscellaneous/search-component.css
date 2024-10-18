@@ -1,0 +1,31 @@
+.input {
+  width: 0;
+}
+
+.input.active {
+  animation: expandWidth 300ms ease-in-out forwards;
+}
+
+@keyframes expandWidth {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 200px;
+  }
+}
+
+.input.deactive {
+  animation: shrinkWidth 300ms ease-in-out forwards;
+}
+
+@keyframes shrinkWidth {
+  0% {
+    width: 200px;
+  }
+
+  100% {
+    width: 0;
+  }
+}

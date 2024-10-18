@@ -18,6 +18,7 @@ import DataBase from "@/pages/inf-module/database";
 import TelemetryEquipmentStatus from "@/pages/inf-module/telemetry-equipment-status";
 import JackingSystem from "@/pages/jacking-system";
 import { MEConditionOverview } from "@/pages/me-condition";
+import Miscellaneous from "@/pages/miscellaneous";
 import { Navigation } from "@/pages/navigation";
 import { PowerManagementSystemOverview } from "@/pages/pms";
 import { TankGaugingSystem } from "@/pages/tank-guaging-system";
@@ -137,6 +138,12 @@ export const urls = [
         element: createElement(AlarmList)
       }
     ]
+  },
+  {
+    title: "Miscellaneous",
+    url: "miscellaneous",
+    element: createElement(Miscellaneous),
+    sub: []
   }
   // {
   //   title: "Navigation",
