@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import iconMenu from "@/assets/icons/menu.svg";
-import { AlertNotificationMenu } from "./alert-notification-menu";
+import { AlertNotificationMenu } from "./alert-notification";
 import { NavigationMenu } from "./navigation-menu";
 
 Header.propTypes = {};
