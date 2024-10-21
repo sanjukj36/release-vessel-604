@@ -9,9 +9,9 @@ Sidebar.propTypes = {};
 export function Sidebar() {
   const { pathname } = useLocation();
 
-  const [selection, setSelection] = useState([]);
+  const [selectionUrl, setSelectionUrl] = useState([]);
   const [title, setTitle] = useState("");
-  const [subUrl, setSubUrl] = useState([]);
+  const [subUrlList, setSubUrlList] = useState([]);
 
   const navigate = useNavigate();
 
@@ -19,22 +19,26 @@ export function Sidebar() {
     const url = pathname.split("/")[1];
     const currentUrlObj = urls?.find(item => item?.url === url);
     if (currentUrlObj) {
-      setSubUrl(currentUrlObj?.sub);
+      setSubUrlList(currentUrlObj?.sub);
       setTitle(currentUrlObj?.title);
     } else {
-      setSubUrl([]);
+      setSubUrlList([]);
       setTitle("");
     }
   }, [pathname]);
 
   useEffect(() => {
-    if (subUrl?.length > 0) {
-      setSelection(subUrl[0]?.url);
+    if (subUrlList?.length > 0) {
+      const subUrl = pathname?.split("/")[2] ?? "";
+      // setSelectionUrl(subUrlList[0]?.url);
+      setSelectionUrl(subUrl);
+    } else {
+      setSelectionUrl("");
     }
-  }, [subUrl]);
+  }, [subUrlList]);
 
   const handleNavigate = url => {
-    setSelection(url);
+    setSelectionUrl(url);
     const parentPath = getParentUrl(pathname);
     navigate(parentPath + url);
   };
@@ -53,11 +57,11 @@ export function Sidebar() {
       <div className="flex flex-col gap-2">
         <p className="border-b border-primary font-semibold">{title}</p>
         <div className="flex flex-col gap-2 font-semibold">
-          {subUrl?.map((item, key) => (
+          {subUrlList?.map((item, key) => (
             <motion.button
               onClick={() => handleNavigate(item?.url)}
               key={key}
-              className={`${selection === item?.url ? "shadow-3d-inverse custom-icon-inverse" : "shadow-3d custom-icon "} py-1`}
+              className={`${selectionUrl === item?.url ? "shadow-3d-inverse custom-icon-inverse" : "shadow-3d custom-icon "} py-1`}
               whileTap={{ scale: 0.95 }}
             >
               {item?.title}
