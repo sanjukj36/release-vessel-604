@@ -22,6 +22,7 @@ import Miscellaneous from "@/pages/miscellaneous";
 import { Navigation } from "@/pages/navigation";
 import { PowerManagementSystemOverview } from "@/pages/pms";
 import { TankGaugingSystem } from "@/pages/tank-guaging-system";
+import { Loader } from "@/components/layout/loader";
 
 export const urls = [
   {
@@ -144,7 +145,13 @@ export const urls = [
     url: "miscellaneous",
     element: createElement(Miscellaneous),
     sub: []
-  }
+  },
+  {
+    title: "ERROR",
+    url: "error",
+    element: createElement(Loader),
+    sub: []
+  },
   // {
   //   title: "Navigation",
   //   url: "",
