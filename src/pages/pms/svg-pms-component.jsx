@@ -1,5 +1,6 @@
 import * as React from "react";
-const SVGPmsComponent = (props) => (
+
+const SVGPmsComponent = props => (
   <svg
     width={"99%"}
     viewBox="0 0 1920 1080"
@@ -2170,7 +2171,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4.61986,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 359,670.875 v 67.38479"
       />
@@ -2183,7 +2184,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4.74176,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="M 820.37036,344 1837.7106,343.9893"
       />
@@ -2196,7 +2197,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 3.12371,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 441,344.01562 357.65614,10e-6"
       />
@@ -2208,7 +2209,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle36"
           cx={573.90277}
@@ -2224,7 +2225,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect36"
           width={9.0867147}
@@ -2241,7 +2242,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 573.90276,-105.85057 3e-5,-14.05709"
           id="path36"
@@ -2254,7 +2255,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect37"
           width={9.0866575}
@@ -2280,7 +2281,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={807.38281}
         y={311.20953}
@@ -2299,7 +2300,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle142"
             cx={573.90277}
@@ -2315,7 +2316,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect142"
             width={9.0867147}
@@ -2332,7 +2333,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90276,-105.85057 3e-5,-14.05709"
             id="path142"
@@ -2345,7 +2346,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect143"
             width={9.0866575}
@@ -2364,7 +2365,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 339.43468,376.11614 -0.0234,112.09861"
         />
@@ -2377,7 +2378,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 339.41125,300.00001 V 343.8848"
         />
@@ -2406,7 +2407,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle152"
                 cx={79.739304}
@@ -2423,7 +2424,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 95.873694,102.27035 -12.859592,5.32861 12.861038,5.32523 a 13.919714,13.919714 0 0 0 -0.0014,-10.65384 z"
                 id="path152"
@@ -2438,7 +2439,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 85.066224,123.73166 -5.328615,-12.85959 -5.325225,12.86103 a 13.919714,13.919714 0 0 0 10.65384,-10e-4 z"
                 id="path153"
@@ -2453,7 +2454,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 63.604914,112.92419 12.859592,-5.32861 -12.861038,-5.32523 a 13.919714,13.919714 0 0 0 0.0014,10.65384 z"
                 id="path154"
@@ -2468,7 +2469,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle154"
                 cx={79.739304}
@@ -2485,7 +2486,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 74.412384,91.462878 5.328615,12.859592 5.325225,-12.861038 a 13.919714,13.919714 0 0 0 -10.65384,0.0014 z"
                 id="path155"
@@ -2500,7 +2501,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle155"
                 cx={79.739304}
@@ -2518,7 +2519,7 @@ const SVGPmsComponent = (props) => (
               stroke: "#000000",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             d="m 357.26595,-372.86523 v 24.9707 a 45.809418,45.809418 0 0 1 33.44336,-14.63281 45.809418,45.809418 0 0 1 33.44141,14.51953 v -24.85742 z"
           />
@@ -2532,7 +2533,7 @@ const SVGPmsComponent = (props) => (
               stroke: "#000000",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
           />
         </g>
@@ -2546,7 +2547,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle191"
             cx={573.90277}
@@ -2562,7 +2563,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect191"
             width={9.0867147}
@@ -2579,7 +2580,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90276,-105.85057 3e-5,-14.05709"
             id="path191"
@@ -2592,7 +2593,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect192"
             width={9.0866575}
@@ -2611,7 +2612,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 339.43468,376.13686 -0.0234,48.09702"
         />
@@ -2624,7 +2625,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 339.41125,300.00001 V 343.8848"
         />
@@ -2653,7 +2654,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle193"
                 cx={79.739304}
@@ -2670,7 +2671,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 95.873694,102.27035 -12.859592,5.32861 12.861038,5.32523 a 13.919714,13.919714 0 0 0 -0.0014,-10.65384 z"
                 id="path194"
@@ -2685,7 +2686,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 85.066224,123.73166 -5.328615,-12.85959 -5.325225,12.86103 a 13.919714,13.919714 0 0 0 10.65384,-10e-4 z"
                 id="path195"
@@ -2700,7 +2701,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 63.604914,112.92419 12.859592,-5.32861 -12.861038,-5.32523 a 13.919714,13.919714 0 0 0 0.0014,10.65384 z"
                 id="path196"
@@ -2715,7 +2716,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle196"
                 cx={79.739304}
@@ -2732,7 +2733,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 74.412384,91.462878 5.328615,12.859592 5.325225,-12.861038 a 13.919714,13.919714 0 0 0 -10.65384,0.0014 z"
                 id="path197"
@@ -2747,7 +2748,7 @@ const SVGPmsComponent = (props) => (
                   strokeLinejoin: "round",
                   strokeDasharray: "none",
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle197"
                 cx={79.739304}
@@ -2765,7 +2766,7 @@ const SVGPmsComponent = (props) => (
               stroke: "#000000",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             d="m 357.26595,-372.86523 v 24.9707 a 45.809418,45.809418 0 0 1 33.44336,-14.63281 45.809418,45.809418 0 0 1 33.44141,14.51953 v -24.85742 z"
           />
@@ -2779,7 +2780,7 @@ const SVGPmsComponent = (props) => (
               stroke: "#000000",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
           />
         </g>
@@ -2796,7 +2797,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle36-3"
           cx={573.90277}
@@ -2812,7 +2813,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect36-7"
           width={9.0867147}
@@ -2829,7 +2830,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 573.90276,-105.85057 3e-5,-14.05709"
           id="path36-8"
@@ -2842,7 +2843,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect37-9"
           width={9.0866575}
@@ -2862,7 +2863,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 3.00784,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 60.734017,345.06185 360.922083,2e-5"
       />
@@ -2883,7 +2884,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={434.20709}
         y={313.33148}
@@ -2913,7 +2914,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 5.6149,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 151.5,420.25 v 43.88479"
           />
@@ -2940,7 +2941,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 4.03043,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle142-6"
                 cx={573.90277}
@@ -2956,7 +2957,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 4.03043,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect142-6"
                 width={9.0867147}
@@ -2973,7 +2974,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 4.03043,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 573.90276,-105.85057 3e-5,-14.05709"
                 id="path142-6"
@@ -2986,7 +2987,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 4.03043,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect143-8"
                 width={9.0866575}
@@ -3005,7 +3006,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 4.03043,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="M 339.41125,300.00001 V 343.8848"
             />
@@ -3025,7 +3026,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle36-4"
             cx={573.90277}
@@ -3041,7 +3042,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect36-8"
             width={9.0867147}
@@ -3058,7 +3059,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90276,-105.85057 3e-5,-14.05709"
             id="path36-5"
@@ -3071,7 +3072,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect37-1"
             width={9.0866575}
@@ -3098,7 +3099,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1386.8605}
           y={252.02945}
@@ -3124,7 +3125,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={86.110611}
         y={404.03061}
@@ -3153,7 +3154,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={180.82811}
         y={407.95776}
@@ -3172,7 +3173,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle158"
             cx={573.90277}
@@ -3188,7 +3189,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect158"
             width={9.0867147}
@@ -3205,7 +3206,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90276,-105.85057 3e-5,-14.05709"
             id="path158"
@@ -3218,7 +3219,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect159"
             width={9.0866575}
@@ -3237,7 +3238,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 5.15643,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 515.52579,375.8419 -0.0233,170.71106"
         />
@@ -3250,7 +3251,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 515.59079,300.00001 V 343.8848"
         />
@@ -3265,7 +3266,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 3.80538,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 604.81312,737.47661 -248.13944,0.12961"
       />
@@ -3284,7 +3285,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={390.0481}
         y={409.38205}
@@ -3301,7 +3302,7 @@ const SVGPmsComponent = (props) => (
             fill: "#ffffff",
             stroke: "#666666",
             strokeWidth: 1,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="rect53"
           width={144}
@@ -3326,7 +3327,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={632.82812}
           y={946.64844}
@@ -3354,7 +3355,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 2.52751,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 1350.3456,736.91805 h 166.649"
         id="path10-3-1"
@@ -3369,7 +3370,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4.38896,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="M 923.97844,851.25197 602.38835,850.7438"
       />
@@ -3381,7 +3382,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-6-0-6-3"
           cx={573.90277}
@@ -3397,7 +3398,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-6-9-8-4"
           width={9.0867147}
@@ -3414,7 +3415,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 573.90276,-105.85057 3e-5,-14.05709"
           id="path142-6-7-1-4"
@@ -3427,7 +3428,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-8-1-1-3"
           width={9.0866575}
@@ -3446,7 +3447,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4.00001,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="M 1352.9148,852.59696 952.01079,851.50162"
       />
@@ -3461,7 +3462,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 643.53022,927.63961 V 971.5244"
         />
@@ -3472,7 +3473,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-6-0-6-5"
           cx={643.72461}
@@ -3488,7 +3489,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-6-9-8-3"
           width={9.0867147}
@@ -3505,7 +3506,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 643.72461,921.02863 3e-5,-14.05709"
           id="path142-6-7-1-1"
@@ -3518,7 +3519,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-8-1-1-1"
           width={9.0866575}
@@ -3536,7 +3537,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 643.72472,854 v 43.88479"
         />
@@ -3559,7 +3560,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={880.96533}
           y={403.29141}
@@ -3602,7 +3603,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={898.22864}
           y={343.97476}
@@ -3641,7 +3642,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={898.22864}
           y={380.12085}
@@ -3673,7 +3674,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 2,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={291.04807}
         y={410.39499}
@@ -3690,7 +3691,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         id="circle142-3"
         cx={262.63181}
@@ -3706,7 +3707,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         id="rect142-3"
         width={9.0867147}
@@ -3723,7 +3724,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 262.6318,410.96997 3e-5,-14.05709"
         id="path142-0"
@@ -3736,7 +3737,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         id="rect143-6"
         width={9.0866575}
@@ -3754,7 +3755,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 262.65525,420.05756 -0.0234,112.09861"
       />
@@ -3767,7 +3768,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 262.63181,343.94143 v 43.88479"
       />
@@ -3781,7 +3782,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4.6236,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 240.98738,602.25179 v 58.63479"
       />
@@ -3795,7 +3796,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4.6236,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 283.51707,602.37109 v 58.63479"
       />
@@ -3812,7 +3813,7 @@ const SVGPmsComponent = (props) => (
             stroke: "#000000",
             strokeWidth: 3,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2"
           cx={1265.1111}
@@ -3828,7 +3829,7 @@ const SVGPmsComponent = (props) => (
             stroke: "#000000",
             strokeWidth: 3,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-1"
           cx={1274.031}
@@ -3844,7 +3845,7 @@ const SVGPmsComponent = (props) => (
             stroke: "#000000",
             strokeWidth: 3,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-3"
           cx={1255.363}
@@ -3861,7 +3862,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "url(#linearGradient1290)",
           strokeWidth: 0.818798,
-          strokeDasharray: "none",
+          strokeDasharray: "none"
         }}
         transform="matrix(1.3143256,0,0,1.1384393,-267.7944,829.58956)"
       >
@@ -3872,7 +3873,7 @@ const SVGPmsComponent = (props) => (
             stroke: "url(#linearGradient1574)",
             strokeWidth: 3.29064,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle58-5-3-3"
           cx={477.8139}
@@ -3887,7 +3888,7 @@ const SVGPmsComponent = (props) => (
             stroke: "url(#linearGradient1575)",
             strokeWidth: 3.29064,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-1-8"
           cx={477.8139}
@@ -3909,7 +3910,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 7.83299,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
           id="path10-3-8-5-9-72-4"
@@ -3923,7 +3924,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 7.83299,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
           id="path10-3-8-5-2-9"
@@ -3936,7 +3937,7 @@ const SVGPmsComponent = (props) => (
           stroke: "#000000",
           strokeWidth: 5.84747,
           strokeDasharray: "none",
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         id="circle58-5-0-9"
         cx={282.25443}
@@ -3952,7 +3953,7 @@ const SVGPmsComponent = (props) => (
           inlineSize: 22.1886,
           display: "inline",
           fill: "#000000",
-          strokeWidth: 5.25904,
+          strokeWidth: 5.25904
         }}
         x={463.63797}
         y={-179.83815}
@@ -3982,7 +3983,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 7.83299,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
             id="path10-3-8-5-9-72-4-5"
@@ -3996,7 +3997,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 7.83299,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
             id="path10-3-8-5-2-9-3"
@@ -4019,7 +4020,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "#000000",
                 strokeWidth: 10.5177,
                 strokeDasharray: "none",
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="circle58-5-0-9-4"
               cx={477.8139}
@@ -4035,7 +4036,7 @@ const SVGPmsComponent = (props) => (
                 inlineSize: 22.1886,
                 display: "inline",
                 fill: "#000000",
-                strokeWidth: 5.25904,
+                strokeWidth: 5.25904
               }}
               x={463.63797}
               y={-179.83815}
@@ -4066,7 +4067,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 1.85364,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={346.82303}
         y={515.51233}
@@ -4099,7 +4100,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 1.85364,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={287.96597}
         y={669.05518}
@@ -4124,7 +4125,7 @@ const SVGPmsComponent = (props) => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m -437.87684,-144.03484 a 12.629166,12.629166 0 0 0 -12.6289,12.63086 12.629166,12.629166 0 0 0 12.6289,12.62891 12.629166,12.629166 0 0 0 12.62891,-12.62891 12.629166,12.629166 0 0 0 -12.62891,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.09375,11.09179 11.092436,11.092436 0 0 1 -11.09375,11.0918 11.092436,11.092436 0 0 1 -11.09179,-11.0918 11.092436,11.092436 0 0 1 11.09179,-11.09179 z m 0,1.20117 a 9.8890877,9.8890877 0 0 0 -9.88867,9.89062 9.8890877,9.8890877 0 0 0 9.88867,9.88868 9.8890877,9.8890877 0 0 0 9.88867,-9.88868 9.8890877,9.8890877 0 0 0 -9.88867,-9.89062 z"
         />
@@ -4136,7 +4137,7 @@ const SVGPmsComponent = (props) => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m -487.64246,-143.07195 a 12.629166,12.629166 0 0 0 -12.62696,12.62891 12.629166,12.629166 0 0 0 12.62696,12.63086 12.629166,12.629166 0 0 0 12.63086,-12.63086 12.629166,12.629166 0 0 0 -12.63086,-12.62891 z m 0,1.53711 a 11.092436,11.092436 0 0 1 11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0957,11.09375 11.092436,11.092436 0 0 1 -11.0918,-11.09375 11.092436,11.092436 0 0 1 11.0918,-11.0918 z m 0.002,1.20313 a 9.8890877,9.8890877 0 0 0 -9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88867,9.89063 9.8890877,9.8890877 0 0 0 9.88867,-9.89063 9.8890877,9.8890877 0 0 0 -9.88867,-9.88867 z"
         />
@@ -4148,7 +4149,7 @@ const SVGPmsComponent = (props) => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m -536.26393,-142.66097 a 12.629166,12.629166 0 0 0 -12.62695,12.63086 12.629166,12.629166 0 0 0 12.62695,12.62891 12.629166,12.629166 0 0 0 12.63086,-12.62891 12.629166,12.629166 0 0 0 -12.63086,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0.002,1.20312 a 9.8890877,9.8890877 0 0 0 -9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88868,-9.88867 9.8890877,9.8890877 0 0 0 -9.88868,-9.88867 z"
         />
@@ -4169,7 +4170,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={-439.68195}
           y={-152.65187}
@@ -4196,7 +4197,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={-486.78198}
           y={-152.44594}
@@ -4223,7 +4224,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={-534.43921}
           y={-152.5508}
@@ -4250,7 +4251,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={-488.92517}
           y={-184.5508}
@@ -4284,7 +4285,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 1.85364,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={897.14966}
             y={381.97449}
@@ -4324,7 +4325,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={897.14966}
           y={381.97449}
@@ -4352,7 +4353,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 1.61183,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1548.1773,1316.7884 v 12.1094"
         />
@@ -4366,7 +4367,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 1.5621,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1593.2446,1316.77 v 12.0527"
         />
@@ -4389,7 +4390,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 8.66513,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
                 id="path10-3-8-5-9-72-4-5-9-9"
@@ -4403,7 +4404,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 8.66513,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
                 id="path10-3-8-5-2-9-3-8-4"
@@ -4416,7 +4417,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "#000000",
                 strokeWidth: 3.00002,
                 strokeDasharray: "none",
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="circle58-5-0-9-4-1-1"
               cx={1.8553581}
@@ -4432,7 +4433,7 @@ const SVGPmsComponent = (props) => (
                 inlineSize: 22.1886,
                 display: "inline",
                 fill: "#000000",
-                strokeWidth: 5.81774,
+                strokeWidth: 5.81774
               }}
               x={463.63797}
               y={-179.83815}
@@ -4462,7 +4463,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 8.66513,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
                 id="path10-3-8-5-9-72-4-54-0"
@@ -4476,7 +4477,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 8.66513,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
                 id="path10-3-8-5-2-9-34-9"
@@ -4499,7 +4500,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "#000000",
                     strokeWidth: 11.635,
                     strokeDasharray: "none",
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   id="circle58-5-0-9-5-6"
                   cx={477.8139}
@@ -4515,7 +4516,7 @@ const SVGPmsComponent = (props) => (
                     inlineSize: 22.1886,
                     display: "inline",
                     fill: "#000000",
-                    strokeWidth: 5.81774,
+                    strokeWidth: 5.81774
                   }}
                   x={463.63797}
                   y={-179.83815}
@@ -4545,7 +4546,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1534.6005}
           y={1276.406}
@@ -4570,7 +4571,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="circle142-3-5"
               cx={573.90277}
@@ -4586,7 +4587,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect142-3-2"
               width={9.0867147}
@@ -4603,7 +4604,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 573.90276,-105.85057 3e-5,-14.05709"
               id="path142-0-7"
@@ -4616,7 +4617,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect143-6-5"
               width={9.0866575}
@@ -4635,7 +4636,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4.06809,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 338.68468,374.78429 -0.0234,172.82484"
           />
@@ -4648,7 +4649,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 339.41125,300.00001 V 345.0098"
           />
@@ -4665,7 +4666,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4.6236,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 1680.476,658.2992 v 39.54291"
       />
@@ -4679,7 +4680,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4.6236,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 1637.9463,658.1799 v 39.50979"
       />
@@ -4696,7 +4697,7 @@ const SVGPmsComponent = (props) => (
             stroke: "#000000",
             strokeWidth: 3,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-4"
           cx={1265.1111}
@@ -4712,7 +4713,7 @@ const SVGPmsComponent = (props) => (
             stroke: "#000000",
             strokeWidth: 3,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-1-6"
           cx={1274.031}
@@ -4728,7 +4729,7 @@ const SVGPmsComponent = (props) => (
             stroke: "#000000",
             strokeWidth: 3,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-3-6"
           cx={1255.363}
@@ -4754,7 +4755,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 1.85364,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={1729.0363}
         y={562.26392}
@@ -4788,7 +4789,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={897.14966}
           y={381.97449}
@@ -4824,7 +4825,7 @@ const SVGPmsComponent = (props) => (
                     fill: "#ffffff",
                     stroke: "#666666",
                     strokeWidth: 0.73711,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   id="rect65-2"
                   width={136.44951}
@@ -4855,7 +4856,7 @@ const SVGPmsComponent = (props) => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={267.2005}
               y={745.57678}
@@ -4874,7 +4875,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="m 268.9427,752.95757 a 12.629166,12.629166 0 0 0 -12.627,12.63086 12.629166,12.629166 0 0 0 12.627,12.62891 12.629166,12.629166 0 0 0 12.6308,-12.62891 12.629166,12.629166 0 0 0 -12.6308,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8886,-9.88867 9.8890877,9.8890877 0 0 0 -9.8886,-9.88867 z"
             />
@@ -4897,7 +4898,7 @@ const SVGPmsComponent = (props) => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={220.10049}
               y={745.78271}
@@ -4916,7 +4917,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="m 218.0052,751.89507 a 12.629166,12.629166 0 0 0 -12.627,12.63086 12.629166,12.629166 0 0 0 12.627,12.62891 12.629166,12.629166 0 0 0 12.6308,-12.62891 12.629166,12.629166 0 0 0 -12.6308,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8886,-9.88867 9.8890877,9.8890877 0 0 0 -9.8886,-9.88867 z"
             />
@@ -4939,7 +4940,7 @@ const SVGPmsComponent = (props) => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={172.44322}
               y={745.67786}
@@ -4958,7 +4959,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 0.984314,
+                strokeOpacity: 0.984314
               }}
               d="m 169.9427,750.95757 a 12.629166,12.629166 0 0 0 -12.627,12.63086 12.629166,12.629166 0 0 0 12.627,12.62891 12.629166,12.629166 0 0 0 12.6308,-12.62891 12.629166,12.629166 0 0 0 -12.6308,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8886,-9.88867 9.8890877,9.8890877 0 0 0 -9.8886,-9.88867 z"
             />
@@ -4980,7 +4981,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={394.95728}
             y={576.42786}
@@ -5008,7 +5009,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 6.33493,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 151.5,420.25 v 43.88479"
           />
@@ -5031,7 +5032,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle142-6-0"
                 cx={573.90277}
@@ -5047,7 +5048,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect142-6-9"
                 width={9.0867147}
@@ -5064,7 +5065,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 573.90276,-105.85057 3e-5,-14.05709"
                 id="path142-6-7"
@@ -5077,7 +5078,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect143-8-1"
                 width={9.0866575}
@@ -5096,7 +5097,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="M 339.41125,300.00001 V 343.8848"
             />
@@ -5117,7 +5118,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={536.58002}
           y={420.05972}
@@ -5139,7 +5140,7 @@ const SVGPmsComponent = (props) => (
                 fill: "#ffffff",
                 stroke: "#666666",
                 strokeWidth: 0.950268,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="rect65-6"
               width={136.44951}
@@ -5168,7 +5169,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={557.76898}
           y={502.54776}
@@ -5195,7 +5196,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={510.66895}
           y={502.75369}
@@ -5222,7 +5223,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={463.01172}
           y={502.64883}
@@ -5249,7 +5250,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={508.52576}
           y={470.64883}
@@ -5268,7 +5269,7 @@ const SVGPmsComponent = (props) => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m 462.60524,509.73744 a 12.629166,12.629166 0 0 0 -12.62695,12.63086 12.629166,12.629166 0 0 0 12.62695,12.62891 12.629166,12.629166 0 0 0 12.63086,-12.62891 12.629166,12.629166 0 0 0 -12.63086,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0.002,1.20312 a 9.8890877,9.8890877 0 0 0 -9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88868,-9.88867 9.8890877,9.8890877 0 0 0 -9.88868,-9.88867 z"
         />
@@ -5281,7 +5282,7 @@ const SVGPmsComponent = (props) => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m 509.16497,509.26256 a 12.629166,12.629166 0 0 0 -12.62695,12.63086 12.629166,12.629166 0 0 0 12.62695,12.62891 12.629166,12.629166 0 0 0 12.63086,-12.62891 12.629166,12.629166 0 0 0 -12.63086,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0.002,1.20312 a 9.8890877,9.8890877 0 0 0 -9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88868,-9.88867 9.8890877,9.8890877 0 0 0 -9.88868,-9.88867 z"
         />
@@ -5294,7 +5295,7 @@ const SVGPmsComponent = (props) => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m 558.71091,509.43933 a 12.629166,12.629166 0 0 0 -12.62695,12.63086 12.629166,12.629166 0 0 0 12.62695,12.62891 12.629166,12.629166 0 0 0 12.63086,-12.62891 12.629166,12.629166 0 0 0 -12.63086,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0.002,1.20312 a 9.8890877,9.8890877 0 0 0 -9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88868,-9.88867 9.8890877,9.8890877 0 0 0 -9.88868,-9.88867 z"
         />
@@ -5312,7 +5313,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle142-3-7-2"
             cx={573.90277}
@@ -5328,7 +5329,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect142-3-6-4"
             width={9.0867147}
@@ -5345,7 +5346,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90276,-105.85057 3e-5,-14.05709"
             id="path142-0-6-8"
@@ -5358,7 +5359,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect143-6-1-1"
             width={9.0866575}
@@ -5377,7 +5378,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 339.43468,376.13356 -0.0234,43.56282"
         />
@@ -5390,7 +5391,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 339.41125,300.00001 V 343.8848"
         />
@@ -5409,7 +5410,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 609.34651,542.44827 0.86304,53.21775"
           />
@@ -5431,7 +5432,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "#000000",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="ellipse120-5-7"
               cx={1841}
@@ -5448,7 +5449,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "#000000",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="ellipse118-7-4"
               cx={1841}
@@ -5464,7 +5465,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="path103-4-5"
               cx={1781.75}
@@ -5479,7 +5480,7 @@ const SVGPmsComponent = (props) => (
                 fill: "url(#linearGradient369)",
                 fillOpacity: 0.984314,
                 stroke: "#000000",
-                strokeWidth: 0,
+                strokeWidth: 0
               }}
               d="m 1757.1551,-66.743381 c 12.8911,1.519929 26.0316,1.90881 38.8341,1.003747 l -8.9758,21.590139 -24.7114,-0.265165 z"
             />
@@ -5490,7 +5491,7 @@ const SVGPmsComponent = (props) => (
                 fill: "url(#linearGradient370)",
                 fillOpacity: 0.984314,
                 stroke: "#000000",
-                strokeWidth: 0,
+                strokeWidth: 0
               }}
               d="m 1751.8571,-151.32085 h 66.468 v 34.82502 l 5.7454,9.51449 c -23.1277,-5.93345 -55.0068,-6.25403 -79.8286,-1.12082 l 7.6152,-8.39367 z"
             />
@@ -5502,7 +5503,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "#000000",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="rect106-8-37"
               width={36.875}
@@ -5518,7 +5519,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "#000000",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="ellipse121-5-9"
               cx={-88.5}
@@ -5552,7 +5553,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={895.53125}
           y={368.07214}
@@ -5585,7 +5586,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 1.85364,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={815.15186}
         y={378.24814}
@@ -5618,7 +5619,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 1.85364,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={845.76941}
         y={458.81607}
@@ -5656,7 +5657,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={897.14966}
           y={381.97449}
@@ -5683,7 +5684,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4.6236,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 683.07085,533.19613 v 58.63479"
       />
@@ -5697,7 +5698,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4.6236,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 725.60054,533.31543 v 58.63479"
       />
@@ -5714,7 +5715,7 @@ const SVGPmsComponent = (props) => (
             stroke: "#000000",
             strokeWidth: 3,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-2-5"
           cx={1265.1111}
@@ -5730,7 +5731,7 @@ const SVGPmsComponent = (props) => (
             stroke: "#000000",
             strokeWidth: 3,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-1-4-8"
           cx={1274.031}
@@ -5746,7 +5747,7 @@ const SVGPmsComponent = (props) => (
             stroke: "#000000",
             strokeWidth: 3,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-3-78-7"
           cx={1255.363}
@@ -5765,7 +5766,7 @@ const SVGPmsComponent = (props) => (
             fill: "#ffffff",
             fillOpacity: 1,
             stroke: "#666666",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="rect67-6"
           width={88.28125}
@@ -5798,7 +5799,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 5.76892,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
                 id="path10-3-8-5-9-72-4-4-8-0-7"
@@ -5812,7 +5813,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 5.76892,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
                 id="path10-3-8-5-2-9-4-1-3-2"
@@ -5834,7 +5835,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 7.47135,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
             id="path10-3-8-5-9-72-4-4-6-5"
@@ -5848,7 +5849,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 7.47135,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
             id="path10-3-8-5-2-9-4-2-5"
@@ -5859,7 +5860,7 @@ const SVGPmsComponent = (props) => (
             opacity: 1,
             fill: "#000000",
             stroke: "#666666",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           d="m 568.75,574.80469 87.89063,-53.90625"
           id="path73-51"
@@ -5878,7 +5879,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle142-3-7"
             cx={573.90277}
@@ -5894,7 +5895,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect142-3-6"
             width={9.0867147}
@@ -5911,7 +5912,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90276,-105.85057 3e-5,-14.05709"
             id="path142-0-6"
@@ -5924,7 +5925,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect143-6-1"
             width={9.0866575}
@@ -5943,7 +5944,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 339.43468,376.13356 -0.0234,43.56282"
         />
@@ -5956,7 +5957,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 339.41125,300.00001 V 343.8848"
         />
@@ -5975,7 +5976,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 609.34651,542.44827 0.86304,53.21775"
           />
@@ -5997,7 +5998,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "#000000",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="ellipse120-5"
               cx={1841}
@@ -6014,7 +6015,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "#000000",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="ellipse118-7"
               cx={1841}
@@ -6030,7 +6031,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="path103-4"
               cx={1781.75}
@@ -6045,7 +6046,7 @@ const SVGPmsComponent = (props) => (
                 fill: "url(#linearGradient70)",
                 fillOpacity: 0.984314,
                 stroke: "#000000",
-                strokeWidth: 0,
+                strokeWidth: 0
               }}
               d="m 1757.1551,-66.743381 c 12.8911,1.519929 26.0316,1.90881 38.8341,1.003747 l -8.9758,21.590139 -24.7114,-0.265165 z"
             />
@@ -6056,7 +6057,7 @@ const SVGPmsComponent = (props) => (
                 fill: "url(#linearGradient71)",
                 fillOpacity: 0.984314,
                 stroke: "#000000",
-                strokeWidth: 0,
+                strokeWidth: 0
               }}
               d="m 1751.8571,-151.32085 h 66.468 v 34.82502 l 5.7454,9.51449 c -23.1277,-5.93345 -55.0068,-6.25403 -79.8286,-1.12082 l 7.6152,-8.39367 z"
             />
@@ -6068,7 +6069,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "#000000",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="rect106-8"
               width={36.875}
@@ -6084,7 +6085,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "#000000",
                 strokeWidth: 0,
                 strokeDasharray: "none",
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="ellipse121-5"
               cx={-88.5}
@@ -6106,7 +6107,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4.6236,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 1125.5427,532.9958 v 58.63479"
       />
@@ -6120,7 +6121,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 4.6236,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 1168.0724,533.1151 v 58.63479"
       />
@@ -6137,7 +6138,7 @@ const SVGPmsComponent = (props) => (
             stroke: "#000000",
             strokeWidth: 3,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-2"
           cx={1265.1111}
@@ -6153,7 +6154,7 @@ const SVGPmsComponent = (props) => (
             stroke: "#000000",
             strokeWidth: 3,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-1-4"
           cx={1274.031}
@@ -6169,7 +6170,7 @@ const SVGPmsComponent = (props) => (
             stroke: "#000000",
             strokeWidth: 3,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-3-78"
           cx={1255.363}
@@ -6188,7 +6189,7 @@ const SVGPmsComponent = (props) => (
             fill: "#ffffff",
             fillOpacity: 1,
             stroke: "#666666",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="rect67"
           width={88.28125}
@@ -6221,7 +6222,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 5.76892,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
                 id="path10-3-8-5-9-72-4-4-8-0"
@@ -6235,7 +6236,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 5.76892,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
                 id="path10-3-8-5-2-9-4-1-3"
@@ -6257,7 +6258,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 7.47135,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 995.87147,-340.87391 c 18.48373,18.3518 23.38113,7.74524 25.34643,2.99443"
             id="path10-3-8-5-9-72-4-4-6"
@@ -6271,7 +6272,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 7.47135,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 999.69144,-337.29641 c -15.97216,-15.62469 -18.09887,-8.98636 -23.19967,-2.25647"
             id="path10-3-8-5-2-9-4-2"
@@ -6282,7 +6283,7 @@ const SVGPmsComponent = (props) => (
             opacity: 1,
             fill: "#000000",
             stroke: "#666666",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           d="m 568.75,574.80469 87.89063,-53.90625"
           id="path73"
@@ -6305,7 +6306,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 1.85364,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={1295.8096}
         y={378.16812}
@@ -6338,7 +6339,7 @@ const SVGPmsComponent = (props) => (
           fillOpacity: 1,
           stroke: "none",
           strokeWidth: 1.85364,
-          strokeOpacity: 1,
+          strokeOpacity: 1
         }}
         x={1150.9231}
         y={461.45224}
@@ -6376,7 +6377,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={893.33496}
           y={383.28522}
@@ -6415,7 +6416,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={897.14966}
           y={381.97449}
@@ -6443,7 +6444,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 2.71081,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1183.948,825.40546 v 51.13208"
         />
@@ -6455,7 +6456,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle142-6-0-6"
             cx={573.90277}
@@ -6471,7 +6472,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect142-6-9-8"
             width={9.0867147}
@@ -6488,7 +6489,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90276,-105.85057 3e-5,-14.05709"
             id="path142-6-7-1"
@@ -6501,7 +6502,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect143-8-1-1"
             width={9.0866575}
@@ -6533,7 +6534,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 1.85364,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={897.14966}
             y={381.97449}
@@ -6560,7 +6561,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 3.00227,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1184.2616,758.14331 v 50.42627"
         />
@@ -6579,7 +6580,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 3.77493,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 276.16653,267.85239 -1e-5,78.39025"
         />
@@ -6593,7 +6594,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 2.55032,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 276.20447,111.1125 0.0333,50.9376"
           />
@@ -6606,7 +6607,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 3,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="circle9-3"
               cx={423.98032}
@@ -6627,7 +6628,7 @@ const SVGPmsComponent = (props) => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={405.63263}
               y={-21.011009}
@@ -6647,7 +6648,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle14-7"
             cx={573.90277}
@@ -6662,7 +6663,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect15-9"
             width={9.0867147}
@@ -6678,7 +6679,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90274,-119.28348 3e-5,13.18209"
             id="path15-6"
@@ -6691,7 +6692,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect16-66"
             width={9.0866575}
@@ -6716,7 +6717,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={198.50578}
             y={409.37198}
@@ -6743,7 +6744,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect365-1-5-6"
                     width={65.491745}
@@ -6760,7 +6761,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect366-25-3-3"
                     width={65.238724}
@@ -6786,7 +6787,7 @@ const SVGPmsComponent = (props) => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={-388.64212}
                     y={201.07759}
@@ -6809,7 +6810,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect48-7"
                     width={65.491745}
@@ -6826,7 +6827,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect49-7"
                     width={65.238724}
@@ -6852,7 +6853,7 @@ const SVGPmsComponent = (props) => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={-388.64212}
                     y={201.07759}
@@ -6877,7 +6878,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect84-4"
                     width={65.491745}
@@ -6894,7 +6895,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect85-9"
                     width={65.238724}
@@ -6920,7 +6921,7 @@ const SVGPmsComponent = (props) => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={-388.64212}
                     y={201.07759}
@@ -6943,7 +6944,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect87-2"
                     width={65.491745}
@@ -6960,7 +6961,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect88-6"
                     width={65.238724}
@@ -6986,7 +6987,7 @@ const SVGPmsComponent = (props) => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={-388.64212}
                     y={201.07759}
@@ -7011,7 +7012,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect91-1"
                     width={65.491745}
@@ -7028,7 +7029,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect92-0"
                     width={65.238724}
@@ -7054,7 +7055,7 @@ const SVGPmsComponent = (props) => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={-388.64212}
                     y={201.07759}
@@ -7077,7 +7078,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect94-6"
                     width={65.491745}
@@ -7094,7 +7095,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect95-4"
                     width={65.238724}
@@ -7120,7 +7121,7 @@ const SVGPmsComponent = (props) => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={-388.64212}
                     y={201.07759}
@@ -7153,7 +7154,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={45.677662}
             y={207.42284}
@@ -7180,7 +7181,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={48.959576}
             y={269.90378}
@@ -7208,7 +7209,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-40"
                 width={22.08161}
@@ -7233,7 +7234,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -7249,7 +7250,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"V"}
@@ -7270,7 +7271,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -7286,7 +7287,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -7307,7 +7308,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-9-4"
                 width={22.08161}
@@ -7332,7 +7333,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -7348,7 +7349,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"A"}
@@ -7369,7 +7370,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -7385,7 +7386,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -7406,7 +7407,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-0-4"
                 width={22.08161}
@@ -7431,7 +7432,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -7447,7 +7448,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"Hz"}
@@ -7468,7 +7469,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -7484,7 +7485,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -7505,7 +7506,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-6-9"
                 width={22.08161}
@@ -7530,7 +7531,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -7546,7 +7547,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"kW"}
@@ -7567,7 +7568,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -7583,7 +7584,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -7604,7 +7605,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-91-4"
                 width={22.08161}
@@ -7629,7 +7630,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -7645,7 +7646,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"%"}
@@ -7666,7 +7667,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -7682,7 +7683,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -7703,7 +7704,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-1-3"
                 width={22.08161}
@@ -7728,7 +7729,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -7744,7 +7745,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"kW"}
@@ -7765,7 +7766,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -7781,7 +7782,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -7802,7 +7803,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-4-3"
                 width={22.08161}
@@ -7827,7 +7828,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -7843,7 +7844,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"%"}
@@ -7864,7 +7865,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -7880,7 +7881,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -7911,7 +7912,7 @@ const SVGPmsComponent = (props) => (
                       strokeDasharray: "none",
                       strokeOpacity: 0.984314,
                       paintOrder: "stroke fill markers",
-                      filter: "url(#filter610-6-0-4-1-3)",
+                      filter: "url(#filter610-6-0-4-1-3)"
                     }}
                     id="rect664-1-8-3-6-95"
                     width={89.43811}
@@ -7934,7 +7935,7 @@ const SVGPmsComponent = (props) => (
                 strokeDasharray: "none",
                 strokeOpacity: 0.984314,
                 paintOrder: "stroke fill markers",
-                filter: "url(#filter612-3-6-8-4-4)",
+                filter: "url(#filter612-3-6-8-4-4)"
               }}
               id="rect665-4-4-8-0-2"
               width={85.052429}
@@ -7962,7 +7963,7 @@ const SVGPmsComponent = (props) => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2.43105,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={337.22021}
               y={-162.33011}
@@ -7990,7 +7991,7 @@ const SVGPmsComponent = (props) => (
                 strokeDasharray: "none",
                 strokeOpacity: 0.984314,
                 paintOrder: "stroke fill markers",
-                filter: "url(#filter612-3-6-8-9-3-7)",
+                filter: "url(#filter612-3-6-8-9-3-7)"
               }}
               id="rect665-4-4-8-8-8-3"
               width={85.052429}
@@ -8018,7 +8019,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 3.77493,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 276.16653,267.85239 -1e-5,78.39025"
         />
@@ -8032,7 +8033,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 2.55032,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 276.20447,111.1125 0.0333,50.9376"
           />
@@ -8045,7 +8046,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 3,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="circle9-3-2"
               cx={423.98032}
@@ -8066,7 +8067,7 @@ const SVGPmsComponent = (props) => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={405.63263}
               y={-21.011009}
@@ -8086,7 +8087,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle14-7-3"
             cx={573.90277}
@@ -8101,7 +8102,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect15-9-5"
             width={9.0867147}
@@ -8117,7 +8118,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90274,-119.28348 3e-5,13.18209"
             id="path15-6-0"
@@ -8130,7 +8131,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect16-66-2"
             width={9.0866575}
@@ -8155,7 +8156,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={198.50578}
             y={409.37198}
@@ -8184,7 +8185,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={45.677662}
             y={207.42284}
@@ -8211,7 +8212,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={48.959576}
             y={269.90378}
@@ -8239,7 +8240,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-40-8"
                 width={22.08161}
@@ -8264,7 +8265,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -8280,7 +8281,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"V"}
@@ -8301,7 +8302,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -8317,7 +8318,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -8338,7 +8339,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-9-4-0"
                 width={22.08161}
@@ -8363,7 +8364,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -8379,7 +8380,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"A"}
@@ -8400,7 +8401,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -8416,7 +8417,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -8437,7 +8438,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-0-4-3"
                 width={22.08161}
@@ -8462,7 +8463,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -8478,7 +8479,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"Hz"}
@@ -8499,7 +8500,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -8515,7 +8516,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -8536,7 +8537,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-6-9-9"
                 width={22.08161}
@@ -8561,7 +8562,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -8577,7 +8578,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"kW"}
@@ -8598,7 +8599,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -8614,7 +8615,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -8635,7 +8636,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-91-4-7"
                 width={22.08161}
@@ -8660,7 +8661,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -8676,7 +8677,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"%"}
@@ -8697,7 +8698,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -8713,7 +8714,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -8734,7 +8735,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-1-3-2"
                 width={22.08161}
@@ -8759,7 +8760,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -8775,7 +8776,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"kW"}
@@ -8796,7 +8797,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -8812,7 +8813,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -8833,7 +8834,7 @@ const SVGPmsComponent = (props) => (
                   strokeDasharray: "none",
                   strokeDashoffset: 0,
                   strokeOpacity: 0.984314,
-                  paintOrder: "stroke fill markers",
+                  paintOrder: "stroke fill markers"
                 }}
                 id="rect120-4-3-4"
                 width={22.08161}
@@ -8858,7 +8859,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={91.696281}
                 y={36.287567}
@@ -8874,7 +8875,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#000000",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"%"}
@@ -8895,7 +8896,7 @@ const SVGPmsComponent = (props) => (
                   stroke: "none",
                   strokeWidth: 0.525147,
                   strokeOpacity: 1,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
                 x={81.38575}
                 y={36.215458}
@@ -8911,7 +8912,7 @@ const SVGPmsComponent = (props) => (
                     textAnchor: "middle",
                     fill: "#0000ff",
                     strokeWidth: 0.525147,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                 >
                   {"0.0000"}
@@ -8942,7 +8943,7 @@ const SVGPmsComponent = (props) => (
                       strokeDasharray: "none",
                       strokeOpacity: 0.984314,
                       paintOrder: "stroke fill markers",
-                      filter: "url(#filter610-6-0-4-1-6)",
+                      filter: "url(#filter610-6-0-4-1-6)"
                     }}
                     id="rect664-1-8-3-6-7"
                     width={89.43811}
@@ -8965,7 +8966,7 @@ const SVGPmsComponent = (props) => (
                 strokeDasharray: "none",
                 strokeOpacity: 0.984314,
                 paintOrder: "stroke fill markers",
-                filter: "url(#filter612-3-6-8-4-2)",
+                filter: "url(#filter612-3-6-8-4-2)"
               }}
               id="rect665-4-4-8-0-5"
               width={85.052429}
@@ -8993,7 +8994,7 @@ const SVGPmsComponent = (props) => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2.43105,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={337.22021}
               y={-162.33011}
@@ -9021,7 +9022,7 @@ const SVGPmsComponent = (props) => (
                 strokeDasharray: "none",
                 strokeOpacity: 0.984314,
                 paintOrder: "stroke fill markers",
-                filter: "url(#filter612-3-6-8-9-3-5)",
+                filter: "url(#filter612-3-6-8-9-3-5)"
               }}
               id="rect665-4-4-8-8-8-5"
               width={85.052429}
@@ -9050,7 +9051,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect365-1-5-3"
                     width={65.491745}
@@ -9067,7 +9068,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect366-25-3-2"
                     width={65.238724}
@@ -9093,7 +9094,7 @@ const SVGPmsComponent = (props) => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={-388.64212}
                     y={201.07759}
@@ -9116,7 +9117,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect48-6"
                     width={65.491745}
@@ -9133,7 +9134,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect49-1"
                     width={65.238724}
@@ -9159,7 +9160,7 @@ const SVGPmsComponent = (props) => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={-388.64212}
                     y={201.07759}
@@ -9184,7 +9185,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect84-9"
                     width={65.491745}
@@ -9201,7 +9202,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect85-8"
                     width={65.238724}
@@ -9227,7 +9228,7 @@ const SVGPmsComponent = (props) => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={-388.64212}
                     y={201.07759}
@@ -9250,7 +9251,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect87-8"
                     width={65.491745}
@@ -9267,7 +9268,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect88-77"
                     width={65.238724}
@@ -9293,7 +9294,7 @@ const SVGPmsComponent = (props) => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={-388.64212}
                     y={201.07759}
@@ -9318,7 +9319,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect91-67"
                     width={65.491745}
@@ -9335,7 +9336,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect92-2"
                     width={65.238724}
@@ -9361,7 +9362,7 @@ const SVGPmsComponent = (props) => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={-388.64212}
                     y={201.07759}
@@ -9384,7 +9385,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect94-5"
                     width={65.491745}
@@ -9401,7 +9402,7 @@ const SVGPmsComponent = (props) => (
                       stroke: "none",
                       strokeWidth: 0,
                       strokeDasharray: "none",
-                      strokeOpacity: 0.984314,
+                      strokeOpacity: 0.984314
                     }}
                     id="rect95-2"
                     width={65.238724}
@@ -9427,7 +9428,7 @@ const SVGPmsComponent = (props) => (
                       fillOpacity: 1,
                       stroke: "none",
                       strokeWidth: 2,
-                      strokeOpacity: 1,
+                      strokeOpacity: 1
                     }}
                     x={-388.64212}
                     y={201.07759}
@@ -9454,7 +9455,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4.74214,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1510.0351,1203.1986 v 127.153 18.8317"
         />
@@ -9467,7 +9468,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1509.9891,1021.3376 -0.023,102.9595"
         />
@@ -9486,7 +9487,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1540.5103}
           y={1016.6125}
@@ -9504,7 +9505,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "url(#linearGradient1290-2)",
             strokeWidth: 0.818798,
-            strokeDasharray: "none",
+            strokeDasharray: "none"
           }}
           transform="matrix(1.3143256,0,0,1.1384393,882.61981,1362.1627)"
         >
@@ -9515,7 +9516,7 @@ const SVGPmsComponent = (props) => (
               stroke: "url(#linearGradient1576)",
               strokeWidth: 3.29064,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             id="circle58-5-3"
             cx={477.8139}
@@ -9530,7 +9531,7 @@ const SVGPmsComponent = (props) => (
               stroke: "url(#linearGradient1577)",
               strokeWidth: 3.29064,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             id="circle59-1-1"
             cx={477.8139}
@@ -9550,7 +9551,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4.17375,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle158-9"
             cx={573.90277}
@@ -9566,7 +9567,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4.17375,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect158-0"
             width={9.0867147}
@@ -9583,7 +9584,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4.17375,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 573.90276,-105.85057 3e-5,-14.05709"
             id="path158-8"
@@ -9596,7 +9597,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 4.17375,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect159-2"
             width={9.0866575}
@@ -9615,7 +9616,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1510.1336,955.00685 v 40.30699"
         />
@@ -9640,7 +9641,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 6.33493,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 151.5,420.25 v 43.88479"
           />
@@ -9663,7 +9664,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle142-6-0-4"
                 cx={573.90277}
@@ -9679,7 +9680,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect142-6-9-6"
                 width={9.0867147}
@@ -9696,7 +9697,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 d="m 573.90276,-105.85057 3e-5,-14.05709"
                 id="path142-6-7-2"
@@ -9709,7 +9710,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 4,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="rect143-8-1-6"
                 width={9.0866575}
@@ -9728,7 +9729,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="M 339.41125,300.00001 V 343.8848"
             />
@@ -9749,7 +9750,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={536.58002}
           y={420.05972}
@@ -9771,7 +9772,7 @@ const SVGPmsComponent = (props) => (
                 fill: "#ffffff",
                 stroke: "#666666",
                 strokeWidth: 0.950268,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               id="rect65-6-2"
               width={136.44951}
@@ -9797,7 +9798,7 @@ const SVGPmsComponent = (props) => (
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m -251.07376,573.8221 a 12.629166,12.629166 0 0 0 -12.62695,12.63086 12.629166,12.629166 0 0 0 12.62695,12.62891 12.629166,12.629166 0 0 0 12.63086,-12.62891 12.629166,12.629166 0 0 0 -12.63086,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0.002,1.20312 a 9.8890877,9.8890877 0 0 0 -9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88868,-9.88867 9.8890877,9.8890877 0 0 0 -9.88868,-9.88867 z"
           />
@@ -9819,7 +9820,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={557.76898}
           y={502.54776}
@@ -9846,7 +9847,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={510.66895}
           y={502.75369}
@@ -9873,7 +9874,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={463.01172}
           y={502.64883}
@@ -9900,7 +9901,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={508.52576}
           y={470.64883}
@@ -9919,7 +9920,7 @@ const SVGPmsComponent = (props) => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m 463.34559,509.8048 a 12.629166,12.629166 0 0 0 -12.62695,12.63086 12.629166,12.629166 0 0 0 12.62695,12.62891 12.629166,12.629166 0 0 0 12.63086,-12.62891 12.629166,12.629166 0 0 0 -12.63086,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0.002,1.20312 a 9.8890877,9.8890877 0 0 0 -9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88868,-9.88867 9.8890877,9.8890877 0 0 0 -9.88868,-9.88867 z"
         />
@@ -9932,7 +9933,7 @@ const SVGPmsComponent = (props) => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m 509.04227,509.10289 a 12.629166,12.629166 0 0 0 -12.62695,12.63086 12.629166,12.629166 0 0 0 12.62695,12.62891 12.629166,12.629166 0 0 0 12.63086,-12.62891 12.629166,12.629166 0 0 0 -12.63086,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0.002,1.20312 a 9.8890877,9.8890877 0 0 0 -9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88868,-9.88867 9.8890877,9.8890877 0 0 0 -9.88868,-9.88867 z"
         />
@@ -9955,7 +9956,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1894.1699}
           y={594.80353}
@@ -9982,7 +9983,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1840.9692}
           y={593.18103}
@@ -10009,7 +10010,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1781.312}
           y={594.07617}
@@ -10037,7 +10038,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={889.77869}
             y={322.6102}
@@ -10057,7 +10058,7 @@ const SVGPmsComponent = (props) => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m 1781.672,603.70711 a 12.629166,12.629166 0 0 0 -12.627,12.63086 12.629166,12.629166 0 0 0 12.627,12.62891 12.629166,12.629166 0 0 0 12.6308,-12.62891 12.629166,12.629166 0 0 0 -12.6308,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8886,-9.88867 9.8890877,9.8890877 0 0 0 -9.8886,-9.88867 z"
         />
@@ -10070,7 +10071,7 @@ const SVGPmsComponent = (props) => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m 1841.5878,603.80115 a 12.629166,12.629166 0 0 0 -12.627,12.63086 12.629166,12.629166 0 0 0 12.627,12.62891 12.629166,12.629166 0 0 0 12.6308,-12.62891 12.629166,12.629166 0 0 0 -12.6308,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8886,-9.88867 9.8890877,9.8890877 0 0 0 -9.8886,-9.88867 z"
         />
@@ -10083,7 +10084,7 @@ const SVGPmsComponent = (props) => (
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m 1897.127,603.625 a 12.629166,12.629166 0 0 0 -12.627,12.63086 12.629166,12.629166 0 0 0 12.627,12.62891 12.629166,12.629166 0 0 0 12.6308,-12.62891 12.629166,12.629166 0 0 0 -12.6308,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8886,-9.88867 9.8890877,9.8890877 0 0 0 -9.8886,-9.88867 z"
         />
@@ -10097,7 +10098,7 @@ const SVGPmsComponent = (props) => (
           strokeWidth: 3.77493,
           strokeDasharray: "none",
           strokeOpacity: 1,
-          paintOrder: "stroke markers fill",
+          paintOrder: "stroke markers fill"
         }}
         d="m 278.16653,267.85239 -1e-5,78.39025"
       />
@@ -10117,7 +10118,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="rect365-1-5"
                   width={65.491745}
@@ -10134,7 +10135,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="rect366-25-3"
                   width={65.238724}
@@ -10160,7 +10161,7 @@ const SVGPmsComponent = (props) => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={-388.64212}
                   y={201.07759}
@@ -10183,7 +10184,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="rect48"
                   width={65.491745}
@@ -10200,7 +10201,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="rect49"
                   width={65.238724}
@@ -10226,7 +10227,7 @@ const SVGPmsComponent = (props) => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={-388.64212}
                   y={201.07759}
@@ -10251,7 +10252,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="rect84"
                   width={65.491745}
@@ -10268,7 +10269,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="rect85"
                   width={65.238724}
@@ -10294,7 +10295,7 @@ const SVGPmsComponent = (props) => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={-388.64212}
                   y={201.07759}
@@ -10317,7 +10318,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="rect87"
                   width={65.491745}
@@ -10334,7 +10335,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="rect88"
                   width={65.238724}
@@ -10360,7 +10361,7 @@ const SVGPmsComponent = (props) => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={-388.64212}
                   y={201.07759}
@@ -10385,7 +10386,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="rect91"
                   width={65.491745}
@@ -10402,7 +10403,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="rect92"
                   width={65.238724}
@@ -10428,7 +10429,7 @@ const SVGPmsComponent = (props) => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={-388.64212}
                   y={201.07759}
@@ -10451,7 +10452,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="rect94"
                   width={65.491745}
@@ -10468,7 +10469,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0,
                     strokeDasharray: "none",
-                    strokeOpacity: 0.984314,
+                    strokeOpacity: 0.984314
                   }}
                   id="rect95"
                   width={65.238724}
@@ -10494,7 +10495,7 @@ const SVGPmsComponent = (props) => (
                     fillOpacity: 1,
                     stroke: "none",
                     strokeWidth: 2,
-                    strokeOpacity: 1,
+                    strokeOpacity: 1
                   }}
                   x={-388.64212}
                   y={201.07759}
@@ -10519,7 +10520,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 2.55032,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 276.20447,111.1125 0.0333,50.9376"
         />
@@ -10532,7 +10533,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 3,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="circle3"
             cx={423.98032}
@@ -10553,7 +10554,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={405.63263}
             y={-21.011009}
@@ -10573,7 +10574,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle5"
           cx={573.90277}
@@ -10588,7 +10589,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect5"
           width={9.0867147}
@@ -10604,7 +10605,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 573.90274,-119.28348 3e-5,13.18209"
           id="path5"
@@ -10617,7 +10618,7 @@ const SVGPmsComponent = (props) => (
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect6"
           width={9.0866575}
@@ -10642,7 +10643,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={198.50578}
           y={409.37198}
@@ -10671,7 +10672,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={45.677662}
           y={207.42284}
@@ -10698,7 +10699,7 @@ const SVGPmsComponent = (props) => (
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={48.959576}
           y={269.90378}
@@ -10726,7 +10727,7 @@ const SVGPmsComponent = (props) => (
                 strokeDasharray: "none",
                 strokeDashoffset: 0,
                 strokeOpacity: 0.984314,
-                paintOrder: "stroke fill markers",
+                paintOrder: "stroke fill markers"
               }}
               id="rect47"
               width={22.08161}
@@ -10751,7 +10752,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={91.696281}
               y={36.287567}
@@ -10767,7 +10768,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#000000",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"V"}
@@ -10788,7 +10789,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={81.38575}
               y={36.215458}
@@ -10804,7 +10805,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#0000ff",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"0.0000"}
@@ -10825,7 +10826,7 @@ const SVGPmsComponent = (props) => (
                 strokeDasharray: "none",
                 strokeDashoffset: 0,
                 strokeOpacity: 0.984314,
-                paintOrder: "stroke fill markers",
+                paintOrder: "stroke fill markers"
               }}
               id="rect54"
               width={22.08161}
@@ -10850,7 +10851,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={91.696281}
               y={36.287567}
@@ -10866,7 +10867,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#000000",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"A"}
@@ -10887,7 +10888,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={81.38575}
               y={36.215458}
@@ -10903,7 +10904,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#0000ff",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"0.0000"}
@@ -10924,7 +10925,7 @@ const SVGPmsComponent = (props) => (
                 strokeDasharray: "none",
                 strokeDashoffset: 0,
                 strokeOpacity: 0.984314,
-                paintOrder: "stroke fill markers",
+                paintOrder: "stroke fill markers"
               }}
               id="rect57"
               width={22.08161}
@@ -10949,7 +10950,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={91.696281}
               y={36.287567}
@@ -10965,7 +10966,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#000000",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"Hz"}
@@ -10986,7 +10987,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={81.38575}
               y={36.215458}
@@ -11002,7 +11003,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#0000ff",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"0.0000"}
@@ -11023,7 +11024,7 @@ const SVGPmsComponent = (props) => (
                 strokeDasharray: "none",
                 strokeDashoffset: 0,
                 strokeOpacity: 0.984314,
-                paintOrder: "stroke fill markers",
+                paintOrder: "stroke fill markers"
               }}
               id="rect61"
               width={22.08161}
@@ -11048,7 +11049,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={91.696281}
               y={36.287567}
@@ -11064,7 +11065,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#000000",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"kW"}
@@ -11085,7 +11086,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={81.38575}
               y={36.215458}
@@ -11101,7 +11102,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#0000ff",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"0.0000"}
@@ -11122,7 +11123,7 @@ const SVGPmsComponent = (props) => (
                 strokeDasharray: "none",
                 strokeDashoffset: 0,
                 strokeOpacity: 0.984314,
-                paintOrder: "stroke fill markers",
+                paintOrder: "stroke fill markers"
               }}
               id="rect62"
               width={22.08161}
@@ -11147,7 +11148,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={91.696281}
               y={36.287567}
@@ -11163,7 +11164,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#000000",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"%"}
@@ -11184,7 +11185,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={81.38575}
               y={36.215458}
@@ -11200,7 +11201,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#0000ff",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"0.0000"}
@@ -11221,7 +11222,7 @@ const SVGPmsComponent = (props) => (
                 strokeDasharray: "none",
                 strokeDashoffset: 0,
                 strokeOpacity: 0.984314,
-                paintOrder: "stroke fill markers",
+                paintOrder: "stroke fill markers"
               }}
               id="rect68"
               width={22.08161}
@@ -11246,7 +11247,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={91.696281}
               y={36.287567}
@@ -11262,7 +11263,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#000000",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"kW"}
@@ -11283,7 +11284,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={81.38575}
               y={36.215458}
@@ -11299,7 +11300,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#0000ff",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"0.0000"}
@@ -11320,7 +11321,7 @@ const SVGPmsComponent = (props) => (
                 strokeDasharray: "none",
                 strokeDashoffset: 0,
                 strokeOpacity: 0.984314,
-                paintOrder: "stroke fill markers",
+                paintOrder: "stroke fill markers"
               }}
               id="rect69"
               width={22.08161}
@@ -11345,7 +11346,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={91.696281}
               y={36.287567}
@@ -11361,7 +11362,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#000000",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"%"}
@@ -11382,7 +11383,7 @@ const SVGPmsComponent = (props) => (
                 stroke: "none",
                 strokeWidth: 0.525147,
                 strokeOpacity: 1,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
               x={81.38575}
               y={36.215458}
@@ -11398,7 +11399,7 @@ const SVGPmsComponent = (props) => (
                   textAnchor: "middle",
                   fill: "#0000ff",
                   strokeWidth: 0.525147,
-                  paintOrder: "fill markers stroke",
+                  paintOrder: "fill markers stroke"
                 }}
               >
                 {"0.0000"}
@@ -11425,7 +11426,7 @@ const SVGPmsComponent = (props) => (
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
                     paintOrder: "stroke fill markers",
-                    filter: "url(#filter610-6-0-4-1)",
+                    filter: "url(#filter610-6-0-4-1)"
                   }}
                   id="rect664-1-8-3-6"
                   width={89.43811}
@@ -11448,7 +11449,7 @@ const SVGPmsComponent = (props) => (
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-4)",
+              filter: "url(#filter612-3-6-8-4)"
             }}
             id="rect665-4-4-8-0"
             width={85.052429}
@@ -11476,7 +11477,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2.43105,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={337.22021}
             y={-162.33011}
@@ -11504,7 +11505,7 @@ const SVGPmsComponent = (props) => (
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-9-3)",
+              filter: "url(#filter612-3-6-8-9-3)"
             }}
             id="rect665-4-4-8-8-8"
             width={85.052429}
@@ -11532,7 +11533,7 @@ const SVGPmsComponent = (props) => (
               strokeWidth: 3.77493,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 276.16653,267.85239 -1e-5,78.39025"
           />
@@ -11546,7 +11547,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 2.55032,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 276.20447,111.1125 0.0333,50.9376"
             />
@@ -11559,7 +11560,7 @@ const SVGPmsComponent = (props) => (
                   strokeWidth: 3,
                   strokeDasharray: "none",
                   strokeOpacity: 1,
-                  paintOrder: "stroke markers fill",
+                  paintOrder: "stroke markers fill"
                 }}
                 id="circle9-4"
                 cx={423.98032}
@@ -11580,7 +11581,7 @@ const SVGPmsComponent = (props) => (
                   fillOpacity: 1,
                   stroke: "none",
                   strokeWidth: 2,
-                  strokeOpacity: 1,
+                  strokeOpacity: 1
                 }}
                 x={405.63263}
                 y={-21.011009}
@@ -11600,7 +11601,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="circle14-3"
               cx={573.90277}
@@ -11615,7 +11616,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect15-0"
               width={9.0867147}
@@ -11631,7 +11632,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               d="m 573.90274,-119.28348 3e-5,13.18209"
               id="path15-1"
@@ -11644,7 +11645,7 @@ const SVGPmsComponent = (props) => (
                 strokeWidth: 4,
                 strokeDasharray: "none",
                 strokeOpacity: 1,
-                paintOrder: "stroke markers fill",
+                paintOrder: "stroke markers fill"
               }}
               id="rect16-6"
               width={9.0866575}
@@ -11669,7 +11670,7 @@ const SVGPmsComponent = (props) => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={198.50578}
               y={409.37198}
@@ -11698,7 +11699,7 @@ const SVGPmsComponent = (props) => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={45.677662}
               y={207.42284}
@@ -11725,7 +11726,7 @@ const SVGPmsComponent = (props) => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={48.959576}
               y={269.90378}
@@ -11753,7 +11754,7 @@ const SVGPmsComponent = (props) => (
                     strokeDasharray: "none",
                     strokeDashoffset: 0,
                     strokeOpacity: 0.984314,
-                    paintOrder: "stroke fill markers",
+                    paintOrder: "stroke fill markers"
                   }}
                   id="rect120-7"
                   width={22.08161}
@@ -11778,7 +11779,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={91.696281}
                   y={36.287567}
@@ -11794,7 +11795,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#000000",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"V"}
@@ -11815,7 +11816,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={81.38575}
                   y={36.215458}
@@ -11831,7 +11832,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#0000ff",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"0.0000"}
@@ -11852,7 +11853,7 @@ const SVGPmsComponent = (props) => (
                     strokeDasharray: "none",
                     strokeDashoffset: 0,
                     strokeOpacity: 0.984314,
-                    paintOrder: "stroke fill markers",
+                    paintOrder: "stroke fill markers"
                   }}
                   id="rect120-9-0"
                   width={22.08161}
@@ -11877,7 +11878,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={91.696281}
                   y={36.287567}
@@ -11893,7 +11894,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#000000",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"A"}
@@ -11914,7 +11915,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={81.38575}
                   y={36.215458}
@@ -11930,7 +11931,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#0000ff",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"0.0000"}
@@ -11951,7 +11952,7 @@ const SVGPmsComponent = (props) => (
                     strokeDasharray: "none",
                     strokeDashoffset: 0,
                     strokeOpacity: 0.984314,
-                    paintOrder: "stroke fill markers",
+                    paintOrder: "stroke fill markers"
                   }}
                   id="rect120-0-6"
                   width={22.08161}
@@ -11976,7 +11977,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={91.696281}
                   y={36.287567}
@@ -11992,7 +11993,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#000000",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"Hz"}
@@ -12013,7 +12014,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={81.38575}
                   y={36.215458}
@@ -12029,7 +12030,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#0000ff",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"0.0000"}
@@ -12050,7 +12051,7 @@ const SVGPmsComponent = (props) => (
                     strokeDasharray: "none",
                     strokeDashoffset: 0,
                     strokeOpacity: 0.984314,
-                    paintOrder: "stroke fill markers",
+                    paintOrder: "stroke fill markers"
                   }}
                   id="rect120-6-5"
                   width={22.08161}
@@ -12075,7 +12076,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={91.696281}
                   y={36.287567}
@@ -12091,7 +12092,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#000000",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"kW"}
@@ -12112,7 +12113,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={81.38575}
                   y={36.215458}
@@ -12128,7 +12129,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#0000ff",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"0.0000"}
@@ -12149,7 +12150,7 @@ const SVGPmsComponent = (props) => (
                     strokeDasharray: "none",
                     strokeDashoffset: 0,
                     strokeOpacity: 0.984314,
-                    paintOrder: "stroke fill markers",
+                    paintOrder: "stroke fill markers"
                   }}
                   id="rect120-91-1"
                   width={22.08161}
@@ -12174,7 +12175,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={91.696281}
                   y={36.287567}
@@ -12190,7 +12191,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#000000",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"%"}
@@ -12211,7 +12212,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={81.38575}
                   y={36.215458}
@@ -12227,7 +12228,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#0000ff",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"0.0000"}
@@ -12248,7 +12249,7 @@ const SVGPmsComponent = (props) => (
                     strokeDasharray: "none",
                     strokeDashoffset: 0,
                     strokeOpacity: 0.984314,
-                    paintOrder: "stroke fill markers",
+                    paintOrder: "stroke fill markers"
                   }}
                   id="rect120-1-0"
                   width={22.08161}
@@ -12273,7 +12274,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={91.696281}
                   y={36.287567}
@@ -12289,7 +12290,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#000000",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"kW"}
@@ -12310,7 +12311,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={81.38575}
                   y={36.215458}
@@ -12326,7 +12327,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#0000ff",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"0.0000"}
@@ -12347,7 +12348,7 @@ const SVGPmsComponent = (props) => (
                     strokeDasharray: "none",
                     strokeDashoffset: 0,
                     strokeOpacity: 0.984314,
-                    paintOrder: "stroke fill markers",
+                    paintOrder: "stroke fill markers"
                   }}
                   id="rect120-4-4"
                   width={22.08161}
@@ -12372,7 +12373,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={91.696281}
                   y={36.287567}
@@ -12388,7 +12389,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#000000",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"%"}
@@ -12409,7 +12410,7 @@ const SVGPmsComponent = (props) => (
                     stroke: "none",
                     strokeWidth: 0.525147,
                     strokeOpacity: 1,
-                    paintOrder: "fill markers stroke",
+                    paintOrder: "fill markers stroke"
                   }}
                   x={81.38575}
                   y={36.215458}
@@ -12425,7 +12426,7 @@ const SVGPmsComponent = (props) => (
                       textAnchor: "middle",
                       fill: "#0000ff",
                       strokeWidth: 0.525147,
-                      paintOrder: "fill markers stroke",
+                      paintOrder: "fill markers stroke"
                     }}
                   >
                     {"0.0000"}
@@ -12450,7 +12451,7 @@ const SVGPmsComponent = (props) => (
                         stroke: "none",
                         strokeWidth: 0,
                         strokeDasharray: "none",
-                        strokeOpacity: 0.984314,
+                        strokeOpacity: 0.984314
                       }}
                       id="rect365-1-5-4"
                       width={65.491745}
@@ -12467,7 +12468,7 @@ const SVGPmsComponent = (props) => (
                         stroke: "none",
                         strokeWidth: 0,
                         strokeDasharray: "none",
-                        strokeOpacity: 0.984314,
+                        strokeOpacity: 0.984314
                       }}
                       id="rect366-25-3-1"
                       width={65.238724}
@@ -12493,7 +12494,7 @@ const SVGPmsComponent = (props) => (
                         fillOpacity: 1,
                         stroke: "none",
                         strokeWidth: 2,
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       x={-388.64212}
                       y={201.07759}
@@ -12516,7 +12517,7 @@ const SVGPmsComponent = (props) => (
                         stroke: "none",
                         strokeWidth: 0,
                         strokeDasharray: "none",
-                        strokeOpacity: 0.984314,
+                        strokeOpacity: 0.984314
                       }}
                       id="rect48-9"
                       width={65.491745}
@@ -12533,7 +12534,7 @@ const SVGPmsComponent = (props) => (
                         stroke: "none",
                         strokeWidth: 0,
                         strokeDasharray: "none",
-                        strokeOpacity: 0.984314,
+                        strokeOpacity: 0.984314
                       }}
                       id="rect49-4"
                       width={65.238724}
@@ -12559,7 +12560,7 @@ const SVGPmsComponent = (props) => (
                         fillOpacity: 1,
                         stroke: "none",
                         strokeWidth: 2,
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       x={-388.64212}
                       y={201.07759}
@@ -12584,7 +12585,7 @@ const SVGPmsComponent = (props) => (
                         stroke: "none",
                         strokeWidth: 0,
                         strokeDasharray: "none",
-                        strokeOpacity: 0.984314,
+                        strokeOpacity: 0.984314
                       }}
                       id="rect84-5"
                       width={65.491745}
@@ -12601,7 +12602,7 @@ const SVGPmsComponent = (props) => (
                         stroke: "none",
                         strokeWidth: 0,
                         strokeDasharray: "none",
-                        strokeOpacity: 0.984314,
+                        strokeOpacity: 0.984314
                       }}
                       id="rect85-1"
                       width={65.238724}
@@ -12627,7 +12628,7 @@ const SVGPmsComponent = (props) => (
                         fillOpacity: 1,
                         stroke: "none",
                         strokeWidth: 2,
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       x={-388.64212}
                       y={201.07759}
@@ -12650,7 +12651,7 @@ const SVGPmsComponent = (props) => (
                         stroke: "none",
                         strokeWidth: 0,
                         strokeDasharray: "none",
-                        strokeOpacity: 0.984314,
+                        strokeOpacity: 0.984314
                       }}
                       id="rect87-1"
                       width={65.491745}
@@ -12667,7 +12668,7 @@ const SVGPmsComponent = (props) => (
                         stroke: "none",
                         strokeWidth: 0,
                         strokeDasharray: "none",
-                        strokeOpacity: 0.984314,
+                        strokeOpacity: 0.984314
                       }}
                       id="rect88-7"
                       width={65.238724}
@@ -12693,7 +12694,7 @@ const SVGPmsComponent = (props) => (
                         fillOpacity: 1,
                         stroke: "none",
                         strokeWidth: 2,
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       x={-388.64212}
                       y={201.07759}
@@ -12718,7 +12719,7 @@ const SVGPmsComponent = (props) => (
                         stroke: "none",
                         strokeWidth: 0,
                         strokeDasharray: "none",
-                        strokeOpacity: 0.984314,
+                        strokeOpacity: 0.984314
                       }}
                       id="rect91-6"
                       width={65.491745}
@@ -12735,7 +12736,7 @@ const SVGPmsComponent = (props) => (
                         stroke: "none",
                         strokeWidth: 0,
                         strokeDasharray: "none",
-                        strokeOpacity: 0.984314,
+                        strokeOpacity: 0.984314
                       }}
                       id="rect92-9"
                       width={65.238724}
@@ -12761,7 +12762,7 @@ const SVGPmsComponent = (props) => (
                         fillOpacity: 1,
                         stroke: "none",
                         strokeWidth: 2,
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       x={-388.64212}
                       y={201.07759}
@@ -12784,7 +12785,7 @@ const SVGPmsComponent = (props) => (
                         stroke: "none",
                         strokeWidth: 0,
                         strokeDasharray: "none",
-                        strokeOpacity: 0.984314,
+                        strokeOpacity: 0.984314
                       }}
                       id="rect94-1"
                       width={65.491745}
@@ -12801,7 +12802,7 @@ const SVGPmsComponent = (props) => (
                         stroke: "none",
                         strokeWidth: 0,
                         strokeDasharray: "none",
-                        strokeOpacity: 0.984314,
+                        strokeOpacity: 0.984314
                       }}
                       id="rect95-9"
                       width={65.238724}
@@ -12827,7 +12828,7 @@ const SVGPmsComponent = (props) => (
                         fillOpacity: 1,
                         stroke: "none",
                         strokeWidth: 2,
-                        strokeOpacity: 1,
+                        strokeOpacity: 1
                       }}
                       x={-388.64212}
                       y={201.07759}
@@ -12865,7 +12866,7 @@ const SVGPmsComponent = (props) => (
                       strokeDasharray: "none",
                       strokeOpacity: 0.984314,
                       paintOrder: "stroke fill markers",
-                      filter: "url(#filter610-6-0-4-1-4)",
+                      filter: "url(#filter610-6-0-4-1-4)"
                     }}
                     id="rect664-1-8-3-6-9"
                     width={89.43811}
@@ -12888,7 +12889,7 @@ const SVGPmsComponent = (props) => (
                 strokeDasharray: "none",
                 strokeOpacity: 0.984314,
                 paintOrder: "stroke fill markers",
-                filter: "url(#filter612-3-6-8-4-5)",
+                filter: "url(#filter612-3-6-8-4-5)"
               }}
               id="rect665-4-4-8-0-3"
               width={85.052429}
@@ -12916,7 +12917,7 @@ const SVGPmsComponent = (props) => (
                 fillOpacity: 1,
                 stroke: "none",
                 strokeWidth: 2.43105,
-                strokeOpacity: 1,
+                strokeOpacity: 1
               }}
               x={337.22021}
               y={-162.33011}
@@ -12944,7 +12945,7 @@ const SVGPmsComponent = (props) => (
                 strokeDasharray: "none",
                 strokeOpacity: 0.984314,
                 paintOrder: "stroke fill markers",
-                filter: "url(#filter612-3-6-8-9-3-6)",
+                filter: "url(#filter612-3-6-8-9-3-6)"
               }}
               id="rect665-4-4-8-8-8-4"
               width={85.052429}
@@ -12976,7 +12977,7 @@ const SVGPmsComponent = (props) => (
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
                     paintOrder: "stroke fill markers",
-                    filter: "url(#filter610-6-0-4-1)",
+                    filter: "url(#filter610-6-0-4-1)"
                   }}
                   id="rect63"
                   width={89.43811}
@@ -12999,7 +13000,7 @@ const SVGPmsComponent = (props) => (
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-4)",
+              filter: "url(#filter612-3-6-8-4)"
             }}
             id="rect70"
             width={85.052429}
@@ -13027,7 +13028,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2.43105,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={794.42517}
             y={839.97107}
@@ -13056,7 +13057,7 @@ const SVGPmsComponent = (props) => (
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke fill markers",
-            filter: "url(#filter612-3-6-8-9-3)",
+            filter: "url(#filter612-3-6-8-9-3)"
           }}
           id="rect72"
           width={85.052429}
@@ -13086,7 +13087,7 @@ const SVGPmsComponent = (props) => (
                     strokeDasharray: "none",
                     strokeOpacity: 0.984314,
                     paintOrder: "stroke fill markers",
-                    filter: "url(#filter610-6-0-4-1)",
+                    filter: "url(#filter610-6-0-4-1)"
                   }}
                   id="rect78"
                   width={89.43811}
@@ -13109,7 +13110,7 @@ const SVGPmsComponent = (props) => (
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-4)",
+              filter: "url(#filter612-3-6-8-4)"
             }}
             id="rect81"
             width={85.052429}
@@ -13137,7 +13138,7 @@ const SVGPmsComponent = (props) => (
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2.43105,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={794.42517}
             y={839.97107}
@@ -13166,7 +13167,7 @@ const SVGPmsComponent = (props) => (
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke fill markers",
-            filter: "url(#filter612-3-6-8-9-3)",
+            filter: "url(#filter612-3-6-8-9-3)"
           }}
           id="rect82"
           width={85.052429}
