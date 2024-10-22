@@ -1,4 +1,5 @@
 import { createElement } from "react";
+import { Loader } from "@/components/layout/loader";
 import AirCompressorSystem from "@/pages/air-compressor";
 import PortPropulsion from "@/pages/azimuth-thruster";
 import AzimuthThruster from "@/pages/azimuth-thruster";

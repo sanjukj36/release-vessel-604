@@ -112,3 +112,6 @@
     stroke-dashoffset: 0;
   }
 }
+.text-error {
+  color: rgb(255 85 85);
+}
