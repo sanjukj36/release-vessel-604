@@ -1,18 +1,20 @@
 import { cva } from "class-variance-authority";
 import PropTypes from "prop-types";
 import { twMerge } from "tailwind-merge";
+import "./box-card.css";
 
 BoxCard.propTypes = {
   variant: PropTypes.string,
   className: PropTypes.string,
-  children: PropTypes.node
+  children: PropTypes.node,
+  loading: PropTypes.bool
 };
 
 const boxCardStyles = cva(["transition-colors"], {
   variants: {
     variant: {
       default: [
-        "rounded-xs",
+        "rounded-xs relative",
         "overflow-hidden",
         "p-4",
         "bg-gradient-to-b from-input to-background",
@@ -26,10 +28,15 @@ const boxCardStyles = cva(["transition-colors"], {
   }
 });
 
-export function BoxCard({ variant, className, children }) {
+export function BoxCard({ variant, className, children, loading = false }) {
   return (
     <div className={twMerge(boxCardStyles({ variant }), className)}>
       {children}
+      {loading && (
+        <div className="absolute top-0 left-0 right-0 rounded-sm ">
+          <div className="box-card__loader-line" />
+        </div>
+      )}
     </div>
   );
 }
