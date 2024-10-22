@@ -11,12 +11,14 @@ DiskUsageComponent.propTypes = {
     free_storage: PropTypes.number,
     total_storage: PropTypes.number,
     used_storage: PropTypes.number
-  })
+  }),
+  title: PropTypes.string,
+  loading: PropTypes.bool
 };
 
-export function DiskUsageComponent({ data, title }) {
+export function DiskUsageComponent({ data, title, loading }) {
   return (
-    <BoxCard className="w-full">
+    <BoxCard loading={loading} className="w-full">
       <CardHeader className="p-2">
         <CardTitle className="flex gap-2 items-center">
           <div className="text-xl text-primary bg-primary/20 size-8 grid place-items-center rounded-sm shadow-lg">
