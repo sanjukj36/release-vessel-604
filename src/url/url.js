@@ -1,4 +1,5 @@
 import { createElement } from "react";
+import { Loader } from "@/components/layout/loader";
 import AirCompressorSystem from "@/pages/air-compressor";
 import PortPropulsion from "@/pages/azimuth-thruster";
 import AzimuthThruster from "@/pages/azimuth-thruster";
@@ -22,7 +23,6 @@ import Miscellaneous from "@/pages/miscellaneous";
 import { Navigation } from "@/pages/navigation";
 import { PowerManagementSystemOverview } from "@/pages/pms";
 import { TankGaugingSystem } from "@/pages/tank-guaging-system";
-import { Loader } from "@/components/layout/loader";
 
 export const urls = [
   {
@@ -144,12 +144,6 @@ export const urls = [
     title: "Miscellaneous",
     url: "miscellaneous",
     element: createElement(Miscellaneous),
-    sub: []
-  },
-  {
-    title: "ERROR",
-    url: "error",
-    element: createElement(Loader),
     sub: []
   },
   // {
