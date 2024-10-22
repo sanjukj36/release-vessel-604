@@ -4,7 +4,13 @@ import PropTypes from "prop-types";
 import { BoxCard } from "@/components/common/BoxCard";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
-import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
+import {
+  Table,
+  TableBody,
+  TableCaption,
+  TableCell,
+  TableRow
+} from "@/components/ui/table";
 import telemetryApi from "@/infrastructure/inf-module/telemetry";
 
 NetworkPingStatus.propTypes = {};
@@ -53,7 +59,9 @@ export function NetworkPingStatus() {
                 </TableRow>
               ))
             ) : (
-              <p>No Data found.</p>
+              <TableRow>
+                <TableCell>No Data found.</TableCell>
+              </TableRow>
             )}
           </TableBody>
         </Table>
