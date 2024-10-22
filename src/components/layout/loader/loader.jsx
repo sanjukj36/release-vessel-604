@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 import { PageWrapper } from "../page-wrapper";
 import { Spinner } from "./spinner";
 import "./loader.css";
-import Error from "./error";
 import DataNotFound from "./data-not-found";
+import Error from "./error";
 
 LoaderComponent.propTypes = {};
 

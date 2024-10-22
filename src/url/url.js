@@ -145,7 +145,7 @@ export const urls = [
     url: "miscellaneous",
     element: createElement(Miscellaneous),
     sub: []
-  },
+  }
   // {
   //   title: "Navigation",
   //   url: "",

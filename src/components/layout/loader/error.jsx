@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import errorImg from "@/assets/images/error/icon.svg";
 
-const Error = () => {    
+const Error = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen px-10 text-error text-center">
       <img width={100} className="imgEffect" src={errorImg} alt="Error" />
@@ -13,7 +13,7 @@ const Error = () => {
       </p>
     </div>
   );
-};   
+};
 
 Error.propTypes = {
   setIsSpinner: PropTypes.func.isRequired
