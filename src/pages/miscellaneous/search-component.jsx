@@ -3,24 +3,34 @@ import { Search } from "lucide-react";
 import PropTypes from "prop-types";
 import { twMerge } from "tailwind-merge";
 import "./search-component.css";
-
-// import { useStore } from "@/store/store"
+import { useDebounce } from "@/hooks/use-debounce";
+import { useStore } from "@/store/miscellaneous";
 
 SearchComponent.propTypes = {
   className: PropTypes.string
 };
 
 export function SearchComponent({ className }) {
-  // const { dashboardData, setFilteredData } = useStore(state => state)
-
-  // states.
-  const [search, setSearch] = useState("");
+  const [searchInput, setSearchInput] = useState("");
+  const searchBounceValue = useDebounce(searchInput, 400);
   const inputRef = useRef(null);
+
+  const store = useStore(store => store);
 
   useEffect(() => {
     window.addEventListener("keydown", handleKeydown);
     return () => window.removeEventListener("keydown", handleKeydown);
   }, []);
+
+  // Filtering the data.
+  useEffect(() => {
+    const { data, setFilteredData } = store;
+
+    const filteredData = data.filter(x =>
+      x?.title.toLowerCase().includes(searchBounceValue.toLowerCase())
+    );
+    setFilteredData(filteredData);
+  }, [searchBounceValue, store.data]);
 
   // handling adding and removing animation classess
   const handleClick = () => {
@@ -30,7 +40,7 @@ export function SearchComponent({ className }) {
         inputElement.classList.remove("active");
         inputElement.classList.add("deactive");
         setTimeout(() => {
-          setSearch("");
+          setSearchInput("");
         }, 400);
       } else {
         inputElement.classList.remove("deactive");
@@ -52,18 +62,10 @@ export function SearchComponent({ className }) {
           inputElement.classList.add("deactive");
         }
         setTimeout(() => {
-          setSearch("");
+          setSearchInput("");
         }, 400);
       }
     }
-  };
-
-  const handleFilter = value => {
-    console.log("value", value);
-    setSearch(value);
-    // const filteredData = dashboardData.filter(item => item?.title.toLowerCase().replace(/[.\s]/g, "").includes(value.toLowerCase()) || item?.tag.toLowerCase().replace(/[.\s]/g, "").includes(value.toLowerCase().replace(/[.\s]/g, "")))
-    // console.log("filteredData");
-    // setFilteredData(filteredData)
   };
 
   return (
@@ -78,8 +80,8 @@ export function SearchComponent({ className }) {
         ref={inputRef}
         type="text"
         className="input bg-transparent text-primary border-none outline-none"
-        value={search}
-        onChange={e => handleFilter(e.target.value)}
+        value={searchInput}
+        onChange={e => setSearchInput(e.target.value)}
       />
     </div>
   );

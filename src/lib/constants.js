@@ -18,3 +18,8 @@ export const FILE_STATUS = {
   notYetProcessed: "Not Yet Processed ",
   success: "Success"
 };
+
+export const RESPONSE_DATA_TYPE = {
+  bool: "BOOLEAN",
+  char: "VARCHAR(50)"
+};

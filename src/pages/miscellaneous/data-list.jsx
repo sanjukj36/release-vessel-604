@@ -4,136 +4,19 @@ import { BoxCard } from "@/components/common/BoxCard";
 import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
 import { CardContent, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
+import { RESPONSE_DATA_TYPE } from "@/lib/constants";
+import { useStore } from "@/store/miscellaneous";
 
 DataList.propTypes = {};
-
-const data = [
-  {
-    title: "Speed",
-    value: 23.9,
-    unit: "rpm",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "Coolant Temperature",
-    value: null,
-    unit: "°C",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "Right Exhaust Temp.(Before T/c)",
-    value: null,
-    unit: "°C",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "Left Exhaust Temp.(Before T/c)",
-    value: null,
-    unit: "°C",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "Fuel Rate",
-    value: null,
-    unit: "L/h",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "Engine Hours",
-    value: false,
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "L.O. Filter diff.Pressure",
-    value: null,
-    unit: "kPa",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "System Voltage",
-    value: null,
-    unit: "V",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "Engine Load Factor",
-    value: null,
-    unit: "%",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "Crankcase Pressure",
-    value: null,
-    unit: "kPa",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "Aftercooler Coolant Temperature",
-    value: null,
-    unit: "°C",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "Total Fuel Used",
-    value: null,
-    unit: "kL",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "Turbocharger  2 Boost Pressure",
-    value: null,
-    unit: "kPa",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "F.o. Filter Diff.Pressure",
-    value: null,
-    unit: "kPa",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  },
-  {
-    title: "Coolant Pressure",
-    value: null,
-    unit: "kPa",
-    min: "0",
-    max: "1",
-    data_type: "VARCHAR(50)"
-  }
-];
-
-export function DataList(props) {
+export function DataList() {
+  const { filteredData: data } = useStore(store => store);
   return (
     <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-2 mt-2">
-      {data?.length > 0 &&
-        data?.map((item, index) => <DataCard data={item} key={index} />)}
+      {data?.length > 0 ? (
+        data?.map((item, index) => <DataCard data={item} key={index} />)
+      ) : (
+        <p>No Data found</p>
+      )}
     </div>
   );
 }
@@ -141,15 +24,23 @@ export function DataList(props) {
 DataCard.propTypes = {
   data: PropTypes.shape({
     title: PropTypes.string,
-    value: PropTypes.number,
-    unit: PropTypes.string
+    value: PropTypes.oneOfType([
+      PropTypes.bool,
+      PropTypes.number,
+      PropTypes.string
+    ]),
+    unit: PropTypes.string,
+    data_type: PropTypes.oneOf([
+      RESPONSE_DATA_TYPE.bool,
+      RESPONSE_DATA_TYPE.char
+    ])
   })
 };
 function DataCard({ data }) {
   return (
     <BoxCard className="p-2 flex items-center text-sm">
       <p>{data?.title}</p>
-      {data.unit === undefined ? (
+      {data?.data_type === RESPONSE_DATA_TYPE.bool ? (
         <Switch className="ml-auto" checked={data.value} />
       ) : (
         <>
