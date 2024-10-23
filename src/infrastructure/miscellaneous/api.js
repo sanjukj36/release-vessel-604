@@ -2,16 +2,6 @@ import { getMQTTDataAPI } from "../mqtt/api";
 import { dtoToMiscellaneous } from "./dtoToMiscellaneous";
 
 /**
- * @typedef {Object} MqttData
- * @property {string | null} title
- * @property {string | boolean | number | null} value
- * @property {string | null} unit
- * @property {string | number | null} min
- * @property {string | number | null} max
- * @property { "BOOLEAN" | "VARCHAR(50)" | null } data_type
- */
-
-/**
  * @returns {Promise<Array<null, "data" | null, "Error">>}
  */
 const getMiscellaneousDataAPI = async () => {

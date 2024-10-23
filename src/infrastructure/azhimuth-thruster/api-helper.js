@@ -2,7 +2,7 @@ import { getMQTTDataAPI } from "@/infrastructure/mqtt/api";
 
 /**
  * @param {Array<{title: string, block: string}>} blockWithTitle
- * @returns {Promise<[Array<{data: import("../miscellaneous/api").MqttData[], title: string}>, null] | [null, Error]>}
+ * @returns {Promise<[Array<{data: import("../mqtt/api").MqttData[], title: string}>, null] | [null, Error]>}
  */
 export async function getDataAPI(blockWithTitle) {
   try {
@@ -28,9 +28,9 @@ export async function getDataAPI(blockWithTitle) {
 }
 
 /**
- * @param {import("../miscellaneous/api").MqttData} data
+ * @param {import("../mqtt/api").MqttData} data
  * @param {string} title
- * @return {{data: import("../miscellaneous/api").MqttData | [], title: string }}
+ * @return {{data: import("../mqtt/api").MqttData | [], title: string }}
  */
 function dtoToPort(data, title) {
   if (!data) {
