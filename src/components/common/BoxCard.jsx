@@ -20,7 +20,8 @@ const boxCardStyles = cva(["transition-colors"], {
         "bg-gradient-to-b from-input to-background",
         "shadow-[1px_1px_2px_0px_rgba(0,0,0,0.2),1px_1px_0px_0px_rgba(255,255,255,0.9)_inset]"
       ],
-      secondary: ["bg-accent/50", "p-4", "border-2 border-primary rounded-md"]
+      secondary: ["bg-accent/50", "p-4", "border-2 border-primary rounded-md"],
+      none: ["relative"]
     }
   },
   defaultVariants: {
