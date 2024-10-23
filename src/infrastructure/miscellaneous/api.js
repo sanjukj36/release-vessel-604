@@ -8,7 +8,7 @@ import { dtoToMiscellaneous } from "./dtoToMiscellaneous";
  * @property {string | null} unit
  * @property {string | number | null} min
  * @property {string | number | null} max
- * @property { "BOOLEAN" | "VARCHAR(50 | null)" } data_type
+ * @property { "BOOLEAN" | "VARCHAR(50)" | null } data_type
  */
 
 /**

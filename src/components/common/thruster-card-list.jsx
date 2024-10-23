@@ -19,24 +19,32 @@ ThrusterCardList.propTypes = {
     })
   ),
   image: PropTypes.string,
-  imageAlign: PropTypes.oneOf(["top", "center"])
+  imageAlign: PropTypes.oneOf(["top", "center"]),
+  loading: PropTypes.bool
 };
-export function ThrusterCardList({ title, data, image, imageAlign = "top" }) {
+export function ThrusterCardList({
+  title,
+  data,
+  image,
+  imageAlign = "top",
+  loading
+}) {
   return (
     <BoxCard variant="secondary" className="bg-transparent border-none p-0">
-      {imageAlign === "center" && (
-        <CardContent className="space-y-2">
-          {data?.length > 0 &&
-            data?.map((item, index) => (
-              <ThrusterCard
-                key={index}
-                title={item.title ?? ""}
-                data={item.data ?? []}
-                icon={item.title ? <IoSettings /> : ""}
-              />
-            ))}
-        </CardContent>
-      )}
+      {/* {imageAlign === "center" && ( */}
+      {/*   <CardContent className="space-y-2"> */}
+      {/*     {data?.length > 0 && */}
+      {/*       data?.map((item, index) => ( */}
+      {/*         <ThrusterCard */}
+      {/*           loading={loading} */}
+      {/*           key={index} */}
+      {/*           title={item.title ?? ""} */}
+      {/*           data={item.data ?? []} */}
+      {/*           icon={item.title ? <IoSettings /> : ""} */}
+      {/*         /> */}
+      {/*       ))} */}
+      {/*   </CardContent> */}
+      {/* )} */}
       {title ||
         (image && (
           <CardHeader className="items-center gap-2">
@@ -52,6 +60,7 @@ export function ThrusterCardList({ title, data, image, imageAlign = "top" }) {
         {data?.length > 0 &&
           data?.map((item, index) => (
             <ThrusterCard
+              loading={loading}
               key={index}
               title={item.title ?? ""}
               data={item.data ?? []}
