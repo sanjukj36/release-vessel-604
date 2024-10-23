@@ -26,7 +26,7 @@ export function SearchComponent({ className }) {
   useEffect(() => {
     const { data, setFilteredData } = store;
 
-    const filteredData = data.filter(x =>
+    const filteredData = data?.filter(x =>
       x?.title.toLowerCase().includes(searchBounceValue.toLowerCase())
     );
     setFilteredData(filteredData);

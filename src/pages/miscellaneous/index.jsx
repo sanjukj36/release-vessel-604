@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { PageWrapper } from "@/components/layout/page-wrapper";
 import { Title } from "@/components/layout/title";
@@ -10,6 +10,7 @@ import { SearchComponent } from "./search-component";
 
 function Miscellaneous() {
   const store = useStore(store => store);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     fetchMiscellaneousData();
@@ -18,6 +19,7 @@ function Miscellaneous() {
   }, []);
 
   const fetchMiscellaneousData = async () => {
+    setLoading(true);
     const [data, err] = await miscellaneousApi.getMiscellaneousDataAPI();
     if (data) {
       store.setData(data);
@@ -26,12 +28,13 @@ function Miscellaneous() {
       store.setData(null);
       store.setFilteredData(null);
     }
+    setLoading(false);
   };
   return (
     <PageWrapper>
       <Title title="Miscellaneous" className="uppercase" />
       <SearchComponent />
-      <DataList />
+      <DataList loading={loading} />
     </PageWrapper>
   );
 }

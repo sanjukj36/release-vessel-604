@@ -7,15 +7,23 @@ import { Switch } from "@/components/ui/switch";
 import { RESPONSE_DATA_TYPE } from "@/lib/constants";
 import { useStore } from "@/store/miscellaneous";
 
-DataList.propTypes = {};
-export function DataList() {
+DataList.propTypes = {
+  loading: PropTypes.bool
+};
+export function DataList({ loading }) {
   const { filteredData: data } = useStore(store => store);
   return (
-    <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-2 mt-2">
+    <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-2 mt-2 pt-2">
       {data?.length > 0 ? (
         data?.map((item, index) => <DataCard data={item} key={index} />)
       ) : (
-        <p>No Data found</p>
+        <BoxCard
+          variant="none"
+          loading={loading}
+          className="col-start-1 col-end-[-1]"
+        >
+          <p>No Data found</p>
+        </BoxCard>
       )}
     </div>
   );
