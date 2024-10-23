@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { twMerge } from "tailwind-merge";
 import "./search-component.css";
 import { useDebounce } from "@/hooks/use-debounce";
+import { REG } from "@/lib/constants";
 import { useStore } from "@/store/miscellaneous";
 
 SearchComponent.propTypes = {
@@ -27,7 +28,10 @@ export function SearchComponent({ className }) {
     const { data, setFilteredData } = store;
 
     const filteredData = data?.filter(x =>
-      x?.title.toLowerCase().includes(searchBounceValue.toLowerCase())
+      x?.title
+        .toLowerCase()
+        .replace(REG.seach, "")
+        .includes(searchBounceValue.toLowerCase().replace(REG.seach, ""))
     );
     setFilteredData(filteredData);
   }, [searchBounceValue, store.data]);

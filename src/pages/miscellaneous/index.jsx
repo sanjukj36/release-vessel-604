@@ -24,9 +24,6 @@ function Miscellaneous() {
     if (data) {
       store.setData(data);
       store.setFilteredData(data);
-    } else {
-      store.setData(null);
-      store.setFilteredData(null);
     }
     setLoading(false);
   };

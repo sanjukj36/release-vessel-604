@@ -19,7 +19,13 @@ export const FILE_STATUS = {
   success: "Success"
 };
 
+// Response of datatype from API
 export const RESPONSE_DATA_TYPE = {
   bool: "BOOLEAN",
   char: "VARCHAR(50)"
+};
+
+// Regular Expression.
+export const REG = {
+  seach: /[\s.]+/g
 };

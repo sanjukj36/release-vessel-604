@@ -12,6 +12,7 @@ DataList.propTypes = {
 };
 export function DataList({ loading }) {
   const { filteredData: data } = useStore(store => store);
+
   return (
     <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-2 mt-2 pt-2">
       {data?.length > 0 ? (
