@@ -12,7 +12,7 @@ import { RESPONSE_DG_1 } from "@/dummy/responseDg1.js";
 import { RESPONSE_DG_2 } from "@/dummy/responseDg2.js";
 import { RESPONSE_DG_3 } from "@/dummy/responseDg3.js";
 import { RESPONSE_DG_4 } from "@/dummy/responseDg4.js";
-import { DgData } from "@/infrastructure/dg/api";
+import DgAPI from "@/infrastructure/dg";
 import { REFRESH_TIME } from "@/lib/constants";
 
 DieselGenerator.propTypes = {};
@@ -54,7 +54,7 @@ export default function DieselGenerator() {
   }, [pathname]);
 
   const getDGData = async url => {
-    const dgDataObj = new DgData(url);
+    const dgDataObj = new DgAPI.DgData(url);
     const { error, data } = await dgDataObj.getAllData();
 
     if (error) {
