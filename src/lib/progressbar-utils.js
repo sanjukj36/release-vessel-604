@@ -7,7 +7,8 @@
  */
 export const normalizeValue = (min, max, value) => {
   if (min >= max) {
-    throw new Error("Min should be less than Max.");
+    console.error("Min should be less than Max.");
+    return null;
   }
 
   const boundedValue = Math.min(Math.max(value, min), max);
