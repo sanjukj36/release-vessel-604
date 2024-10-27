@@ -8,7 +8,6 @@ import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ProgressVertical } from "@/components/ui/progress";
 import tankAPI from "@/infrastructure/tank-gauge";
 import { REFRESH_TIME, RESPONSE_DATA_TYPE } from "@/lib/constants";
-import { normalizeValue } from "@/lib/progressbar-utils";
 import SVGTankGauging from "./tank-gauging-svg";
 
 TankGaugingSystem.propTypes = {};
@@ -33,12 +32,18 @@ export function TankGaugingSystem() {
     if (data) {
       setTopSectionData(data);
     }
+    if (error) {
+      console.error("ERROR", error);
+    }
   };
 
   const fetchBottomSectionData = async () => {
     const [data, error] = await tankAPI.getBottomsectionAPI();
     if (data) {
       setBottomSectionData(data);
+    }
+    if (error) {
+      console.error("ERROR", error);
     }
   };
   return (
@@ -74,7 +79,6 @@ TankGaugeCard.propTypes = {
   error: PropTypes.string
 };
 function TankGaugeCard({ title, data, progressBar, error }) {
-  console.log({ title, error });
   if (!title) {
     return null;
   }
@@ -116,6 +120,12 @@ function TankGaugeCard({ title, data, progressBar, error }) {
   );
 }
 
+CharItem.propTypes = {
+  item: PropTypes.shape({
+    value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    unit: PropTypes.string
+  })
+};
 function CharItem({ item }) {
   return (
     <div className="w-full flex gap-1">
@@ -124,6 +134,12 @@ function CharItem({ item }) {
   );
 }
 
+BooleanItem.propTypes = {
+  item: PropTypes.shape({
+    value: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+    title: PropTypes.string
+  })
+};
 function BooleanItem({ item }) {
   return (
     <div className="w-full flex gap-1">
