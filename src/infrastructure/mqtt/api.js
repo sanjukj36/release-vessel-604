@@ -30,8 +30,8 @@ export const getMQTTDataSecAPI = async block => {
           return [null, "Data is empty"];
         }
       } else {
-        return [null, res];
+        return [null, res.message ?? "Something Went wrong."];
       }
     })
-    .catch(err => [null, err]);
+    .catch(err => [null, err.message]);
 };
