@@ -1,4 +1,4 @@
-import * as React from "react";
+import { memo } from "react";
 
 const SVGTankGauging = props => (
   <svg width={"95%"} viewBox="0 0 1876.3042 747.36041" id="svg1" {...props}>
@@ -4034,4 +4034,4 @@ const SVGTankGauging = props => (
     </g>
   </svg>
 );
-export default SVGTankGauging;
+export default memo(SVGTankGauging);
