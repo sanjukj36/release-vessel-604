@@ -1,23 +1,10 @@
-import { getMQTTDataAPI } from "../mqtt/api";
-
-export const getRow1Col1Data = async () => {
-  try {
-    const response = await getMQTTDataAPI("dg_dg1-table_row2_col2");
-    if (response.status === 200) {
-      const { data } = response.data;
-      return { success: true, data, error: null };
-    } else {
-      return { success: false, error: null, data: [] };
-    }
-  } catch (err) {
-    return { success: false, error: err, data: [] };
-  }
-};
+import { getMQTTDataAPI, getMQTTDataSecAPI } from "../mqtt/api";
+import { dtoToDgOverviewRow1Col1, dtoToGE } from "./dto";
 
 /**
  * All API fetch class.
  */
-export class DgData {
+class DgData {
   constructor(baseTag) {
     if (!baseTag) throw new Error("Base Tag is required");
     this.baseTag = baseTag;
@@ -149,3 +136,93 @@ export class DgData {
     }
   }
 }
+
+/*
+   "dg_overview-row1_col2",
+   "dg_overview-row2_col2",
+   "dg_overview-row3_col2",
+   "dg_overview-row4_col2",
+*/
+
+const row1col1dgBlock = [
+  "dg_overview-row1_col1_dg1",
+  "dg_overview-row1_col1_dg2",
+  "dg_overview-row1_col1_dg3",
+  "dg_overview-row1_col1_dg4"
+];
+
+const getRow1Col1DataAPI = async () => {
+  try {
+    const [
+      [dg1Data, dg1Err],
+      [dg2Data, dg2Err],
+      [dg3Data, dg3Err],
+      [dg4Data, dg4Err]
+    ] = await Promise.all(row1col1dgBlock.map(x => getMQTTDataSecAPI(x)));
+    const data = dtoToDgOverviewRow1Col1(dg1Data, dg2Data, dg3Data, dg4Data);
+    return [data, null];
+  } catch (err) {
+    return [null, err.message];
+  }
+};
+
+const getRow1Col2DataAPI = async () => {
+  try {
+    const [data, error] = await getMQTTDataSecAPI("dg_overview-row1_col2");
+    if (data) {
+      const dto = dtoToGE(data);
+      return [dto, null];
+    }
+    return [null, "Something Went Wrong"];
+  } catch (err) {
+    return [null, err.message];
+  }
+};
+
+const getRow2Col2DataAPI = async () => {
+  try {
+    const [data, error] = await getMQTTDataSecAPI("dg_overview-row2_col2");
+    if (data) {
+      const dto = dtoToGE(data);
+      return [dto, null];
+    }
+    return [null, "Something Went Wrong"];
+  } catch (err) {
+    return [null, err.message];
+  }
+};
+
+const getRow3Col2DataAPI = async () => {
+  try {
+    const [data, error] = await getMQTTDataSecAPI("dg_overview-row3_col2");
+    if (data) {
+      const dto = dtoToGE(data);
+      return [dto, null];
+    }
+    return [null, "Something Went Wrong"];
+  } catch (err) {
+    return [null, err.message];
+  }
+};
+
+const getRow4Col2DataAPI = async () => {
+  try {
+    const [data, error] = await getMQTTDataSecAPI("dg_overview-row4_col2");
+    if (data) {
+      const dto = dtoToGE(data);
+      return [dto, null];
+    }
+    return [null, "Something Went Wrong"];
+  } catch (err) {
+    return [null, err.message];
+  }
+};
+
+export default {
+  DgData,
+  getRow1Col1DataAPI,
+  getRow1Col2DataAPI,
+  getRow2Col2DataAPI,
+  getRow3Col2DataAPI,
+  getRow4Col2DataAPI
+};

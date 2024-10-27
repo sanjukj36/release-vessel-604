@@ -16,10 +16,22 @@ import { apiClient } from "../client";
  * @param {string} block
  */
 export const getMQTTDataAPI = async block => {
-  const imo = "9912024";
-  return await apiClient(
-    "GET",
-    `${API}/api/app/mqtt/data/?imo=${imo}&block=${block}`,
-    ""
-  );
+  return await apiClient("GET", `${API}/api/app/mqtt/data/?block=${block}`, "");
+};
+
+export const getMQTTDataSecAPI = async block => {
+  return apiClient("GET", `${API}/api/app/mqtt/data/?block=${block}`, "")
+    .then(res => {
+      if (res.status === 200) {
+        const { data, success } = res.data;
+        if (success) {
+          return [data, null];
+        } else {
+          return [null, "Data is empty"];
+        }
+      } else {
+        return [null, res];
+      }
+    })
+    .catch(err => [null, err]);
 };

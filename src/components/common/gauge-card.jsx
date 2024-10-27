@@ -28,19 +28,20 @@ export function GaugeCard({
   unit = "",
   variant = "",
   titleSide = "top",
-  height
+  height,
+  size = "medium"
 }) {
   return (
     <BoxCard variant={variant} className={twMerge(className)}>
       {title && titleSide === "top" && (
-        <CardHeader className="p-2">
+        <CardHeader className={size === "medium" ? "p-2" : "p-0.5"}>
           <CardTitle className="text-center text-lg uppercase">
             {title}
           </CardTitle>
         </CardHeader>
       )}
-      <CardContent className="p-2 pt-0">
-        <GaugeChart2 unit={unit} data={data} height={height} />
+      <CardContent className={size === "medium" ? "p-2 pt-0" : "p-0.5 pt-0"}>
+        <GaugeChart2 unit={""} data={data} height={height} />
       </CardContent>
       <CardFooter className="p-2 pt-0 flex flex-col gap-2 justify-center items-center">
         {title && titleSide === "bottom" && (
