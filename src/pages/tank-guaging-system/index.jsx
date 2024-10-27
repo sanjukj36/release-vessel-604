@@ -74,13 +74,17 @@ TankGaugeCard.propTypes = {
   error: PropTypes.string
 };
 function TankGaugeCard({ title, data, progressBar, error }) {
+  console.log({ title, error });
+  if (!title) {
+    return null;
+  }
   return (
     <BoxCard className="p-0">
       <CardHeader className="p-3">
         <CardTitle className="text-xs">{title}</CardTitle>
       </CardHeader>
       <CardContent className="p-3 pt-0 flex gap-2 justify-center">
-        {progressBar.view ? (
+        {progressBar?.view ? (
           <ProgressVertical
             className="h-[70px] w-1"
             value={progressBar.value}
@@ -90,15 +94,23 @@ function TankGaugeCard({ title, data, progressBar, error }) {
         ) : (
           <div className="h-[70px]" />
         )}
-        <div className="flex flex-col justify-between text-xs font-semibold">
-          {data?.map((item, index) => {
-            if (item.data_type === RESPONSE_DATA_TYPE.bool) {
-              return <BooleanItem item={item} key={index} />;
-            } else {
-              return <CharItem item={item} key={index} />;
-            }
-          })}
-        </div>
+        {error && error instanceof Error && (
+          <p className="text-xs text-wrap max-w-[15ch]">{error.message}</p>
+        )}
+        {error && typeof error === "string" && (
+          <p className="text-xs text-wrap max-w-[15ch]">{error}</p>
+        )}
+        {!error && (
+          <div className="flex flex-col justify-between text-xs font-semibold">
+            {data?.map((item, index) => {
+              if (item.data_type === RESPONSE_DATA_TYPE.bool) {
+                return <BooleanItem item={item} key={index} />;
+              } else {
+                return <CharItem item={item} key={index} />;
+              }
+            })}
+          </div>
+        )}
       </CardContent>
     </BoxCard>
   );

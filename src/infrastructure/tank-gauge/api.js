@@ -30,12 +30,12 @@ const BOTTOM_BLOCKS = [
   "tank-F_W_TK_S"
 ];
 
-const getTitleAndData = async (block = "tank-SW_BALLAST_TK_3_P") => {
+const getTitleAndData = async block => {
   const [data, error] = await getMQTTDataSecAPI(block);
   const title = getTitle(block);
 
   if (error) {
-    return [title, null, error];
+    return { title, data: null, error, progressBar: null };
   }
 
   const dtoCardData = dtoToTankCard(data);
