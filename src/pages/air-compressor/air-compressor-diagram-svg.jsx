@@ -2215,7 +2215,7 @@ const AirCompressorSystemDiagram = ({ data }) => {
           id="text146"
         >
           <tspan id="tspan146" x={1471.6595} y={74.382782}>
-            {(no1Dg?.item1?.value ?? "__") + " bar"}
+            {(no1Dg?.item1?.value ?? "__") + (no1Dg?.item1?.value ?? "bar")}
           </tspan>
         </text>
         <text
@@ -3199,7 +3199,7 @@ const AirCompressorSystemDiagram = ({ data }) => {
           id="text68"
         >
           <tspan id="tspan68" x={721.02441} y={817.04614}>
-            {(no2AirReservoir?.value ?? "__") + " bar"}
+            {(no2AirReservoir?.value ?? "__") + (no2AirReservoir?.unit ?? "__")}
           </tspan>
         </text>
         <text
@@ -3264,7 +3264,7 @@ const AirCompressorSystemDiagram = ({ data }) => {
           id="text70"
         >
           <tspan id="tspan70" x={721.02441} y={265.38345}>
-            {(no1AirReservoir?.value ?? "__") + " bar"}
+            {(no1AirReservoir?.value ?? "__") + (no1AirReservoir?.unit ?? "__")}
           </tspan>
         </text>
         <text
