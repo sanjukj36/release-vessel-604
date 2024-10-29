@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 import { twMerge } from "tailwind-merge";
 import { BoxCard } from "@/components/common/BoxCard";
 import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
-import { ThrusterCard } from "@/components/common/thruster-card";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
+import { RESPONSE_DATA_TYPE } from "@/lib/constants";
 
 LegComponent.propTypes = {
   className: PropTypes.string,
@@ -35,14 +35,23 @@ export function LegComponent({ className, title, data }) {
           data?.map((item, key) => (
             <div
               key={key}
-              className="text-sm flex w-full border-b border-b-primary/10 py-0.5 items-center"
+              className="text-sm flex w-full border-b border-b-primary/10 py-2 items-center"
             >
-              <p className="mr-4">{item.title}</p>
-              {item.unit === undefined ? (
+              <p className="mr-3">{item.title}</p>
+              {item.data_type === RESPONSE_DATA_TYPE.bool ? (
                 <Switch className="ml-auto" checked={item.value} />
               ) : (
                 <>
-                  <ReadOnlyInput value={`${item.value}  ${item.unit}`} />
+                  <ReadOnlyInput
+                    value={item.value}
+                    variant={
+                      item?.value > item?.max || item?.value < item?.min
+                        ? "danger"
+                        : "default"
+                    }
+                    className="ml-auto"
+                  />
+                  <p className="min-w-[2em] text-end">{item.unit}</p>
                 </>
               )}
             </div>

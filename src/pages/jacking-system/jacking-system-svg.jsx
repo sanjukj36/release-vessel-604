@@ -531,4 +531,4 @@ const JackingSystemDiagramSvg = props => (
     </g>
   </svg>
 );
-export default JackingSystemDiagramSvg;
+export default React.memo(JackingSystemDiagramSvg);

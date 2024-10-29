@@ -1,98 +1,68 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
-import { ThrusterCard } from "@/components/common/thruster-card";
 import { PageWrapper } from "@/components/layout/page-wrapper";
 import { Title } from "@/components/layout/title";
+import jackingSystemAPI from "@/infrastructure/jacking-system";
+import { REFRESH_TIME } from "@/lib/constants";
 import JackingSystemDiagramSvg from "./jacking-system-svg";
 import { LegComponent } from "./leg-component";
 
-function JackingSystem(props) {
-  const leg1Data = [
-    {
-      title: "Height Signal",
-      value: 1_000_000,
-      limit: 100,
-      unit: "m"
-    },
-    {
-      title: "Load Signal",
-      value: 0,
-      limit: 100,
-      unit: "Ton"
-    },
-    {
-      title: "Run Signal",
-      value: true
-    },
-    {
-      title: "Alarm Signal",
-      value: true
-    },
-    {
-      title: "Fault Signal",
-      value: false
+function JackingSystem() {
+  const [allData, setAllData] = useState({});
+
+  useEffect(() => {
+    fetchAllData();
+    const id = setInterval(fetchAllData, REFRESH_TIME);
+    return () => clearInterval(id);
+  }, []);
+
+  const fetchAllData = async () => {
+    const [data, error] = await jackingSystemAPI.getAllDataAPI();
+    if (error) {
+      console.error("ERR", error);
     }
-  ];
-  const alarms = [
-    {
-      title: "Rectifier tranformer #1 temperature H",
-      value: true
-    },
-    {
-      title: "Rectifier tranformer #1 temperature H H",
-      value: true
-    },
-    {
-      title: "Rectifier tranformer #2 temperature H",
-      value: true
-    },
-    {
-      title: "Rectifier tranformer #2 temperature H H",
-      value: true
-    },
-    {
-      title: "VFD resistor temperature HH",
-      value: true
-    },
-    {
-      title: "Breake resistor temperature H",
-      value: true
-    },
-    {
-      title: "VFD cooling water temperature H",
-      value: true
-    }
-  ];
+    setAllData(data);
+  };
   return (
-    <PageWrapper className="relative flex flex-col">
+    <PageWrapper className="relative flex flex-col border-2">
       <Title title="Jacking System" className="uppercase" />
       <div className="flex justify-center flex-1 relative">
         <JackingSystemDiagramSvg />
-        <LegComponent
-          title="Alarm"
-          data={alarms}
-          className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
-        />
-        <LegComponent
-          title="LEG #1"
-          data={leg1Data}
-          className="absolute top-5 left-0 lg:left-28 translate-x-1/2"
-        />
-        <LegComponent
-          title="LEG #2"
-          data={leg1Data}
-          className="absolute top-5 right-0 lg:right-[30%]"
-        />
-        <LegComponent
-          title="LEG #3"
-          data={leg1Data}
-          className="absolute bottom-5 left-0 lg:left-28 translate-x-1/2"
-        />
-        <LegComponent
-          title="LEG #4"
-          data={leg1Data}
-          className="absolute bottom-5 right-0 lg:right-[30%]"
-        />
+        {allData?.alarm?.length > 0 && (
+          <LegComponent
+            title="Alarm"
+            data={allData.alarm}
+            className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
+          />
+        )}
+        {allData?.leg_1?.length > 0 && (
+          <LegComponent
+            title="LEG #1"
+            data={allData.leg_1}
+            className="absolute bottom-[55%] left-0 lg:left-[13%]"
+          />
+        )}
+        {allData?.leg_2?.length > 0 && (
+          <LegComponent
+            title="LEG #2"
+            data={allData.leg_2}
+            className="absolute bottom-[55%] right-0 lg:right-[12%]"
+          />
+        )}
+        {allData?.leg_3?.length > 0 && (
+          <LegComponent
+            title="LEG #3"
+            data={allData.leg_3}
+            className="absolute top-[55%] left-0 lg:left-[13%]"
+          />
+        )}
+        {allData?.leg_4?.length > 0 && (
+          <LegComponent
+            title="LEG #4"
+            data={allData.leg_4}
+            className="absolute top-[55%] right-0 lg:right-[12%]"
+          />
+        )}
       </div>
     </PageWrapper>
   );
