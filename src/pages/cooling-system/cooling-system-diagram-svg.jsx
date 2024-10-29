@@ -10,7 +10,7 @@ const CoolingSystemDiagramSvg = ({ data }) => {
     no2_fw_cooling_pump,
     no1_fw_expan_tk,
     no2_fw_expan_tk,
-    sea_water_main_pipe_pressure,
+    sea_water_main_pipe_pressure
   } = data;
 
   return (
@@ -2604,11 +2604,9 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text149"
         >
           <tspan id="tspan149" x={263.23657} y={296.78073}>
-            {
-              sw_reservation_tk?.item1
-                ? `${sw_reservation_tk.item1.value} ${sw_reservation_tk.item1.unit}`
-                : "__"
-            }
+            {sw_reservation_tk?.item1
+              ? `${sw_reservation_tk.item1.value} ${sw_reservation_tk.item1.unit}`
+              : "__"}
           </tspan>
         </text>
         <rect
@@ -2652,11 +2650,9 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text150"
         >
           <tspan id="tspan150" x={263.23657} y={316.69794}>
-            {
-              sw_reservation_tk?.item2
-                ? `${sw_reservation_tk.item2.value} ${sw_reservation_tk.item2.unit}`
-                : "__"
-            }
+            {sw_reservation_tk?.item2
+              ? `${sw_reservation_tk.item2.value} ${sw_reservation_tk.item2.unit}`
+              : "__"}
           </tspan>
         </text>
         <rect
@@ -2701,11 +2697,9 @@ const CoolingSystemDiagramSvg = ({ data }) => {
         >
           <tspan id="tspan151" x={263.23657} y={336.61517}>
             {/*"0 m\xB3"*/}
-            {
-              sw_reservation_tk?.item3
-                ? `${sw_reservation_tk.item3.value} ${sw_reservation_tk.item3.unit}`
-                : "__"
-            }
+            {sw_reservation_tk?.item3
+              ? `${sw_reservation_tk.item3.value} ${sw_reservation_tk.item3.unit}`
+              : "__"}
           </tspan>
         </text>
         <rect
@@ -2749,11 +2743,9 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text152"
         >
           <tspan id="tspan152" x={263.23657} y={356.53238}>
-            {
-              sw_reservation_tk?.item4
-                ? `${sw_reservation_tk.item4.value} ${sw_reservation_tk.item4.unit}`
-                : "__"
-            }
+            {sw_reservation_tk?.item4
+              ? `${sw_reservation_tk.item4.value} ${sw_reservation_tk.item4.unit}`
+              : "__"}
           </tspan>
         </text>
         <path
@@ -2831,11 +2823,9 @@ const CoolingSystemDiagramSvg = ({ data }) => {
             id="text157"
           >
             <tspan id="tspan157" x={343.21457} y={-60.21347}>
-              {
-                sea_water_main_pipe_pressure?.item1
-                  ? `${sea_water_main_pipe_pressure?.item1?.value} ${sea_water_main_pipe_pressure?.item1?.unit}`
-                  : "__"
-              }
+              {sea_water_main_pipe_pressure?.item1
+                ? `${sea_water_main_pipe_pressure?.item1?.value} ${sea_water_main_pipe_pressure?.item1?.unit}`
+                : "__"}
             </tspan>
           </text>
         </g>
@@ -6747,9 +6737,7 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text608"
         >
           <tspan id="tspan608" x={1161.8833} y={152.88506}>
-            {
-              no1_sw_cooling_pump?.item2?.title ?? "STANDBY PUMP START ALARM"
-            }
+            {no1_sw_cooling_pump?.item2?.title ?? "STANDBY PUMP START ALARM"}
           </tspan>
         </text>
         <path
@@ -6829,9 +6817,7 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text610"
         >
           <tspan id="tspan610" x={974.81195} y={206.62973}>
-            {
-              no1_sw_cooling_pump?.item1?.title ?? "RUNNING"
-            }
+            {no1_sw_cooling_pump?.item1?.title ?? "RUNNING"}
           </tspan>
         </text>
         <text
@@ -6913,9 +6899,7 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text613"
         >
           <tspan id="tspan613" x={974.81195} y={297.27844}>
-            {
-              no2_sw_cooling_pump?.item1?.title ?? "RUNNING"
-            }
+            {no2_sw_cooling_pump?.item1?.title ?? "RUNNING"}
           </tspan>
         </text>
         <path
@@ -6955,9 +6939,7 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text614"
         >
           <tspan id="tspan614" x={974.81195} y={428.80078}>
-            {
-              no3_sw_cooling_pump?.item1?.title ?? "RUNNING"
-            }
+            {no3_sw_cooling_pump?.item1?.title ?? "RUNNING"}
           </tspan>
         </text>
         <text
@@ -6978,9 +6960,7 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text615"
         >
           <tspan id="tspan615" x={1161.8833} y={244.8584}>
-            {
-              no2_sw_cooling_pump?.item2?.title ?? "STANDBY PUMP START ALARM"
-            }
+            {no2_sw_cooling_pump?.item2?.title ?? "STANDBY PUMP START ALARM"}
           </tspan>
         </text>
         <path
@@ -7020,9 +7000,7 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text616"
         >
           <tspan id="tspan616" x={1161.8833} y={371.10168}>
-            {
-              no3_sw_cooling_pump?.item2?.title ?? "STANDBY PUMP START ALARM"
-            }
+            {no3_sw_cooling_pump?.item2?.title ?? "STANDBY PUMP START ALARM"}
           </tspan>
         </text>
         <path
@@ -7123,9 +7101,7 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text619"
         >
           <tspan id="tspan619" x={398.6228} y={692.82227}>
-            {
-              no1_fw_expan_tk?.item1?.title ?? "LAL"
-            }
+            {no1_fw_expan_tk?.item1?.title ?? "LAL"}
           </tspan>
         </text>
         <path
@@ -7165,9 +7141,7 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text620"
         >
           <tspan id="tspan620" x={662.84375} y={691.60419}>
-            {
-              no2_fw_expan_tk?.item1?.title ?? "LAL"
-            }
+            {no2_fw_expan_tk?.item1?.title ?? "LAL"}
           </tspan>
         </text>
         <text
@@ -7276,9 +7250,7 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text626"
         >
           <tspan id="tspan626" x={974.81195} y={830.65985}>
-            {
-              no1_fw_cooling_pump?.item1?.title ?? "RUNNING"
-            }
+            {no1_fw_cooling_pump?.item1?.title ?? "RUNNING"}
           </tspan>
         </text>
         <text
@@ -7339,9 +7311,7 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text628"
         >
           <tspan id="tspan628" x={974.81195} y={917.15985}>
-            {
-              no2_fw_cooling_pump?.item1?.title ?? "RUNNING"
-            }
+            {no2_fw_cooling_pump?.item1?.title ?? "RUNNING"}
           </tspan>
         </text>
         <text
@@ -7362,9 +7332,7 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text629"
         >
           <tspan id="tspan629" x={1090.8362} y={753.90625}>
-            {
-              no1_fw_cooling_pump?.item2?.title ?? "STANDBY PUMP START ALARM"
-            }
+            {no1_fw_cooling_pump?.item2?.title ?? "STANDBY PUMP START ALARM"}
           </tspan>
         </text>
         <path
@@ -7404,9 +7372,7 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           id="text630"
         >
           <tspan id="tspan630" x={1090.8362} y={924.47052}>
-            {
-              no2_fw_cooling_pump?.item2?.title ?? "STANDBY PUMP START ALARM"
-            }
+            {no2_fw_cooling_pump?.item2?.title ?? "STANDBY PUMP START ALARM"}
           </tspan>
         </text>
         <path
@@ -7694,6 +7660,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
         />
       </g>
     </svg>
-  )
+  );
 };
 export default CoolingSystemDiagramSvg;
