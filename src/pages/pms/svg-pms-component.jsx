@@ -32,7 +32,7 @@ const SVGPmsComponent = ({ data }) => {
     pms_azi_thr_p,
     pms_azi_thr_s,
     pms_690v_main_switchboard,
-    pms_440v_main_switchboard,
+    pms_440v_main_switchboard
   } = data;
 
   return (
@@ -240,7 +240,11 @@ const SVGPmsComponent = ({ data }) => {
           height={3.4184972}
         >
           <feOffset dy={3} dx={3} id="feOffset103" />
-          <feGaussianBlur stdDeviation={3} result="blur" id="feGaussianBlur103" />
+          <feGaussianBlur
+            stdDeviation={3}
+            result="blur"
+            id="feGaussianBlur103"
+          />
           <feFlood
             floodColor="rgb(0,0,0)"
             floodOpacity={1}
@@ -288,7 +292,12 @@ const SVGPmsComponent = ({ data }) => {
             result="result10"
             id="feColorMatrix130-6"
           />
-          <feBlend in="result10" mode="normal" in2="result6" id="feBlend130-1" />
+          <feBlend
+            in="result10"
+            mode="normal"
+            in2="result6"
+            id="feBlend130-1"
+          />
         </filter>
         <linearGradient
           xlinkHref="#linearGradient118"
@@ -1112,7 +1121,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.61986,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 359,670.875 v 67.38479"
         />
@@ -1125,7 +1134,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.74176,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 820.37036,344 1837.7106,343.9893"
         />
@@ -1138,7 +1147,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.12371,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 441,344.01562 357.65614,10e-6"
         />
@@ -1149,7 +1158,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle36"
           cx={-344}
@@ -1165,7 +1174,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect36"
           width={9.0867147}
@@ -1174,8 +1183,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-823.36523}
           transform="matrix(0,-1,-1,0,0,0)"
         />
-        {
-          pms_pms_mode_bt2?.item1?.value &&
+        {pms_pms_mode_bt2?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -1184,12 +1192,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 814.27849,344.00002 -14.05709,-3e-5"
             id="path36"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -1198,7 +1206,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect37"
           width={9.0866575}
@@ -1223,7 +1231,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={807.38281}
           y={311.20953}
@@ -1240,7 +1248,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142"
           cx={62.578953}
@@ -1256,7 +1264,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142"
           width={9.0867147}
@@ -1265,8 +1273,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-419.28683}
           transform="scale(1,-1)"
         />
-        {
-          pms_1msb_bt2?.item1?.value &&
+        {pms_1msb_bt2?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -1275,12 +1282,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 62.57894,410.20012 3e-5,-14.05709"
             id="path142"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -1289,7 +1296,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143"
           width={9.0866575}
@@ -1307,7 +1314,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 62.60238,419.28771 -0.0234,112.09861"
         />
@@ -1320,7 +1327,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 62.57895,343.55793 v 43.88479"
         />
@@ -1335,7 +1342,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           id="circle152"
           cx={79.739304}
@@ -1354,7 +1361,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           d="m 95.873694,102.27035 -12.859592,5.32861 12.861038,5.32523 a 13.919714,13.919714 0 0 0 -0.0014,-10.65384 z"
           id="path152"
@@ -1371,7 +1378,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           d="m 85.066224,123.73166 -5.328615,-12.85959 -5.325225,12.86103 a 13.919714,13.919714 0 0 0 10.65384,-10e-4 z"
           id="path153"
@@ -1388,7 +1395,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           d="m 63.604914,112.92419 12.859592,-5.32861 -12.861038,-5.32523 a 13.919714,13.919714 0 0 0 0.0014,10.65384 z"
           id="path154"
@@ -1404,7 +1411,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           id="circle154"
           cx={79.739304}
@@ -1423,7 +1430,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           d="m 74.412384,91.462878 5.328615,12.859592 5.325225,-12.861038 a 13.919714,13.919714 0 0 0 -10.65384,0.0014 z"
           id="path155"
@@ -1439,7 +1446,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           id="circle155"
           cx={79.739304}
@@ -1456,7 +1463,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           d="m 357.26595,-372.86523 v 24.9707 a 45.809418,45.809418 0 0 1 33.44336,-14.63281 45.809418,45.809418 0 0 1 33.44141,14.51953 v -24.85742 z"
           transform="matrix(0.55300681,0,0,0.55300681,-154.30302,751.61043)"
@@ -1471,7 +1478,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           transform="matrix(0.55300681,0,0,0.55300681,-154.30302,751.61043)"
         />
@@ -1482,7 +1489,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle191"
           cx={1835.853}
@@ -1498,7 +1505,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect191"
           width={9.0867147}
@@ -1507,8 +1514,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-417.79965}
           transform="scale(1,-1)"
         />
-        {
-          pms_1msb_bt1?.item1?.value &&
+        {pms_1msb_bt1?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -1517,12 +1523,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 1835.8531,408.71295 V 394.65586"
             id="path191"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -1531,7 +1537,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect192"
           width={9.0866575}
@@ -1549,7 +1555,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1835.8765,417.82126 -0.023,48.09702"
         />
@@ -1562,7 +1568,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 1835.8531,341.68441 V 385.5692"
         />
@@ -1577,7 +1583,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           id="circle193"
           cx={79.739304}
@@ -1596,7 +1602,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           d="m 95.873694,102.27035 -12.859592,5.32861 12.861038,5.32523 a 13.919714,13.919714 0 0 0 -0.0014,-10.65384 z"
           id="path194"
@@ -1613,7 +1619,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           d="m 85.066224,123.73166 -5.328615,-12.85959 -5.325225,12.86103 a 13.919714,13.919714 0 0 0 10.65384,-10e-4 z"
           id="path195"
@@ -1630,7 +1636,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           d="m 63.604914,112.92419 12.859592,-5.32861 -12.861038,-5.32523 a 13.919714,13.919714 0 0 0 0.0014,10.65384 z"
           id="path196"
@@ -1646,7 +1652,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           id="circle196"
           cx={79.739304}
@@ -1665,7 +1671,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           d="m 74.412384,91.462878 5.328615,12.859592 5.325225,-12.861038 a 13.919714,13.919714 0 0 0 -10.65384,0.0014 z"
           id="path197"
@@ -1681,7 +1687,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeOpacity: 0.984314,
             paintOrder: "stroke markers fill",
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           id="circle197"
           cx={79.739304}
@@ -1698,7 +1704,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           d="m 357.26595,-372.86523 v 24.9707 a 45.809418,45.809418 0 0 1 33.44336,-14.63281 45.809418,45.809418 0 0 1 33.44141,14.51953 v -24.85742 z"
           transform="matrix(0.55300681,0,0,0.55300681,1619.6227,684.92567)"
@@ -1713,7 +1719,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter103)",
+            filter: "url(#filter103)"
           }}
           transform="matrix(0.55300681,0,0,0.55300681,1619.6227,684.92567)"
         />
@@ -1724,7 +1730,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle36-3"
           cx={-344.1514}
@@ -1740,7 +1746,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect36-7"
           width={9.0867147}
@@ -1749,8 +1755,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-452.20596}
           transform="matrix(0,-1,-1,0,0,0)"
         />
-        {
-          pms_pms_mode_bt3?.item1?.value &&
+        {pms_pms_mode_bt3?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -1759,12 +1764,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 443.11925,344.1514 -14.05709,-3e-5"
             id="path36-8"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -1773,7 +1778,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect37-9"
           width={9.0866575}
@@ -1792,7 +1797,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.00784,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 60.734017,345.06185 360.922083,2e-5"
         />
@@ -1813,7 +1818,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={434.20709}
           y={313.33148}
@@ -1833,7 +1838,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 154.14645,416.78877 v 31.0271"
         />
@@ -1844,7 +1849,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-6"
           cx={154.34093}
@@ -1861,7 +1866,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-6"
           width={9.0867147}
@@ -1870,8 +1875,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-419.22717}
           transform="scale(1,-1)"
         />
-        {
-          pms_expb?.item1?.value &&
+        {pms_expb?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -1880,12 +1884,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 154.34091,410.27715 3e-5,-13.84564"
             id="path142-6"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -1894,7 +1898,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-8"
           width={9.0866575}
@@ -1912,7 +1916,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 154.34092,344.25684 v 43.22469"
         />
@@ -1923,7 +1927,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle36-4"
           cx={-343.11597}
@@ -1939,7 +1943,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect36-8"
           width={9.0867147}
@@ -1948,9 +1952,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-1404.0444}
           transform="matrix(0,-1,-1,0,0,0)"
         />
-        {
-
-        }
+        {}
         <path
           style={{
             fill: "none",
@@ -1959,7 +1961,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1394.9577,343.11599 -14.0571,-3e-5"
           id="path36-5"
@@ -1972,7 +1974,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect37-1"
           width={9.0866575}
@@ -1998,7 +2000,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1386.8468}
           y={311.13147}
@@ -2023,7 +2025,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={86.110611}
           y={404.03061}
@@ -2052,7 +2054,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={180.82811}
           y={407.95776}
@@ -2069,7 +2071,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle158"
           cx={359.88736}
@@ -2085,7 +2087,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect158"
           width={9.0867147}
@@ -2094,8 +2096,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-420.50983}
           transform="scale(1,-1)"
         />
-        {
-          pms_t2?.item1?.value &&
+        {pms_t2?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -2104,12 +2105,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 359.88735,411.4231 3e-5,-14.05709"
             id="path158"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -2118,7 +2119,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect159"
           width={9.0866575}
@@ -2136,7 +2137,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 5.15643,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 359.82236,420.23645 -0.0233,170.71106"
         />
@@ -2149,7 +2150,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 359.88736,344.39456 v 43.88479"
         />
@@ -2163,7 +2164,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.80538,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 604.81312,737.47661 -248.13944,0.12961"
         />
@@ -2182,7 +2183,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={390.0481}
           y={409.38205}
@@ -2198,7 +2199,7 @@ const SVGPmsComponent = ({ data }) => {
             fill: "#ffffff",
             stroke: "#666666",
             strokeWidth: 1,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="rect53"
           width={144}
@@ -2223,7 +2224,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={98.712502}
           y={473.79376}
@@ -2250,7 +2251,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 2.52751,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1350.3456,736.91805 h 166.649"
           id="path10-3-1"
@@ -2265,7 +2266,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.38896,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 923.97844,851.25197 602.38835,850.7438"
         />
@@ -2276,7 +2277,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-6-0-6-3"
           cx={840.29462}
@@ -2292,7 +2293,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-6-9-8-4"
           width={9.0867147}
@@ -2309,7 +2310,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 929.75733,851.17097 14.05614,0.1636"
           id="path142-6-7-1-4"
@@ -2322,7 +2323,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-8-1-1-3"
           width={9.0866575}
@@ -2340,7 +2341,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.00001,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="M 1352.9148,852.59696 952.01079,851.50162"
         />
@@ -2354,7 +2355,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.99628,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 603.9589,809.07408 v 43.8031"
         />
@@ -2365,7 +2366,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.99628,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-6-0-6-5"
           cx={604.15326}
@@ -2382,7 +2383,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.99628,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-6-9-8-3"
           width={9.0867147}
@@ -2399,13 +2400,12 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.99628,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 604.15329,802.4754 3e-5,-14.03092"
           id="path142-6-7-1-1"
         />
-        {
-          pms_t2_2msb?.item1?.value &&
+        {pms_t2_2msb?.item1?.value && (
           <rect
             style={{
               fill: "#666a71",
@@ -2414,7 +2414,7 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 3.99628,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             id="rect143-8-1-1-1"
             width={9.0866575}
@@ -2423,7 +2423,7 @@ const SVGPmsComponent = ({ data }) => {
             y={-788.44452}
             transform="scale(1,-1)"
           />
-        }
+        )}
         <path
           id="path149-3-1-8-0"
           style={{
@@ -2433,7 +2433,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.99628,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 604.1534,735.57153 v 43.80311"
         />
@@ -2454,7 +2454,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={2036.4028}
           y={375.7421}
@@ -2495,7 +2495,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1719.1649}
           y={517.31628}
@@ -2528,7 +2528,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={474.23428}
           y={590.02771}
@@ -2559,7 +2559,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={291.04807}
           y={410.39499}
@@ -2576,7 +2576,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-3"
           cx={262.63181}
@@ -2592,7 +2592,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-3"
           width={9.0867147}
@@ -2601,8 +2601,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-420.05667}
           transform="scale(1,-1)"
         />
-        {
-          pms_jt2?.item1?.value &&
+        {pms_jt2?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -2611,12 +2610,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 262.6318,410.96997 3e-5,-14.05709"
             id="path142-0"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -2625,7 +2624,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-6"
           width={9.0866575}
@@ -2643,7 +2642,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 262.65525,420.05756 -0.0234,112.09861"
         />
@@ -2656,7 +2655,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 262.63181,343.94143 v 43.88479"
         />
@@ -2670,7 +2669,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.6236,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 240.98738,602.25179 v 58.63479"
         />
@@ -2684,7 +2683,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.6236,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 283.51707,602.37109 v 58.63479"
         />
@@ -2696,7 +2695,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "#000000",
             strokeWidth: 5.35849,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2"
           cx={263.75134}
@@ -2712,7 +2711,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "#000000",
             strokeWidth: 5.35849,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-1"
           cx={280.8855}
@@ -2728,7 +2727,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "#000000",
             strokeWidth: 5.35849,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-3"
           cx={245.02643}
@@ -2743,7 +2742,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "url(#linearGradient1574)",
             strokeWidth: 4.02519,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle58-5-3-3"
           cx={360.20865}
@@ -2758,7 +2757,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "url(#linearGradient1575)",
             strokeWidth: 4.02519,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-1-8"
           cx={360.20865}
@@ -2775,7 +2774,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.92608,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 281.09944,658.53564 c 12.15587,11.03648 15.37666,4.65786 16.66914,1.8008"
           id="path10-3-8-5-9-72-4"
@@ -2789,7 +2788,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.92608,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 283.61165,660.68709 c -10.50412,-9.39644 -11.90276,-5.40426 -15.25731,-1.35701"
           id="path10-3-8-5-2-9"
@@ -2801,7 +2800,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "#000000",
             strokeWidth: 5.84747,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle58-5-0-9"
           cx={282.25443}
@@ -2817,7 +2816,7 @@ const SVGPmsComponent = ({ data }) => {
             inlineSize: 22.1886,
             display: "inline",
             fill: "#000000",
-            strokeWidth: 5.25904,
+            strokeWidth: 5.25904
           }}
           x={463.63797}
           y={-179.83815}
@@ -2837,7 +2836,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.92608,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 238.88603,657.39047 c 12.15587,11.03648 15.37666,4.65786 16.66914,1.8008"
           id="path10-3-8-5-9-72-4-5"
@@ -2851,7 +2850,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.92608,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 241.39824,659.54192 c -10.50412,-9.39644 -11.90276,-5.40426 -15.25731,-1.35701"
           id="path10-3-8-5-2-9-3"
@@ -2863,7 +2862,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "#000000",
             strokeWidth: 5.84747,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle58-5-0-9-4"
           cx={240.04103}
@@ -2879,7 +2878,7 @@ const SVGPmsComponent = ({ data }) => {
             inlineSize: 22.1886,
             display: "inline",
             fill: "#000000",
-            strokeWidth: 5.25904,
+            strokeWidth: 5.25904
           }}
           x={463.63797}
           y={-179.83815}
@@ -2907,7 +2906,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={346.82303}
           y={515.51233}
@@ -2940,7 +2939,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={287.96597}
           y={669.05518}
@@ -2972,7 +2971,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m 146.32031,664.99023 a 12.629166,12.629166 0 0 0 -12.6289,12.63086 12.629166,12.629166 0 0 0 12.6289,12.62891 12.629166,12.629166 0 0 0 12.62891,-12.62891 12.629166,12.629166 0 0 0 -12.62891,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.09375,11.09179 11.092436,11.092436 0 0 1 -11.09375,11.0918 11.092436,11.092436 0 0 1 -11.09179,-11.0918 11.092436,11.092436 0 0 1 11.09179,-11.09179 z m 0,1.20117 a 9.8890877,9.8890877 0 0 0 -9.88867,9.89062 9.8890877,9.8890877 0 0 0 9.88867,9.88868 9.8890877,9.8890877 0 0 0 9.88867,-9.88868 9.8890877,9.8890877 0 0 0 -9.88867,-9.89062 z"
           />
@@ -2993,7 +2992,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={144.5152}
             y={656.37317}
@@ -3021,7 +3020,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m 96.55469,665.95312 a 12.629166,12.629166 0 0 0 -12.62696,12.62891 12.629166,12.629166 0 0 0 12.62696,12.63086 12.629166,12.629166 0 0 0 12.63086,-12.63086 12.629166,12.629166 0 0 0 -12.63086,-12.62891 z m 0,1.53711 a 11.092436,11.092436 0 0 1 11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0957,11.09375 11.092436,11.092436 0 0 1 -11.0918,-11.09375 11.092436,11.092436 0 0 1 11.0918,-11.0918 z m 0.002,1.20313 a 9.8890877,9.8890877 0 0 0 -9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88867,9.89063 9.8890877,9.8890877 0 0 0 9.88867,-9.89063 9.8890877,9.8890877 0 0 0 -9.88867,-9.88867 z"
           />
@@ -3042,7 +3041,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={97.415169}
             y={656.5791}
@@ -3070,7 +3069,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="M 47.93322,666.3641 A 12.629166,12.629166 0 0 0 35.30627,678.99496 12.629166,12.629166 0 0 0 47.93322,691.62387 12.629166,12.629166 0 0 0 60.56408,678.99496 12.629166,12.629166 0 0 0 47.93322,666.3641 Z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0.002,1.20312 a 9.8890877,9.8890877 0 0 0 -9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88868,-9.88867 9.8890877,9.8890877 0 0 0 -9.88868,-9.88867 z"
           />
@@ -3091,7 +3090,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={49.757942}
             y={656.47424}
@@ -3120,7 +3119,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={95.27198}
           y={624.47424}
@@ -3147,7 +3146,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={718.51428}
           y={746.30914}
@@ -3180,7 +3179,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1011.7358}
           y={835.66797}
@@ -3206,7 +3205,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 1.61183,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1739.1552,685.76884 v 12.1094"
         />
@@ -3220,7 +3219,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 1.5621,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1784.2225,685.75044 v 12.0527"
         />
@@ -3233,7 +3232,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 5.34033,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1744.2237,687.65481 c -12.1304,-10.61678 -15.3349,-4.46854 -16.6206,-1.71485"
           id="path10-3-8-5-9-72-4-5-9-9"
@@ -3247,7 +3246,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 5.34033,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1741.7169,685.58535 c 10.4819,9.03892 11.8722,5.19165 15.2125,1.28902"
           id="path10-3-8-5-2-9-3-8-4"
@@ -3259,7 +3258,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "#000000",
             strokeWidth: 6.33918,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle58-5-0-9-4-1-1"
           cx={-1742.3409}
@@ -3276,7 +3275,7 @@ const SVGPmsComponent = ({ data }) => {
             inlineSize: 22.1886,
             display: "inline",
             fill: "#000000",
-            strokeWidth: 5.81774,
+            strokeWidth: 5.81774
           }}
           x={463.63797}
           y={-179.83815}
@@ -3296,7 +3295,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 5.34033,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1787.0771,688.38029 c -12.0658,-10.69915 -15.3075,-4.57286 -16.6098,-1.82798"
           id="path10-3-8-5-9-72-4-54-0"
@@ -3310,7 +3309,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 5.34033,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1784.5829,686.2938 c 10.4269,9.1101 11.8405,5.27238 15.2044,1.39257"
           id="path10-3-8-5-2-9-34-9"
@@ -3327,7 +3326,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "#000000",
               strokeWidth: 11.635,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             id="circle58-5-0-9-5-6"
             cx={477.8139}
@@ -3343,7 +3342,7 @@ const SVGPmsComponent = ({ data }) => {
               inlineSize: 22.1886,
               display: "inline",
               fill: "#000000",
-              strokeWidth: 5.81774,
+              strokeWidth: 5.81774
             }}
             x={463.63797}
             y={-179.83815}
@@ -3370,7 +3369,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1725.5784}
           y={645.38647}
@@ -3387,7 +3386,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-3-5"
           cx={1660.1978}
@@ -3403,7 +3402,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-3-2"
           width={9.0867147}
@@ -3412,8 +3411,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-417.47144}
           transform="scale(1,-1)"
         />
-        {
-          pms_jt1?.item1?.value &&
+        {pms_jt1?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -3422,12 +3420,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 1660.1978,408.38472 V 394.32763"
             id="path142-0-7"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -3436,7 +3434,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-6-5"
           width={9.0866575}
@@ -3454,7 +3452,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.06809,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1659.9712,416.01546 -0.023,172.82484"
         />
@@ -3467,7 +3465,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1660.6977,341.23118 v 45.00979"
         />
@@ -3481,7 +3479,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.6236,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1680.476,658.2992 v 39.54291"
         />
@@ -3495,7 +3493,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.6236,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1637.9463,658.1799 v 39.50979"
         />
@@ -3512,7 +3510,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "#000000",
               strokeWidth: 3,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             id="circle59-1-2-4"
             cx={1265.1111}
@@ -3528,7 +3526,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "#000000",
               strokeWidth: 3,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             id="circle59-1-2-1-6"
             cx={1274.031}
@@ -3544,7 +3542,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "#000000",
               strokeWidth: 3,
               strokeDasharray: "none",
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             id="circle59-1-2-3-6"
             cx={1255.363}
@@ -3570,7 +3568,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1729.0363}
           y={562.26392}
@@ -3603,7 +3601,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1834.5127}
           y={379.07037}
@@ -3630,7 +3628,7 @@ const SVGPmsComponent = ({ data }) => {
               fill: "#ffffff",
               stroke: "#666666",
               strokeWidth: 0.73711,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             id="rect65-2"
             width={136.44951}
@@ -3658,7 +3656,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1774.3389}
           y={748.35504}
@@ -3685,7 +3683,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           d="m 1774.3096,755.73583 a 12.629166,12.629166 0 0 0 -12.627,12.63086 12.629166,12.629166 0 0 0 12.627,12.62891 12.629166,12.629166 0 0 0 12.6308,-12.62891 12.629166,12.629166 0 0 0 -12.6308,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8886,-9.88867 9.8890877,9.8890877 0 0 0 -9.8886,-9.88867 z"
         />
@@ -3707,7 +3705,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={1711.2389}
             y={749.56097}
@@ -3734,7 +3732,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m 1710.9401,755.67333 a 12.629166,12.629166 0 0 0 -12.627,12.63086 12.629166,12.629166 0 0 0 12.627,12.62891 12.629166,12.629166 0 0 0 12.6308,-12.62891 12.629166,12.629166 0 0 0 -12.6308,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8886,-9.88867 9.8890877,9.8890877 0 0 0 -9.8886,-9.88867 z"
           />
@@ -3757,7 +3755,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={1651.5817}
             y={750.45612}
@@ -3784,7 +3782,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m 1651.9157,755.73583 a 12.629166,12.629166 0 0 0 -12.627,12.63086 12.629166,12.629166 0 0 0 12.627,12.62891 12.629166,12.629166 0 0 0 12.6308,-12.62891 12.629166,12.629166 0 0 0 -12.6308,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8886,-9.88867 9.8890877,9.8890877 0 0 0 -9.8886,-9.88867 z"
           />
@@ -3806,7 +3804,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1711.0957}
           y={722.45612}
@@ -3831,7 +3829,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 532.31781,416.27125 v 27.70972"
         />
@@ -3842,7 +3840,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-6-0"
           cx={532.51227}
@@ -3858,7 +3856,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-6-9"
           width={9.0867147}
@@ -3867,8 +3865,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-418.74689}
           transform="scale(1,-1)"
         />
-        {
-          pms_cra2?.item1?.value &&
+        {pms_cra2?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -3877,12 +3874,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 532.51227,409.66018 3e-5,-14.05709"
             id="path142-6-7"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -3891,7 +3888,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-8-1"
           width={9.0866575}
@@ -3909,7 +3906,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 532.51228,342.63164 v 43.88479"
         />
@@ -3928,7 +3925,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={559.37988}
           y={416.64291}
@@ -3944,7 +3941,7 @@ const SVGPmsComponent = ({ data }) => {
             fill: "#ffffff",
             stroke: "#666666",
             strokeWidth: 1.2536,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="rect65-6"
           width={175.79895}
@@ -3971,7 +3968,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={531.32562}
           y={467.23203}
@@ -3999,7 +3996,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={485.81161}
             y={499.23203}
@@ -4026,7 +4023,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m 485.40512,506.32062 a 12.629166,12.629166 0 0 0 -12.62695,12.63086 12.629166,12.629166 0 0 0 12.62695,12.62891 12.629166,12.629166 0 0 0 12.63086,-12.62891 12.629166,12.629166 0 0 0 -12.63086,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0.002,1.20312 a 9.8890877,9.8890877 0 0 0 -9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88868,-9.88867 9.8890877,9.8890877 0 0 0 -9.88868,-9.88867 z"
           />
@@ -4049,7 +4046,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={533.46881}
             y={499.33688}
@@ -4076,7 +4073,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m 531.96485,505.84574 a 12.629166,12.629166 0 0 0 -12.62695,12.63086 12.629166,12.629166 0 0 0 12.62695,12.62891 12.629166,12.629166 0 0 0 12.63086,-12.62891 12.629166,12.629166 0 0 0 -12.63086,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0.002,1.20312 a 9.8890877,9.8890877 0 0 0 -9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88868,-9.88867 9.8890877,9.8890877 0 0 0 -9.88868,-9.88867 z"
           />
@@ -4099,7 +4096,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={580.56885}
             y={499.13095}
@@ -4126,7 +4123,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m 581.51079,506.02251 a 12.629166,12.629166 0 0 0 -12.62695,12.63086 12.629166,12.629166 0 0 0 12.62695,12.62891 12.629166,12.629166 0 0 0 12.63086,-12.62891 12.629166,12.629166 0 0 0 -12.63086,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0.002,1.20312 a 9.8890877,9.8890877 0 0 0 -9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88867,9.88867 9.8890877,9.8890877 0 0 0 9.88868,-9.88867 9.8890877,9.8890877 0 0 0 -9.88868,-9.88867 z"
           />
@@ -4138,7 +4135,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-3-7-2"
           cx={705.3031}
@@ -4154,7 +4151,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-3-6-4"
           width={9.0867147}
@@ -4163,8 +4160,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-419.85709}
           transform="scale(1,-1)"
         />
-        {
-          pms_thtr2?.item1?.value &&
+        {pms_thtr2?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -4173,12 +4169,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 705.30308,410.77037 3e-5,-14.05709"
             id="path142-0-6-8"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -4187,7 +4183,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-6-1-1"
           width={9.0866575}
@@ -4205,7 +4201,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 705.32652,419.87538 -0.0234,43.56282"
         />
@@ -4218,7 +4214,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 705.30309,343.74183 v 43.88479"
         />
@@ -4231,7 +4227,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 6.24119,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 705.84541,579.58823 1.43231,78.06632"
         />
@@ -4244,7 +4240,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter130-3-5)",
+            filter: "url(#filter130-3-5)"
           }}
           id="ellipse120-5-7"
           cx={1841}
@@ -4262,7 +4258,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter130-3-5)",
+            filter: "url(#filter130-3-5)"
           }}
           id="ellipse118-7-4"
           cx={1841}
@@ -4279,7 +4275,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter130-3-5)",
+            filter: "url(#filter130-3-5)"
           }}
           id="path103-4-5"
           cx={1781.75}
@@ -4295,7 +4291,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 0.984314,
             stroke: "#000000",
             strokeWidth: 0,
-            filter: "url(#filter130-3-5)",
+            filter: "url(#filter130-3-5)"
           }}
           d="m 1757.1551,-66.743381 c 12.8911,1.519929 26.0316,1.90881 38.8341,1.003747 l -8.9758,21.590139 -24.7114,-0.265165 z"
           transform="matrix(0.82954,0,0,0.73322441,-777.72709,752.85444)"
@@ -4307,7 +4303,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 0.984314,
             stroke: "#000000",
             strokeWidth: 0,
-            filter: "url(#filter130-3-5)",
+            filter: "url(#filter130-3-5)"
           }}
           d="m 1751.8571,-151.32085 h 66.468 v 34.82502 l 5.7454,9.51449 c -23.1277,-5.93345 -55.0068,-6.25403 -79.8286,-1.12082 l 7.6152,-8.39367 z"
           transform="matrix(0.82954,0,0,0.73322441,-777.72709,752.85444)"
@@ -4320,7 +4316,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter130-3-5)",
+            filter: "url(#filter130-3-5)"
           }}
           id="rect106-8-37"
           width={36.875}
@@ -4338,7 +4334,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter130-3-5)",
+            filter: "url(#filter130-3-5)"
           }}
           id="ellipse121-5-9"
           cx={-88.5}
@@ -4364,7 +4360,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={850.51001}
           y={557.01813}
@@ -4396,7 +4392,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={815.15186}
           y={378.24814}
@@ -4429,7 +4425,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={845.76941}
           y={458.81607}
@@ -4462,7 +4458,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={867.38544}
           y={640.8714}
@@ -4488,7 +4484,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.6236,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 683.07085,533.19613 v 58.63479"
         />
@@ -4502,7 +4498,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.6236,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 725.60054,533.31543 v 58.63479"
         />
@@ -4514,7 +4510,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "#000000",
             strokeWidth: 5.35849,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-2-5"
           cx={705.83484}
@@ -4530,7 +4526,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "#000000",
             strokeWidth: 5.35849,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-1-4-8"
           cx={722.96899}
@@ -4546,7 +4542,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "#000000",
             strokeWidth: 5.35849,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-3-78-7"
           cx={687.10992}
@@ -4560,7 +4556,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "#666666",
             strokeWidth: 1.20766,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="rect67-6"
           width={119.87951}
@@ -4582,7 +4578,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.05213,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 724.96189,597.21131 c 11.27934,8.41785 14.26789,3.55269 15.46717,1.37352"
           id="path10-3-8-5-9-72-4-4-8-0-7"
@@ -4596,7 +4592,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.05213,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 727.29296,598.85228 c -9.74671,-7.16694 -11.04449,-4.12198 -14.15715,-1.03502"
           id="path10-3-8-5-2-9-4-1-3-2"
@@ -4610,7 +4606,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.05213,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 674.35561,579.10897 c 9.56437,5.9186 12.09852,2.4979 13.11546,0.96573"
           id="path10-3-8-5-9-72-4-4-6-5"
@@ -4624,7 +4620,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.05213,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 676.33225,580.26274 c -8.26477,-5.03909 -9.36523,-2.89817 -12.00463,-0.72773"
           id="path10-3-8-5-2-9-4-2-5"
@@ -4634,7 +4630,7 @@ const SVGPmsComponent = ({ data }) => {
             fill: "#000000",
             stroke: "#666666",
             strokeWidth: 1.20766,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           d="M 644.8551,616.79224 764.20418,558.89607"
           id="path73-51"
@@ -4651,7 +4647,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-3-7"
           cx={1147.7749}
@@ -4667,7 +4663,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-3-6"
           width={9.0867147}
@@ -4676,8 +4672,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-419.65677}
           transform="scale(1,-1)"
         />
-        {
-          pms_thtr1?.item1?.value &&
+        {pms_thtr1?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -4686,12 +4681,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="M 1147.7749,410.57004 V 396.51295"
             id="path142-0-6"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -4700,7 +4695,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-6-1"
           width={9.0866575}
@@ -4718,7 +4713,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1147.7983,419.67505 -0.023,43.56282"
         />
@@ -4731,7 +4726,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1147.7749,343.5415 v 43.88479"
         />
@@ -4744,7 +4739,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 6.24119,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1148.3172,579.3879 1.4323,78.06632"
         />
@@ -4757,7 +4752,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter130-3)",
+            filter: "url(#filter130-3)"
           }}
           id="ellipse120-5"
           cx={1841}
@@ -4775,7 +4770,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter130-3)",
+            filter: "url(#filter130-3)"
           }}
           id="ellipse118-7"
           cx={1841}
@@ -4792,7 +4787,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter130-3)",
+            filter: "url(#filter130-3)"
           }}
           id="path103-4"
           cx={1781.75}
@@ -4808,7 +4803,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 0.984314,
             stroke: "#000000",
             strokeWidth: 0,
-            filter: "url(#filter130-3)",
+            filter: "url(#filter130-3)"
           }}
           d="m 1757.1551,-66.743381 c 12.8911,1.519929 26.0316,1.90881 38.8341,1.003747 l -8.9758,21.590139 -24.7114,-0.265165 z"
           transform="matrix(0.82954,0,0,0.73322441,-335.25528,752.65411)"
@@ -4820,7 +4815,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 0.984314,
             stroke: "#000000",
             strokeWidth: 0,
-            filter: "url(#filter130-3)",
+            filter: "url(#filter130-3)"
           }}
           d="m 1751.8571,-151.32085 h 66.468 v 34.82502 l 5.7454,9.51449 c -23.1277,-5.93345 -55.0068,-6.25403 -79.8286,-1.12082 l 7.6152,-8.39367 z"
           transform="matrix(0.82954,0,0,0.73322441,-335.25528,752.65411)"
@@ -4833,7 +4828,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter130-3)",
+            filter: "url(#filter130-3)"
           }}
           id="rect106-8"
           width={36.875}
@@ -4851,7 +4846,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 0,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            filter: "url(#filter130-3)",
+            filter: "url(#filter130-3)"
           }}
           id="ellipse121-5"
           cx={-88.5}
@@ -4870,7 +4865,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.6236,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1125.5427,532.9958 v 58.63479"
         />
@@ -4884,7 +4879,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.6236,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1168.0724,533.1151 v 58.63479"
         />
@@ -4896,7 +4891,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "#000000",
             strokeWidth: 5.35849,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-2"
           cx={1148.3066}
@@ -4912,7 +4907,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "#000000",
             strokeWidth: 5.35849,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-1-4"
           cx={1165.4408}
@@ -4928,7 +4923,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "#000000",
             strokeWidth: 5.35849,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-2-3-78"
           cx={1129.5817}
@@ -4942,7 +4937,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "#666666",
             strokeWidth: 1.20766,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="rect67"
           width={119.87951}
@@ -4964,7 +4959,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.05213,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1167.4337,597.01098 c 11.2794,8.41785 14.2679,3.55269 15.4672,1.37352"
           id="path10-3-8-5-9-72-4-4-8-0"
@@ -4978,7 +4973,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.05213,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1169.7648,598.65195 c -9.7467,-7.16694 -11.0445,-4.12198 -14.1572,-1.03502"
           id="path10-3-8-5-2-9-4-1-3"
@@ -4992,7 +4987,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.05213,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1116.8274,578.90864 c 9.5644,5.9186 12.0985,2.4979 13.1155,0.96573"
           id="path10-3-8-5-9-72-4-4-6"
@@ -5006,7 +5001,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.05213,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1118.8041,580.06241 c -8.2648,-5.03909 -9.3653,-2.89817 -12.0047,-0.72773"
           id="path10-3-8-5-2-9-4-2"
@@ -5016,7 +5011,7 @@ const SVGPmsComponent = ({ data }) => {
             fill: "#000000",
             stroke: "#666666",
             strokeWidth: 1.20766,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           d="M 1087.3269,616.59191 1206.676,558.69574"
           id="path73"
@@ -5038,7 +5033,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1295.8096}
           y={378.16812}
@@ -5071,7 +5066,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1150.9231}
           y={461.45224}
@@ -5104,7 +5099,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1148.9708}
           y={558.01819}
@@ -5137,7 +5132,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1342.179}
           y={641.97821}
@@ -5163,7 +5158,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 2.71081,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1351.5323,803.48515 v 51.13208"
         />
@@ -5174,7 +5169,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-6-0-6"
           cx={1351.8208}
@@ -5190,7 +5185,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-6-9-8"
           width={9.0867147}
@@ -5199,8 +5194,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-810.44525}
           transform="scale(1,-1)"
         />
-        {
-          pms_t1_2msb?.item1?.value &&
+        {pms_t1_2msb?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -5209,12 +5203,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1351.8207,801.35852 10e-5,-14.05709"
             id="path142-6-7-1"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -5223,7 +5217,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-8-1-1"
           width={9.0866575}
@@ -5249,7 +5243,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 1.85364,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1395.7114}
           y={739.90649}
@@ -5275,7 +5269,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.00227,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1351.8459,736.223 v 50.42627"
         />
@@ -5313,7 +5307,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.77493,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1124.5399,266.47849 v 78.39025"
         />
@@ -5326,7 +5320,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 2.55032,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1124.7546,196.35918 0.033,50.9376"
         />
@@ -5338,7 +5332,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle9-3"
           cx={1124.7167}
@@ -5359,7 +5353,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1106.369}
           y={173.56133}
@@ -5376,7 +5370,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle14-7"
           cx={1124.667}
@@ -5391,7 +5385,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect15-9"
           width={9.0867147}
@@ -5407,7 +5401,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1124.667,252.57408 v 13.18209"
           id="path15-6"
@@ -5420,7 +5414,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect16-66"
           width={9.0866575}
@@ -5443,7 +5437,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1156.088}
           y={263.98483}
@@ -5467,7 +5461,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.77493,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1632.8735,265.25919 v 78.39025"
         />
@@ -5480,7 +5474,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 2.55032,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1633.0883,195.13988 0.033,50.9376"
         />
@@ -5492,7 +5486,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle9-3-2"
           cx={1633.0503}
@@ -5513,7 +5507,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1614.7026}
           y={172.34203}
@@ -5530,7 +5524,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle14-7-3"
           cx={1633.0006}
@@ -5545,7 +5539,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect15-9-5"
           width={9.0867147}
@@ -5561,7 +5555,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1633.0006,251.35478 10e-5,13.18209"
           id="path15-6-0"
@@ -5574,7 +5568,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect16-66-2"
           width={9.0866575}
@@ -5597,7 +5591,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1664.4216}
           y={262.76553}
@@ -5627,7 +5621,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4.74214,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1514.6465,589.69769 v 127.153 18.8317"
         />
@@ -5640,7 +5634,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1514.6005,407.83669 -0.023,102.9595"
         />
@@ -5659,7 +5653,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1545.1217}
           y={403.11157}
@@ -5676,7 +5670,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "url(#linearGradient1576)",
             strokeWidth: 4.02519,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle58-5-3"
           cx={1515.2343}
@@ -5691,7 +5685,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "url(#linearGradient1577)",
             strokeWidth: 4.02519,
             strokeDasharray: "none",
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="circle59-1-1"
           cx={1515.2343}
@@ -5706,7 +5700,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle158-9"
           cx={1514.5682}
@@ -5723,7 +5717,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect158-0"
           width={9.0867147}
@@ -5733,8 +5727,7 @@ const SVGPmsComponent = ({ data }) => {
           transform="scale(1,-1)"
         />
 
-        {
-          pms_t1?.item1?.value &&
+        {pms_t1?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -5743,12 +5736,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1514.5682,401.0369 10e-5,-12.91105"
             id="path158-8"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -5757,7 +5750,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect159-2"
           width={9.0866575}
@@ -5775,7 +5768,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1514.745,341.50594 v 40.30699"
         />
@@ -5789,7 +5782,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1344.2812,419.82782 v 27.70972"
         />
@@ -5800,7 +5793,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle142-6-0-4"
           cx={1344.4757}
@@ -5816,7 +5809,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect142-6-9-6"
           width={9.0867147}
@@ -5825,8 +5818,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-422.30347}
           transform="scale(1,-1)"
         />
-        {
-          pms_cra1?.item1?.value &&
+        {pms_cra1?.item1?.value && (
           <path
             style={{
               fill: "none",
@@ -5835,12 +5827,12 @@ const SVGPmsComponent = ({ data }) => {
               strokeWidth: 4,
               strokeDasharray: "none",
               strokeOpacity: 1,
-              paintOrder: "stroke markers fill",
+              paintOrder: "stroke markers fill"
             }}
             d="m 1344.4756,413.21674 10e-5,-14.05709"
             id="path142-6-7-2"
           />
-        }
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -5849,7 +5841,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect143-8-1-6"
           width={9.0866575}
@@ -5867,7 +5859,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 1344.4756,346.1882 v 43.88479"
         />
@@ -5886,7 +5878,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1371.3433}
           y={420.19946}
@@ -5902,7 +5894,7 @@ const SVGPmsComponent = ({ data }) => {
             fill: "#ffffff",
             stroke: "#666666",
             strokeWidth: 1.2536,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           id="rect65-6-2"
           width={175.79895}
@@ -5929,7 +5921,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m 1393.9718,509.33794 a 12.629166,12.629166 0 0 0 -12.6269,12.63086 12.629166,12.629166 0 0 0 12.6269,12.62891 12.629166,12.629166 0 0 0 12.6309,-12.62891 12.629166,12.629166 0 0 0 -12.6309,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8886,9.88867 9.8890877,9.8890877 0 0 0 9.8886,9.88867 9.8890877,9.8890877 0 0 0 9.8887,-9.88867 9.8890877,9.8890877 0 0 0 -9.8887,-9.88867 z"
           />
@@ -5950,7 +5942,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={1392.5322}
             y={502.6875}
@@ -5979,7 +5971,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1343.2889}
           y={470.78857}
@@ -6007,7 +5999,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={1297.7749}
             y={502.78857}
@@ -6034,7 +6026,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m 1298.1088,509.94455 a 12.629166,12.629166 0 0 0 -12.6269,12.63086 12.629166,12.629166 0 0 0 12.6269,12.62891 12.629166,12.629166 0 0 0 12.6309,-12.62891 12.629166,12.629166 0 0 0 -12.6309,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,-9.88867 9.8890877,9.8890877 0 0 0 -9.8887,-9.88867 z"
           />
@@ -6057,7 +6049,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={1345.4321}
             y={502.89343}
@@ -6084,7 +6076,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m 1343.8055,509.24264 a 12.629166,12.629166 0 0 0 -12.627,12.63086 12.629166,12.629166 0 0 0 12.627,12.62891 12.629166,12.629166 0 0 0 12.6309,-12.62891 12.629166,12.629166 0 0 0 -12.6309,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,-9.88867 9.8890877,9.8890877 0 0 0 -9.8887,-9.88867 z"
           />
@@ -6106,7 +6098,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1835.3213}
           y={550.8916}
@@ -6134,7 +6126,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={1779.0414}
             y={576.76068}
@@ -6161,7 +6153,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m 1779.4014,586.39162 a 12.629166,12.629166 0 0 0 -12.627,12.63086 12.629166,12.629166 0 0 0 12.627,12.62891 12.629166,12.629166 0 0 0 12.6308,-12.62891 12.629166,12.629166 0 0 0 -12.6308,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8886,-9.88867 9.8890877,9.8890877 0 0 0 -9.8886,-9.88867 z"
           />
@@ -6184,7 +6176,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={1838.6986}
             y={575.86554}
@@ -6211,7 +6203,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m 1839.3172,586.48566 a 12.629166,12.629166 0 0 0 -12.627,12.63086 12.629166,12.629166 0 0 0 12.627,12.62891 12.629166,12.629166 0 0 0 12.6308,-12.62891 12.629166,12.629166 0 0 0 -12.6308,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8886,-9.88867 9.8890877,9.8890877 0 0 0 -9.8886,-9.88867 z"
           />
@@ -6234,7 +6226,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={1891.8993}
             y={577.48804}
@@ -6261,7 +6253,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 0,
               strokeDasharray: "none",
-              strokeOpacity: 0.984314,
+              strokeOpacity: 0.984314
             }}
             d="m 1894.8564,586.30951 a 12.629166,12.629166 0 0 0 -12.627,12.63086 12.629166,12.629166 0 0 0 12.627,12.62891 12.629166,12.629166 0 0 0 12.6308,-12.62891 12.629166,12.629166 0 0 0 -12.6308,-12.63086 z m 0,1.53907 a 11.092436,11.092436 0 0 1 11.0957,11.09179 11.092436,11.092436 0 0 1 -11.0957,11.0918 11.092436,11.092436 0 0 1 -11.0918,-11.0918 11.092436,11.092436 0 0 1 11.0918,-11.09179 z m 0,1.20312 a 9.8890877,9.8890877 0 0 0 -9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8887,9.88867 9.8890877,9.8890877 0 0 0 9.8886,-9.88867 9.8890877,9.8890877 0 0 0 -9.8886,-9.88867 z"
           />
@@ -6275,7 +6267,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.77493,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 278.16653,267.85239 -1e-5,78.39025"
         />
@@ -6286,7 +6278,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect365-1-5"
           width={176.19356}
@@ -6309,7 +6301,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect366-25-3"
           width={175.51285}
@@ -6334,7 +6326,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={144.16922}
           y={32.341972}
@@ -6354,7 +6346,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 2.55032,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 278.38125,197.73308 0.0333,50.9376"
         />
@@ -6366,7 +6358,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle3"
           cx={278.34329}
@@ -6387,7 +6379,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={259.99561}
           y={174.93523}
@@ -6404,7 +6396,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle5"
           cx={278.29367}
@@ -6419,7 +6411,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect5"
           width={9.0867147}
@@ -6435,7 +6427,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 278.29364,253.94798 3e-5,13.18209"
           id="path5"
@@ -6448,7 +6440,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect6"
           width={9.0866575}
@@ -6471,7 +6463,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={309.7146}
           y={265.3587}
@@ -6491,7 +6483,7 @@ const SVGPmsComponent = ({ data }) => {
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-4)",
+              filter: "url(#filter612-3-6-8-4)"
             }}
             id="rect665-4-4-8-0"
             width={85.052429}
@@ -6519,7 +6511,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2.43105,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={255.21638}
             y={133.28348}
@@ -6547,7 +6539,7 @@ const SVGPmsComponent = ({ data }) => {
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-9-3)",
+              filter: "url(#filter612-3-6-8-9-3)"
             }}
             id="rect665-4-4-8-8-8"
             width={85.052429}
@@ -6568,7 +6560,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3.77493,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 676.66473,267.09119 -10e-6,78.39025"
         />
@@ -6581,7 +6573,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 2.55032,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 676.87945,196.97188 0.0333,50.9376"
         />
@@ -6593,7 +6585,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 3,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle9-4"
           cx={676.84149}
@@ -6614,7 +6606,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={658.49384}
           y={174.17403}
@@ -6631,7 +6623,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="circle14-3"
           cx={676.79187}
@@ -6646,7 +6638,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect15-0"
           width={9.0867147}
@@ -6662,7 +6654,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           d="m 676.79181,253.18678 3e-5,13.18209"
           id="path15-1"
@@ -6675,7 +6667,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeWidth: 4,
             strokeDasharray: "none",
             strokeOpacity: 1,
-            paintOrder: "stroke markers fill",
+            paintOrder: "stroke markers fill"
           }}
           id="rect16-6"
           width={9.0866575}
@@ -6698,7 +6690,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={708.21283}
           y={264.5975}
@@ -6718,7 +6710,7 @@ const SVGPmsComponent = ({ data }) => {
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-4)",
+              filter: "url(#filter612-3-6-8-4)"
             }}
             id="rect111"
             width={85.052429}
@@ -6746,7 +6738,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2.43105,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={255.21638}
             y={133.28348}
@@ -6774,7 +6766,7 @@ const SVGPmsComponent = ({ data }) => {
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-9-3)",
+              filter: "url(#filter612-3-6-8-9-3)"
             }}
             id="rect112"
             width={85.052429}
@@ -6796,7 +6788,7 @@ const SVGPmsComponent = ({ data }) => {
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-4)",
+              filter: "url(#filter612-3-6-8-4)"
             }}
             id="rect116"
             width={85.052429}
@@ -6824,7 +6816,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2.43105,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={255.21638}
             y={133.28348}
@@ -6852,7 +6844,7 @@ const SVGPmsComponent = ({ data }) => {
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-9-3)",
+              filter: "url(#filter612-3-6-8-9-3)"
             }}
             id="rect118"
             width={85.052429}
@@ -6874,7 +6866,7 @@ const SVGPmsComponent = ({ data }) => {
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-4)",
+              filter: "url(#filter612-3-6-8-4)"
             }}
             id="rect121"
             width={85.052429}
@@ -6902,7 +6894,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2.43105,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={255.21638}
             y={133.28348}
@@ -6930,7 +6922,7 @@ const SVGPmsComponent = ({ data }) => {
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-9-3)",
+              filter: "url(#filter612-3-6-8-9-3)"
             }}
             id="rect122"
             width={85.052429}
@@ -6952,7 +6944,7 @@ const SVGPmsComponent = ({ data }) => {
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-4)",
+              filter: "url(#filter612-3-6-8-4)"
             }}
             id="rect123"
             width={85.052429}
@@ -6980,7 +6972,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2.43105,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={644.2785}
             y={823.79517}
@@ -7011,7 +7003,7 @@ const SVGPmsComponent = ({ data }) => {
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-9-3)",
+              filter: "url(#filter612-3-6-8-9-3)"
             }}
             id="rect124"
             width={85.052429}
@@ -7033,7 +7025,7 @@ const SVGPmsComponent = ({ data }) => {
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-4)",
+              filter: "url(#filter612-3-6-8-4)"
             }}
             id="rect125"
             width={85.052429}
@@ -7061,7 +7053,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2.43105,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={644.2785}
             y={823.79517}
@@ -7092,7 +7084,7 @@ const SVGPmsComponent = ({ data }) => {
               strokeDasharray: "none",
               strokeOpacity: 0.984314,
               paintOrder: "stroke fill markers",
-              filter: "url(#filter612-3-6-8-9-3)",
+              filter: "url(#filter612-3-6-8-9-3)"
             }}
             id="rect126"
             width={85.052429}
@@ -7117,7 +7109,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect170"
           width={83.458054}
@@ -7140,7 +7132,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect172"
           width={83.458054}
@@ -7163,7 +7155,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect174"
           width={83.458054}
@@ -7186,7 +7178,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect176"
           width={83.458054}
@@ -7209,7 +7201,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect180"
           width={83.458054}
@@ -7232,7 +7224,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect182"
           width={83.458054}
@@ -7260,7 +7252,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={280.51038}
@@ -7286,7 +7278,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.2485}
             y={282.72992}
@@ -7302,7 +7294,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"kW"} */}
@@ -7326,7 +7318,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={282.4574}
@@ -7342,7 +7334,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -7363,7 +7355,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect184"
           width={83.458054}
@@ -7391,7 +7383,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={311.89447}
@@ -7417,7 +7409,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.0499}
             y={314.14496}
@@ -7433,7 +7425,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"%"} */}
@@ -7457,7 +7449,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={313.87241}
@@ -7473,7 +7465,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -7488,7 +7480,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect256"
           width={176.19356}
@@ -7511,7 +7503,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect257"
           width={175.51285}
@@ -7536,7 +7528,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={144.16922}
           y={59.742363}
@@ -7554,7 +7546,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect258"
           width={176.19356}
@@ -7577,7 +7569,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect259"
           width={175.51285}
@@ -7602,7 +7594,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={144.16922}
           y={87.142754}
@@ -7620,7 +7612,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect260"
           width={176.19356}
@@ -7643,7 +7635,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect261"
           width={175.51285}
@@ -7668,7 +7660,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={329.89502}
           y={32.341972}
@@ -7686,7 +7678,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect262"
           width={176.19356}
@@ -7709,7 +7701,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect263"
           width={175.51285}
@@ -7734,7 +7726,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={329.89502}
           y={59.742363}
@@ -7752,7 +7744,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect264"
           width={176.19356}
@@ -7775,7 +7767,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect265"
           width={175.51285}
@@ -7800,7 +7792,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={329.89502}
           y={87.142754}
@@ -7818,7 +7810,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect266"
           width={176.19356}
@@ -7841,7 +7833,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect267"
           width={175.51285}
@@ -7866,7 +7858,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={557.94092}
           y={32.341972}
@@ -7884,7 +7876,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect268"
           width={176.19356}
@@ -7907,7 +7899,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect269"
           width={175.51285}
@@ -7932,7 +7924,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={557.94092}
           y={59.742363}
@@ -7950,7 +7942,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect270"
           width={176.19356}
@@ -7973,7 +7965,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect271"
           width={175.51285}
@@ -7998,7 +7990,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={557.94092}
           y={87.142754}
@@ -8016,7 +8008,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect272"
           width={176.19356}
@@ -8039,7 +8031,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect273"
           width={175.51285}
@@ -8064,7 +8056,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={743.66675}
           y={32.341972}
@@ -8082,7 +8074,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect274"
           width={176.19356}
@@ -8105,7 +8097,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect275"
           width={175.51285}
@@ -8130,7 +8122,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={743.66675}
           y={59.742363}
@@ -8148,7 +8140,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect276"
           width={176.19356}
@@ -8171,7 +8163,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect277"
           width={175.51285}
@@ -8196,7 +8188,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={743.66675}
           y={87.142754}
@@ -8214,7 +8206,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect278"
           width={176.19356}
@@ -8237,7 +8229,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect279"
           width={175.51285}
@@ -8262,7 +8254,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={973.73401}
           y={32.341972}
@@ -8280,7 +8272,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect280"
           width={176.19356}
@@ -8303,7 +8295,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect281"
           width={175.51285}
@@ -8328,7 +8320,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={973.73401}
           y={59.742363}
@@ -8346,7 +8338,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect282"
           width={176.19356}
@@ -8369,7 +8361,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect283"
           width={175.51285}
@@ -8394,7 +8386,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={973.73401}
           y={87.142754}
@@ -8412,7 +8404,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect284"
           width={176.19356}
@@ -8435,7 +8427,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect285"
           width={175.51285}
@@ -8460,7 +8452,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1159.4598}
           y={32.341972}
@@ -8478,7 +8470,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect286"
           width={176.19356}
@@ -8501,7 +8493,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect287"
           width={175.51285}
@@ -8526,7 +8518,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1159.4598}
           y={59.742363}
@@ -8544,7 +8536,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect288"
           width={176.19356}
@@ -8567,7 +8559,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect289"
           width={175.51285}
@@ -8592,7 +8584,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1159.4598}
           y={87.142754}
@@ -8610,7 +8602,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect290"
           width={176.19356}
@@ -8633,7 +8625,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect291"
           width={175.51285}
@@ -8658,7 +8650,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1496.2952}
           y={32.341972}
@@ -8675,7 +8667,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect292"
           width={176.19356}
@@ -8698,7 +8690,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect293"
           width={175.51285}
@@ -8723,7 +8715,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1496.2952}
           y={59.742363}
@@ -8741,7 +8733,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect294"
           width={176.19356}
@@ -8764,7 +8756,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect295"
           width={175.51285}
@@ -8789,7 +8781,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1496.2952}
           y={87.142754}
@@ -8807,7 +8799,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect296"
           width={176.19356}
@@ -8830,7 +8822,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect297"
           width={175.51285}
@@ -8855,7 +8847,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1682.021}
           y={32.341972}
@@ -8873,7 +8865,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect298"
           width={176.19356}
@@ -8896,7 +8888,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect299"
           width={175.51285}
@@ -8921,7 +8913,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1682.021}
           y={59.742363}
@@ -8939,7 +8931,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect300"
           width={176.19356}
@@ -8962,7 +8954,7 @@ const SVGPmsComponent = ({ data }) => {
             stroke: "none",
             strokeWidth: 0,
             strokeDasharray: "none",
-            strokeOpacity: 0.984314,
+            strokeOpacity: 0.984314
           }}
           id="rect301"
           width={175.51285}
@@ -8987,7 +8979,7 @@ const SVGPmsComponent = ({ data }) => {
             fillOpacity: 1,
             stroke: "none",
             strokeWidth: 2,
-            strokeOpacity: 1,
+            strokeOpacity: 1
           }}
           x={1682.021}
           y={87.142754}
@@ -9014,7 +9006,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.4255}
             y={251.16681}
@@ -9030,7 +9022,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"%"} */}
@@ -9054,7 +9046,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={251.20558}
@@ -9070,7 +9062,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -9094,7 +9086,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={249.45692}
@@ -9122,7 +9114,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.3138}
             y={219.64708}
@@ -9138,7 +9130,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"kW"} */}
@@ -9162,7 +9154,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={219.37454}
@@ -9178,7 +9170,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -9202,7 +9194,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={217.90677}
@@ -9230,7 +9222,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.4485}
             y={188.32118}
@@ -9246,7 +9238,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"Hz"} */}
@@ -9270,7 +9262,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={188.24753}
@@ -9286,7 +9278,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -9310,7 +9302,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={186.97717}
@@ -9338,7 +9330,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.3597}
             y={157.86882}
@@ -9354,7 +9346,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"A"} */}
@@ -9378,7 +9370,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={157.79517}
@@ -9394,7 +9386,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -9418,7 +9410,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={156.75616}
@@ -9446,7 +9438,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.0997}
             y={126.89002}
@@ -9462,7 +9454,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"V"} */}
@@ -9486,7 +9478,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={126.74474}
@@ -9502,7 +9494,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -9526,7 +9518,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={125.94164}
@@ -9551,7 +9543,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect336"
           width={83.458054}
@@ -9574,7 +9566,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect337"
           width={83.458054}
@@ -9597,7 +9589,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect338"
           width={83.458054}
@@ -9620,7 +9612,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect339"
           width={83.458054}
@@ -9643,7 +9635,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect340"
           width={83.458054}
@@ -9666,7 +9658,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect341"
           width={83.458054}
@@ -9694,7 +9686,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={280.51038}
@@ -9720,7 +9712,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.2485}
             y={282.72992}
@@ -9736,7 +9728,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"kW"} */}
@@ -9760,7 +9752,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={282.4574}
@@ -9776,7 +9768,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -9797,7 +9789,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect343"
           width={83.458054}
@@ -9825,7 +9817,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={311.89447}
@@ -9851,7 +9843,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.0499}
             y={314.14496}
@@ -9867,7 +9859,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {"%"}
@@ -9891,7 +9883,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={313.87241}
@@ -9907,7 +9899,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -9931,7 +9923,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.4255}
             y={251.16681}
@@ -9947,7 +9939,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"%"} */}
@@ -9971,7 +9963,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={251.20558}
@@ -9987,7 +9979,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -10011,7 +10003,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={249.45692}
@@ -10039,7 +10031,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.3138}
             y={219.64708}
@@ -10055,7 +10047,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"kW"} */}
@@ -10079,7 +10071,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={219.37454}
@@ -10095,7 +10087,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -10119,7 +10111,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={217.90677}
@@ -10147,7 +10139,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.4485}
             y={188.32118}
@@ -10163,7 +10155,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"Hz"} */}
@@ -10187,7 +10179,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={188.24753}
@@ -10203,7 +10195,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -10227,7 +10219,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={186.97717}
@@ -10255,7 +10247,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.3597}
             y={157.86882}
@@ -10271,7 +10263,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"A"} */}
@@ -10295,7 +10287,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={157.79517}
@@ -10311,7 +10303,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -10335,7 +10327,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={156.75616}
@@ -10363,7 +10355,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.0997}
             y={126.89002}
@@ -10379,7 +10371,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"V"} */}
@@ -10403,7 +10395,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={126.74474}
@@ -10419,7 +10411,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -10443,7 +10435,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={125.94164}
@@ -10468,7 +10460,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect396"
           width={83.458054}
@@ -10491,7 +10483,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect397"
           width={83.458054}
@@ -10514,7 +10506,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect398"
           width={83.458054}
@@ -10537,7 +10529,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect399"
           width={83.458054}
@@ -10560,7 +10552,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect400"
           width={83.458054}
@@ -10583,7 +10575,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect401"
           width={83.458054}
@@ -10611,7 +10603,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={280.51038}
@@ -10636,7 +10628,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.2485}
             y={282.72992}
@@ -10652,7 +10644,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item6?.unit ?? "kW"}
@@ -10675,7 +10667,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={282.4574}
@@ -10691,7 +10683,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item6?.value ?? "__"}
@@ -10711,7 +10703,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect403"
           width={83.458054}
@@ -10739,7 +10731,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={311.89447}
@@ -10764,7 +10756,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.0499}
             y={314.14496}
@@ -10780,7 +10772,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item7?.unit ?? "%"}
@@ -10803,7 +10795,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={313.87241}
@@ -10819,7 +10811,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item7?.value ?? "__"}
@@ -10842,7 +10834,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.4255}
             y={251.16681}
@@ -10858,7 +10850,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item5?.unit ?? "%"}
@@ -10881,7 +10873,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={251.20558}
@@ -10897,7 +10889,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item5?.value ?? "__"}
@@ -10920,7 +10912,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={249.45692}
@@ -10947,7 +10939,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.3138}
             y={219.64708}
@@ -10963,7 +10955,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item4?.unit ?? "kW"}
@@ -10986,7 +10978,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={219.37454}
@@ -11002,7 +10994,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item4?.value ?? "__"}
@@ -11025,7 +11017,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={217.90677}
@@ -11052,7 +11044,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.4485}
             y={188.32118}
@@ -11068,7 +11060,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item3?.unit ?? "Hz"}
@@ -11091,7 +11083,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={188.24753}
@@ -11107,7 +11099,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item3?.value ?? "__"}
@@ -11130,7 +11122,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={186.97717}
@@ -11158,7 +11150,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.3597}
             y={157.86882}
@@ -11174,7 +11166,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item2?.unit ?? "A"}
@@ -11197,7 +11189,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={157.79517}
@@ -11213,7 +11205,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item2?.value ?? "__"}
@@ -11236,7 +11228,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={156.75616}
@@ -11263,7 +11255,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.0997}
             y={126.89002}
@@ -11279,7 +11271,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item1?.unit ?? "V"}
@@ -11302,7 +11294,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={126.74474}
@@ -11318,7 +11310,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {pms_dg1?.char?.item1?.value ?? "__"}
@@ -11341,7 +11333,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={125.94164}
@@ -11365,7 +11357,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect448"
           width={83.458054}
@@ -11388,7 +11380,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect449"
           width={83.458054}
@@ -11411,7 +11403,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect450"
           width={83.458054}
@@ -11434,7 +11426,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect451"
           width={83.458054}
@@ -11457,7 +11449,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect452"
           width={83.458054}
@@ -11480,7 +11472,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect453"
           width={83.458054}
@@ -11508,7 +11500,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={280.51038}
@@ -11534,7 +11526,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.2485}
             y={282.72992}
@@ -11550,7 +11542,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"kW"} */}
@@ -11574,7 +11566,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={282.4574}
@@ -11590,7 +11582,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -11611,7 +11603,7 @@ const SVGPmsComponent = ({ data }) => {
             strokeDasharray: "none",
             strokeDashoffset: 0,
             strokeOpacity: 0.984314,
-            paintOrder: "stroke fill markers",
+            paintOrder: "stroke fill markers"
           }}
           id="rect455"
           width={83.458054}
@@ -11639,7 +11631,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={311.89447}
@@ -11665,7 +11657,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.0499}
             y={314.14496}
@@ -11681,7 +11673,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"%"} */}
@@ -11705,7 +11697,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={313.87241}
@@ -11721,7 +11713,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -11745,7 +11737,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.4255}
             y={251.16681}
@@ -11761,7 +11753,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"%"} */}
@@ -11785,7 +11777,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={251.20558}
@@ -11801,7 +11793,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -11825,7 +11817,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={249.45692}
@@ -11853,7 +11845,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.3138}
             y={219.64708}
@@ -11869,7 +11861,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"kW"} */}
@@ -11893,7 +11885,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={219.37454}
@@ -11909,7 +11901,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -11933,7 +11925,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={217.90677}
@@ -11961,7 +11953,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.4485}
             y={188.32118}
@@ -11977,7 +11969,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"Hz"} */}
@@ -12001,7 +11993,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={188.24753}
@@ -12017,7 +12009,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -12041,7 +12033,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={186.97717}
@@ -12069,7 +12061,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.3597}
             y={157.86882}
@@ -12085,7 +12077,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"A"} */}
@@ -12109,7 +12101,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={157.79517}
@@ -12125,7 +12117,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -12149,7 +12141,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={156.75616}
@@ -12177,7 +12169,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1037.0997}
             y={126.89002}
@@ -12193,7 +12185,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "middle",
                 fill: "#000000",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"V"} */}
@@ -12217,7 +12209,7 @@ const SVGPmsComponent = ({ data }) => {
               stroke: "none",
               strokeWidth: 1.98481,
               strokeOpacity: 1,
-              paintOrder: "fill markers stroke",
+              paintOrder: "fill markers stroke"
             }}
             x={1021.4471}
             y={126.74474}
@@ -12233,7 +12225,7 @@ const SVGPmsComponent = ({ data }) => {
                 textAnchor: "end",
                 fill: "#0000ff",
                 strokeWidth: 1.98481,
-                paintOrder: "fill markers stroke",
+                paintOrder: "fill markers stroke"
               }}
             >
               {/* {"0.0000"} */}
@@ -12257,7 +12249,7 @@ const SVGPmsComponent = ({ data }) => {
               fillOpacity: 1,
               stroke: "none",
               strokeWidth: 2,
-              strokeOpacity: 1,
+              strokeOpacity: 1
             }}
             x={943.27106}
             y={125.94164}
@@ -12271,6 +12263,6 @@ const SVGPmsComponent = ({ data }) => {
         </g>
       </g>
     </svg>
-  )
+  );
 };
 export default SVGPmsComponent;
