@@ -14,7 +14,7 @@ export const dtoToTelemetryBandwidth = data => {
     };
   }
   return {
-    unit: data.unit ?? "",
+    unit: data.unit ?? "Mbps",
     speed: +data.download_speed ?? 0,
     range: +data.range ?? 10
   };

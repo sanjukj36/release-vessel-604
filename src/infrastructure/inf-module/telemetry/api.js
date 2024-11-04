@@ -1,9 +1,9 @@
 import { apiClient } from "@/infrastructure/client";
-import { API } from "@/lib/constants";
+import { API_INF } from "@/lib/constants";
 import { dtoToTelemetryBandwidth } from "./dtoToTelemetry";
 
 async function pcStatusApi(param) {
-  return apiClient("GET", `${API}/api/app/pc/status/?param=${param}`);
+  return apiClient("GET", `${API_INF}/api/app/pc/status/?param=${param}`);
 }
 
 /**
@@ -16,7 +16,7 @@ async function pcStatusApi(param) {
  */
 const getBandWidthStatusAPI = async () => {
   try {
-    const res = await pcStatusApi("bandwidth");
+    const res = await apiClient("GET", `${API_INF}/bandwidth`);
     if (res.status === 200) {
       const { data } = res.data;
       const dtoData = dtoToTelemetryBandwidth(data);
@@ -39,7 +39,7 @@ const getBandWidthStatusAPI = async () => {
  */
 const getPingStatusAPI = async () => {
   try {
-    const res = await pcStatusApi("ping");
+    const res = await apiClient("GET", `${API_INF}/ping`);
     if (res.status === 200) {
       const { data } = res.data;
       return [data, null];
@@ -52,7 +52,7 @@ const getPingStatusAPI = async () => {
 
 const getDiskUsageStatusAPI = async () => {
   try {
-    const res = await pcStatusApi("storage");
+    const res = await apiClient("GET", `${API_INF}/storage`);
     if (res.status === 200) {
       const { data } = res.data;
       return [data, null];
@@ -76,8 +76,8 @@ const getMdcStorageAPI = async () => {
   if (err) {
     return [null, err];
   }
-  delete data.resp_mdc.success;
-  return [data.resp_mdc, null];
+  delete data?.mdc?.success;
+  return [data?.mdc, null];
 };
 
 /**
@@ -88,8 +88,8 @@ const getTransboxStorageAPI = async () => {
   if (err) {
     return [null, err];
   }
-  delete data.resp_trans.success;
-  return [data.resp_trans, null];
+  delete data?.transbox?.success;
+  return [data?.transbox, null];
 };
 
 export default {
