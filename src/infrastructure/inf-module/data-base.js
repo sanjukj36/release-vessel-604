@@ -20,9 +20,9 @@ export const getDatabaseFileStatusAPI = async () => {
         const { data } = res;
         return [data, undefined];
       }
-      return [[], new Error("Something went wrong")];
+      return [[], "Something went wrong"];
     })
     .catch(err => {
-      return [[], err];
+      return [null, err.message];
     });
 };
