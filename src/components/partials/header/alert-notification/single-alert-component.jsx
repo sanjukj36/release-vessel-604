@@ -14,8 +14,9 @@ export function SingleAlertComponent(props) {
         <IoIosWarning className="text-destructive text-2xl" />
       </div>
       <div className="flex gap-6 text-sm items-center">
-        <p className="w-[18ch]">12:35:52 17-05-2024</p>
-        <p className="font-semibold max-w-[50ch] truncate">
+        {/*<p className="w-[18ch]">12:35:52 17-05-2024</p> */}
+        {/*<p className="font-semibold max-w-[50ch] truncate">*/}
+        <p className="font-semibold truncate">
           Alert warning Alert warning alert Alert warning Alert warning alert
         </p>
       </div>
