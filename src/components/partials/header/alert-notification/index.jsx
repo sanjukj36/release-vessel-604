@@ -13,8 +13,7 @@ import { SingleAlertComponent } from "./single-alert-component";
 AlertNotificationMenu.propTypes = {};
 
 export function AlertNotificationMenu() {
-  const { sample } = useAlarms();
-  console.log({ sample });
+  const alarms = useAlarms();
   return (
     <div className="w-[610px] flex">
       <div className="w-full flex flex-col min-h-12">

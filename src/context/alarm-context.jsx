@@ -1,25 +1,36 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import PropTypes from "prop-types";
+import alarmsAPI from "@/infrastructure/inf-module/alarms";
 import { REFRESH_TIME } from "@/lib/constants";
 
 const alarmContext = createContext();
 
-AlarmContext.propTypes = {};
+AlarmContext.propTypes = {
+  children: PropTypes.node
+};
 
 function AlarmContext({ children }) {
-  const [sample, setSample] = useState(0);
+  const [list, setList] = useState([
+    {
+      label: "MDC Disconnect"
+    }
+  ]);
 
   useEffect(() => {
-    const id = setInterval(() => {
-      setSample(prev => ++prev);
-    }, REFRESH_TIME);
+    fetchAlarms();
+    const id = setInterval(fetchAlarms, REFRESH_TIME);
     return () => clearInterval(id);
   }, []);
+
+  const fetchAlarms = async () => {
+    const alarms = await alarmsAPI.getAlarmsAPI();
+    console.log({ alarms });
+  };
 
   return (
     <alarmContext.Provider
       value={{
-        sample
+        alarmList: list
       }}
     >
       {children}
