@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ReactApexChart from "react-apexcharts";
 import PropTypes from "prop-types";
 import { normalizeTo100, reverseNormalizeFrom100 } from "@/lib/gauge-utils";
@@ -7,8 +7,10 @@ GaugeChart.propTypes = {};
 
 export function GaugeChart({ data, height = 220, unit = " Mbps" }) {
   const [newData, setNewData] = useState(data);
+  const persistanceData = useRef(null);
   useEffect(() => {
     setNewData(newData);
+    persistanceData.current = { data, unit };
   }, [data]);
 
   const [chartData, setChartData] = useState({
@@ -64,8 +66,13 @@ export function GaugeChart({ data, height = 220, unit = " Mbps" }) {
             },
             value: {
               formatter: function (x) {
-                const reverserValue = reverseNormalizeFrom100(x, newData[1]);
-                return reverserValue?.toFixed(2) + unit;
+                const reversedValue = reverseNormalizeFrom100(
+                  x,
+                  persistanceData?.current?.data
+                    ? persistanceData?.current?.data[1]
+                    : newData[1]
+                );
+                return `${reversedValue?.toFixed(2)} ${persistanceData?.current?.unit ?? unit}`;
               },
               color: "#111",
               fontSize: "20px",
