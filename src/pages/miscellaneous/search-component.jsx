@@ -27,11 +27,13 @@ export function SearchComponent({ className }) {
   useEffect(() => {
     const { data, setFilteredData } = store;
 
-    const filteredData = data?.filter(x =>
-      x?.title
-        .toLowerCase()
-        .replace(REG.seach, "")
-        .includes(searchBounceValue.toLowerCase().replace(REG.seach, ""))
+    const filteredData = data?.filter(
+      x =>
+        x?.title
+          .toLowerCase()
+          .replace(REG.seach, "")
+          .includes(searchBounceValue.toLowerCase().replace(REG.seach, "")) ||
+        x?.register_no === searchBounceValue
     );
     setFilteredData(filteredData);
   }, [searchBounceValue, store.data]);

@@ -14,7 +14,7 @@ export function DataList({ loading }) {
   const { filteredData: data } = useStore(store => store);
 
   return (
-    <div className="grid grid-cols-[repeat(auto-fill,minmax(250px,1fr))] gap-2 mt-2 pt-2">
+    <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-2 mt-2 pt-2">
       {data?.length > 0 ? (
         data?.map((item, index) => <DataCard data={item} key={index} />)
       ) : (
@@ -42,12 +42,16 @@ DataCard.propTypes = {
     data_type: PropTypes.oneOf([
       RESPONSE_DATA_TYPE.bool,
       RESPONSE_DATA_TYPE.char
-    ])
+    ]),
+    register_no: PropTypes.number
   })
 };
 function DataCard({ data }) {
   return (
     <BoxCard className="p-2 flex items-center text-sm">
+      <div className="mr-2 text-muted-foreground font-semibold">
+        <p>{data?.register_no}</p>
+      </div>
       <p>{data?.title}</p>
       {data?.data_type === RESPONSE_DATA_TYPE.bool ? (
         <Switch className="ml-auto" checked={data.value} />
