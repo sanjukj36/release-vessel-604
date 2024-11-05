@@ -15,10 +15,15 @@ export function AlarmList({ data }) {
     <div className="w-full flex flex-col">
       {data?.length > 0 ? (
         data?.map((item, key) => (
-          <SingleAlertComponent key={key} label={item.label} time={item.time} />
+          <SingleAlertComponent
+            key={key}
+            label={item.label}
+            time={item.time}
+            className={data?.length === 1 && "min-h-12"}
+          />
         ))
       ) : (
-        <div className="shadow-3d  min-h-12 flex items-center gap-2 justify-center">
+        <div className="shadow-3d min-h-12 flex items-center gap-2 justify-center">
           <p>No Alerts</p>
         </div>
       )}
