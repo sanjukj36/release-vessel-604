@@ -159,6 +159,9 @@ const getRow1Col1DataAPI = async () => {
       [dg3Data, dg3Err],
       [dg4Data, dg4Err]
     ] = await Promise.all(row1col1dgBlock.map(x => getMQTTDataSecAPI(x)));
+    if (dg1Err && dg2Err && dg3Err && dg4Err) {
+      return [null, dg1Err];
+    }
     const data = dtoToDgOverviewRow1Col1(dg1Data, dg2Data, dg3Data, dg4Data);
     return [data, null];
   } catch (err) {
@@ -168,12 +171,12 @@ const getRow1Col1DataAPI = async () => {
 
 const getRow1Col2DataAPI = async () => {
   try {
-    const [data, error] = await getMQTTDataSecAPI("dg_overview-row1_col2");
+    const [data, err] = await getMQTTDataSecAPI("dg_overview-row1_col2");
     if (data) {
       const dto = dtoToGE(data);
       return [dto, null];
     }
-    return [null, "Something Went Wrong"];
+    return [null, err];
   } catch (err) {
     return [null, err.message];
   }
@@ -181,12 +184,12 @@ const getRow1Col2DataAPI = async () => {
 
 const getRow2Col2DataAPI = async () => {
   try {
-    const [data, error] = await getMQTTDataSecAPI("dg_overview-row2_col2");
+    const [data, err] = await getMQTTDataSecAPI("dg_overview-row2_col2");
     if (data) {
       const dto = dtoToGE(data);
       return [dto, null];
     }
-    return [null, "Something Went Wrong"];
+    return [null, err];
   } catch (err) {
     return [null, err.message];
   }
@@ -194,12 +197,12 @@ const getRow2Col2DataAPI = async () => {
 
 const getRow3Col2DataAPI = async () => {
   try {
-    const [data, error] = await getMQTTDataSecAPI("dg_overview-row3_col2");
+    const [data, err] = await getMQTTDataSecAPI("dg_overview-row3_col2");
     if (data) {
       const dto = dtoToGE(data);
       return [dto, null];
     }
-    return [null, "Something Went Wrong"];
+    return [null, err];
   } catch (err) {
     return [null, err.message];
   }
@@ -207,12 +210,12 @@ const getRow3Col2DataAPI = async () => {
 
 const getRow4Col2DataAPI = async () => {
   try {
-    const [data, error] = await getMQTTDataSecAPI("dg_overview-row4_col2");
+    const [data, err] = await getMQTTDataSecAPI("dg_overview-row4_col2");
     if (data) {
       const dto = dtoToGE(data);
       return [dto, null];
     }
-    return [null, "Something Went Wrong"];
+    return [null, err];
   } catch (err) {
     return [null, err.message];
   }
