@@ -1,5 +1,6 @@
 import React from "react";
 import { IoIosWarning } from "react-icons/io";
+import { useNavigate } from "react-router-dom";
 import PropTypes from "prop-types";
 
 SingleAlertComponent.propTypes = {
@@ -9,8 +10,12 @@ SingleAlertComponent.propTypes = {
 };
 
 export function SingleAlertComponent({ label, pulse, time = "" }) {
+  const navigate = useNavigate();
   return (
-    <div className="shadow-3d h-full flex items-center gap-2">
+    <div
+      onClick={() => navigate("/inf-module/alarm-list")}
+      className="shadow-3d h-full flex items-center gap-2 cursor-pointer hover:bg-primary-foreground/70"
+    >
       <div className="px-2">
         <IoIosWarning
           className={`text-destructive text-2xl ${pulse && "animate-pulse"}`}
