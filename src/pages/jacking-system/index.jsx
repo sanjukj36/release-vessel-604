@@ -26,13 +26,13 @@ function JackingSystem() {
   return (
     <PageWrapper className="relative flex flex-col border-2">
       <Title title="Jacking System" className="uppercase" />
-      <div className="flex justify-center flex-1 relative">
+      <div className="flex justify-center flex-1 relative bg-primary/20">
         <JackingSystemDiagramSvg />
         {allData?.alarm?.length > 0 && (
           <LegComponent
             title="Alarm"
             data={allData.alarm}
-            className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2"
+            className="absolute top-[35%] left-[40%]"
           />
         )}
         {allData?.leg_1?.length > 0 && (
