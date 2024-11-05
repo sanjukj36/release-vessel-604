@@ -17,11 +17,12 @@ export async function getDataAPI(blockWithTitle) {
               return [dto, null];
             }
           })
-          .catch(err => [null, err])
+          .catch(err => [null, err.message])
       )
     );
     const data = res?.filter(x => x[0])?.map(x => x[0]);
-    return [data, null];
+    const err = res?.filter(x => x[1])?.map(x => x[1]);
+    return [data, err];
   } catch (err) {
     return [null, err];
   }

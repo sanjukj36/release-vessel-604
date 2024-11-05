@@ -20,14 +20,16 @@ ThrusterCardList.propTypes = {
   ),
   image: PropTypes.string,
   imageAlign: PropTypes.oneOf(["top", "center"]),
-  loading: PropTypes.bool
+  loading: PropTypes.bool,
+  error: PropTypes.arrayOf(PropTypes.string)
 };
 export function ThrusterCardList({
   title,
   data,
   image,
   imageAlign = "top",
-  loading
+  loading,
+  error
 }) {
   return (
     <BoxCard variant="secondary" className="bg-transparent border-none p-0">
@@ -57,6 +59,11 @@ export function ThrusterCardList({
           </CardHeader>
         ))}
       <CardContent className="space-y-2">
+        {error?.map((err, index) => (
+          <BoxCard variant="secondary" key={index}>
+            {err}
+          </BoxCard>
+        ))}
         {data?.length > 0 &&
           data?.map((item, index) => (
             <ThrusterCard
