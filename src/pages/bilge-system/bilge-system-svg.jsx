@@ -1,5 +1,4 @@
 const BilgeSystemDiagramSvg = ({ data }) => {
-  console.log(data);
   const {
     oily_water_separator,
     dirty_oil_tank,

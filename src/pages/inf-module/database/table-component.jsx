@@ -52,7 +52,6 @@ export function TableComponent(props) {
 
   const fetchDataBaseFileData = async () => {
     const [data, err] = await getDatabaseFileStatusAPI();
-    console.log({ data, err });
     setDataBaseFile(data);
   };
 

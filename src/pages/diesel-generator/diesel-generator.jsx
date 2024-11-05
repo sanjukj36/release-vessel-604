@@ -149,7 +149,6 @@ ImageComponent.propTypes = {
   data: PropTypes?.object
 };
 function ImageComponent({ className, data }) {
-  console.log({ imageData: data });
   if (!data) {
     return null;
   }

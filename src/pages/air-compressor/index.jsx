@@ -14,7 +14,6 @@ function AirCompressorSystem(props) {
   const fetchAllData = async () => {
     const { data, error } =
       await airCompressorSystemAPI.getAirCompressorDataAPI();
-    console.log({ data, error });
     if (!error) {
       setAllData(prev => ({ ...prev, ...data }));
     }

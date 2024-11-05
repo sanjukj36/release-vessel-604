@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
+import { RefreshCcw } from "lucide-react";
 import PropTypes from "prop-types";
 import { PageWrapper } from "@/components/layout/page-wrapper";
 import { Title } from "@/components/layout/title";
+import { Button } from "@/components/ui/button";
 import miscellaneousApi from "@/infrastructure/miscellaneous";
 import { REFRESH_TIME } from "@/lib/constants";
 import { useStore } from "@/store/miscellaneous";
@@ -14,8 +16,6 @@ function Miscellaneous() {
 
   useEffect(() => {
     fetchMiscellaneousData();
-    const id = setInterval(fetchMiscellaneousData, REFRESH_TIME);
-    return () => clearInterval(id);
   }, []);
 
   const fetchMiscellaneousData = async () => {
@@ -30,7 +30,12 @@ function Miscellaneous() {
   return (
     <PageWrapper>
       <Title title="Miscellaneous" className="uppercase" />
-      <SearchComponent />
+      <div className="flex gap-2 items-center">
+        <Button onClick={fetchMiscellaneousData} size="icon">
+          <RefreshCcw className={loading && "animate-spin"} />
+        </Button>
+        <SearchComponent />
+      </div>
       <DataList loading={loading} />
     </PageWrapper>
   );

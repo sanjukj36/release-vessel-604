@@ -2,12 +2,15 @@ import { cva } from "class-variance-authority";
 import PropTypes from "prop-types";
 import { twMerge } from "tailwind-merge";
 import "./box-card.css";
+import { useEffect, useRef } from "react";
+import { motion } from "framer-motion";
 
 BoxCard.propTypes = {
   variant: PropTypes.string,
   className: PropTypes.string,
   children: PropTypes.node,
-  loading: PropTypes.bool
+  loading: PropTypes.bool,
+  key: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
 const boxCardStyles = cva(["transition-colors"], {
@@ -29,15 +32,27 @@ const boxCardStyles = cva(["transition-colors"], {
   }
 });
 
-export function BoxCard({ variant, className, children, loading = false }) {
+export function BoxCard({
+  variant,
+  className,
+  children,
+  loading = false,
+  key
+}) {
   return (
-    <div className={twMerge(boxCardStyles({ variant }), className)}>
+    <motion.div
+      key={key}
+      animate={{
+        scale: [0.89, 1]
+      }}
+      className={twMerge(boxCardStyles({ variant }), className)}
+    >
       {children}
       {loading && (
         <div className="absolute top-0 left-0 right-0 rounded-sm ">
           <div className="box-card__loader-line" />
         </div>
       )}
-    </div>
+    </motion.div>
   );
 }
