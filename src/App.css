@@ -226,3 +226,24 @@
 .diesel-generator_table2 {
   grid-area: table2;
 }
+
+/* styles.css */
+/* .PopoverContent { */
+/*   transform-origin: 0 0 !important; */
+/*   animation: scaleIn 0.5s ease-out !important; */
+/* } */
+/**/
+/* @keyframes scaleIn { */
+/*   0% { */
+/*     opacity: 0; */
+/*     transform: translate(50px, 25px); */
+/*   } */
+/*   50% { */
+/*     opacity: 0; */
+/*     transform: translate(50px, 15px); */
+/*   } */
+/*   100% { */
+/*     opacity: 1; */
+/*     transform: translate(0, 0); */
+/*   } */
+/* } */

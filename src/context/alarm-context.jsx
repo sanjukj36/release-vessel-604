@@ -10,11 +10,7 @@ AlarmContext.propTypes = {
 };
 
 function AlarmContext({ children }) {
-  const [list, setList] = useState([
-    {
-      label: "MDC Disconnect"
-    }
-  ]);
+  const [list, setList] = useState([]);
 
   useEffect(() => {
     fetchAlarms();
@@ -25,6 +21,7 @@ function AlarmContext({ children }) {
   const fetchAlarms = async () => {
     const alarms = await alarmsAPI.getAlarmsAPI();
     console.log({ alarms });
+    setList(alarms);
   };
 
   return (
