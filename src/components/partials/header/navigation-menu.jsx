@@ -1,10 +1,20 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { urls } from "@/url/url";
 
 export function NavigationMenu() {
-  const [selection, setSelection] = useState("");
+  const { pathname } = useLocation();
+  const [selection, setSelection] = useState(() => {
+    try {
+      const currentItem = urls.find(
+        item => item.url === pathname?.split("/")[1]
+      );
+      return currentItem?.url ?? "";
+    } catch (err) {
+      return "";
+    }
+  });
   const navigate = useNavigate();
 
   const handleNavigation = item => {
