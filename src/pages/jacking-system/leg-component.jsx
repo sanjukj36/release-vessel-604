@@ -25,6 +25,16 @@ LegComponent.propTypes = {
 };
 
 export function LegComponent({ className, title, data }) {
+  if (typeof data === "string") {
+    return (
+      <BoxCard
+        variant="secondary"
+        className={twMerge("p-1 text-sm", className)}
+      >
+        {data}
+      </BoxCard>
+    );
+  }
   return (
     <BoxCard variant="secondary" className={twMerge("p-1 text-sm", className)}>
       <CardHeader className="p-1">
