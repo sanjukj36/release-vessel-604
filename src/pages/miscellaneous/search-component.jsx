@@ -33,7 +33,8 @@ export function SearchComponent({ className }) {
           .toLowerCase()
           .replace(REG.seach, "")
           .includes(searchBounceValue.toLowerCase().replace(REG.seach, "")) ||
-        x?.register_no === searchBounceValue
+        String(x?.register_no).includes(String(searchBounceValue)) ||
+        String(x?.value).includes(String(searchBounceValue))
     );
     setFilteredData(filteredData);
   }, [searchBounceValue, store.data]);
