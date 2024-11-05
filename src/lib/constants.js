@@ -5,6 +5,7 @@ export const API_INF = "http://192.168.5.109:5001";
 
 // Page refresh time.
 export const REFRESH_TIME = 1000 * 10;
+export const REFRESH_TIME_ALARM = 1000 * 4;
 
 // Alerts.
 export const BANDWIDTH_ALARM = "Internet Connection Error.";

@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import alarmsAPI from "@/infrastructure/inf-module/alarms";
-import { REFRESH_TIME } from "@/lib/constants";
+import { REFRESH_TIME_ALARM } from "@/lib/constants";
 
 const alarmContext = createContext();
 
@@ -14,13 +14,12 @@ function AlarmContext({ children }) {
 
   useEffect(() => {
     fetchAlarms();
-    const id = setInterval(fetchAlarms, REFRESH_TIME);
+    const id = setInterval(fetchAlarms, REFRESH_TIME_ALARM);
     return () => clearInterval(id);
   }, []);
 
   const fetchAlarms = async () => {
     const alarms = await alarmsAPI.getAlarmsAPI();
-    console.log({ alarms });
     setList(alarms);
   };
 
