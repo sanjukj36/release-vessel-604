@@ -13,6 +13,36 @@ function AlarmContext({ children }) {
   const [list, setList] = useState([]);
 
   useEffect(() => {
+    let isMounted = true;
+
+    const fetchAlarms = async () => {
+      if (!isMounted) return;
+
+      try {
+        const alarms = await alarmsAPI.getAlarmsAPI();
+        if (isMounted) {
+          setList(alarms);
+        }
+      } catch (err) {
+        if (isMounted) {
+          console.error("ERR", err);
+        }
+      } finally {
+        if (isMounted) {
+          setTimeout(fetchAlarms, REFRESH_TIME_ALARM);
+        }
+      }
+    };
+
+    fetchAlarms();
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
+  /*
+  useEffect(() => {
     fetchAlarms();
     const id = setInterval(fetchAlarms, REFRESH_TIME_ALARM);
     return () => clearInterval(id);
@@ -22,6 +52,7 @@ function AlarmContext({ children }) {
     const alarms = await alarmsAPI.getAlarmsAPI();
     setList(alarms);
   };
+  */
 
   return (
     <alarmContext.Provider
