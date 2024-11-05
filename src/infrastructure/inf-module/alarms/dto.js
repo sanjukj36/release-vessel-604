@@ -4,11 +4,11 @@ export const dtoToAlarms = data => {
   }
 
   return data.map(alarms => {
-    const { id, message, timestamp } = alarms;
+    const { id, label, time } = alarms;
     return {
       id,
-      label: message,
-      time: timestamp
+      label,
+      time
     };
   });
 };
