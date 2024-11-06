@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { GaugeChart } from "@/components/charts/gauge-chart";
 import { BoxCard } from "@/components/common/BoxCard";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { useRecursivePolling } from "@/hooks/use-recursive-polling";
 import telemetryApi from "@/infrastructure/inf-module/telemetry";
 
 BandwidthComponent.propTypes = {
@@ -14,12 +15,23 @@ BandwidthComponent.propTypes = {
 };
 
 export function BandwidthComponent() {
-  const [bandWidthStatus, setBandWidthStatus] = useState({
-    data: [0, 100],
-    unit: ""
-  });
-  const [loading, setLoading] = useState(false);
+  // const [bandWidthStatus, setBandWidthStatus] = useState({
+  //   data: [0, 100],
+  //   unit: ""
+  // });
+  // const [loading, setLoading] = useState(false);
 
+  const {
+    data: bandWidthStatus,
+    loading,
+    error
+  } = useRecursivePolling(
+    telemetryApi.getBandWidthStatusAPI,
+    { data: [0, 100], unit: "Mbps" },
+    x => ({ data: [x.speed, x.range], unit: x.unit })
+  );
+
+  /*
   useEffect(() => {
     fetchBandWidthData();
   }, []);
@@ -35,6 +47,7 @@ export function BandwidthComponent() {
     }
     setLoading(false);
   };
+  */
 
   return (
     <BoxCard loading={loading} className="w-full relative">

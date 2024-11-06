@@ -11,16 +11,27 @@ import {
   TableCell,
   TableRow
 } from "@/components/ui/table";
+import { useRecursivePolling } from "@/hooks/use-recursive-polling";
 import telemetryApi from "@/infrastructure/inf-module/telemetry";
+import { REFRESH_TIME } from "@/lib/constants";
 
 NetworkPingStatus.propTypes = {};
 
 export function NetworkPingStatus() {
-  const [pingStatus, setPingStatus] = useState(null);
-  const [loading, setLoading] = useState(false);
+  // const [pingStatus, setPingStatus] = useState(null);
+  // const [loading, setLoading] = useState(false);
 
+  const {
+    data: pingStatus,
+    loading,
+    error
+  } = useRecursivePolling(telemetryApi.getPingStatusAPI, null);
+
+  /*
   useEffect(() => {
     fetchPingStatusData();
+    const id = setInterval(fetchPingStatusData, REFRESH_TIME);
+    return () => clearInterval(id);
   }, []);
 
   const fetchPingStatusData = async () => {
@@ -33,6 +44,7 @@ export function NetworkPingStatus() {
     }
     setLoading(false);
   };
+  */
   return (
     <BoxCard loading={loading} className="w-full">
       <CardHeader className="p-2">
