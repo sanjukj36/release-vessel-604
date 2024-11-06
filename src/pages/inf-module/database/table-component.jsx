@@ -5,6 +5,7 @@ import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { DataTable } from "@/components/ui/data-table";
 import { RESPONSE_DATABASE } from "@/dummy/responseInfModuleDatabase";
 import { getDatabaseFileStatusAPI } from "@/infrastructure/inf-module/data-base";
+import { REFRESH_TIME } from "@/lib/constants";
 
 TableComponent.propTypes = {};
 
@@ -48,6 +49,8 @@ export function TableComponent(props) {
   const [dataBaseFile, setDataBaseFile] = useState(null);
   useEffect(() => {
     fetchDataBaseFileData();
+    const id = setInterval(fetchDataBaseFileData, REFRESH_TIME);
+    return () => clearInterval(id);
   }, []);
 
   const fetchDataBaseFileData = async () => {

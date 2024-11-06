@@ -23,10 +23,8 @@ export function PowerManagementSystemOverview() {
 
   useEffect(() => {
     fetchAllData();
-    /*
     const id = setInterval(fetchAllData, REFRESH_TIME);
     return () => clearInterval(id);
-    */
   }, []);
 
   const fetchAllData = async () => {
