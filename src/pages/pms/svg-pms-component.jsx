@@ -32,7 +32,15 @@ const SVGPmsComponent = ({ data }) => {
     pms_azi_thr_p,
     pms_azi_thr_s,
     pms_690v_main_switchboard,
-    pms_440v_main_switchboard
+    pms_440v_main_switchboard,
+    pms_dg1_running,
+    pms_dg2_running,
+    pms_dg3_running,
+    pms_dg4_running,
+    pms_dg1_voltage,
+    pms_dg2_voltage,
+    pms_dg3_voltage,
+    pms_dg4_voltage
   } = data;
 
   return (
@@ -2302,19 +2310,21 @@ const SVGPmsComponent = ({ data }) => {
           y={930.51196}
           transform="matrix(-0.01163609,0.9999323,0.9999323,0.01163609,0,0)"
         />
-        <path
-          style={{
-            fill: "none",
-            fillOpacity: 1,
-            stroke: "#666a71",
-            strokeWidth: 4,
-            strokeDasharray: "none",
-            strokeOpacity: 1,
-            paintOrder: "stroke markers fill"
-          }}
-          d="m 929.75733,851.17097 14.05614,0.1636"
-          id="path142-6-7-1-4"
-        />
+        {pms_2msb_bt?.item1?.value && (
+          <path
+            style={{
+              fill: "none",
+              fillOpacity: 1,
+              stroke: "#666a71",
+              strokeWidth: 4,
+              strokeDasharray: "none",
+              strokeOpacity: 1,
+              paintOrder: "stroke markers fill"
+            }}
+            d="m 929.75733,851.17097 14.05614,0.1636"
+            id="path142-6-7-1-4"
+          />
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -5393,19 +5403,22 @@ const SVGPmsComponent = ({ data }) => {
           x={1120.1237}
           y={243.48737}
         />
-        <path
-          style={{
-            fill: "none",
-            fillOpacity: 1,
-            stroke: "#666a71",
-            strokeWidth: 4,
-            strokeDasharray: "none",
-            strokeOpacity: 1,
-            paintOrder: "stroke markers fill"
-          }}
-          d="m 1124.667,252.57408 v 13.18209"
-          id="path15-6"
-        />
+        {pms_dg2_running?.item1?.value && (
+          <path
+            style={{
+              fill: "none",
+              fillOpacity: 1,
+              stroke: "#666a71",
+              strokeWidth: 4,
+              strokeDasharray: "none",
+              strokeOpacity: 1,
+              paintOrder: "stroke markers fill"
+            }}
+            d="m 1124.667,252.57408 v 13.18209"
+            id="path15-6"
+          />
+        )}
+
         <rect
           style={{
             fill: "#666a71",
@@ -5547,19 +5560,21 @@ const SVGPmsComponent = ({ data }) => {
           x={1628.4573}
           y={242.26807}
         />
-        <path
-          style={{
-            fill: "none",
-            fillOpacity: 1,
-            stroke: "#666a71",
-            strokeWidth: 4,
-            strokeDasharray: "none",
-            strokeOpacity: 1,
-            paintOrder: "stroke markers fill"
-          }}
-          d="m 1633.0006,251.35478 10e-5,13.18209"
-          id="path15-6-0"
-        />
+        {pms_dg1_running?.item1?.value && (
+          <path
+            style={{
+              fill: "none",
+              fillOpacity: 1,
+              stroke: "#666a71",
+              strokeWidth: 4,
+              strokeDasharray: "none",
+              strokeOpacity: 1,
+              paintOrder: "stroke markers fill"
+            }}
+            d="m 1633.0006,251.35478 10e-5,13.18209"
+            id="path15-6-0"
+          />
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -6419,19 +6434,21 @@ const SVGPmsComponent = ({ data }) => {
           x={273.75027}
           y={244.86127}
         />
-        <path
-          style={{
-            fill: "none",
-            fillOpacity: 1,
-            stroke: "#666a71",
-            strokeWidth: 4,
-            strokeDasharray: "none",
-            strokeOpacity: 1,
-            paintOrder: "stroke markers fill"
-          }}
-          d="m 278.29364,253.94798 3e-5,13.18209"
-          id="path5"
-        />
+        {pms_dg4_running?.item1?.value && (
+          <path
+            style={{
+              fill: "none",
+              fillOpacity: 1,
+              stroke: "#666a71",
+              strokeWidth: 4,
+              strokeDasharray: "none",
+              strokeOpacity: 1,
+              paintOrder: "stroke markers fill"
+            }}
+            d="m 278.29364,253.94798 3e-5,13.18209"
+            id="path5"
+          />
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -6524,7 +6541,7 @@ const SVGPmsComponent = ({ data }) => {
               y={133.28348}
               style={{ fill: "#ffffff", strokeWidth: 2.43105 }}
             >
-              {"0.00"}
+              {pms_dg4_voltage?.item1?.value ?? "__"}
             </tspan>
           </text>
           <rect
@@ -6646,19 +6663,21 @@ const SVGPmsComponent = ({ data }) => {
           x={672.24847}
           y={244.10007}
         />
-        <path
-          style={{
-            fill: "none",
-            fillOpacity: 1,
-            stroke: "#666a71",
-            strokeWidth: 4,
-            strokeDasharray: "none",
-            strokeOpacity: 1,
-            paintOrder: "stroke markers fill"
-          }}
-          d="m 676.79181,253.18678 3e-5,13.18209"
-          id="path15-1"
-        />
+        {pms_dg3_running?.item1?.value && (
+          <path
+            style={{
+              fill: "none",
+              fillOpacity: 1,
+              stroke: "#666a71",
+              strokeWidth: 4,
+              strokeDasharray: "none",
+              strokeOpacity: 1,
+              paintOrder: "stroke markers fill"
+            }}
+            d="m 676.79181,253.18678 3e-5,13.18209"
+            id="path15-1"
+          />
+        )}
         <rect
           style={{
             fill: "#666a71",
@@ -6751,7 +6770,7 @@ const SVGPmsComponent = ({ data }) => {
               y={133.28348}
               style={{ fill: "#ffffff", strokeWidth: 2.43105 }}
             >
-              {"0.00"}
+              {pms_dg3_voltage?.item1?.value ?? "__"}
             </tspan>
           </text>
           <rect
@@ -6829,7 +6848,8 @@ const SVGPmsComponent = ({ data }) => {
               y={133.28348}
               style={{ fill: "#ffffff", strokeWidth: 2.43105 }}
             >
-              {"0.00"}
+              {/* {"0.00"} */}
+              {pms_dg2_voltage?.item1?.value ?? "__"}
             </tspan>
           </text>
           <rect
@@ -6907,7 +6927,8 @@ const SVGPmsComponent = ({ data }) => {
               y={133.28348}
               style={{ fill: "#ffffff", strokeWidth: 2.43105 }}
             >
-              {"0.00"}
+              {/* {"0.00"} */}
+              {pms_dg1_voltage?.item1?.value ?? "__"}
             </tspan>
           </text>
           <rect

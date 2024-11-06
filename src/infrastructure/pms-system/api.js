@@ -40,7 +40,15 @@ const BLOCK = {
   pms_pms_mode_bt2: "pms-PMS_MODE_BT2",
   pms_pms_mode_bt3: "pms-PMS_MODE_BT3",
   pms_azi_thr_p: "pms-AZI_THR.P",
-  pms_azi_thr_s: "pms-AZI_THR.S"
+  pms_azi_thr_s: "pms-AZI_THR.S",
+  pms_dg1_running: "pms-dg1_running",
+  pms_dg2_running: "pms-dg2_running",
+  pms_dg3_running: "pms-dg3_running",
+  pms_dg4_running: "pms-dg4_running",
+  pms_dg1_voltage: "pms-dg1_voltage",
+  pms_dg2_voltage: "pms-dg2_voltage",
+  pms_dg3_voltage: "pms-dg3_voltage",
+  pms_dg4_voltage: "pms-dg4_voltage"
 };
 
 const LIST_BLOCK = {
