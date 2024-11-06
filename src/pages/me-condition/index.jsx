@@ -1,7 +1,5 @@
 import { FaCircleDot } from "react-icons/fa6";
 import PropTypes from "prop-types";
-import propeller from "@/assets/propeller-with-bg_transparent_Craiyon.png";
-import propeller2 from "@/assets/svg/propeller-150x150.svg";
 import propellerBase from "@/assets/svg/propeller-base.svg";
 import propellerLeafe from "@/assets/svg/propeller-leaf.svg";
 import { BoxCard } from "@/components/common/BoxCard";
@@ -9,11 +7,6 @@ import { SVGMEConditionOverview } from "@/components/diagrams/SVGMEConditionOver
 import { RESPONSE_ME_CONDITION_OVERVIEW } from "@/dummy/reponseMEConditionOverview";
 
 MEConditionOverview.propTypes = {};
-Table.propTypes = {
-  table: PropTypes.array,
-  title: PropTypes.string,
-  className: PropTypes.string
-};
 export function MEConditionOverview() {
   return (
     <div className="me-condition-overview text-sm gap-1 w-full">
@@ -55,11 +48,6 @@ export function MEConditionOverview() {
         </div>
         <div className="w-full relative pt-6 isolate">
           <SVGMEConditionOverview />
-          {/* <div className="scene"> */}
-          {/*   <div className="propeller w-[130px]"> */}
-          {/*     <img src={propeller2} className="w-full" /> */}
-          {/*   </div> */}
-          {/* </div> */}
           <div className="scene2 isolate">
             <div className="propeller2 w-[50px] h-[21px]">
               <img className="w-[20px] leaf z-10" src={propellerLeafe} />
@@ -93,6 +81,11 @@ export function MEConditionOverview() {
   );
 }
 
+Table.propTypes = {
+  table: PropTypes.array,
+  title: PropTypes.string,
+  className: PropTypes.string
+};
 function Table({ table, title, className }) {
   return (
     <BoxCard className={`py-1 px-3 ` + className}>

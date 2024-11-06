@@ -5,10 +5,8 @@ import { twMerge } from "tailwind-merge";
 import { BoxCard } from "@/components/common/BoxCard";
 import { GaugeCard } from "@/components/common/gauge-card";
 import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
-import { ThrusterCard } from "@/components/common/thruster-card";
 import { CardContent } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
-import { RESPONSE_DG_OVERVIEW } from "@/dummy/responseDgOverview";
 import DgAPI from "@/infrastructure/dg";
 import { REFRESH_TIME, RESPONSE_DATA_TYPE } from "@/lib/constants";
 
@@ -35,6 +33,7 @@ export function GEOverview() {
     fetchAllApis();
     const id = setInterval(fetchAllApis, REFRESH_TIME);
     return () => clearInterval(id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const fetchAllApis = () => {

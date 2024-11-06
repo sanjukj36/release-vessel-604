@@ -37,6 +37,7 @@ export function SearchComponent({ className }) {
         String(x?.value).includes(String(searchBounceValue))
     );
     setFilteredData(filteredData);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [searchBounceValue, store.data]);
 
   // handling adding and removing animation classess

@@ -1,4 +1,3 @@
-import React from "react";
 import { TiWarningOutline } from "react-icons/ti";
 import PropTypes from "prop-types";
 import { twMerge } from "tailwind-merge";

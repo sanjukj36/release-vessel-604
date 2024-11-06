@@ -3,15 +3,6 @@ import { FaCircleDot } from "react-icons/fa6";
 import PropTypes from "prop-types";
 import { twMerge } from "tailwind-merge";
 import { BoxCard } from "@/components/common/BoxCard";
-import { SVGPowerManagementSystem } from "@/components/diagrams/SVGPowerManagementSystem";
-import {
-  Table,
-  TableBody,
-  TableCaption,
-  TableCell,
-  TableRow
-} from "@/components/ui/table";
-import { RESPONSE_PW_SYSTEM } from "@/dummy/responsePMSystem";
 import pmsSystemAPI from "@/infrastructure/pms-system";
 import { REFRESH_TIME } from "@/lib/constants";
 import SVGPmsComponent from "./svg-pms-component";

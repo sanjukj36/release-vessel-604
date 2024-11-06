@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import { Gauge } from "lucide-react";
 import PropTypes from "prop-types";
 import { GaugeChart } from "@/components/charts/gauge-chart";
@@ -15,39 +14,11 @@ BandwidthComponent.propTypes = {
 };
 
 export function BandwidthComponent() {
-  // const [bandWidthStatus, setBandWidthStatus] = useState({
-  //   data: [0, 100],
-  //   unit: ""
-  // });
-  // const [loading, setLoading] = useState(false);
-
-  const {
-    data: bandWidthStatus,
-    loading,
-    error
-  } = useRecursivePolling(
+  const { data: bandWidthStatus, loading } = useRecursivePolling(
     telemetryApi.getBandWidthStatusAPI,
     { data: [0, 100], unit: "Mbps" },
     x => ({ data: [x.speed, x.range], unit: x.unit })
   );
-
-  /*
-  useEffect(() => {
-    fetchBandWidthData();
-  }, []);
-
-  const fetchBandWidthData = async () => {
-    setLoading(true);
-    const [data, err] = await telemetryApi.getBandWidthStatusAPI();
-    if (data) {
-      const { range, speed, unit } = data;
-      setBandWidthStatus({ data: [speed, range], unit });
-    } else {
-      setBandWidthStatus({ data: [0, 100], unit: "Mbps" });
-    }
-    setLoading(false);
-  };
-  */
 
   return (
     <BoxCard loading={loading} className="w-full relative">

@@ -3,7 +3,6 @@ import thrusterImage from "@/assets/images/azimuth.png";
 import { ThrusterCardList } from "@/components/common/thruster-card-list";
 import { PageWrapper } from "@/components/layout/page-wrapper";
 import { Title } from "@/components/layout/title";
-import { RESPONSE_PORT_PROPULSION } from "@/dummy/responsePortPropulsion";
 import { portAPI } from "@/infrastructure/azhimuth-thruster";
 import { REFRESH_TIME } from "@/lib/constants";
 

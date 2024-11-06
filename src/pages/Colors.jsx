@@ -1,8 +1,4 @@
-import PropTypes from "prop-types";
-import sample from "../assets/svg/sample.svg";
-
 Colors.propTypes = {};
-
 export function Colors() {
   return (
     <div className="container p-12 flex justify-center items-start">

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { BsFan } from "react-icons/bs";
 import { CgGhost } from "react-icons/cg";
 import { IoSettings } from "react-icons/io5";
@@ -6,7 +6,7 @@ import PropTypes from "prop-types";
 import thruster from "@/assets/svg/thruster.svg";
 import { BoxCard } from "@/components/common/BoxCard";
 import { PageWrapper } from "@/components/layout/page-wrapper";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
 import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 import { RESPONSE_BOW_THRUSTER_OVERVIEW } from "@/dummy/responseBowThruster";
@@ -18,16 +18,16 @@ const b1PitchAlarms = [];
 const b2PitchAlarms = [];
 
 export function BowThrusterOverview() {
-  const [b1ControlSystemAlamrs, setB1ControlSystemAlamrs] = useState(
+  const [b1ControlSystemAlamrs] = useState(
     RESPONSE_BOW_THRUSTER_OVERVIEW?.b1ControlSystemAlamrs
   );
-  const [b2ControlSystemAlamrs, setB2ControlSystemAlamrs] = useState(
+  const [b2ControlSystemAlamrs] = useState(
     RESPONSE_BOW_THRUSTER_OVERVIEW?.b2ControlSystemAlamrs
   );
-  const [b2MotorAlamrs, setB2MotorAlamrs] = useState(
+  const [b2MotorAlamrs] = useState(
     RESPONSE_BOW_THRUSTER_OVERVIEW?.b2MotorAlamrs
   );
-  const [b1MotorAlamrs, setB1MotorAlamrs] = useState(
+  const [b1MotorAlamrs] = useState(
     RESPONSE_BOW_THRUSTER_OVERVIEW?.b1MotorAlamrs
   );
 
@@ -50,6 +50,12 @@ export function BowThrusterOverview() {
   );
 }
 
+BowThrusterComponent.propTypes = {
+  controlSystemAlarms: PropTypes.any,
+  motorAlarms: PropTypes.any,
+  pitchAlarms: PropTypes.any,
+  title: PropTypes.any
+};
 function BowThrusterComponent({
   controlSystemAlarms,
   motorAlarms,
@@ -91,6 +97,11 @@ function BowThrusterComponent({
   );
 }
 
+ThrusterCard.propTypes = {
+  title: PropTypes.string,
+  data: PropTypes.any,
+  icon: PropTypes.any
+};
 export function ThrusterCard({ title, data, icon }) {
   return (
     <BoxCard>

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { PageWrapper } from "@/components/layout/page-wrapper";
 import { Title } from "@/components/layout/title";
 import telemetryApi from "@/infrastructure/inf-module/telemetry";
@@ -27,6 +27,7 @@ function TelemetryEquipmentStatus() {
 
   const fetchMdcStorageData = async () => {
     setMdcStorageLoading(true);
+    // eslint-disable-next-line no-unused-vars
     const [data, err] = await telemetryApi.getMdcStorageAPI();
     if (data) {
       setMdcStorage(data);
@@ -42,6 +43,7 @@ function TelemetryEquipmentStatus() {
 
   const fetchTransboxStorageData = async () => {
     setTransboxLoading(true);
+    // eslint-disable-next-line no-unused-vars
     const [data, err] = await telemetryApi.getTransboxStorageAPI();
     if (data) {
       setTransboxStorage(data);

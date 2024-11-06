@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { VariableSizeGrid as Grid, FixedSizeList as List } from "react-window";
+import { useEffect, useState } from "react";
+import { VariableSizeGrid as Grid } from "react-window";
 import PropTypes from "prop-types";
 import { BoxCard } from "@/components/common/BoxCard";
 import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
-import { CardContent, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
 import { RESPONSE_DATA_TYPE } from "@/lib/constants";
 import { useStore } from "@/store/miscellaneous";
@@ -48,19 +47,6 @@ export function DataList({ loading }) {
 
   return (
     <div className="grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-2 mt-2 pt-2">
-      {/*
-      {data?.length > 0 ? (
-        data?.map((item, index) => <DataCard data={item} key={index} />)
-      ) : (
-        <BoxCard
-          variant="none"
-          loading={loading}
-          className="col-start-1 col-end-[-1]"
-        >
-          <p>No Data found</p>
-        </BoxCard>
-      )}
-      */}
       {data?.length > 0 ? (
         <Grid
           columnCount={numColumns}

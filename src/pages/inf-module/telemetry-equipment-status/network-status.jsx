@@ -1,50 +1,19 @@
-import React, { useEffect, useState } from "react";
 import { ChevronsLeftRightEllipsis } from "lucide-react";
-import PropTypes from "prop-types";
 import { BoxCard } from "@/components/common/BoxCard";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
-import {
-  Table,
-  TableBody,
-  TableCaption,
-  TableCell,
-  TableRow
-} from "@/components/ui/table";
+import { Table, TableBody, TableCell, TableRow } from "@/components/ui/table";
 import { useRecursivePolling } from "@/hooks/use-recursive-polling";
 import telemetryApi from "@/infrastructure/inf-module/telemetry";
-import { REFRESH_TIME } from "@/lib/constants";
 
 NetworkPingStatus.propTypes = {};
 
 export function NetworkPingStatus() {
-  // const [pingStatus, setPingStatus] = useState(null);
-  // const [loading, setLoading] = useState(false);
+  const { data: pingStatus, loading } = useRecursivePolling(
+    telemetryApi.getPingStatusAPI,
+    null
+  );
 
-  const {
-    data: pingStatus,
-    loading,
-    error
-  } = useRecursivePolling(telemetryApi.getPingStatusAPI, null);
-
-  /*
-  useEffect(() => {
-    fetchPingStatusData();
-    const id = setInterval(fetchPingStatusData, REFRESH_TIME);
-    return () => clearInterval(id);
-  }, []);
-
-  const fetchPingStatusData = async () => {
-    setLoading(true);
-    const [data, err] = await telemetryApi.getPingStatusAPI();
-    if (data) {
-      setPingStatus(data);
-    } else {
-      setPingStatus(null);
-    }
-    setLoading(false);
-  };
-  */
   return (
     <BoxCard loading={loading} className="w-full">
       <CardHeader className="p-2">

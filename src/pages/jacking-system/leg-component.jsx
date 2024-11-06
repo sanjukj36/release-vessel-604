@@ -1,5 +1,3 @@
-import React from "react";
-import { FaCircleDot } from "react-icons/fa6";
 import PropTypes from "prop-types";
 import { twMerge } from "tailwind-merge";
 import { BoxCard } from "@/components/common/BoxCard";

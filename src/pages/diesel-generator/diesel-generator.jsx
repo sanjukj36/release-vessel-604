@@ -7,11 +7,6 @@ import shipImage from "@/assets/images/diesel-generator.png";
 import { BoxCard } from "@/components/common/BoxCard";
 import { GaugeCard } from "@/components/common/gauge-card";
 import { ReadOnlyInput } from "@/components/common/ReadOnlyInput";
-import { Button } from "@/components/ui/button";
-import { RESPONSE_DG_1 } from "@/dummy/responseDg1.js";
-import { RESPONSE_DG_2 } from "@/dummy/responseDg2.js";
-import { RESPONSE_DG_3 } from "@/dummy/responseDg3.js";
-import { RESPONSE_DG_4 } from "@/dummy/responseDg4.js";
 import DgAPI from "@/infrastructure/dg";
 import { REFRESH_TIME } from "@/lib/constants";
 
@@ -26,6 +21,7 @@ export default function DieselGenerator() {
   useEffect(() => {
     const fetchData = () => {
       const pathnameArray = pathname.split("/").filter(item => item !== "");
+      // eslint-disable-next-line no-unused-vars
       const [_, dg] = pathnameArray;
 
       switch (dg) {

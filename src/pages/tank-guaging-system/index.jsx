@@ -20,6 +20,7 @@ export function TankGaugingSystem() {
     fetchAllData();
     const id = setInterval(fetchAllData, REFRESH_TIME);
     return () => clearInterval(id);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const fetchAllData = () => {

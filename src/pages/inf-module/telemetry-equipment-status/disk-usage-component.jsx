@@ -1,7 +1,5 @@
-import React from "react";
 import { DatabaseBackup } from "lucide-react";
 import PropTypes from "prop-types";
-import { GaugeChart } from "@/components/charts/gauge-chart";
 import { PieChart } from "@/components/charts/pie-chart";
 import { BoxCard } from "@/components/common/BoxCard";
 import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";

@@ -1,5 +1,3 @@
-import React from "react";
-import PropTypes from "prop-types";
 import { PageWrapper } from "@/components/layout/page-wrapper";
 import { Title } from "@/components/layout/title";
 import { useAlarms } from "@/context/alarm-context";

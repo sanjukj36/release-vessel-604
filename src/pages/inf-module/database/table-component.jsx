@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from "react";
-import PropTypes from "prop-types";
+import { useEffect, useState } from "react";
 import { BoxCard } from "@/components/common/BoxCard";
-import { CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { CardContent } from "@/components/ui/card";
 import { DataTable } from "@/components/ui/data-table";
-import { RESPONSE_DATABASE } from "@/dummy/responseInfModuleDatabase";
 import { getDatabaseFileStatusAPI } from "@/infrastructure/inf-module/data-base";
 import { REFRESH_TIME } from "@/lib/constants";
 
@@ -45,7 +43,7 @@ const columns = [
   }
 ];
 
-export function TableComponent(props) {
+export function TableComponent() {
   const [dataBaseFile, setDataBaseFile] = useState(null);
   useEffect(() => {
     fetchDataBaseFileData();
@@ -54,6 +52,7 @@ export function TableComponent(props) {
   }, []);
 
   const fetchDataBaseFileData = async () => {
+    // eslint-disable-next-line no-unused-vars
     const [data, err] = await getDatabaseFileStatusAPI();
     setDataBaseFile(data);
   };
