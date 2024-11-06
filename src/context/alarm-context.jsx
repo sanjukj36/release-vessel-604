@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import PropTypes from "prop-types";
+import { useRecursivePolling } from "@/hooks/use-recursive-polling";
 import alarmsAPI from "@/infrastructure/inf-module/alarms";
 import { REFRESH_TIME_ALARM } from "@/lib/constants";
 
@@ -10,6 +11,13 @@ AlarmContext.propTypes = {
 };
 
 function AlarmContext({ children }) {
+  const {
+    data: list,
+    loading,
+    error
+  } = useRecursivePolling(alarmsAPI.getAlarmsAPI, []);
+
+  /*
   const [list, setList] = useState([]);
 
   useEffect(() => {
@@ -40,6 +48,7 @@ function AlarmContext({ children }) {
       isMounted = false;
     };
   }, []);
+  */
 
   /*
   useEffect(() => {
