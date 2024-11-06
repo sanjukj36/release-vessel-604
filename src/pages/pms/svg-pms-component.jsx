@@ -1952,7 +1952,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-1404.0444}
           transform="matrix(0,-1,-1,0,0,0)"
         />
-        {}
+        { }
         <path
           style={{
             fill: "none",
@@ -2392,38 +2392,38 @@ const SVGPmsComponent = ({ data }) => {
           y={-811.54523}
           transform="scale(1,-1)"
         />
-        <path
-          style={{
-            fill: "none",
-            fillOpacity: 1,
-            stroke: "#666a71",
-            strokeWidth: 3.99628,
-            strokeDasharray: "none",
-            strokeOpacity: 1,
-            paintOrder: "stroke markers fill"
-          }}
-          d="m 604.15329,802.4754 3e-5,-14.03092"
-          id="path142-6-7-1-1"
-        />
         {pms_t2_2msb?.item1?.value && (
-          <rect
+          <path
             style={{
-              fill: "#666a71",
+              fill: "none",
               fillOpacity: 1,
-              stroke: "none",
+              stroke: "#666a71",
               strokeWidth: 3.99628,
               strokeDasharray: "none",
               strokeOpacity: 1,
               paintOrder: "stroke markers fill"
             }}
-            id="rect143-8-1-1-1"
-            width={9.0866575}
-            height={9.0697441}
-            x={599.60992}
-            y={-788.44452}
-            transform="scale(1,-1)"
+            d="m 604.15329,802.4754 3e-5,-14.03092"
+            id="path142-6-7-1-1"
           />
         )}
+        <rect
+          style={{
+            fill: "#666a71",
+            fillOpacity: 1,
+            stroke: "none",
+            strokeWidth: 3.99628,
+            strokeDasharray: "none",
+            strokeOpacity: 1,
+            paintOrder: "stroke markers fill"
+          }}
+          id="rect143-8-1-1-1"
+          width={9.0866575}
+          height={9.0697441}
+          x={599.60992}
+          y={-788.44452}
+          transform="scale(1,-1)"
+        />
         <path
           id="path149-3-1-8-0"
           style={{
@@ -6986,7 +6986,7 @@ const SVGPmsComponent = ({ data }) => {
               style={{ fill: "#ffffff", strokeWidth: 2.43105 }}
             >
               {/* {"00.0 kW"} */}
-              {pms_azi_thr_s?.item1?.value !== null
+              {pms_azi_thr_s?.item1?.value
                 ? `${pms_azi_thr_s?.item1?.value} ${pms_azi_thr_p?.item1?.unit}`
                 : "__ kW"}
             </tspan>
@@ -10011,7 +10011,7 @@ const SVGPmsComponent = ({ data }) => {
           >
             <tspan id="tspan349" x={943.27106} y={249.45692}>
               {/* {"AVAIL"} */}
-              {pms_dg3?.char?.item5?.subTitle ?? "__"}
+              {pms_dg3?.char?.item5?.subTitle ?? ""}
             </tspan>
           </text>
         </g>
@@ -12121,7 +12121,7 @@ const SVGPmsComponent = ({ data }) => {
               }}
             >
               {/* {"0.0000"} */}
-              {pms_dg4?.char?.item2?.value ?? "V"}
+              {pms_dg4?.char?.item2?.value ?? "__"}
             </tspan>
           </text>
           <text
