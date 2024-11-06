@@ -2,11 +2,12 @@ import { useEffect, useState } from "react";
 import { REFRESH_TIME_ALARM } from "@/lib/constants";
 
 /**
- * @param {() => Promise<any>} callBack
+ * @param {() => Promise<[data: any, err: any]>} callBack
  * @param {any} initialState
- * @return {any}
+ * @param {(any) => any} dto
+ * @return {{data: any, error: any, loading: boolean}}
  */
-export const useRecursivePolling = (callBack, initialState) => {
+export const useRecursivePolling = (callBack, initialState, dto = x => x) => {
   const [data, setData] = useState(initialState);
   const [err, setErr] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -19,10 +20,16 @@ export const useRecursivePolling = (callBack, initialState) => {
 
       try {
         setLoading(true);
-        const data = await callBack();
+        const [data, err] = await callBack();
         if (isMounted) {
-          setData(data);
-          setErr(null);
+          if (err) {
+            setErr(err);
+            setData(initialState);
+          } else {
+            const dtoToData = dto(data);
+            setData(dtoToData);
+            setErr(null);
+          }
         }
       } catch (err) {
         if (isMounted) {
