@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 const svc = new Service({
   name: "NODE-AMS-Rawabi",
   description: "AMS Client Application",
-  script: path.join(__dirname, "server", "index.js")
+  script: path.join(__dirname, "index.js")
 });
 
 svc.on("install", function () {
