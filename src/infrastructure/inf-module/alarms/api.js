@@ -28,13 +28,12 @@ const getAlarmsAPI = async () => {
     const response = await apiClient("GET", `${API_INF}/alerts`);
     if (response.status === 200) {
       const { alerts } = response.data;
-      return dtoToAlarms(alerts);
+      return [dtoToAlarms(alerts), null];
     } else {
-      return [];
+      return [null, "Something Went wrong"];
     }
   } catch (err) {
-    console.error(err);
-    return [];
+    return [null, err];
   }
 };
 
