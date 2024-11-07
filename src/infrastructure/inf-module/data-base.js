@@ -1,5 +1,5 @@
 import { apiClient } from "@/infrastructure/client";
-import { API_INF } from "@/lib/constants";
+import { API, API_INF } from "@/lib/constants";
 
 /**
  * @typedef {Object} DatabaseFile
@@ -14,13 +14,13 @@ import { API_INF } from "@/lib/constants";
  * @returns {Promise<Array<undefined | DatabaseFile, undefined | Error | AxiosError>>}
  */
 export const getDatabaseFileStatusAPI = async () => {
-  return apiClient("GET", `${API_INF}/api/table`)
+  return apiClient("GET", `${API}/api/table`)
     .then(res => {
       if (res.status === 200) {
-        const { data } = res;
-        return [data, undefined];
+        const { data } = res.data;
+        return [data, null];
       }
-      return [[], "Something went wrong"];
+      return [null, "Something went wrong"];
     })
     .catch(err => {
       return [null, err.message];
