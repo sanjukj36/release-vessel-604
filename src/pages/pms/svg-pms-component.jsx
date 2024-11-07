@@ -1958,7 +1958,7 @@ const SVGPmsComponent = ({ data }) => {
           y={-1404.0444}
           transform="matrix(0,-1,-1,0,0,0)"
         />
-        { }
+        {}
         <path
           style={{
             fill: "none",
