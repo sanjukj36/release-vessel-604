@@ -1,21 +1,11 @@
 import "./App.css";
-import { useEffect, useRef, useState } from "react";
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { Header } from "@/components/partials/header";
 import { Sidebar } from "@/components/partials/Sidebar";
-import { urls } from "@/url/url";
+import { hideUrls, urls } from "@/url/url";
+import { SecondNavigation } from "./components/partials/second-navigation";
 
 function App() {
-  // TODO: Remove this after INF verification
-  const firstMount = useRef(false);
-  const navigate = useNavigate();
-
-  useEffect(() => {
-    if (!firstMount.current) {
-      navigate("/inf-module");
-      firstMount.current = true;
-    }
-  }, []);
   return (
     <div className="w-full h-screen overflow-x-hidden bg-background flex flex-col">
       <Header />
@@ -33,10 +23,22 @@ function App() {
                 ))}
               </Route>
             ))}
+            {hideUrls.map((item, key) => (
+              <Route key={key} path={item?.url} element={item?.element}>
+                {item?.sub?.map((subItem, subKey) => (
+                  <Route
+                    key={subKey}
+                    path={subItem?.url}
+                    element={subItem?.element}
+                  />
+                ))}
+              </Route>
+            ))}
           </Routes>
         </div>
         <Sidebar />
       </div>
+      <SecondNavigation />
     </div>
   );
 }

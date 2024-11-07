@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
-import { urls } from "@/url/url";
+import { hideUrls, urls } from "@/url/url";
 
 Sidebar.propTypes = {};
 
@@ -17,7 +17,9 @@ export function Sidebar() {
 
   useEffect(() => {
     const url = pathname.split("/")[1];
-    const currentUrlObj = urls?.find(item => item?.url === url);
+    const currentUrlObj =
+      urls?.find(item => item?.url === url) ||
+      hideUrls?.find(item => item?.url === url);
     if (currentUrlObj) {
       setSubUrlList(currentUrlObj?.sub);
       setTitle(currentUrlObj?.title);
@@ -53,7 +55,7 @@ export function Sidebar() {
   };
 
   return (
-    <div className="w-full h-full flex flex-col py-4 px-2 bg-background text-xs">
+    <div className="w-full h-full flex flex-col justify-between py-4 px-2 bg-background text-xs">
       <div className="flex flex-col gap-2">
         <p className="border-b border-primary font-semibold">{title}</p>
         <div className="flex flex-col gap-2 font-semibold">
@@ -69,6 +71,20 @@ export function Sidebar() {
           ))}
         </div>
       </div>
+      <Copyright />
     </div>
   );
 }
+
+const Copyright = () => {
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="text-primary py-4 text-center">
+      <p className="text-xs">
+        &copy; {currentYear} Memphis. All rights reserved.
+      </p>
+      <p className="text-xs font-semibold">AMS V0.2</p>
+    </footer>
+  );
+};

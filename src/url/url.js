@@ -1,4 +1,5 @@
 import { createElement } from "react";
+import { PanelsRightBottom } from "lucide-react";
 import { Loader } from "@/components/layout/loader";
 import AirCompressorSystem from "@/pages/air-compressor";
 import PortPropulsion from "@/pages/azimuth-thruster";
@@ -24,7 +25,7 @@ import { Navigation } from "@/pages/navigation";
 import { PowerManagementSystemOverview } from "@/pages/pms";
 import { TankGaugingSystem } from "@/pages/tank-guaging-system";
 
-export const urls = [
+export const hideUrls = [
   {
     title: "Azhimuth Thruster",
     url: "azhimuth-thruster",
@@ -117,7 +118,10 @@ export const urls = [
     url: "jacking-system",
     element: createElement(JackingSystem),
     sub: []
-  },
+  }
+];
+
+export const urls = [
   {
     title: "INF Module",
     url: "inf-module",
@@ -142,7 +146,7 @@ export const urls = [
   },
   {
     title: "Miscellaneous",
-    url: "miscellaneous",
+    url: "",
     element: createElement(Miscellaneous),
     sub: []
   }
