@@ -2419,7 +2419,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           xmlSpace="preserve"
           style={{
             fontSize: "14.5218px",
-            fontFamily: "Sans",
             InkscapeFontSpecification: "Sans",
             fill: "#e3dbe2",
             fillOpacity: 1,
@@ -2478,7 +2477,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           xmlSpace="preserve"
           style={{
             fontSize: "14.5218px",
-            fontFamily: "Sans",
             InkscapeFontSpecification: "Sans",
             fill: "#e3dbe2",
             fillOpacity: 1,
@@ -2537,7 +2535,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           xmlSpace="preserve"
           style={{
             fontSize: "14.5218px",
-            fontFamily: "Sans",
             InkscapeFontSpecification: "Sans",
             fill: "#e3dbe2",
             fillOpacity: 1,
@@ -2586,7 +2583,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           xmlSpace="preserve"
           style={{
             fontSize: "10.6667px",
-            fontFamily: "Sans",
             InkscapeFontSpecification: "Sans",
             textAlign: "center",
             textAnchor: "middle",
@@ -2632,7 +2628,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           xmlSpace="preserve"
           style={{
             fontSize: "10.6667px",
-            fontFamily: "Sans",
             InkscapeFontSpecification: "Sans",
             textAlign: "center",
             textAnchor: "middle",
@@ -2678,7 +2673,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           xmlSpace="preserve"
           style={{
             fontSize: "10.6667px",
-            fontFamily: "Sans",
             InkscapeFontSpecification: "Sans",
             textAlign: "center",
             textAnchor: "middle",
@@ -2725,7 +2719,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           xmlSpace="preserve"
           style={{
             fontSize: "10.6667px",
-            fontFamily: "Sans",
             InkscapeFontSpecification: "Sans",
             textAlign: "center",
             textAnchor: "middle",
@@ -2805,7 +2798,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
             xmlSpace="preserve"
             style={{
               fontSize: "10.6667px",
-              fontFamily: "Sans",
               InkscapeFontSpecification: "Sans",
               textAlign: "center",
               textAnchor: "middle",
@@ -3648,7 +3640,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
               fontWeight: "bold",
               fontSize: 16,
               lineHeight: 0.9,
-              fontFamily: "Arial",
               InkscapeFontSpecification: "'Arial Bold'",
               textAlign: "center",
               letterSpacing: 0,
@@ -3703,7 +3694,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
               fontWeight: "bold",
               fontSize: "26.6667px",
               lineHeight: 0.9,
-              fontFamily: "Arial",
               InkscapeFontSpecification: "'Arial Bold'",
               textAlign: "center",
               letterSpacing: 0,
@@ -3743,7 +3733,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
               fontWeight: "bold",
               fontSize: "26.6667px",
               lineHeight: 0.9,
-              fontFamily: "Arial",
               InkscapeFontSpecification: "'Arial Bold'",
               textAlign: "center",
               letterSpacing: 0,
@@ -3797,7 +3786,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
               fontWeight: "bold",
               fontSize: 16,
               lineHeight: 0.9,
-              fontFamily: "Arial",
               InkscapeFontSpecification: "'Arial Bold'",
               textAlign: "center",
               letterSpacing: 0,
@@ -3851,7 +3839,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
               fontWeight: "bold",
               fontSize: 16,
               lineHeight: 0.9,
-              fontFamily: "Arial",
               InkscapeFontSpecification: "'Arial Bold'",
               textAlign: "center",
               letterSpacing: 0,
@@ -3920,7 +3907,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
               fontWeight: "bold",
               fontSize: 16,
               lineHeight: 0.9,
-              fontFamily: "Arial",
               InkscapeFontSpecification: "'Arial Bold'",
               textAlign: "center",
               letterSpacing: 0,
@@ -3989,7 +3975,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
               fontWeight: "bold",
               fontSize: 16,
               lineHeight: 0.9,
-              fontFamily: "Arial",
               InkscapeFontSpecification: "'Arial Bold'",
               textAlign: "center",
               letterSpacing: 0,
@@ -4058,7 +4043,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
               fontWeight: "bold",
               fontSize: 16,
               lineHeight: 0.9,
-              fontFamily: "Arial",
               InkscapeFontSpecification: "'Arial Bold'",
               textAlign: "center",
               letterSpacing: 0,
@@ -4127,7 +4111,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
               fontWeight: "bold",
               fontSize: 16,
               lineHeight: 0.9,
-              fontFamily: "Arial",
               InkscapeFontSpecification: "'Arial Bold'",
               textAlign: "center",
               letterSpacing: 0,
@@ -4654,7 +4637,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
               fontWeight: "bold",
               fontSize: 16,
               lineHeight: 0.9,
-              fontFamily: "Arial",
               InkscapeFontSpecification: "'Arial Bold'",
               textAlign: "center",
               letterSpacing: 0,
@@ -4709,7 +4691,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
               fontWeight: "bold",
               fontSize: 16,
               lineHeight: 0.9,
-              fontFamily: "Arial",
               InkscapeFontSpecification: "'Arial Bold'",
               textAlign: "center",
               letterSpacing: 0,
@@ -4749,7 +4730,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
               fontWeight: "bold",
               fontSize: 16,
               lineHeight: 0.9,
-              fontFamily: "Arial",
               InkscapeFontSpecification: "'Arial Bold'",
               textAlign: "center",
               letterSpacing: 0,
@@ -4803,7 +4783,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
               fontWeight: "bold",
               fontSize: 16,
               lineHeight: 0.9,
-              fontFamily: "Arial",
               InkscapeFontSpecification: "'Arial Bold'",
               textAlign: "center",
               letterSpacing: 0,
@@ -6351,7 +6330,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           xmlSpace="preserve"
           style={{
             fontSize: "14.5218px",
-            fontFamily: "Sans",
             InkscapeFontSpecification: "Sans",
             fill: "#e3dbe2",
             fillOpacity: 1,
@@ -6459,7 +6437,6 @@ const CoolingSystemDiagramSvg = ({ data }) => {
           xmlSpace="preserve"
           style={{
             fontSize: "14.5218px",
-            fontFamily: "Sans",
             InkscapeFontSpecification: "Sans",
             fill: "#e3dbe2",
             fillOpacity: 1,
