@@ -1,10 +1,21 @@
 import "./App.css";
-import { Route, Routes } from "react-router-dom";
+import { useEffect, useRef, useState } from "react";
+import { Route, Routes, useNavigate } from "react-router-dom";
 import { Header } from "@/components/partials/header";
 import { Sidebar } from "@/components/partials/Sidebar";
 import { urls } from "@/url/url";
 
 function App() {
+  // TODO: Remove this after INF verification
+  const firstMount = useRef(false);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (!firstMount.current) {
+      navigate("/inf-module");
+      firstMount.current = true;
+    }
+  }, []);
   return (
     <div className="w-full h-screen overflow-x-hidden bg-background flex flex-col">
       <Header />
