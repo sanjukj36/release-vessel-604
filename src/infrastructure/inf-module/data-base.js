@@ -14,7 +14,7 @@ import { API, API_INF } from "@/lib/constants";
  * @returns {Promise<Array<undefined | DatabaseFile, undefined | Error | AxiosError>>}
  */
 export const getDatabaseFileStatusAPI = async () => {
-  return apiClient("GET", `${API}/api/table`)
+  return apiClient("GET", `${API_INF}/api/table`)
     .then(res => {
       if (res.status === 200) {
         const { data } = res.data;
