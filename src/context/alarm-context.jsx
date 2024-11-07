@@ -14,7 +14,8 @@ function AlarmContext({ children }) {
   const {
     data: list,
     loading,
-    error
+    error,
+    setData
   } = useRecursivePolling(alarmsAPI.getAlarmsAPI, []);
 
   /*
@@ -66,7 +67,8 @@ function AlarmContext({ children }) {
   return (
     <alarmContext.Provider
       value={{
-        alarmList: list
+        alarmList: list,
+        setAlarmList: setData
       }}
     >
       {children}

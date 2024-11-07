@@ -16,8 +16,8 @@ export const FILE_SEND_STATUS = "Last 10 file submission failed.";
 
 // Database File
 export const FILE_STATUS = {
-  notYetProcessed: "Not Yet Processed ",
-  success: "Success"
+  notYetProcessed: "Not Yet Processed",
+  processed: "Processed"
 };
 
 // Response of datatype from API

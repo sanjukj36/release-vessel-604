@@ -50,5 +50,5 @@ export const useRecursivePolling = (callBack, initialState, dto = x => x) => {
     };
   }, []);
 
-  return { data, loading, error: err };
+  return { data, loading, error: err, setData };
 };
