@@ -9,6 +9,7 @@ Header.propTypes = {};
 export function Header() {
   const store = useStore(state => state);
   const handleClick = () => {
+    return true;
     store.setShow(!store.show);
   };
   return (
@@ -16,7 +17,7 @@ export function Header() {
       <div className="basis-1 flex-grow h-full flex items-center p-0.5">
         <div
           onClick={handleClick}
-          className="hover:bg-secondary transition-colors opacity-0 hover:opacity-100"
+          className="hover:bg-secondary transition-colors hover:opacity-100"
         >
           <img className="w-[40px] cursor-pointer" src={iconMenu} />
         </div>

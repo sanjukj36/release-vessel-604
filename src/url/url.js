@@ -122,6 +122,7 @@ export const hideUrls = [
 ];
 
 export const urls = [
+  ...hideUrls,
   {
     title: "INF Module",
     url: "inf-module",
