@@ -9,7 +9,7 @@ Header.propTypes = {};
 export function Header() {
   const store = useStore(state => state);
   const handleClick = () => {
-    return true;
+    // return true;
     store.setShow(!store.show);
   };
   return (

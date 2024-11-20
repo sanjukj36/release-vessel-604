@@ -1,4 +1,5 @@
 import "./App.css";
+import { Toaster } from "react-hot-toast";
 import { Route, Routes } from "react-router-dom";
 import { Header } from "@/components/partials/header";
 import { Sidebar } from "@/components/partials/Sidebar";
@@ -23,6 +24,7 @@ function App() {
                 ))}
               </Route>
             ))}
+            {/*
             {hideUrls.map((item, key) => (
               <Route key={key} path={item?.url} element={item?.element}>
                 {item?.sub?.map((subItem, subKey) => (
@@ -34,11 +36,13 @@ function App() {
                 ))}
               </Route>
             ))}
+            */}
           </Routes>
         </div>
         <Sidebar />
       </div>
       <SecondNavigation />
+      <Toaster position="bottom-left" reverseOrder={false} />
     </div>
   );
 }

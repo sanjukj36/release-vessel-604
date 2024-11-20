@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import PropTypes from "prop-types";
-import { hideUrls, urls } from "@/url/url";
+import { urls } from "@/url/url";
 
 Sidebar.propTypes = {};
 
@@ -17,9 +17,8 @@ export function Sidebar() {
 
   useEffect(() => {
     const url = pathname.split("/")[1];
-    const currentUrlObj =
-      urls?.find(item => item?.url === url) ||
-      hideUrls?.find(item => item?.url === url);
+    const currentUrlObj = urls?.find(item => item?.url === url);
+    // hideUrls?.find(item => item?.url === url);
     if (currentUrlObj) {
       setSubUrlList(currentUrlObj?.sub);
       setTitle(currentUrlObj?.title);

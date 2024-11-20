@@ -20,7 +20,10 @@ import DataBase from "@/pages/inf-module/database";
 import TelemetryEquipmentStatus from "@/pages/inf-module/telemetry-equipment-status";
 import JackingSystem from "@/pages/jacking-system";
 import { MEConditionOverview } from "@/pages/me-condition";
-import Miscellaneous from "@/pages/miscellaneous";
+import MoreOptions from "@/pages/more-options";
+import CctvPage from "@/pages/more-options/cctv";
+import General from "@/pages/more-options/general";
+import Miscellaneous from "@/pages/more-options/miscellaneous";
 import { Navigation } from "@/pages/navigation";
 import { PowerManagementSystemOverview } from "@/pages/pms";
 import { TankGaugingSystem } from "@/pages/tank-guaging-system";
@@ -28,7 +31,7 @@ import { TankGaugingSystem } from "@/pages/tank-guaging-system";
 export const hideUrls = [
   {
     title: "Azhimuth Thruster",
-    url: "azhimuth-thruster",
+    url: "",
     element: createElement(AzimuthThruster),
     sub: [
       {
@@ -118,6 +121,28 @@ export const hideUrls = [
     url: "jacking-system",
     element: createElement(JackingSystem),
     sub: []
+  },
+  {
+    title: "More Options",
+    url: "more-options",
+    element: createElement(MoreOptions),
+    sub: [
+      {
+        title: "Miscellaneous",
+        url: "",
+        element: createElement(Miscellaneous)
+      },
+      {
+        title: "CCTV",
+        url: "cctv",
+        element: createElement(CctvPage)
+      },
+      {
+        title: "Machinery Overview",
+        url: "machinery-overview",
+        element: createElement(General)
+      }
+    ]
   }
 ];
 
@@ -144,12 +169,6 @@ export const urls = [
         element: createElement(AlarmList)
       }
     ]
-  },
-  {
-    title: "Miscellaneous",
-    url: "",
-    element: createElement(Miscellaneous),
-    sub: []
   }
   // {
   //   title: "Navigation",
