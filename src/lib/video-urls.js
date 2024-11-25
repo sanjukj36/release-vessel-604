@@ -1,6 +1,6 @@
 // import { SRC, SRC_PLAYBACK } from "@/utils/constants";
 
-export const SRC = "https://rtspstream.memphis-marine.com/memfs";
+export const SRC = "https://rtspstream.memphis-marine.com";
 
 export const CAMERA = [
   {
@@ -13,7 +13,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/410e0981-20d6-45ef-a3e6-0e927ffee536.m3u8`,
+          src: `${SRC}/camera1.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -29,7 +29,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/ddbd0632-6cac-491d-a95f-3b7cc27713cc.m3u8`,
+          src: `${SRC}/camera2.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -45,7 +45,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/bd23b694-1e75-498a-8acf-a319bd660a14.m3u8`,
+          src: `${SRC}/camera3.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -61,7 +61,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/99dbad67-7cf2-40e6-bc44-1d7892049642.m3u8`,
+          src: `${SRC}/camera4.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -77,7 +77,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/90c566b5-b923-4a46-ab8c-0e9ded38123c.m3u8`,
+          src: `${SRC}/camera5.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -93,7 +93,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/ac53a368-3dfc-492a-ad21-4aaa50c7fa6f.m3u8`,
+          src: `${SRC}/camera6.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -109,7 +109,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/e12fc107-bb7e-4c41-afca-66c864f8265b.m3u8`,
+          src: `${SRC}/camera7.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -125,7 +125,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/bc04f3b7-d682-4cce-be2c-ebfd5cf4dca6.m3u8`,
+          src: `${SRC}/camera8.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -141,7 +141,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/5c5960d3-f548-428a-a667-8998b2aea715.m3u8`,
+          src: `${SRC}/camera9.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -157,7 +157,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/faa4d618-e56b-4677-8be1-c3a8625e7659.m3u8`,
+          src: `${SRC}/camera10.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -173,7 +173,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/07cdd718-1ce2-4e2b-90d8-ff50376018be.m3u8`,
+          src: `${SRC}/camera11.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -189,7 +189,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/48573f63-355f-4110-ba28-24d0a58db3f0.m3u8`,
+          src: `${SRC}/camera12.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -205,7 +205,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/1be1ed7e-455c-4720-b999-7f1b0ee6caf3.m3u8`,
+          src: `${SRC}/camera13.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -221,7 +221,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/9ea7f8bf-7162-41f0-8632-568289d88052.m3u8`,
+          src: `${SRC}/camera14.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -237,7 +237,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/a561a010-2d6d-4ace-b742-4ec1c8c29121.m3u8`,
+          src: `${SRC}/camera15.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -253,7 +253,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/c198e309-eed2-490b-ad70-cdcac6c2914e.m3u8`,
+          src: `${SRC}/camera16.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
@@ -269,7 +269,7 @@ export const CAMERA = [
       fluid: true,
       sources: [
         {
-          src: `${SRC}/aa5be03c-3447-48b0-acf8-0756f29908e3.m3u8`,
+          src: `${SRC}/camera17.m3u8`,
           type: "application/x-mpegURL"
         }
       ]
