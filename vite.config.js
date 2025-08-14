@@ -56,7 +56,7 @@ export default defineConfig({
     })
   ],
   server: {
-    host: "192.168.18.99",
+    host: "192.168.18.143",
     port: 3013
   },
   resolve: {

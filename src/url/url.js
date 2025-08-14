@@ -146,8 +146,74 @@ export const hideUrls = [
   }
 ];
 
+// export const urls = [
+//   ...hideUrls,
+//   {
+//     title: "INF Module",
+//     url: "inf-module",
+//     element: createElement(InfModule),
+//     sub: [
+//       {
+//         title: "Telemetry Equipment Status",
+//         url: "",
+//         element: createElement(TelemetryEquipmentStatus)
+//       },
+//       {
+//         title: "Database",
+//         url: "database",
+//         element: createElement(DataBase)
+//       },
+//       {
+//         title: "Alarm List",
+//         url: "alarm-list",
+//         element: createElement(AlarmList)
+//       }
+//     ]
+//   }
+//   // {
+//   //   title: "Navigation",
+//   //   url: "",
+//   //   element: createElement(Navigation),
+//   //   sub: [{ title: "Sub title", url: "sub-url" }]
+//   // },
+//   // {
+//   //   title: "ME Condition",
+//   //   url: "me-condition-overview",
+//   //   element: createElement(MEConditionOverview),
+//   //   sub: [{ title: "Sub title", url: "sub-url" }],
+//   // },
+//   // {
+//   //   title: "Bow Thruster",
+//   //   url: "bow-thruster",
+//   //   element: createElement(BowThrusterOverview),
+//   //   sub: [{ title: "Sub title", url: "bow-thruster-overview" }]
+//   // },
+//   // {
+//   //   title: "EDG",
+//   //   url: "edg",
+//   //   element: createElement(Edg)
+//   // },
+//   // {
+//   //   title: "Color",
+//   //   url: "color",
+//   //   element: createElement(Colors),
+//   //   sub: [{ title: "Sub title", url: "sub-url" }]
+//   // }
+// ];
+
 export const urls = [
-  ...hideUrls,
+  {
+    title: "More Options",
+    url: "more-options",
+    element: createElement(MoreOptions),
+    sub: [
+      {
+        title: "Miscellaneous",
+        url: "",
+        element: createElement(Miscellaneous)
+      }
+    ]
+  },
   {
     title: "INF Module",
     url: "inf-module",
@@ -170,33 +236,4 @@ export const urls = [
       }
     ]
   }
-  // {
-  //   title: "Navigation",
-  //   url: "",
-  //   element: createElement(Navigation),
-  //   sub: [{ title: "Sub title", url: "sub-url" }]
-  // },
-  // {
-  //   title: "ME Condition",
-  //   url: "me-condition-overview",
-  //   element: createElement(MEConditionOverview),
-  //   sub: [{ title: "Sub title", url: "sub-url" }],
-  // },
-  // {
-  //   title: "Bow Thruster",
-  //   url: "bow-thruster",
-  //   element: createElement(BowThrusterOverview),
-  //   sub: [{ title: "Sub title", url: "bow-thruster-overview" }]
-  // },
-  // {
-  //   title: "EDG",
-  //   url: "edg",
-  //   element: createElement(Edg)
-  // },
-  // {
-  //   title: "Color",
-  //   url: "color",
-  //   element: createElement(Colors),
-  //   sub: [{ title: "Sub title", url: "sub-url" }]
-  // }
 ];
