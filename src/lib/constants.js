@@ -1,11 +1,20 @@
 // Api URI for application data.
 // export const API = "http://192.168.18.64:8002";
 // export const API = "http://175.140.28.253:8010";
-export const API = "http://192.168.18.138/:5001";
+// export const API = "http://192.168.18.138/:5001";
+export const API = "http://192.168.18.143:5002";
 // Api URI for Inf-modules.
 // export const API_INF = "http://192.168.5.109:5001";
 // export const API_INF = "http://192.168.5.109:5001";
 export const API_INF = API;
+export const APIonlyIP = "http://192.168.18.143";
+
+export const PortAlerts= "5001";
+export const PortPing= "5002";
+export const PortBanwidth= "5003";
+export const PortTable= "5004";
+export const PortMqtt= "5005";
+
 
 // Page refresh time.
 export const REFRESH_TIME = 1000 * 10;

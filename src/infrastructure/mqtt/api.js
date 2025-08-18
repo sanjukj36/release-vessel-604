@@ -1,4 +1,4 @@
-import { API } from "@/lib/constants";
+import { API, APIonlyIP, PortMqtt } from "@/lib/constants";
 import { apiClient } from "../client";
 
 /**
@@ -16,7 +16,8 @@ import { apiClient } from "../client";
  * @param {string} block
  */
 export const getMQTTDataAPI = async block => {
-  return await apiClient("GET", `${API}/api/app/mqtt/data/?block=${block}`, "");
+  // return await apiClient("GET", `${API}/api/app/mqtt/data/?block=${block}`, "");
+  return await apiClient("GET", `${APIonlyIP}:${PortMqtt}/api/app/mqtt/data/?block=${block}`, "");
 };
 
 export const getMQTTDataSecAPI = async block => {

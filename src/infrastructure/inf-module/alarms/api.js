@@ -1,5 +1,5 @@
 import { apiClient } from "@/infrastructure/client";
-import { API_INF } from "@/lib/constants";
+import { API_INF, APIonlyIP } from "@/lib/constants";
 import { getDatabaseFileStatusAPI } from "../data-base";
 import telemetryAPI from "../telemetry";
 import { checkBandwidthAlarm, checkPingAlarm } from "./check-alarms";
@@ -25,7 +25,8 @@ const getAlarmsAPI = async () => {
 */
 const getAlarmsAPI = async () => {
   try {
-    const response = await apiClient("GET", `${API_INF}/alerts`);
+    // const response = await apiClient("GET", `${API_INF}/alerts`);
+    const response = await apiClient("GET", `${APIonlyIP}:5001/alerts`);
     if (response.status === 200) {
       const { alerts } = response.data;
       return [dtoToAlarms(alerts), null];
