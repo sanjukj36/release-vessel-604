@@ -17,7 +17,10 @@ async function pcStatusApi(param) {
 const getBandWidthStatusAPI = async () => {
   try {
     // const res = await apiClient("GET", `${API_INF}/bandwidth`);
-    const res = await apiClient("GET", `${APIonlyIP}:${PortBanwidth}/bandwidth`);
+    const res = await apiClient(
+      "GET",
+      `${APIonlyIP}:${PortBanwidth}/bandwidth`
+    );
     if (res.status === 200) {
       const { data } = res.data;
       const dtoData = dtoToTelemetryBandwidth(data);

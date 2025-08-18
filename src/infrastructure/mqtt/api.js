@@ -17,7 +17,11 @@ import { apiClient } from "../client";
  */
 export const getMQTTDataAPI = async block => {
   // return await apiClient("GET", `${API}/api/app/mqtt/data/?block=${block}`, "");
-  return await apiClient("GET", `${APIonlyIP}:${PortMqtt}/api/app/mqtt/data/?block=${block}`, "");
+  return await apiClient(
+    "GET",
+    `${APIonlyIP}:${PortMqtt}/api/app/mqtt/data/?block=${block}`,
+    ""
+  );
 };
 
 export const getMQTTDataSecAPI = async block => {
