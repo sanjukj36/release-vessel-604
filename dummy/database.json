@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "CreatedOn": "2025-08-19T17:57:39",
+      "FileName": "NDCTELE_20250819175739.json",
+      "ID": 1,
+      "ModifiedOn": "2025-08-19T17:57:41",
+      "TransmissionStatus": "Processed"
+    },
+    {
+      "CreatedOn": "2025-08-19T17:57:49",
+      "FileName": "NDCTELE_20250819175749.json",
+      "ID": 2,
+      "ModifiedOn": "2025-08-19T17:57:49",
+      "TransmissionStatus": "Processed"
+    },
+    {
+      "CreatedOn": "2025-08-19T17:57:59",
+      "FileName": "NDCTELE_20250819175759.json",
+      "ID": 3,
+      "ModifiedOn": "2025-08-19T17:58:05",
+      "TransmissionStatus": "Processed"
+    },
+    {
+      "CreatedOn": "2025-08-19T17:58:09",
+      "FileName": "NDCTELE_20250819175809.json",
+      "ID": 4,
+      "ModifiedOn": "2025-08-19T17:58:13",
+      "TransmissionStatus": "Processed"
+    },
+    {
+      "CreatedOn": "2025-08-19T17:58:19",
+      "FileName": "NDCTELE_20250819175819.json",
+      "ID": 5,
+      "ModifiedOn": "2025-08-19T17:58:21",
+      "TransmissionStatus": "Processed"
+    },
+    {
+      "CreatedOn": "2025-08-19T17:58:29",
+      "FileName": "NDCTELE_20250819175829.json",
+      "ID": 6,
+      "ModifiedOn": null,
+      "TransmissionStatus": "Not Processed"
+    },
+    {
+      "CreatedOn": "2025-08-19T17:58:39",
+      "FileName": "NDCTELE_20250819175839.json",
+      "ID": 7,
+      "ModifiedOn": null,
+      "TransmissionStatus": "Not Processed"
+    },
+    {
+      "CreatedOn": "2025-08-19T17:58:49",
+      "FileName": "NDCTELE_20250819175849.json",
+      "ID": 8,
+      "ModifiedOn": null,
+      "TransmissionStatus": "Not Processed"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "data": [
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    },
+    {
+      "data_type": "float",
+      "register_no": "REG12345",
+      "title": "Engine Temperature",
+      "unit": "\u00b0C",
+      "value": 87.5
+    }
+  ],
+  "success": true
+}

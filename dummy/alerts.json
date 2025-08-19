@@ -1,0 +1,25 @@
+{
+  "alerts": [
+    {
+      "label": "MDC Disconnected.",
+      "time": "11:53:46 18-08-2025"
+    },
+    {
+      "label": "Tranxbox Disconnected.",
+      "time": "11:53:46 18-08-2025"
+    }
+  ],
+  "data": [
+    {
+      "host": "192.168.18.99",
+      "host_name": "MDC",
+      "status": false
+    },
+    {
+      "host": "192.168.18.251",
+      "host_name": "Tranxbox",
+      "status": false
+    }
+  ],
+  "success": true
+}

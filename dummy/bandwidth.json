@@ -1,0 +1,8 @@
+{
+  "data": {
+    "range": 100,
+    "speed": 50,
+    "unit": "Mbps"
+  },
+  "success": true
+}

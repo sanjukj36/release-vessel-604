@@ -1,0 +1,17 @@
+{
+  "data": {
+    "mdc": {
+      "free_storage": 120.5,
+      "total_storage": 500.0,
+      "unit": "Gb",
+      "used_storage": 379.5
+    },
+    "transbox": {
+      "free_storage": 200.0,
+      "total_storage": 1000.0,
+      "unit": "Gb",
+      "used_storage": 800.0
+    }
+  },
+  "success": true
+}

@@ -1,0 +1,16 @@
+{
+  "alerts": [],
+  "data": [
+    {
+      "host": "192.168.18.99",
+      "host_name": "MDC",
+      "status": true
+    },
+    {
+      "host": "192.168.18.251",
+      "host_name": "Tranxbox",
+      "status": true
+    }
+  ],
+  "success": true
+}
