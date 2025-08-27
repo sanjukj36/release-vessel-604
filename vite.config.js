@@ -56,7 +56,7 @@ export default defineConfig({
     })
   ],
   server: {
-    host: "172.168.0.81:3001",
+    host: "172.168.0.81",
     port: 3001
   },
   resolve: {
