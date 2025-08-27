@@ -7,7 +7,7 @@ export const API = "http://192.168.18.143:5002";
 // export const API_INF = "http://192.168.5.109:5001";
 // export const API_INF = "http://192.168.5.109:5001";
 export const API_INF = API;
-export const APIonlyIP = "http://192.168.18.143";
+export const APIonlyIP = "http://172.168.0.81";
 
 export const PortAlerts = "5001";
 export const PortPing = "5002";

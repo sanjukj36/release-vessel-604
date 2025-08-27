@@ -56,8 +56,8 @@ export default defineConfig({
     })
   ],
   server: {
-    host: "192.168.18.143",
-    port: 3013
+    host: "172.168.0.81:3001",
+    port: 3001
   },
   resolve: {
     alias: {
