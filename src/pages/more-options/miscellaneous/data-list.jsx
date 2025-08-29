@@ -88,6 +88,38 @@ DataCard.propTypes = {
   })
 };
 function DataCard({ data }) {
+  return(
+        // <BoxCard className="p-4 w-full h-full bg-white rounded-2xl shadow-sm hover:shadow-md transition">
+        <BoxCard className="p-4 w-full h-full bg-white  shadow-sm hover:shadow-md transition">
+     {/* <BoxCard className="p-2 flex items-center text-sm w-full h-full"> */}
+  <div className="flex items-center justify-between">
+    {/* Left Side: Title (truncate + tooltip) */}
+    <p
+      className="text-gray-700 font-medium truncate max-w-[90%]"
+      title={data?.title} // 👈 shows full text on hover
+    >
+      {data?.title}
+    </p>
+
+    {/* Right Side: Value */}
+    <div className="ml-auto min-w-[5em] max-w-min px-2 focus:outline-none font-semibold rounded-xl text-center text-nowrap bg-gradient-to-b from-secondary to-input text-accent-foreground">
+    <span className="text-gray-900 font-semibold">
+      {data?.value}
+    </span>
+    </div>
+  </div>
+</BoxCard>
+
+
+  )
+  return (
+    <BoxCard className="p-2 flex items-center text-sm w-full h-full">
+      <div className="flex justify-between">
+        <p>{data?.title}</p>
+        <ReadOnlyInput value={data.value} />
+      </div>
+    </BoxCard>
+  );
   return (
     <BoxCard className="p-2 flex items-center text-sm w-full h-full">
       <div className="mr-2 text-muted-foreground font-semibold">
