@@ -10,7 +10,7 @@ export const API_INF = API;
 export const APIonlyIP = "http://172.168.0.81";
 
 export const PortAlerts = "5001";
-export const PortPing = "5002";
+export const PortPing = "5006";
 export const PortBanwidth = "5003";
 export const PortTable = "5004";
 export const PortMqtt = "5005";
