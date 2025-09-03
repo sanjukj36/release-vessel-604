@@ -49,8 +49,7 @@ export function TableComponent() {
   const [dataBaseFile, setDataBaseFile] = useState(null);
   useEffect(() => {
     fetchDataBaseFileData();
-    // const id = setInterval(fetchDataBaseFileData, REFRESH_TIME);
-    const id = setInterval(fetchDataBaseFileData, 1000 * 60);
+    const id = setInterval(fetchDataBaseFileData, REFRESH_TIME);
     return () => clearInterval(id);
   }, []);
   const { setAlarmList } = useAlarms();
