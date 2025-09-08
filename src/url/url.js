@@ -203,6 +203,18 @@ export const hideUrls = [
 
 export const urls = [
   {
+    title: "INF Module",
+    url: "",
+    element: createElement(MoreOptions),
+    sub: [
+      {
+        title: "INF Module",
+        url: "",
+        element: createElement(InfModule)
+      }
+    ]
+  },
+  {
     title: "More Options",
     url: "more-options",
     element: createElement(MoreOptions),
