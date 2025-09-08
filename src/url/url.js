@@ -203,6 +203,11 @@ export const hideUrls = [
 
 export const urls = [
   {
+    title: "INF Module",
+    url: "",
+    element: createElement(TelemetryEquipmentStatus)
+  },
+  {
     title: "More Options",
     url: "more-options",
     element: createElement(MoreOptions),
@@ -216,7 +221,7 @@ export const urls = [
   },
   {
     title: "INF Module",
-    url: "",
+    url: "inf-module",
     element: createElement(InfModule),
     sub: [
       {
