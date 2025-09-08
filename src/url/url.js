@@ -202,7 +202,6 @@ export const hideUrls = [
 // ];
 
 export const urls = [
-  
   {
     title: "More Options",
     url: "more-options",
