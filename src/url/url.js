@@ -205,14 +205,7 @@ export const urls = [
   {
     title: "INF Module",
     url: "",
-    element: createElement(MoreOptions),
-    sub: [
-      {
-        title: "INF Module",
-        url: "",
-        element: createElement(InfModule)
-      }
-    ]
+    element: createElement(InfModule)
   },
   {
     title: "More Options",
