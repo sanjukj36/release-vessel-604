@@ -226,7 +226,7 @@ export const urls = [
     sub: [
       {
         title: "Telemetry Equipment Status",
-        url: "inf-module",
+        url: "",
         element: createElement(TelemetryEquipmentStatus)
       },
       {
