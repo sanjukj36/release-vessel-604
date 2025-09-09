@@ -5,10 +5,12 @@ import { Header } from "@/components/partials/header";
 import { Sidebar } from "@/components/partials/Sidebar";
 import { hideUrls, urls } from "@/url/url";
 import { SecondNavigation } from "./components/partials/second-navigation";
+import { AlarmHistoricalProvider } from "./context/alarm-historical-context";
 
 function App() {
   return (
     <div className="w-full h-screen overflow-x-hidden bg-background flex flex-col">
+      <AlarmHistoricalProvider>
       <Header />
       <div className="w-full h-full grid grid-cols-[auto_100px]">
         <div className="flex w-full h-full">
@@ -43,6 +45,7 @@ function App() {
       </div>
       <SecondNavigation />
       <Toaster position="bottom-left" reverseOrder={false} />
+      </AlarmHistoricalProvider>
     </div>
   );
 }
