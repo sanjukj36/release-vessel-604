@@ -1,5 +1,10 @@
 import { apiClient } from "@/infrastructure/client";
-import { API_INF, APIonlyIP, PortAlerts, PortHistorical } from "@/lib/constants";
+import {
+  API_INF,
+  APIonlyIP,
+  PortAlerts,
+  PortHistorical
+} from "@/lib/constants";
 import { getDatabaseFileStatusAPI } from "../data-base";
 import telemetryAPI from "../telemetry";
 import { checkBandwidthAlarm, checkPingAlarm } from "./check-alarms";
@@ -26,7 +31,10 @@ const getAlarmsAPI = async () => {
 const getAlarmsAPI = async () => {
   try {
     // const response = await apiClient("GET", `${API_INF}/alerts`);
-    const response = await apiClient("GET", `${APIonlyIP}:${PortAlerts}/alerts`);
+    const response = await apiClient(
+      "GET",
+      `${APIonlyIP}:${PortAlerts}/alerts`
+    );
     if (response.status === 200) {
       const { alerts } = response.data;
       return [dtoToAlarms(alerts), null];
@@ -41,7 +49,10 @@ const getAlarmsAPI = async () => {
 const getAlarmsHistoricalAPI = async () => {
   try {
     // const response = await apiClient("GET", `${API_INF}/alerts`);
-    const response = await apiClient("GET", `${APIonlyIP}:${PortHistorical}/historical`);
+    const response = await apiClient(
+      "GET",
+      `${APIonlyIP}:${PortHistorical}/historical`
+    );
     if (response.status === 200) {
       const { alerts } = response.data;
       return [dtoToAlarms(alerts), null];
@@ -54,6 +65,6 @@ const getAlarmsHistoricalAPI = async () => {
 };
 
 export default {
-  getAlarmsAPI
-  ,getAlarmsHistoricalAPI
+  getAlarmsAPI,
+  getAlarmsHistoricalAPI
 };

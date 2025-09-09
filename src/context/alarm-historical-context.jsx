@@ -36,7 +36,9 @@ AlarmHistoricalProvider.propTypes = {
 export const useAlarmsHistorical = () => {
   const context = useContext(AlarmHistoricalContext);
   if (!context) {
-    throw new Error("useAlarmsHistorical must be used within AlarmHistoricalProvider");
+    throw new Error(
+      "useAlarmsHistorical must be used within AlarmHistoricalProvider"
+    );
   }
   return context;
 };

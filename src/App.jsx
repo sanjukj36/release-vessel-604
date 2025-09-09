@@ -11,22 +11,22 @@ function App() {
   return (
     <div className="w-full h-screen overflow-x-hidden bg-background flex flex-col">
       <AlarmHistoricalProvider>
-      <Header />
-      <div className="w-full h-full grid grid-cols-[auto_100px]">
-        <div className="flex w-full h-full">
-          <Routes>
-            {urls.map((item, key) => (
-              <Route key={key} path={item?.url} element={item?.element}>
-                {item?.sub?.map((subItem, subKey) => (
-                  <Route
-                    key={subKey}
-                    path={subItem?.url}
-                    element={subItem?.element}
-                  />
-                ))}
-              </Route>
-            ))}
-            {/*
+        <Header />
+        <div className="w-full h-full grid grid-cols-[auto_100px]">
+          <div className="flex w-full h-full">
+            <Routes>
+              {urls.map((item, key) => (
+                <Route key={key} path={item?.url} element={item?.element}>
+                  {item?.sub?.map((subItem, subKey) => (
+                    <Route
+                      key={subKey}
+                      path={subItem?.url}
+                      element={subItem?.element}
+                    />
+                  ))}
+                </Route>
+              ))}
+              {/*
             {hideUrls.map((item, key) => (
               <Route key={key} path={item?.url} element={item?.element}>
                 {item?.sub?.map((subItem, subKey) => (
@@ -39,12 +39,12 @@ function App() {
               </Route>
             ))}
             */}
-          </Routes>
+            </Routes>
+          </div>
+          <Sidebar />
         </div>
-        <Sidebar />
-      </div>
-      <SecondNavigation />
-      <Toaster position="bottom-left" reverseOrder={false} />
+        <SecondNavigation />
+        <Toaster position="bottom-left" reverseOrder={false} />
       </AlarmHistoricalProvider>
     </div>
   );
